@@ -1,0 +1,208 @@
+gameId,year,round,date,venue,startTime,attendance,homeTeam,homeTeamScore,awayTeam,awayTeamScore,rainfall
+2013R101,2013,R1,22-Mar-13,Football Park,8:10 PM,42218,Adelaide,82,Essendon,117,0.4
+2013R102,2013,R1,23-Mar-13,Subiaco,4:40 PM,39629,Fremantle,108,West Coast,80,0.0
+2013R103,2013,R1,28-Mar-13,M.C.G.,7:45 PM,80971,Carlton,101,Richmond,106,17.4
+2013R104,2013,R1,30-Mar-13,Docklands,1:40 PM,25263,Western Bulldogs,127,Brisbane Lions,59,0.0
+2013R105,2013,R1,30-Mar-13,Stadium Australia,4:40 PM,23690,Greater Western Sydney,76,Sydney,106,0.0
+2013R106,2013,R1,30-Mar-13,Carrara,6:45 PM,13832,Gold Coast,90,St Kilda,77,0.0
+2013R107,2013,R1,31-Mar-13,M.C.G.,1:10 PM,22924,Melbourne,54,Port Adelaide,133,2.0
+2013R108,2013,R1,31-Mar-13,Docklands,4:40 PM,41040,North Melbourne,87,Collingwood,103,2.0
+2013R109,2013,R1,1-Apr-13,M.C.G.,3:20 PM,76300,Hawthorn,86,Geelong,93,0.2
+2013R201,2013,R2,5-Apr-13,M.C.G.,7:50 PM,56783,St Kilda,82,Richmond,99,0.0
+2013R202,2013,R2,6-Apr-13,S.C.G.,1:45 PM,20372,Sydney,114,Gold Coast,73,12.6
+2013R203,2013,R2,6-Apr-13,Docklands,2:10 PM,19210,Western Bulldogs,78,Fremantle,106,0.0
+2013R204,2013,R2,6-Apr-13,Gabba,3:40 PM,21308,Brisbane Lions,77,Adelaide,96,2.0
+2013R205,2013,R2,6-Apr-13,Football Park,7:10 PM,25122,Port Adelaide,134,Greater Western Sydney,78,0.0
+2013R206,2013,R2,6-Apr-13,M.C.G.,7:40 PM,51153,Essendon,184,Melbourne,36,0.0
+2013R207,2013,R2,7-Apr-13,Docklands,1:10 PM,34152,Geelong,112,North Melbourne,108,0.0
+2013R208,2013,R2,7-Apr-13,M.C.G.,3:20 PM,84247,Collingwood,117,Carlton,100,0.0
+2013R209,2013,R2,7-Apr-13,Subiaco,2:40 PM,38389,West Coast,98,Hawthorn,148,0.0
+2013R301,2013,R3,12-Apr-13,Subiaco,6:40 PM,35963,Fremantle,68,Essendon,72,0.4
+2013R302,2013,R3,13-Apr-13,Bellerive Oval,1:45 PM,13223,North Melbourne,92,Sydney,131,0.2
+2013R303,2013,R3,13-Apr-13,M.C.G.,2:10 PM,18571,Melbourne,83,West Coast,177,0.2
+2013R304,2013,R3,13-Apr-13,Manuka Oval,4:40 PM,11092,Greater Western Sydney,68,St Kilda,140,0.0
+2013R305,2013,R3,13-Apr-13,Docklands,7:40 PM,43241,Geelong,119,Carlton,103,0.2
+2013R306,2013,R3,13-Apr-13,Carrara,7:40 PM,12961,Gold Coast,92,Brisbane Lions,94,30.0
+2013R307,2013,R3,14-Apr-13,Docklands,1:10 PM,44045,Richmond,135,Western Bulldogs,68,0.0
+2013R308,2013,R3,14-Apr-13,M.C.G.,3:20 PM,72254,Collingwood,90,Hawthorn,145,0.0
+2013R309,2013,R3,14-Apr-13,Football Park,4:10 PM,40707,Port Adelaide,118,Adelaide,109,0.0
+2013R401,2013,R4,19-Apr-13,S.C.G.,7:50 PM,31060,Sydney,103,Geelong,124,0.8
+2013R402,2013,R4,20-Apr-13,York Park,1:45 PM,12619,Hawthorn,118,Fremantle,76,0.6
+2013R403,2013,R4,20-Apr-13,M.C.G.,2:10 PM,81950,Richmond,79,Collingwood,113,0.2
+2013R404,2013,R4,20-Apr-13,Docklands,4:40 PM,46965,St Kilda,91,Essendon,128,0.2
+2013R405,2013,R4,20-Apr-13,Subiaco,5:40 PM,38674,West Coast,65,Carlton,89,0.4
+2013R406,2013,R4,20-Apr-13,Carrara,7:40 PM,11332,Gold Coast,66,Port Adelaide,104,0.0
+2013R407,2013,R4,21-Apr-13,M.C.G.,1:10 PM,20018,Melbourne,144,Greater Western Sydney,103,0.0
+2013R408,2013,R4,21-Apr-13,Football Park,2:50 PM,24684,Adelaide,80,Western Bulldogs,28,7.8
+2013R409,2013,R4,21-Apr-13,Docklands,4:40 PM,22776,North Melbourne,125,Brisbane Lions,62,0.0
+2013R501,2013,R5,25-Apr-13,M.C.G.,2:40 PM,93373,Essendon,121,Collingwood,75,1.0
+2013R502,2013,R5,25-Apr-13,Wellington,7:50 PM,22546,St Kilda,63,Sydney,79,nan
+2013R503,2013,R5,26-Apr-13,Subiaco,6:45 PM,36365,Fremantle,81,Richmond,80,0.0
+2013R504,2013,R5,27-Apr-13,Manuka Oval,1:45 PM,6832,Greater Western Sydney,104,Gold Coast,148,0.0
+2013R505,2013,R5,27-Apr-13,M.C.G.,4:40 PM,44711,Carlton,115,Adelaide,83,0.0
+2013R506,2013,R5,27-Apr-13,Docklands,7:40 PM,26153,Western Bulldogs,86,Geelong,107,0.0
+2013R507,2013,R5,27-Apr-13,Football Park,7:15 PM,26132,Port Adelaide,84,West Coast,79,0.0
+2013R508,2013,R5,28-Apr-13,Gabba,3:20 PM,19018,Brisbane Lions,122,Melbourne,94,0.0
+2013R509,2013,R5,28-Apr-13,M.C.G.,4:40 PM,42103,Hawthorn,99,North Melbourne,96,0.0
+2013R601,2013,R6,3-May-13,Docklands,7:50 PM,40071,Collingwood,103,St Kilda,77,nan
+2013R602,2013,R6,4-May-13,Docklands,1:45 PM,30143,Essendon,120,Greater Western Sydney,81,4.0
+2013R603,2013,R6,4-May-13,Bellerive Oval,2:10 PM,10265,North Melbourne,93,Port Adelaide,83,6.2
+2013R604,2013,R6,4-May-13,Football Park,4:10 PM,37324,Adelaide,78,Hawthorn,89,0.0
+2013R605,2013,R6,4-May-13,Carrara,7:40 PM,10552,Gold Coast,54,Fremantle,99,0.0
+2013R606,2013,R6,4-May-13,M.C.G.,7:40 PM,55625,Richmond,87,Geelong,131,4.0
+2013R607,2013,R6,5-May-13,S.C.G.,1:10 PM,23315,Sydney,115,Brisbane Lions,55,0.0
+2013R608,2013,R6,5-May-13,M.C.G.,3:20 PM,35286,Carlton,121,Melbourne,60,0.0
+2013R609,2013,R6,5-May-13,Subiaco,2:40 PM,36163,West Coast,137,Western Bulldogs,67,0.0
+2013R701,2013,R7,10-May-13,Docklands,7:50 PM,53014,Geelong,113,Essendon,85,0.0
+2013R702,2013,R7,11-May-13,Football Park,1:15 PM,25372,Port Adelaide,73,Richmond,114,0.0
+2013R703,2013,R7,11-May-13,Gabba,2:10 PM,17614,Brisbane Lions,82,West Coast,108,0.8
+2013R704,2013,R7,11-May-13,Docklands,4:40 PM,23690,Western Bulldogs,97,North Melbourne,151,0.0
+2013R705,2013,R7,11-May-13,Subiaco,5:40 PM,37214,Fremantle,100,Collingwood,73,7.2
+2013R706,2013,R7,11-May-13,M.C.G.,7:40 PM,54725,Hawthorn,119,Sydney,82,0.0
+2013R707,2013,R7,12-May-13,Sydney Showground,1:10 PM,5830,Greater Western Sydney,52,Adelaide,187,0.0
+2013R708,2013,R7,12-May-13,M.C.G.,4:40 PM,13304,Melbourne,54,Gold Coast,114,0.0
+2013R709,2013,R7,13-May-13,Docklands,7:40 PM,34054,St Kilda,77,Carlton,68,0.6
+2013R801,2013,R8,17-May-13,Subiaco,6:40 PM,38146,West Coast,90,North Melbourne,88,9.4
+2013R802,2013,R8,18-May-13,Docklands,1:45 PM,33915,Essendon,86,Brisbane Lions,96,0.2
+2013R803,2013,R8,18-May-13,York Park,2:10 PM,10513,Hawthorn,140,Greater Western Sydney,57,0.2
+2013R804,2013,R8,18-May-13,Carrara,4:40 PM,13520,Gold Coast,93,Western Bulldogs,61,0.0
+2013R805,2013,R8,18-May-13,M.C.G.,7:40 PM,66768,Collingwood,102,Geelong,96,0.2
+2013R806,2013,R8,18-May-13,S.C.G.,7:40 PM,22546,Sydney,70,Fremantle,70,0.0
+2013R807,2013,R8,19-May-13,Docklands,1:10 PM,29936,Carlton,109,Port Adelaide,91,0.4
+2013R808,2013,R8,19-May-13,M.C.G.,3:20 PM,39148,Richmond,106,Melbourne,72,0.4
+2013R809,2013,R8,19-May-13,Football Park,4:10 PM,34605,Adelaide,87,St Kilda,47,0.0
+2013R901,2013,R9,24-May-13,M.C.G.,7:50 PM,65306,Collingwood,55,Sydney,102,0.0
+2013R902,2013,R9,25-May-13,Football Park,1:15 PM,21309,Port Adelaide,68,Geelong,116,0.0
+2013R903,2013,R9,25-May-13,Sydney Showground,2:10 PM,6324,Greater Western Sydney,55,West Coast,155,5.2
+2013R904,2013,R9,25-May-13,Docklands,4:40 PM,25982,St Kilda,101,Western Bulldogs,110,0.0
+2013R905,2013,R9,25-May-13,Gabba,7:40 PM,24037,Brisbane Lions,85,Carlton,98,1.0
+2013R906,2013,R9,25-May-13,M.C.G.,7:45 PM,84234,Richmond,62,Essendon,91,0.0
+2013R907,2013,R9,26-May-13,M.C.G.,1:10 PM,28112,Hawthorn,118,Gold Coast,92,0.0
+2013R908,2013,R9,26-May-13,Docklands,3:20 PM,23033,North Melbourne,124,Adelaide,125,0.0
+2013R909,2013,R9,26-May-13,Subiaco,2:40 PM,32950,Fremantle,130,Melbourne,40,0.0
+2013R1001,2013,R10,31-May-13,Gabba,7:50 PM,26626,Brisbane Lions,51,Collingwood,100,17.4
+2013R1002,2013,R10,1-Jun-13,Docklands,1:45 PM,25008,Carlton,148,Greater Western Sydney,54,49.0
+2013R1003,2013,R10,1-Jun-13,Football Park,1:40 PM,27684,Adelaide,59,Fremantle,66,39.0
+2013R1004,2013,R10,1-Jun-13,S.C.G.,4:40 PM,29792,Sydney,115,Essendon,71,0.0
+2013R1005,2013,R10,1-Jun-13,Marrara Oval,7:10 PM,7850,Western Bulldogs,67,Port Adelaide,58,0.4
+2013R1006,2013,R10,1-Jun-13,Kardinia Park,7:40 PM,30087,Geelong,123,Gold Coast,71,22.6
+2013R1007,2013,R10,2-Jun-13,M.C.G.,3:20 PM,28546,Melbourne,48,Hawthorn,143,4.6
+2013R1008,2013,R10,2-Jun-13,Docklands,4:40 PM,25658,North Melbourne,133,St Kilda,65,4.6
+2013R1009,2013,R10,3-Jun-13,Subiaco,5:40 PM,37781,West Coast,62,Richmond,103,0.0
+2013R1101,2013,R11,7-Jun-13,M.C.G.,7:50 PM,82639,Essendon,77,Carlton,72,13.6
+2013R1102,2013,R11,8-Jun-13,Sydney Showground,1:40 PM,7809,Greater Western Sydney,98,Geelong,157,0.0
+2013R1103,2013,R11,8-Jun-13,Football Park,4:10 PM,38374,Adelaide,50,Sydney,127,0.0
+2013R1104,2013,R11,8-Jun-13,Carrara,7:40 PM,10891,Gold Coast,66,North Melbourne,51,0.0
+2013R1105,2013,R11,9-Jun-13,Docklands,4:40 PM,23795,St Kilda,80,West Coast,84,0.0
+2013R1106,2013,R11,10-Jun-13,M.C.G.,3:20 PM,50835,Melbourne,39,Collingwood,122,0.2
+2013R1201,2013,R12,14-Jun-13,Docklands,7:50 PM,45670,Carlton,87,Hawthorn,102,10.8
+2013R1202,2013,R12,15-Jun-13,M.C.G.,1:40 PM,43615,Richmond,110,Adelaide,72,0.0
+2013R1203,2013,R12,15-Jun-13,Subiaco,2:40 PM,33384,Fremantle,86,Brisbane Lions,46,0.0
+2013R1204,2013,R12,15-Jun-13,Docklands,7:40 PM,31452,Essendon,115,Gold Coast,72,0.0
+2013R1205,2013,R12,16-Jun-13,Sydney Showground,1:10 PM,6601,Greater Western Sydney,50,Port Adelaide,125,0.0
+2013R1206,2013,R12,16-Jun-13,Docklands,4:40 PM,32253,Collingwood,99,Western Bulldogs,65,1.0
+2013R1301,2013,R13,21-Jun-13,Docklands,7:50 PM,32567,Hawthorn,123,West Coast,103,0.0
+2013R1302,2013,R13,22-Jun-13,Football Park,1:10 PM,16096,Port Adelaide,72,Sydney,54,18.8
+2013R1303,2013,R13,22-Jun-13,M.C.G.,4:40 PM,28751,St Kilda,104,Melbourne,69,0.0
+2013R1304,2013,R13,22-Jun-13,Docklands,7:40 PM,29788,Western Bulldogs,61,Richmond,121,0.0
+2013R1305,2013,R13,23-Jun-13,Subiaco,1:20 PM,31637,Fremantle,67,North Melbourne,29,0.0
+2013R1306,2013,R13,23-Jun-13,Gabba,4:40 PM,24164,Brisbane Lions,103,Geelong,98,0.0
+2013R1401,2013,R14,27-Jun-13,Subiaco,6:10 PM,36451,West Coast,91,Essendon,98,0.0
+2013R1402,2013,R14,28-Jun-13,S.C.G.,7:50 PM,25349,Sydney,65,Carlton,43,9.6
+2013R1403,2013,R14,29-Jun-13,Carrara,1:40 PM,13791,Gold Coast,83,Adelaide,111,10.2
+2013R1404,2013,R14,29-Jun-13,Football Park,4:10 PM,31121,Port Adelaide,86,Collingwood,51,0.0
+2013R1405,2013,R14,29-Jun-13,M.C.G.,7:40 PM,21217,Melbourne,103,Western Bulldogs,100,0.2
+2013R1406,2013,R14,29-Jun-13,Kardinia Park,7:40 PM,26743,Geelong,85,Fremantle,44,0.0
+2013R1407,2013,R14,30-Jun-13,York Park,1:10 PM,15796,Hawthorn,143,Brisbane Lions,85,1.6
+2013R1408,2013,R14,30-Jun-13,Docklands,3:20 PM,15438,North Melbourne,130,Greater Western Sydney,44,0.0
+2013R1409,2013,R14,30-Jun-13,M.C.G.,4:40 PM,52184,Richmond,119,St Kilda,55,0.0
+2013R1501,2013,R15,5-Jul-13,M.C.G.,7:50 PM,78224,Carlton,77,Collingwood,118,1.0
+2013R1502,2013,R15,6-Jul-13,Manuka Oval,1:45 PM,7132,Greater Western Sydney,83,Western Bulldogs,87,0.0
+2013R1503,2013,R15,6-Jul-13,Docklands,2:10 PM,45966,North Melbourne,128,Richmond,66,0.0
+2013R1504,2013,R15,6-Jul-13,Gabba,4:40 PM,27170,Brisbane Lions,116,Gold Coast,83,0.0
+2013R1505,2013,R15,6-Jul-13,Football Park,7:10 PM,26426,Adelaide,69,West Coast,75,3.4
+2013R1506,2013,R15,6-Jul-13,M.C.G.,7:40 PM,85197,Geelong,82,Hawthorn,72,0.0
+2013R1507,2013,R15,7-Jul-13,M.C.G.,1:10 PM,26216,Melbourne,85,Sydney,116,2.0
+2013R1508,2013,R15,7-Jul-13,Subiaco,1:20 PM,34064,Fremantle,100,St Kilda,70,0.0
+2013R1509,2013,R15,7-Jul-13,Docklands,4:40 PM,40817,Essendon,118,Port Adelaide,88,2.0
+2013R1601,2013,R16,12-Jul-13,M.C.G.,7:50 PM,54790,Collingwood,111,Adelaide,84,0.0
+2013R1602,2013,R16,13-Jul-13,Football Park,1:15 PM,23748,Port Adelaide,79,Hawthorn,124,19.2
+2013R1603,2013,R16,13-Jul-13,Kardinia Park,2:10 PM,23172,Geelong,98,Melbourne,30,0.0
+2013R1604,2013,R16,13-Jul-13,Cazaly's Stadium,4:40 PM,11197,Richmond,53,Gold Coast,44,4.2
+2013R1605,2013,R16,13-Jul-13,Docklands,7:40 PM,30949,Carlton,110,St Kilda,74,0.2
+2013R1606,2013,R16,13-Jul-13,Gabba,7:40 PM,18131,Brisbane Lions,117,North Melbourne,105,0.0
+2013R1607,2013,R16,14-Jul-13,S.C.G.,1:10 PM,21757,Sydney,171,Greater Western Sydney,42,0.0
+2013R1608,2013,R16,14-Jul-13,Docklands,3:20 PM,32500,Western Bulldogs,90,Essendon,121,18.4
+2013R1609,2013,R16,14-Jul-13,Subiaco,2:40 PM,39839,West Coast,93,Fremantle,121,1.2
+2013R1701,2013,R17,19-Jul-13,Docklands,7:50 PM,37443,North Melbourne,108,Carlton,109,6.8
+2013R1702,2013,R17,20-Jul-13,York Park,1:45 PM,14022,Hawthorn,95,Western Bulldogs,76,9.8
+2013R1703,2013,R17,20-Jul-13,Sydney Showground,2:10 PM,10783,Greater Western Sydney,77,Essendon,116,2.8
+2013R1704,2013,R17,20-Jul-13,Carrara,4:40 PM,19721,Gold Coast,85,Collingwood,78,21.2
+2013R1705,2013,R17,20-Jul-13,Marrara Oval,7:10 PM,7615,Melbourne,75,Brisbane Lions,94,0.0
+2013R1706,2013,R17,20-Jul-13,Docklands,7:40 PM,14878,St Kilda,92,Port Adelaide,97,13.8
+2013R1707,2013,R17,21-Jul-13,M.C.G.,1:10 PM,40125,Richmond,84,Fremantle,57,10.8
+2013R1708,2013,R17,21-Jul-13,Football Park,2:50 PM,28603,Adelaide,94,Geelong,92,3.6
+2013R1709,2013,R17,21-Jul-13,Subiaco,2:40 PM,35166,West Coast,79,Sydney,113,0.0
+2013R1801,2013,R18,26-Jul-13,Docklands,7:50 PM,49505,Essendon,87,Hawthorn,143,0.6
+2013R1802,2013,R18,27-Jul-13,Carrara,1:45 PM,19460,Gold Coast,77,Carlton,120,0.2
+2013R1803,2013,R18,27-Jul-13,Docklands,2:10 PM,16962,Melbourne,28,North Melbourne,150,0.0
+2013R1804,2013,R18,27-Jul-13,M.C.G.,4:40 PM,32691,Collingwood,106,Greater Western Sydney,66,0.0
+2013R1805,2013,R18,27-Jul-13,Subiaco,5:40 PM,28765,Fremantle,75,Adelaide,53,17.6
+2013R1806,2013,R18,27-Jul-13,Kardinia Park,7:40 PM,26833,Geelong,137,St Kilda,36,0.0
+2013R1807,2013,R18,28-Jul-13,Football Park,12:40 PM,22631,Port Adelaide,71,Brisbane Lions,62,0.6
+2013R1808,2013,R18,28-Jul-13,Docklands,3:20 PM,17019,Western Bulldogs,111,West Coast,89,0.0
+2013R1809,2013,R18,28-Jul-13,S.C.G.,4:40 PM,29738,Sydney,110,Richmond,63,0.0
+2013R1901,2013,R19,2-Aug-13,Docklands,7:50 PM,33584,North Melbourne,96,Geelong,86,0.0
+2013R1902,2013,R19,3-Aug-13,Sydney Showground,1:45 PM,8308,Greater Western Sydney,124,Melbourne,87,0.0
+2013R1903,2013,R19,3-Aug-13,M.C.G.,2:10 PM,64324,Hawthorn,66,Richmond,107,3.0
+2013R1904,2013,R19,3-Aug-13,Subiaco,2:40 PM,32140,West Coast,130,Gold Coast,113,0.0
+2013R1905,2013,R19,3-Aug-13,Docklands,7:40 PM,30457,Carlton,80,Fremantle,116,3.0
+2013R1906,2013,R19,3-Aug-13,Gabba,7:40 PM,19856,Brisbane Lions,108,St Kilda,77,0.0
+2013R1907,2013,R19,4-Aug-13,Docklands,1:10 PM,22647,Western Bulldogs,99,Sydney,134,14.0
+2013R1908,2013,R19,4-Aug-13,Football Park,2:50 PM,43368,Adelaide,103,Port Adelaide,107,5.2
+2013R1909,2013,R19,4-Aug-13,M.C.G.,4:40 PM,69821,Collingwood,133,Essendon,54,14.0
+2013R2001,2013,R20,9-Aug-13,Docklands,7:50 PM,24765,St Kilda,56,Hawthorn,102,6.6
+2013R2002,2013,R20,10-Aug-13,M.C.G.,1:45 PM,46961,Richmond,97,Brisbane Lions,74,0.2
+2013R2003,2013,R20,10-Aug-13,Kardinia Park,2:10 PM,24784,Geelong,129,Port Adelaide,104,1.8
+2013R2004,2013,R20,10-Aug-13,Docklands,4:40 PM,31126,Carlton,89,Western Bulldogs,117,0.2
+2013R2005,2013,R20,10-Aug-13,Stadium Australia,7:40 PM,42627,Sydney,71,Collingwood,100,0.0
+2013R2006,2013,R20,10-Aug-13,Carrara,7:40 PM,13840,Gold Coast,90,Melbourne,77,0.0
+2013R2007,2013,R20,11-Aug-13,Docklands,1:10 PM,32595,Essendon,67,West Coast,120,0.0
+2013R2008,2013,R20,11-Aug-13,Football Park,2:50 PM,31801,Adelaide,79,North Melbourne,70,0.0
+2013R2009,2013,R20,11-Aug-13,Subiaco,2:40 PM,31390,Fremantle,157,Greater Western Sydney,44,2.8
+2013R2101,2013,R21,16-Aug-13,M.C.G.,7:50 PM,71533,Hawthorn,119,Collingwood,84,0.4
+2013R2102,2013,R21,17-Aug-13,M.C.G.,1:45 PM,60825,Richmond,96,Carlton,106,0.0
+2013R2103,2013,R21,17-Aug-13,Football Park,1:40 PM,18703,Port Adelaide,113,Gold Coast,96,5.6
+2013R2104,2013,R21,17-Aug-13,Docklands,4:40 PM,34102,Essendon,70,North Melbourne,115,0.0
+2013R2105,2013,R21,17-Aug-13,Subiaco,5:40 PM,34394,West Coast,41,Geelong,107,6.8
+2013R2106,2013,R21,17-Aug-13,Gabba,7:40 PM,13855,Brisbane Lions,123,Greater Western Sydney,63,0.0
+2013R2107,2013,R21,18-Aug-13,M.C.G.,1:10 PM,13768,Melbourne,38,Fremantle,133,0.0
+2013R2108,2013,R21,18-Aug-13,S.C.G.,3:20 PM,26730,Sydney,118,St Kilda,59,0.0
+2013R2109,2013,R21,18-Aug-13,Docklands,4:40 PM,17159,Western Bulldogs,131,Adelaide,114,0.0
+2013R2201,2013,R22,23-Aug-13,M.C.G.,7:50 PM,41198,Collingwood,101,West Coast,39,4.0
+2013R2202,2013,R22,24-Aug-13,Football Park,1:15 PM,34653,Adelaide,120,Melbourne,52,2.4
+2013R2203,2013,R22,24-Aug-13,Docklands,2:10 PM,33039,North Melbourne,103,Hawthorn,117,0.6
+2013R2204,2013,R22,24-Aug-13,Kardinia Park,4:40 PM,28459,Geelong,92,Sydney,48,0.0
+2013R2205,2013,R22,24-Aug-13,Subiaco,5:40 PM,35565,Fremantle,134,Port Adelaide,60,0.0
+2013R2206,2013,R22,24-Aug-13,M.C.G.,7:40 PM,53630,Carlton,76,Essendon,82,0.6
+2013R2207,2013,R22,25-Aug-13,Docklands,1:10 PM,17622,St Kilda,116,Gold Coast,70,0.0
+2013R2208,2013,R22,25-Aug-13,Sydney Showground,3:20 PM,12314,Greater Western Sydney,42,Richmond,163,0.0
+2013R2209,2013,R22,25-Aug-13,Gabba,4:40 PM,20130,Brisbane Lions,100,Western Bulldogs,93,0.0
+2013R2301,2013,R23,30-Aug-13,Stadium Australia,7:50 PM,37980,Sydney,100,Hawthorn,112,0.0
+2013R2302,2013,R23,31-Aug-13,Docklands,1:45 PM,22476,St Kilda,112,Fremantle,41,2.8
+2013R2303,2013,R23,31-Aug-13,Kardinia Park,2:10 PM,27467,Geelong,112,Brisbane Lions,111,4.0
+2013R2304,2013,R23,31-Aug-13,Football Park,4:10 PM,45127,Port Adelaide,103,Carlton,104,0.0
+2013R2305,2013,R23,31-Aug-13,M.C.G.,7:40 PM,60979,Essendon,65,Richmond,104,2.8
+2013R2306,2013,R23,31-Aug-13,Subiaco,6:10 PM,29416,West Coast,43,Adelaide,129,7.4
+2013R2307,2013,R23,1-Sep-13,Carrara,1:10 PM,13080,Gold Coast,146,Greater Western Sydney,63,0.0
+2013R2308,2013,R23,1-Sep-13,M.C.G.,3:20 PM,50958,Collingwood,114,North Melbourne,125,0.0
+2013R2309,2013,R23,1-Sep-13,Docklands,4:40 PM,22176,Western Bulldogs,107,Melbourne,87,0.0
+2013QF01,2013,QF,6-Sep-13,M.C.G.,7:50 PM,59615,Hawthorn,105,Sydney,51,3.0
+2013QF02,2013,QF,7-Sep-13,Kardinia Park,2:20 PM,32458,Geelong,72,Fremantle,87,0.0
+2013EF01,2013,EF,7-Sep-13,M.C.G.,7:45 PM,51722,Collingwood,63,Port Adelaide,87,0.0
+2013EF02,2013,EF,8-Sep-13,M.C.G.,3:20 PM,94690,Richmond,96,Carlton,116,0.4
+2013SF01,2013,SF,13-Sep-13,M.C.G.,7:50 PM,52744,Geelong,96,Port Adelaide,80,1.4
+2013SF02,2013,SF,14-Sep-13,Stadium Australia,7:45 PM,37980,Sydney,86,Carlton,62,2.8
+2013PF01,2013,PF,20-Sep-13,M.C.G.,7:50 PM,85569,Hawthorn,102,Geelong,97,2.2
+2013PF02,2013,PF,21-Sep-13,Subiaco,5:45 PM,43249,Fremantle,99,Sydney,74,2.0
+2013GF01,2013,GF,28-Sep-13,M.C.G.,2:30 PM,100007,Hawthorn,77,Fremantle,62,2.7

@@ -73,36 +73,36 @@ class Season():
                 file_output.writelines(out+'\n')
             file_output.close()
 
-    def split_into_years(self, stats, type):
-        print(time.time())
-        for data in stats.iterrows():
-            if data[1]['year'] == self.Year:
-                if type == "player":
-                    self.players.append(data)
-                else:
-                    self.games.append(data)
+    # def split_into_years(self, stats, type):
+    #     print(time.time())
+    #     for data in stats.iterrows():
+    #         if data[1]['year'] == self.Year:
+    #             if type == "player":
+    #                 self.players.append(data)
+    #             else:
+    #                 self.games.append(data)
             
-        print(time.time())
+    #     print(time.time())
 
-    def write_player_to_csv(self):
-        file_output = open(PATH+'Year/Players/'+str(self.Year)+'test.csv', 'w')
-        header = 'gameId,team,year,round,playerId,displayName,gameNumber,Disposals,Kicks,Marks,Handballs,Goals,Behinds,Hit Outs,Tackles,Rebounds,Inside 50s,Clearances,Clangers,Frees,Frees Against,Brownlow Votes,Contested Possessions,Uncontested Possessions,Contested Marks,Marks Inside 50,One Percenters,Bounces,Goal Assists,% Played,Subs'
-        file_output.writelines(header+'\n')
+    # def write_player_to_csv(self):
+    #     file_output = open(PATH+'Year/Players/'+str(self.Year)+'test.csv', 'w')
+    #     header = 'gameId,team,year,round,playerId,displayName,gameNumber,Disposals,Kicks,Marks,Handballs,Goals,Behinds,Hit Outs,Tackles,Rebounds,Inside 50s,Clearances,Clangers,Frees,Frees Against,Brownlow Votes,Contested Possessions,Uncontested Possessions,Contested Marks,Marks Inside 50,One Percenters,Bounces,Goal Assists,% Played,Subs'
+    #     file_output.writelines(header+'\n')
         
-        fields = header.split(',')
-        for player in self.Players[0]:
-            out = ','.join(str(player[1][x]) for x in fields)
-            file_output.writelines(out+'\n')
+    #     fields = header.split(',')
+    #     for player in self.Players[0]:
+    #         out = ','.join(str(player[1][x]) for x in fields)
+    #         file_output.writelines(out+'\n')
 
-    def write_game_to_csv(self):
-        file_output = open(PATH+'Year/Games/'+str(self.Year)+'.csv', 'w')
-        header = 'gameId,year,round,date,venue,startTime,attendance,homeTeam,homeTeamScore,awayTeam,awayTeamScore,rainfall'
-        file_output.writelines(header+'\n')
+    # def write_game_to_csv(self):
+    #     file_output = open(PATH+'Year/Games/'+str(self.Year)+'.csv', 'w')
+    #     header = 'gameId,year,round,date,venue,startTime,attendance,homeTeam,homeTeamScore,awayTeam,awayTeamScore,rainfall'
+    #     file_output.writelines(header+'\n')
         
-        fields = header.split(',')
-        for player in self.games:
-            out = ','.join(str(player[1][x]) for x in fields)
-            file_output.writelines(out+'\n')
+    #     fields = header.split(',')
+    #     for player in self.games:
+    #         out = ','.join(str(player[1][x]) for x in fields)
+    #         file_output.writelines(out+'\n')
 
             
         
@@ -115,44 +115,9 @@ def show_dtypes(df):
 
 
 t12 = Season(2012)
-# t12.split_into_years(stats, "player")
-# t12.write_player_to_csv()
 
-t12.split_into_years_inner(stats, "player")
-t12.write_players_to_csv()
+
+#t12.split_into_years_inner(stats, "player")
+t12.split_into_years_inner(games, "games")
+#t12.write_players_to_csv()
 t12.write_games_to_csv()
-t13 = Season(2013)
-t13.split_into_years(stats, "player")
-t13.write_player_to_csv()
-
-t14 = Season(2014)
-t14.split_into_years(stats, "player")
-t14.write_player_to_csv()
-
-t15 = Season(2015)
-t15.split_into_years(stats, "player")
-t15.write_player_to_csv()
-
-t16 = Season(2016)
-t16.split_into_years(stats, "player")
-t16.write_player_to_csv()
-
-t17 = Season(2017)
-t17.split_into_years(stats, "player")
-t17.write_player_to_csv()
-
-t18 = Season(2018)
-t18.split_into_years(stats, "player")
-t18.write_player_to_csv()
-
-t19 = Season(2019)
-t19.split_into_years(stats, "player")
-t19.write_player_to_csv()
-
-t20 = Season(2020)
-t20.split_into_years(stats, "player")
-t20.write_player_to_csv()
-
-t21 = Season(2021)
-t21.split_into_years(stats, "player")
-t21.write_player_to_csv()
