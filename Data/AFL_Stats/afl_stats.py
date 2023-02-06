@@ -25,7 +25,6 @@ def show_dtypes(df):
 # show_dtypes(games)
 
 def select_player(name, team = None):
-    
     player = (players[(players['displayName'] == name)])
     if player.shape[0] > 1:
         for id in player['playerId']:
