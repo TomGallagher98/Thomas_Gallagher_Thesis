@@ -83,6 +83,7 @@ def team_similarity(s_team, prev_team, team):
     
 def team_travel(team, next_venue):
     # Measures distance travelled between games
+    # Assumed all teams will leave from home state
     prev_games = games[(games['homeTeam'] == team) | (games['awayTeam'] == team)]
     last_game = prev_games.tail(1)
     last_venue = last_game['venue']
