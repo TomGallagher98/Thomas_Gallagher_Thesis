@@ -93,8 +93,8 @@ def team_travel(team, next_venue):
         return 0
     venue_location = find_venue_location(next_venue)
 
-    dist = get_distance(team_location, venue_location)
-    print (dist)
+    return get_distance(team_location, venue_location)
+    
     # Geelong = 0 if next_venue is Kardinia Park else loc = MEL
     # Brisbane = 0 for Gabba else QLD
     # Gold Coast = 0 for Carrara else QLD
@@ -104,10 +104,10 @@ def team_travel(team, next_venue):
 
 def find_team_loaction(team):
     melbourneTeams = ['Carlton', 'Collingwood','Essendon','Hawthorn','Melbourne',
-    'North Melbourne','Richmond','StKilda','WesternBulldogs']
+    'North Melbourne','Richmond','St Kilda','Western Bulldogs']
     sydneyTeams = ['Greater Western Sydney','Sydney']
     adelaideTeams = ['Adelaide','Port Adelaide']
-    perthTeams = ['Fremantle','West Coast Eagles']
+    perthTeams = ['Fremantle','West Coast']
     if team in melbourneTeams:
         return "MEL"
     if team in sydneyTeams:
@@ -154,8 +154,9 @@ def find_venue_location(venue):
 # Venues.index = ['VIC', 'NSW', 'TAS', 'ACT', 'WA', 'SA', 'QLD', 'NT', 'NZ', 'CHI']
 
 def get_distance(team, next_venue):
+    dist = 0
     if next_venue == 'CHI':
-        return 5
+        dist = 5
     if team == 'MEL':
         if next_venue == 'MEL':
             dist = 0
@@ -231,13 +232,6 @@ def get_distance(team, next_venue):
             dist = 4
     
     return dist
-
-
-team_travel('Collingwood', 'M.C.G.')
-team_travel('Collingwood', 'Gabba')
-team_travel('Collingwood', 'Subiaco')
-team_travel('Collingwood', 'Manuka')
-
 
 class Venue():
     def __init__(self, name, location):
