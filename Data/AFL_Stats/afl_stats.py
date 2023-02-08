@@ -84,21 +84,60 @@ def team_similarity(s_team, prev_team, team):
 def team_travel(team, next_venue):
     # Measures distance travelled between games
     # Assumed all teams will leave from home state
-    prev_games = games[(games['homeTeam'] == team) | (games['awayTeam'] == team)]
-    last_game = prev_games.tail(1)
-    last_venue = last_game['venue']
-    pass
+    find_team_loaction(team)
+    find_venue_location(next_venue)
+
+    # Geelong, Brisbane and Gold Coast are all unique with home grounds
+    
+
+def find_team_loaction(team):
+    melbourneTeams = ['Carlton', 'Collingwood','Essendon','Hawthorn','Melbourne',
+    'North Melbourne','Richmond','StKilda','WesternBulldogs']
+    sydneyTeams = ['Greater Western Sydney','Sydney']
+    adelaideTeams = ['Adelaide','Port Adelaide']
+    perthTeams = ['Fremantle','West Coast Eagles']
+    if team in melbourneTeams:
+        return "MEL"
+    if team in sydneyTeams:
+        return "SYD"
+    if team in adelaideTeams:
+        return "ADE"
+    if team in perthTeams:
+        return "PER"
+    else:
+        return team
+    
+
+def find_venue_location(venue):
+    VenueList = {
+        "China" : ['Jiangwan Stadium'],    
+        "Melbourne" : ['M.C.G.', 'Docklands'],
+        "Victoria" : ['Kardinia Park', 'Eureka Stadium'],
+        "Sydney" : ['Blacktown', 'S.C.G.', 'Stadium Australia', 'Sydney Showground'],
+        "Queensland" : ["Cazaly's Stadium",  'Riverway Stadium', 'Carrara', 'Gabba'],
+        "NT" : ['Marrara Oval', 'Traeger Park' ],
+        "Adelaide" : ['Adelaide Oval', 'Football Park'],
+        "Perth" : ['Perth Stadium',  'Subiaco'],
+        "ACT" : [ 'Manuka Oval' ],
+        "Tasmania" : ['Bellerive Oval', 'Bellerive Oval'],
+        "NZ" :  ['Wellington'] 
+    }
+    print(VenueList)
+    # for key, value in VenueList:
+    #     print (value)
+    #     if venue in value:
+    #         return key
 
 venues_raw = {'VIC': [0,2,2,2,5,2,3,4,3,6], 
-              'NSW': [2,0,3,1,5,2,2,4,3,6],
-              'TAS': [2,3,0,1,5,2,4,5,3,6],
-              'ACT': [2,1,2,0,5,2,2,4,3,6],
-               'WA': [5,5,5,5,0,4,5,4,5,6],
-               'SA': [2,2,2,2,4,0,3,3,4,6],
-              'QLD': [3,2,4,2,5,3,0,3,4,6],
-               'NT': [4,4,5,4,4,3,3,0,5,6],
-               'NZ': [3,3,3,3,5,5,4,5,0,6],
-              'CHI': [6,6,6,6,6,6,6,6,6,0]}
+            'NSW': [2,0,3,1,5,2,2,4,3,6],
+            'TAS': [2,3,0,1,5,2,4,5,3,6],
+            'ACT': [2,1,2,0,5,2,2,4,3,6],
+            'WA': [5,5,5,5,0,4,5,4,5,6],
+            'SA': [2,2,2,2,4,0,3,3,4,6],
+            'QLD': [3,2,4,2,5,3,0,3,4,6],
+            'NT': [4,4,5,4,4,3,3,0,5,6],
+            'NZ': [3,3,3,3,5,5,4,5,0,6],
+            'CHI': [6,6,6,6,6,6,6,6,6,0]}
 Venues = pd.DataFrame(data=venues_raw)
 Venues.index = ['VIC', 'NSW', 'TAS', 'ACT', 'WA', 'SA', 'QLD', 'NT', 'NZ', 'CHI']
 
