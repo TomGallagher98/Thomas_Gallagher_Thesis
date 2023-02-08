@@ -84,16 +84,17 @@ def team_similarity(s_team, prev_team, team):
 def team_travel(team, next_venue):
     # Measures distance travelled between games
     # Assumed all teams will leave from home state
-    if team == 'Geelong' & next_venue == 'Kardinia Park':
+    if team == 'Geelong' and next_venue == 'Kardinia Park':
         return 0
     team_location = find_team_loaction(team)
-    if team == 'Brisbane' & next_venue == 'Gabba':
+    if team == 'Brisbane' and next_venue == 'Gabba':
         return 0
-    if team == 'Gold Coast' & next_venue == 'Carrara':
+    if team == 'Gold Coast' and next_venue == 'Carrara':
         return 0
     venue_location = find_venue_location(next_venue)
 
-    get_distance(team_location, venue_location)
+    dist = get_distance(team_location, venue_location)
+    print (dist)
     # Geelong = 0 if next_venue is Kardinia Park else loc = MEL
     # Brisbane = 0 for Gabba else QLD
     # Gold Coast = 0 for Carrara else QLD
@@ -139,18 +140,18 @@ def find_venue_location(venue):
         if venue in value:
             return key
 
-venues_raw = {'VIC': [0,2,2,2,5,2,3,4,3,6], 
-            'NSW': [2,0,3,1,5,2,2,4,3,6],
-            'TAS': [2,3,0,1,5,2,4,5,3,6],
-            'ACT': [2,1,2,0,5,2,2,4,3,6],
-            'WA': [5,5,5,5,0,4,5,4,5,6],
-            'SA': [2,2,2,2,4,0,3,3,4,6],
-            'QLD': [3,2,4,2,5,3,0,3,4,6],
-            'NT': [4,4,5,4,4,3,3,0,5,6],
-            'NZ': [3,3,3,3,5,5,4,5,0,6],
-            'CHI': [6,6,6,6,6,6,6,6,6,0]}
-Venues = pd.DataFrame(data=venues_raw)
-Venues.index = ['VIC', 'NSW', 'TAS', 'ACT', 'WA', 'SA', 'QLD', 'NT', 'NZ', 'CHI']
+# venues_raw = {'VIC': [0,2,2,2,5,2,3,4,3,6], 
+#             'NSW': [2,0,3,1,5,2,2,4,3,6],
+#             'TAS': [2,3,0,1,5,2,4,5,3,6],
+#             'ACT': [2,1,2,0,5,2,2,4,3,6],
+#             'WA': [5,5,5,5,0,4,5,4,5,6],
+#             'SA': [2,2,2,2,4,0,3,3,4,6],
+#             'QLD': [3,2,4,2,5,3,0,3,4,6],
+#             'NT': [4,4,5,4,4,3,3,0,5,6],
+#             'NZ': [3,3,3,3,5,5,4,5,0,6],
+#             'CHI': [6,6,6,6,6,6,6,6,6,0]}
+# Venues = pd.DataFrame(data=venues_raw)
+# Venues.index = ['VIC', 'NSW', 'TAS', 'ACT', 'WA', 'SA', 'QLD', 'NT', 'NZ', 'CHI']
 
 def get_distance(team, next_venue):
     if next_venue == 'CHI':
@@ -160,11 +161,11 @@ def get_distance(team, next_venue):
             dist = 0
         elif (next_venue == 'VIC'):
             dist = 1
-        elif (next_venue == 'TAS'| next_venue == 'SYD' 
-            | next_venue == 'ACT' | next_venue == 'SA'):
+        elif (next_venue == 'TAS' or next_venue == 'SYD' 
+            or next_venue == 'ACT' or next_venue == 'SA'):
             dist = 2
-        elif (next_venue == 'WA' | next_venue == 'NZ' 
-            | next_venue == 'QLD'):
+        elif (next_venue == 'WA' or next_venue == 'NZ' 
+            or next_venue == 'QLD'):
             dist = 3
         else:
             dist = 4
@@ -172,13 +173,13 @@ def get_distance(team, next_venue):
     if team == 'GEE':
         if next_venue == 'GEE':
             dist = 0
-        elif (next_venue == 'VIC' | next_venue == 'MEL'):
+        elif (next_venue == 'VIC' or next_venue == 'MEL'):
             dist = 1
-        elif (next_venue == 'TAS'| next_venue == 'SYD' 
-            | next_venue == 'ACT' | next_venue == 'SA'):
+        elif (next_venue == 'TAS'or next_venue == 'SYD' 
+            or next_venue == 'ACT' or next_venue == 'SA'):
             dist = 2
-        elif (next_venue == 'WA' | next_venue == 'NZ' 
-            | next_venue == 'QLD'):
+        elif (next_venue == 'WA' or next_venue == 'NZ' 
+            or next_venue == 'QLD'):
             dist = 3
         else:
             dist = 4
@@ -188,11 +189,11 @@ def get_distance(team, next_venue):
             dist = 0
         elif (next_venue == 'ACT'):
             dist = 1
-        elif (next_venue == 'SA'| next_venue == 'VIC' 
-            | next_venue == 'QLD'| next_venue == 'MEL'):
+        elif (next_venue == 'SA'or next_venue == 'VIC' 
+            or next_venue == 'QLD'or next_venue == 'MEL'):
             dist = 2
-        elif (next_venue == 'TAS' | next_venue == 'NZ'
-            | next_venue == 'NT' ):
+        elif (next_venue == 'TAS' or next_venue == 'NZ'
+            or next_venue == 'NT' ):
             dist = 3
         else:
             dist = 4
@@ -200,12 +201,12 @@ def get_distance(team, next_venue):
     if team == 'ADE':
         if next_venue == 'SA':
             dist = 0
-        elif (next_venue == 'VIC'| next_venue == 'SYD' 
-            | next_venue == 'ACT' | next_venue == 'TAS'
-            | next_venue == 'MEL'):
+        elif (next_venue == 'VIC'or next_venue == 'SYD' 
+            or next_venue == 'ACT' or next_venue == 'TAS'
+            or next_venue == 'MEL'):
             dist = 2
-        elif (next_venue == 'QLD' | next_venue == 'WA' 
-            | next_venue == 'NT'):
+        elif (next_venue == 'QLD' or next_venue == 'WA' 
+            or next_venue == 'NT'):
             dist = 3
         else:
             dist = 4
@@ -213,10 +214,10 @@ def get_distance(team, next_venue):
     if team == 'QLD':
         if next_venue == 'QLD':
             dist = 1
-        elif (next_venue == 'SYD' | next_venue == 'ACT'):
+        elif (next_venue == 'SYD' or next_venue == 'ACT'):
             dist = 2
-        elif (next_venue == 'VIC' | next_venue == 'MEL' 
-            | next_venue == 'NT' | next_venue == 'SA'):
+        elif (next_venue == 'VIC' or next_venue == 'MEL' 
+            or next_venue == 'NT' or next_venue == 'SA'):
             dist = 3
         else:
             dist = 4
@@ -224,12 +225,19 @@ def get_distance(team, next_venue):
     if team == 'PER':
         if next_venue == 'WA':
             dist = 0
-        elif (next_venue == 'SA' | next_venue == 'NT'):
+        elif (next_venue == 'SA' or next_venue == 'NT'):
             dist = 3
         else:
             dist = 4
     
     return dist
+
+
+team_travel('Collingwood', 'M.C.G.')
+team_travel('Collingwood', 'Gabba')
+team_travel('Collingwood', 'Subiaco')
+team_travel('Collingwood', 'Manuka')
+
 
 class Venue():
     def __init__(self, name, location):
