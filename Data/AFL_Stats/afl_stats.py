@@ -84,8 +84,19 @@ def team_similarity(s_team, prev_team, team):
 def team_travel(team, next_venue):
     # Measures distance travelled between games
     # Assumed all teams will leave from home state
-    find_team_loaction(team)
-    find_venue_location(next_venue)
+    if team == 'Geelong' & next_venue == 'Kardinia Park':
+        return 0
+    team_location = find_team_loaction(team)
+    if team == 'Brisbane' & next_venue == 'Gabba':
+        return 0
+    if team == 'Gold Coast' & next_venue == 'Carrara':
+        return 0
+    venue_location = find_venue_location(next_venue)
+
+    get_distance(team_location, venue_location)
+    # Geelong = 0 if next_venue is Kardinia Park else loc = MEL
+    # Brisbane = 0 for Gabba else QLD
+    # Gold Coast = 0 for Carrara else QLD
 
     # Geelong, Brisbane and Gold Coast are all unique with home grounds
     
@@ -104,29 +115,29 @@ def find_team_loaction(team):
         return "ADE"
     if team in perthTeams:
         return "PER"
+    if team == 'Geelong':
+        return 'GEE'
     else:
         return team
     
 
 def find_venue_location(venue):
     VenueList = {
-        "China" : ['Jiangwan Stadium'],    
-        "Melbourne" : ['M.C.G.', 'Docklands'],
-        "Victoria" : ['Kardinia Park', 'Eureka Stadium'],
-        "Sydney" : ['Blacktown', 'S.C.G.', 'Stadium Australia', 'Sydney Showground'],
-        "Queensland" : ["Cazaly's Stadium",  'Riverway Stadium', 'Carrara', 'Gabba'],
+        "CH" : ['Jiangwan Stadium'],    
+        "MEL" : ['M.C.G.', 'Docklands'],
+        "VIC" : ['Kardinia Park', 'Eureka Stadium'],
+        "SYD" : ['Blacktown', 'S.C.G.', 'Stadium Australia', 'Sydney Showground'],
+        "QLD" : ["Cazaly's Stadium",  'Riverway Stadium', 'Carrara', 'Gabba'],
         "NT" : ['Marrara Oval', 'Traeger Park' ],
-        "Adelaide" : ['Adelaide Oval', 'Football Park'],
-        "Perth" : ['Perth Stadium',  'Subiaco'],
+        "SA" : ['Adelaide Oval', 'Football Park'],
+        "WA" : ['Perth Stadium',  'Subiaco'],
         "ACT" : [ 'Manuka Oval' ],
-        "Tasmania" : ['Bellerive Oval', 'Bellerive Oval'],
+        "TAS" : ['Bellerive Oval', 'Bellerive Oval'],
         "NZ" :  ['Wellington'] 
     }
-    print(VenueList)
-    # for key, value in VenueList:
-    #     print (value)
-    #     if venue in value:
-    #         return key
+    for key, value in VenueList.items():
+        if venue in value:
+            return key
 
 venues_raw = {'VIC': [0,2,2,2,5,2,3,4,3,6], 
             'NSW': [2,0,3,1,5,2,2,4,3,6],
@@ -140,6 +151,85 @@ venues_raw = {'VIC': [0,2,2,2,5,2,3,4,3,6],
             'CHI': [6,6,6,6,6,6,6,6,6,0]}
 Venues = pd.DataFrame(data=venues_raw)
 Venues.index = ['VIC', 'NSW', 'TAS', 'ACT', 'WA', 'SA', 'QLD', 'NT', 'NZ', 'CHI']
+
+def get_distance(team, next_venue):
+    if next_venue == 'CHI':
+        return 5
+    if team == 'MEL':
+        if next_venue == 'MEL':
+            dist = 0
+        elif (next_venue == 'VIC'):
+            dist = 1
+        elif (next_venue == 'TAS'| next_venue == 'SYD' 
+            | next_venue == 'ACT' | next_venue == 'SA'):
+            dist = 2
+        elif (next_venue == 'WA' | next_venue == 'NZ' 
+            | next_venue == 'QLD'):
+            dist = 3
+        else:
+            dist = 4
+
+    if team == 'GEE':
+        if next_venue == 'GEE':
+            dist = 0
+        elif (next_venue == 'VIC' | next_venue == 'MEL'):
+            dist = 1
+        elif (next_venue == 'TAS'| next_venue == 'SYD' 
+            | next_venue == 'ACT' | next_venue == 'SA'):
+            dist = 2
+        elif (next_venue == 'WA' | next_venue == 'NZ' 
+            | next_venue == 'QLD'):
+            dist = 3
+        else:
+            dist = 4
+    
+    if team == 'SYD':
+        if next_venue == 'SYD':
+            dist = 0
+        elif (next_venue == 'ACT'):
+            dist = 1
+        elif (next_venue == 'SA'| next_venue == 'VIC' 
+            | next_venue == 'QLD'| next_venue == 'MEL'):
+            dist = 2
+        elif (next_venue == 'TAS' | next_venue == 'NZ'
+            | next_venue == 'NT' ):
+            dist = 3
+        else:
+            dist = 4
+    
+    if team == 'ADE':
+        if next_venue == 'SA':
+            dist = 0
+        elif (next_venue == 'VIC'| next_venue == 'SYD' 
+            | next_venue == 'ACT' | next_venue == 'TAS'
+            | next_venue == 'MEL'):
+            dist = 2
+        elif (next_venue == 'QLD' | next_venue == 'WA' 
+            | next_venue == 'NT'):
+            dist = 3
+        else:
+            dist = 4
+    
+    if team == 'QLD':
+        if next_venue == 'QLD':
+            dist = 1
+        elif (next_venue == 'SYD' | next_venue == 'ACT'):
+            dist = 2
+        elif (next_venue == 'VIC' | next_venue == 'MEL' 
+            | next_venue == 'NT' | next_venue == 'SA'):
+            dist = 3
+        else:
+            dist = 4
+
+    if team == 'PER':
+        if next_venue == 'WA':
+            dist = 0
+        elif (next_venue == 'SA' | next_venue == 'NT'):
+            dist = 3
+        else:
+            dist = 4
+    
+    return dist
 
 class Venue():
     def __init__(self, name, location):
@@ -163,16 +253,78 @@ class Venue():
         if self.location == 'MEL':
             if next_venue.location == 'MEL':
                 dist = 0
-            elif (next_venue.location == 'BAL' | next_venue.location == 'GEE'):
+            elif (next_venue.location == 'VIC'):
                 dist = 1
-            elif (next_venue.location == 'HOB'| next_venue.location == 'LAU' 
-                | next_venue.location == 'SYD' | next_venue.location == 'ADE'):
+            elif (next_venue.location == 'TAS'| next_venue.location == 'SYD' 
+                | next_venue.location == 'ACT' | next_venue.location == 'SA'):
                 dist = 2
-            elif (next_venue.location == 'PER' | next_venue.location == 'ALI' 
-                | next_venue.location == 'DAR' | next_venue.location == 'BRI'):
+            elif (next_venue.location == 'WA' | next_venue.location == 'NZ' 
+                | next_venue.location == 'QLD'):
                 dist = 3
             else:
                 dist = 4
+
+        if self.location == 'GEE':
+            if next_venue.location == 'GEE':
+                dist = 0
+            elif (next_venue.location == 'VIC' | next_venue.location == 'MEL'):
+                dist = 1
+            elif (next_venue.location == 'TAS'| next_venue.location == 'SYD' 
+                | next_venue.location == 'ACT' | next_venue.location == 'SA'):
+                dist = 2
+            elif (next_venue.location == 'WA' | next_venue.location == 'NZ' 
+                | next_venue.location == 'QLD'):
+                dist = 3
+            else:
+                dist = 4
+        
+        if self.location == 'SYD':
+            if next_venue.location == 'SYD':
+                dist = 0
+            elif (next_venue.location == 'ACT'):
+                dist = 1
+            elif (next_venue.location == 'SA'| next_venue.location == 'VIC' 
+                | next_venue.location == 'QLD'| next_venue.location == 'MEL'):
+                dist = 2
+            elif (next_venue.location == 'TAS' | next_venue.location == 'NZ'
+                | next_venue.location == 'NT' ):
+                dist = 3
+            else:
+                dist = 4
+        
+        if self.location == 'ADE':
+            if next_venue.location == 'SA':
+                dist = 0
+            elif (next_venue.location == 'VIC'| next_venue.location == 'SYD' 
+                | next_venue.location == 'ACT' | next_venue.location == 'TAS'
+                | next_venue.location == 'MEL'):
+                dist = 2
+            elif (next_venue.location == 'QLD' | next_venue.location == 'WA' 
+                | next_venue.location == 'NT'):
+                dist = 3
+            else:
+                dist = 4
+        
+        if self.location == 'QLD':
+            if next_venue.location == 'QLD':
+                dist = 1
+            elif (next_venue.location == 'SYD' | next_venue.location == 'ACT'):
+                dist = 2
+            elif (next_venue.location == 'VIC' | next_venue.location == 'MEL' 
+                | next_venue.location == 'NT' | next_venue.location == 'SA'):
+                dist = 3
+            else:
+                dist = 4
+
+        if self.location == 'PER':
+            if next_venue.location == 'WA':
+                dist = 0
+            elif (next_venue.location == 'SA' | next_venue.location == 'NT'):
+                dist = 3
+            else:
+                dist = 4
+        
+        return dist
 
 def break_len(team):
     # Finds break between previous game and game being played
@@ -185,4 +337,4 @@ def selected_team():
 # print(select_prev_five('Sidebottom, Steele'))
 # team_prev_five('Collingwood')
 # team_similarity('2021R2308', '2021R2205', 'Collingwood')
-print(Venues)
+# print(Venues)
