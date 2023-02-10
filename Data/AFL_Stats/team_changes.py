@@ -56,3 +56,19 @@ def team_prev_five(team):
     ids = [x for x in prev_games['gameId']]
     print (ids)
 
+def select_player(name, team = None):
+    player = (players[(players['displayName'] == name)])
+    if player.shape[0] > 1:
+        for id in player['playerId']:
+            p = (stats[(stats['playerId'] == id) & (stats['team'] == team)])
+            if p.empty:
+                pass
+            else:
+                player = (players[(players['playerId'] == id)])
+                print(player)
+                id =  player['playerId'].item()
+                return id
+    else:
+        print(player)
+        id =  player['playerId'].item()
+        return id
