@@ -72,15 +72,9 @@ def team_similarity(s_team, prev_team, team):
     
     dist = (len(out_players))
 
-
-    # for player in out_players:
-    #     print(players[(players['playerId'] == player)])
-    # for player in in_players:
-    #     print(players[(players['playerId'] == player)])
     evaluate_team_changes(in_players, out_players)
     # find changed players
-    print (diff)
-    print(dist)
+    return diff, dist
 
 def evaluate_team_changes(selected_team, previous_team):
     print(selected_team)
