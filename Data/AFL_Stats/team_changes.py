@@ -15,6 +15,7 @@ all_stats_raw = pd.read_csv(all_stats_path)
 def get_selected_team(gameId, team):
     team_l = all_stats_raw.query('gameId == @gameId and team == @team')
     return team_l
+    
 def team_similarity(s_team, prev_team, team):
     # Measures changes in selected team and previous team
     # HAMMING, Jaccard, Cosine (Will start with Hamming)
