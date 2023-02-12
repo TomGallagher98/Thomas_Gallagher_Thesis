@@ -41,8 +41,7 @@ def calculate_team_previous_game(gameId, team):
     # for player in team_list:
     #     pre = get_previous_game(player.playerId, player.round)
     #     player_scores.append(calculate_player_score(pre))
-    print(sum(player_scores[0]))
-    return sum(player_scores),  sum(player_scores)/len(player_scores)
+    return sum(player_scores)/len(player_scores)
 
 def calculate_team_previous_five(gameId, team):
     # Looks at each selected players previous 5 games, returns average
