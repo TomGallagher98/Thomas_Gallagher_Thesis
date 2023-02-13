@@ -2,7 +2,7 @@
 
 # import libraries selenium and time
 from selenium import webdriver
-from time import sleep
+import time
 from webdriver_manager.chrome import ChromeDriverManager
 
 
@@ -14,7 +14,8 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 # 	executable_path="C:/Users/Craig/Downloads/chromedriver_win32\chromedriver.exe")
 
 # Get the website
-
+s = time.time
+print(s)
 def write_to_csv():
     pass
 
@@ -24,7 +25,7 @@ def scrape_data(year):
             f"https://www.footywire.com/afl/footy/supercoach_round?year={year}&round={i}&p=&s=T")
 
         # Make Python sleep for some time
-        sleep(2)
+        time.sleep(2)
 
         # Obtain the number of rows in body
         rows = 1+len(driver.find_elements("xpath",
@@ -65,6 +66,6 @@ def scrape_data(year):
             out = ','.join([str(i),player,team,score])
             file_output.writelines(out+'\n')
         file_output.close()
-
-scrape_data(2012)   
+    
+scrape_data(2013)   
         
