@@ -41,7 +41,7 @@ class Season():
         print(time.time())
 
     def write_players_to_csv(self):
-        header = 'gameId,team,year,round,playerId,displayName,gameNumber,Disposals,Kicks,Marks,Handballs,Goals,Behinds,Hit Outs,Tackles,Rebounds,Inside 50s,Clearances,Clangers,Frees,Frees Against,Brownlow Votes,Contested Possessions,Uncontested Possessions,Contested Marks,Marks Inside 50,One Percenters,Bounces,Goal Assists,% Played,Subs'
+        header = 'gameId,team,year,round,playerId,displayName,gameNumber,Disposals,Kicks,Marks,Handballs,Goals,Behinds,HitOuts,Tackles,Rebounds,Inside50s,Clearances,Clangers,Frees,FreesAgainst,BrownlowVotes,ContestedPossessions,UncontestedPossessions,ContestedMarks,MarksInside50,OnePercenters,Bounces,GoalAssists,PercentPlayed,Subs'
         fields = header.split(',')
 
         for playerList in self.Players:
@@ -77,7 +77,7 @@ def show_dtypes(df):
 
 t12 = Season()
 
-t12.split_into_years_inner(stats, "player")
+# t12.split_into_years_inner(stats, "player")
 t12.split_into_years_inner(games, "games")
-t12.write_players_to_csv()
+# t12.write_players_to_csv()
 t12.write_games_to_csv()
