@@ -35,10 +35,7 @@ def scrape_data(year):
             "//div[@id='supercoach-round-div']/table/tbody/tr[1]/td"))
 
         # Print rows and columns
-        print(rows)
-        print(cols)
-        print(18*23*7)
-
+    
         # Printing the table headers
         # print("Locators		 "+"			 Description")
 
@@ -49,7 +46,7 @@ def scrape_data(year):
         fields = header.split(',')
 
         
-        file_output = open(PATH+'Year/Games/supercoach_round'+str(i+1)+'_'+str(year)+'.csv', 'w')
+        file_output = open(PATH+'Year/Games/supercoach_round'+str(i)+'_'+str(year)+'.csv', 'w')
         file_output.writelines(header+'\n')
 
         
@@ -64,7 +61,7 @@ def scrape_data(year):
                 "//div[@id='supercoach-round-div']/table/tbody/tr["+str(r)+"]/td[2]").text
             score = driver.find_element("xpath",
                 "//div[@id='supercoach-round-div']/table/tbody/tr["+str(r)+"]/td[6]").text
-            print(score)
+           
             out = ','.join([str(i),player,team,score])
             file_output.writelines(out+'\n')
         file_output.close()
