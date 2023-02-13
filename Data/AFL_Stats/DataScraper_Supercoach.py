@@ -5,6 +5,8 @@ from selenium import webdriver
 from time import sleep
 from webdriver_manager.chrome import ChromeDriverManager
 
+
+PATH = 'C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_Sorted/'
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 # Create webdriver object
@@ -16,10 +18,10 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 def write_to_csv():
     pass
 
-def scrape_data():
+def scrape_data(year):
     for i in range(1,24):
         driver.get(
-            f"https://www.footywire.com/afl/footy/supercoach_round?year=2012&round={i}&p=&s=T")
+            f"https://www.footywire.com/afl/footy/supercoach_round?year={year}&round={i}&p=&s=T")
 
         # Make Python sleep for some time
         sleep(2)
@@ -40,12 +42,32 @@ def scrape_data():
         # Printing the table headers
         # print("Locators		 "+"			 Description")
 
+        
+        
+   
+        header = 'round,player,team,score'
+        fields = header.split(',')
+
+        
+        file_output = open(PATH+'Year/Games/supercoach_round'+str(i+1)+'_'+str(year)+'.csv', 'w')
+        file_output.writelines(header+'\n')
+
+        
+
         # Printing the data of the table
         for r in range(2, rows):
-            for p in range(1, cols+1):
-                
-                # obtaining the text from each column of the table
-                value = driver.find_element("xpath",
-                    "//div[@id='supercoach-round-div']/table/tbody/tr["+str(r)+"]/td["+str(p)+"]").text
-                print(value, end=',')
-            print()
+            # obtaining the text from each column of the table
+            
+            player = driver.find_element("xpath",
+                "//div[@id='supercoach-round-div']/table/tbody/tr["+str(r)+"]/td[1]").text
+            team = driver.find_element("xpath",
+                "//div[@id='supercoach-round-div']/table/tbody/tr["+str(r)+"]/td[2]").text
+            score = driver.find_element("xpath",
+                "//div[@id='supercoach-round-div']/table/tbody/tr["+str(r)+"]/td[6]").text
+            print(score)
+            out = ','.join([str(i),player,team,score])
+            file_output.writelines(out+'\n')
+        file_output.close()
+
+scrape_data(2012)   
+        
