@@ -20,6 +20,12 @@ def write_to_csv():
     pass
 
 def scrape_data(year):
+    header = 'year,round,player,team,score'
+    fields = header.split(',')
+
+    file_output = open(PATH+'Year/Players/supercoach_'+str(year)+'.csv', 'w')
+    file_output.writelines(header+'\n')
+
     for i in range(1,24):
         driver.get(
             f"https://www.footywire.com/afl/footy/supercoach_round?year={year}&round={i}&p=&s=T")
@@ -31,41 +37,20 @@ def scrape_data(year):
         rows = 1+len(driver.find_elements("xpath",
             "//div[@id='supercoach-round-div']/table/tbody/tr"))
 
-        # Obtain the number of columns in table
-        cols = len(driver.find_elements("xpath",
-            "//div[@id='supercoach-round-div']/table/tbody/tr[1]/td"))
-
-        # Print rows and columns
-    
-        # Printing the table headers
-        # print("Locators		 "+"			 Description")
-
-        
-        
-   
-        header = 'round,player,team,score'
-        fields = header.split(',')
-
-        
-        file_output = open(PATH+'Year/Games/supercoach_round'+str(i)+'_'+str(year)+'.csv', 'w')
-        file_output.writelines(header+'\n')
-
-        
-
-        # Printing the data of the table
+        # Writing the data of the table
+        # obtaining the text from each column of the table
         for r in range(2, rows):
-            # obtaining the text from each column of the table
             
             player = driver.find_element("xpath",
-                "//div[@id='supercoach-round-div']/table/tbody/tr["+str(r)+"]/td[1]").text
-            team = driver.find_element("xpath",
                 "//div[@id='supercoach-round-div']/table/tbody/tr["+str(r)+"]/td[2]").text
+            team = driver.find_element("xpath",
+                "//div[@id='supercoach-round-div']/table/tbody/tr["+str(r)+"]/td[3]").text
             score = driver.find_element("xpath",
                 "//div[@id='supercoach-round-div']/table/tbody/tr["+str(r)+"]/td[6]").text
            
-            out = ','.join([str(i),player,team,score])
+            out = ','.join([str(year),str(i),player,team,score])
             file_output.writelines(out+'\n')
-        file_output.close()
+    file_output.close()
     
 scrape_data(2013)   
         

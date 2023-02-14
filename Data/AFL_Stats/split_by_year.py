@@ -50,6 +50,13 @@ class Season():
             file_output.writelines(header+'\n')
 
             for player in playerList:
+                name = player[1][5]
+                name_list = name.split(' ')
+                name_list.insert(0, name_list[-1])
+                name_list = name_list[:-1]
+                name = ' '.join(name_list)
+                name = name.replace('.', '')
+                player[1][5] = name
                 out = ','.join(str(player[1][x]) for x in fields)
                 file_output.writelines(out+'\n')
             file_output.close()
@@ -77,7 +84,7 @@ def show_dtypes(df):
 
 t12 = Season()
 
-# t12.split_into_years_inner(stats, "player")
-t12.split_into_years_inner(games, "games")
-# t12.write_players_to_csv()
-t12.write_games_to_csv()
+t12.split_into_years_inner(stats, "player")
+# t12.split_into_years_inner(games, "games")
+t12.write_players_to_csv()
+# t12.write_games_to_csv()
