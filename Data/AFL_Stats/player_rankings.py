@@ -68,86 +68,44 @@ def calculate_player_score(player):
     season_games = get_previous_games(player.playerId, player.round)
     if season_games.empty:
         return 0
-    season_games = season_games.iloc[-1]
-    stat_list = []
-    stat_list.append(season_games.Kicks * 4)
-    stat_list.append(season_games.Handballs * 2)
-    stat_list.append(season_games.Marks * 3)
-    stat_list.append(season_games.Goals * 6)
-    stat_list.append(season_games.Behinds)
-    stat_list.append(season_games.HitOuts * 2)
-    stat_list.append(season_games.Tackles * 3)
-    stat_list.append(season_games.Rebounds)
-    stat_list.append(season_games.Inside50s * 2)
-    stat_list.append(season_games.Clearances * 3)
-    stat_list.append(season_games.Clangers * -3)
-    stat_list.append(season_games.FreesAgainst * -3)
-    stat_list.append(season_games.ContestedMarks * 3)
-    stat_list.append(season_games.OnePercenters * 3)
-    stat_list.append(season_games.GoalAssists * 2)
-
-    return sum(stat_list)
+    last_game = season_games.iloc[-1]
+    return last_game.Supercoach, last_game.Fantasy
     
 def calculate_player_previous_five(player):
     season_games = get_previous_games(player.playerId, player.round)
     if season_games.empty:
         return 0
 
-    stat_list = []
+    supercoach_scores = []
+    fantasy_scores = []
     i = len(season_games)
     if i >= 5:
         season_games = season_games.tail(5)
         i = 5
     for j in range(i):
-        game = []
-        game.append(season_games.iloc[j].Kicks * 4)
-        game.append(season_games.iloc[j].Handballs * 2)
-        game.append(season_games.iloc[j].Marks * 3)
-        game.append(season_games.iloc[j].Goals * 6)
-        game.append(season_games.iloc[j].Behinds)
-        game.append(season_games.iloc[j].HitOuts * 2)
-        game.append(season_games.iloc[j].Tackles * 3)
-        game.append(season_games.iloc[j].Rebounds)
-        game.append(season_games.iloc[j].Inside50s * 2)
-        game.append(season_games.iloc[j].Clearances * 3)
-        game.append(season_games.iloc[j].Clangers * -3)
-        game.append(season_games.iloc[j].FreesAgainst * -3)
-        game.append(season_games.iloc[j].ContestedMarks * 3)
-        game.append(season_games.iloc[j].OnePercenters * 3)
-        game.append(season_games.iloc[j].GoalAssists * 2)
-        stat_list.append(sum(game))
+        supercoach_scores.append(season_games.iloc[j].Supercoach)
+    
+    supercoach_avg = sum(supercoach_scores)/len(supercoach_scores)
+    fantasy_avg = sum(fantasy_scores)/len(fantasy_scores)
 
-    # print(sum(stat_list)/len(stat_list))
-    return sum(stat_list)/len(stat_list)
+    return supercoach_avg, fantasy_avg
 
 def calculate_player_season_average(player):
     season_games = get_previous_games(player.playerId, player.round)
     if season_games.empty:
         return 0
 
-    stat_list = []
+    supercoach_scores = []
+    fantasy_scores = []
+
     i = len(season_games)
-
     for j in range(i):
-        game = []
-        game.append(season_games.iloc[j].Kicks * 4)
-        game.append(season_games.iloc[j].Handballs * 2)
-        game.append(season_games.iloc[j].Marks * 3)
-        game.append(season_games.iloc[j].Goals * 6)
-        game.append(season_games.iloc[j].Behinds)
-        game.append(season_games.iloc[j].HitOuts * 2)
-        game.append(season_games.iloc[j].Tackles * 3)
-        game.append(season_games.iloc[j].Rebounds)
-        game.append(season_games.iloc[j].Inside50s * 2)
-        game.append(season_games.iloc[j].Clearances * 3)
-        game.append(season_games.iloc[j].Clangers * -3)
-        game.append(season_games.iloc[j].FreesAgainst * -3)
-        game.append(season_games.iloc[j].ContestedMarks * 3)
-        game.append(season_games.iloc[j].OnePercenters * 3)
-        game.append(season_games.iloc[j].GoalAssists * 2)
-        stat_list.append(sum(game))
+        supercoach_scores.append(season_games.iloc[j].Supercoach)
 
-    return sum(stat_list)/len(stat_list)
+    supercoach_avg = sum(supercoach_scores)/len(supercoach_scores)
+    fantasy_avg = sum(fantasy_scores)/len(fantasy_scores)
+
+    return supercoach_avg, fantasy_avg
 
 # calculate_team_previous_game("2012R2205", "Collingwood")
 # calculate_team_previous_five("2012R2205", "West Coast")

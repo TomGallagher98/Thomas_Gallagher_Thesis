@@ -4,19 +4,20 @@ import pandas as pd
 from scipy.__config__ import show
 from soupsieve import select
 
-# all_stats_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players"
+# Lower Player names
+def update_names(year):
+    file_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/Fantasy/fantasy_{year}.csv"
+    fantasy_scores = pd.read_csv(file_path)
+    fantasy_player_update = fantasy_scores.apply(lower_player_names, axis=1)
+    fantasy_player_update.to_csv(file_path, index=False)
 
-# file_out_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/fantasy_2012.csv"
-# year = 2012
-# file_output = open(file_out_path, 'w')
-# for i in range(1,24):
-#     file = f"/fantasy_round{i}_{year}.csv" 
-#     round_scores = pd.read_csv(all_stats_path + file)
+def lower_player_names(row):
+    row[2] = row[2].lower()
+    return row
+    
+# for year in range (2012, 2022):
+#     update_names(year)
 
-#     for round in round_scores.iterrows():
-#         out = ','.join(str(round[1][x]) for x in range(5))
-#         file_output.writelines(out+'\n')
-# file_output.close()
 all_stats_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats/Year/Players"
 fantasy_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats/Year/Players"
 
@@ -53,7 +54,7 @@ def change_team_names(row):
         row[3] = "Richmond"
     elif team == "Saints":
         row[3] = "St Kilda"
-    elif team == "Swans":
+    elif team == "Swans":  
         row[3] = "Sydney"
     elif team == "Eagles":
         row[3] = "West Coast"
@@ -98,7 +99,7 @@ def add_fantasy_scores(year):
     file_out.close()
 
 def find_score_for_player(row):
-    row['fantasy'] = 0
+    row['Fantasy'] = 0
     year = row.year
     player = row.displayName
     team = row.team
@@ -117,7 +118,7 @@ def find_score_for_player(row):
     score = round_score.score.values
     if score.size <= 0:
         score = [0]
-    row['fantasy'] = score[0]
+    row['Fantasy'] = score[0]
     return row
 
 # add_fantasy_scores(2012)

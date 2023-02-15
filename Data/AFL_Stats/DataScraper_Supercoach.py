@@ -5,9 +5,6 @@ from selenium import webdriver
 import time
 from webdriver_manager.chrome import ChromeDriverManager
 
-
-
-
 PATH = 'C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_Sorted/Year/Players/'
 driver = webdriver.Chrome(ChromeDriverManager().install())
 

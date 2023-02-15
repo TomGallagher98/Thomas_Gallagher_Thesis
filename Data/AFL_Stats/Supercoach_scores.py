@@ -102,11 +102,12 @@ def find_score_for_player(row):
     row['Supercoach'] = score[0]
     return row
 
+
 # add_supercoach_scores(2012)
-add_supercoach_scores(2013)
+# add_supercoach_scores(2013)
 # add_supercoach_scores(2014)
-# add_supercoach_scores(2015)
-# add_supercoach_scores(2016)
+add_supercoach_scores(2015)
+add_supercoach_scores(2016)
 # add_supercoach_scores(2017)
 # add_supercoach_scores(2018)
 # add_supercoach_scores(2019)
