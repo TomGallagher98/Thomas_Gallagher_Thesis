@@ -6,7 +6,9 @@ import time
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-PATH = 'C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_Sorted/'
+
+
+PATH = 'C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_Sorted/Year/Players/'
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 # Create webdriver object
@@ -23,7 +25,7 @@ def scrape_data(year):
     header = 'year,round,player,team,score'
     fields = header.split(',')
 
-    file_output = open(PATH+'Year/Players/supercoach_'+str(year)+'.csv', 'w')
+    file_output = open(PATH+'supercoach_'+str(year)+'.csv', 'w')
     file_output.writelines(header+'\n')
 
     for i in range(1,24):
