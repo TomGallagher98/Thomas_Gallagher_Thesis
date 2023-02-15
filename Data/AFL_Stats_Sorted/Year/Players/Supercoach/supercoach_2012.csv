@@ -1,7 +1,7 @@
 year,round,displayName,team,score
 2012,1,brent stanton,Essendon,180
 2012,1,scott pendlebury,Collingwood,167
-2012,1,patrick ryder,Essendon,165
+2012,1,paddy ryder,Essendon,165
 2012,1,simon black,Brisbane Lions,152
 2012,1,kurt tippett,Adelaide,150
 2012,1,nick dal santo,St Kilda,148
@@ -11,7 +11,7 @@ year,round,displayName,team,score
 2012,1,sam mitchell,Hawthorn,139
 2012,1,tom rockliff,Brisbane Lions,139
 2012,1,gary ablett,Gold Coast,139
-2012,1,josh kennedy injured,Sydney,137
+2012,1,josh kennedy,Sydney,137
 2012,1,hamish hartlett,Port Adelaide,134
 2012,1,kieren jack,Sydney,133
 2012,1,trent cotchin,Richmond,127
@@ -21,9 +21,9 @@ year,round,displayName,team,score
 2012,1,kade simpson,Carlton,120
 2012,1,jimmy bartel,Geelong,120
 2012,1,marc murphy,Carlton,119
-2012,1,matthew rosa,West Coast,119
+2012,1,matt rosa,West Coast,119
 2012,1,bryce gibbs,Carlton,118
-2012,1,matthew priddis,West Coast,118
+2012,1,matt priddis,West Coast,118
 2012,1,jack riewoldt,Richmond,118
 2012,1,nathan van berlo,Adelaide,117
 2012,1,brendon goddard,St Kilda,116
@@ -31,20 +31,20 @@ year,round,displayName,team,score
 2012,1,joel selwood,Geelong,116
 2012,1,cyril rioli,Hawthorn,116
 2012,1,james kelly,Geelong,115
-2012,1,joshua kennedy,West Coast,115
+2012,1,josh kennedy,West Coast,115
 2012,1,darren jolly,Collingwood,114
 2012,1,jared brennan,Gold Coast,114
 2012,1,rory sloane,Adelaide,114
 2012,1,aaron sandilands,Fremantle,113
 2012,1,luke dahlhaus,Western Bulldogs,112
 2012,1,david zaharakis,Essendon,112
-2012,1,christopher yarran,Carlton,111
+2012,1,chris yarran,Carlton,111
 2012,1,scott thompson,North Melbourne,111
 2012,1,brad ebert,Port Adelaide,111
-2012,1,thomas liberatore,Western Bulldogs,111
+2012,1,tom liberatore,Western Bulldogs,111
 2012,1,dean cox,West Coast,110
 2012,1,matthew boyd,Western Bulldogs,110
-2012,1,nathan fyfe,Fremantle,109
+2012,1,nat fyfe,Fremantle,109
 2012,1,james polkinghorne,Brisbane Lions,109
 2012,1,alex rance,Richmond,108
 2012,1,ben hudson,Brisbane Lions,107
@@ -56,7 +56,7 @@ year,round,displayName,team,score
 2012,1,hayden ballantyne,Fremantle,105
 2012,1,nick riewoldt,St Kilda,105
 2012,1,john mccarthy,Port Adelaide,105
-2012,1,nicholas naitanui,West Coast,105
+2012,1,nic naitanui,West Coast,105
 2012,1,pearce hanley,Brisbane Lions,104
 2012,1,james podsiadly,Geelong,104
 2012,1,scott selwood,West Coast,104
@@ -88,10 +88,10 @@ year,round,displayName,team,score
 2012,1,ivan maric,Richmond,97
 2012,1,travis cloke,Collingwood,97
 2012,1,sean dempster,St Kilda,97
-2012,1,matthew suckling,Hawthorn,97
+2012,1,matt suckling,Hawthorn,97
 2012,1,jarryd blair,Collingwood,97
 2012,1,matthew pavlich,Fremantle,97
-2012,1,matthew de boer,Fremantle,97
+2012,1,matt de boer,Fremantle,97
 2012,1,shane mumford,Sydney,95
 2012,1,andrew mackie,Geelong,95
 2012,1,liam jones,Western Bulldogs,94
@@ -106,7 +106,7 @@ year,round,displayName,team,score
 2012,1,dane swan,Collingwood,92
 2012,1,broc mccauley,Hawthorn,92
 2012,1,jeremy laidler,Carlton,92
-2012,1,sam reid injured,Sydney,92
+2012,1,sam reid,Sydney,92
 2012,1,tendai mzungu,Fremantle,92
 2012,1,heath shaw,Collingwood,91
 2012,1,brent harvey,North Melbourne,91
@@ -114,7 +114,7 @@ year,round,displayName,team,score
 2012,1,harley bennell,Gold Coast,91
 2012,1,michael johnson,Fremantle,91
 2012,1,adam goodes,Sydney,90
-2012,1,edward curnow,Carlton,90
+2012,1,ed curnow,Carlton,90
 2012,1,daniel wells,North Melbourne,90
 2012,1,andrew swallow,North Melbourne,90
 2012,1,michael osborne,Hawthorn,90
@@ -139,7 +139,7 @@ year,round,displayName,team,score
 2012,1,dion prestia,Gold Coast,87
 2012,1,andy otten,Adelaide,87
 2012,1,luke ball,Collingwood,87
-2012,1,nial mckeever,Brisbane Lions,86
+2012,1,niall mckeever,Brisbane Lions,86
 2012,1,jarrad mcveigh,Sydney,86
 2012,1,alan toovey,Collingwood,86
 2012,1,tim mohr,Greater Western Sydney,86
@@ -179,10 +179,10 @@ year,round,displayName,team,score
 2012,1,chris masten,West Coast,80
 2012,1,daniel merrett,Brisbane Lions,80
 2012,1,rhys stanley,St Kilda,80
-2012,1,cameron o'shea,Port Adelaide,80
+2012,1,cameron oshea,Port Adelaide,80
 2012,1,nick smith,Sydney,79
 2012,1,jordan lewis,Hawthorn,79
-2012,1,zachary clarke,Fremantle,79
+2012,1,zac clarke,Fremantle,79
 2012,1,joel macdonald,Melbourne,79
 2012,1,will hoskin-elliott,Greater Western Sydney,79
 2012,1,cameron guthrie,Geelong,79
@@ -198,8 +198,8 @@ year,round,displayName,team,score
 2012,1,brodie smith,Adelaide,76
 2012,1,david mackay,Adelaide,75
 2012,1,liam anthony,North Melbourne,75
-2012,1,samuel wright,North Melbourne,75
-2012,1,nicholas suban,Fremantle,75
+2012,1,sam wright,North Melbourne,75
+2012,1,nick suban,Fremantle,75
 2012,1,justin westhoff,Port Adelaide,74
 2012,1,drew petrie,North Melbourne,74
 2012,1,alex fasolo,Collingwood,74
@@ -216,10 +216,10 @@ year,round,displayName,team,score
 2012,1,bachar houli,Richmond,72
 2012,1,phil davis,Greater Western Sydney,72
 2012,1,steele sidebottom,Collingwood,72
-2012,1,mitchell golby,Brisbane Lions,72
+2012,1,mitch golby,Brisbane Lions,72
 2012,1,aaron edwards,North Melbourne,72
 2012,1,jarrad redden,Port Adelaide,71
-2012,1,matthew maguire,Brisbane Lions,71
+2012,1,matt maguire,Brisbane Lions,71
 2012,1,shaun hampson,Carlton,71
 2012,1,scott mcmahon,North Melbourne,71
 2012,1,chad wingard,Port Adelaide,71
@@ -233,7 +233,7 @@ year,round,displayName,team,score
 2012,1,jared polec,Brisbane Lions,68
 2012,1,quinten lynch,West Coast,68
 2012,1,michael doughty,Adelaide,68
-2012,1,lachlan henderson,Carlton,67
+2012,1,lachie henderson,Carlton,67
 2012,1,chris newman,Richmond,66
 2012,1,josh gibson,Hawthorn,66
 2012,1,jarrad waite,Carlton,66
@@ -246,7 +246,7 @@ year,round,displayName,team,score
 2012,1,campbell brown,Gold Coast,65
 2012,1,david myers,Essendon,65
 2012,1,ben mcglynn,Sydney,64
-2012,1,christopher mayne,Fremantle,64
+2012,1,chris mayne,Fremantle,64
 2012,1,luke breust,Hawthorn,64
 2012,1,nathan jones,Melbourne,64
 2012,1,tyson goldsack,Collingwood,63
@@ -271,7 +271,7 @@ year,round,displayName,team,score
 2012,1,josh caddy,Gold Coast,60
 2012,1,heritier lumumba,Collingwood,60
 2012,1,bret thornton,Carlton,59
-2012,1,mitchell duncan,Geelong,59
+2012,1,mitch duncan,Geelong,59
 2012,1,brett peake,St Kilda,59
 2012,1,stephen milne,St Kilda,59
 2012,1,jay schulz,Port Adelaide,59
@@ -305,8 +305,8 @@ year,round,displayName,team,score
 2012,1,ben reid,Collingwood,53
 2012,1,jeremy howe,Melbourne,53
 2012,1,easton wood,Western Bulldogs,52
-2012,1,mitchell wallis,Western Bulldogs,52
-2012,1,tyrone vickery,Richmond,51
+2012,1,mitch wallis,Western Bulldogs,52
+2012,1,ty vickery,Richmond,51
 2012,1,clint bartram,Melbourne,51
 2012,1,sam gilbert,St Kilda,51
 2012,1,matthew warnock,Gold Coast,51
@@ -315,7 +315,7 @@ year,round,displayName,team,score
 2012,1,cale hooker,Essendon,50
 2012,1,lukas markovic,Western Bulldogs,49
 2012,1,shane tuck,Richmond,49
-2012,1,mitchell clark,Melbourne,49
+2012,1,mitch clark,Melbourne,49
 2012,1,curtly hampton,Greater Western Sydney,49
 2012,1,alipate carlile,Port Adelaide,48
 2012,1,ryan bastinac,North Melbourne,48
@@ -326,7 +326,7 @@ year,round,displayName,team,score
 2012,1,robin nahas,Richmond,47
 2012,1,brandon matera,Gold Coast,47
 2012,1,billie smedts,Geelong,46
-2012,1,benjamin stratton,Hawthorn,46
+2012,1,ben stratton,Hawthorn,46
 2012,1,jamie cripps,St Kilda,46
 2012,1,eric mackenzie,West Coast,46
 2012,1,ben sinclair,Collingwood,45
@@ -358,11 +358,11 @@ year,round,displayName,team,score
 2012,1,adam mcphee,Fremantle,38
 2012,1,darren glass,West Coast,37
 2012,1,luke rounds,Collingwood,36
-2012,1,sebastian tape,Gold Coast,35
+2012,1,seb tape,Gold Coast,35
 2012,1,reece conca,Richmond,35
 2012,1,daniel gorringe,Gold Coast,35
 2012,1,matthew scarlett,Geelong,35
-2012,1,daniel hannebery,Sydney,34
+2012,1,dan hannebery,Sydney,34
 2012,1,dylan shiel,Greater Western Sydney,33
 2012,1,mark mcveigh,Essendon,33
 2012,1,john butcher,Port Adelaide,32
@@ -406,7 +406,7 @@ year,round,displayName,team,score
 2012,2,brett deledio,Richmond,145
 2012,2,gary ablett,Gold Coast,143
 2012,2,sam mitchell,Hawthorn,141
-2012,2,josh kennedy injured,Sydney,139
+2012,2,josh kennedy,Sydney,139
 2012,2,brent harvey,North Melbourne,137
 2012,2,angus monfries,Essendon,136
 2012,2,brent stanton,Essendon,134
@@ -431,7 +431,7 @@ year,round,displayName,team,score
 2012,2,shannon hurn,West Coast,117
 2012,2,david swallow,Gold Coast,117
 2012,2,jordan lewis,Hawthorn,116
-2012,2,nicholas naitanui,West Coast,116
+2012,2,nic naitanui,West Coast,116
 2012,2,michael firrito,North Melbourne,116
 2012,2,bachar houli,Richmond,115
 2012,2,adam goodes,Sydney,115
@@ -473,7 +473,7 @@ year,round,displayName,team,score
 2012,2,jarrad mcveigh,Sydney,101
 2012,2,rhys stanley,St Kilda,101
 2012,2,jeff garlett,Carlton,101
-2012,2,matthew priddis,West Coast,101
+2012,2,matt priddis,West Coast,101
 2012,2,jay schulz,Port Adelaide,101
 2012,2,ryan griffen,Western Bulldogs,100
 2012,2,rory sloane,Adelaide,100
@@ -486,7 +486,7 @@ year,round,displayName,team,score
 2012,2,jack darling,West Coast,99
 2012,2,chris newman,Richmond,99
 2012,2,justin westhoff,Port Adelaide,99
-2012,2,patrick ryder,Essendon,99
+2012,2,paddy ryder,Essendon,99
 2012,2,alex johnson,Sydney,99
 2012,2,michael doughty,Adelaide,98
 2012,2,jack steven,St Kilda,98
@@ -508,14 +508,14 @@ year,round,displayName,team,score
 2012,2,nathan van berlo,Adelaide,94
 2012,2,dyson heppell,Essendon,94
 2012,2,leigh adams,North Melbourne,94
-2012,2,sam reid injured,Sydney,94
+2012,2,sam reid,Sydney,94
 2012,2,leroy jetta,Essendon,93
 2012,2,daniel kerr,West Coast,93
 2012,2,martin clarke,Collingwood,93
-2012,2,matthew maguire,Brisbane Lions,93
+2012,2,matt maguire,Brisbane Lions,93
 2012,2,jason porplyzia,Adelaide,93
 2012,2,paul bower,Carlton,93
-2012,2,edward curnow,Carlton,93
+2012,2,ed curnow,Carlton,93
 2012,2,michael hibberd,Essendon,93
 2012,2,jackson trengove,Port Adelaide,93
 2012,2,mitch robinson,Carlton,92
@@ -542,7 +542,7 @@ year,round,displayName,team,score
 2012,2,michael hurley,Essendon,88
 2012,2,reece conca,Richmond,87
 2012,2,grant birchall,Hawthorn,86
-2012,2,matthew rosa,West Coast,86
+2012,2,matt rosa,West Coast,86
 2012,2,luke dahlhaus,Western Bulldogs,86
 2012,2,kane cornes,Port Adelaide,86
 2012,2,terry milera,St Kilda,86
@@ -552,16 +552,16 @@ year,round,displayName,team,score
 2012,2,beau waters,West Coast,85
 2012,2,heath scotland,Carlton,85
 2012,2,simon black,Brisbane Lions,85
-2012,2,nathan fyfe,Fremantle,85
+2012,2,nat fyfe,Fremantle,85
 2012,2,allen christensen,Geelong,85
 2012,2,hamish hartlett,Port Adelaide,84
 2012,2,jarrod harbrow,Gold Coast,84
 2012,2,matthew broadbent,Port Adelaide,84
 2012,2,shaun hampson,Carlton,84
 2012,2,heath grundy,Sydney,84
-2012,2,matthew suckling,Hawthorn,83
+2012,2,matt suckling,Hawthorn,83
 2012,2,ben reid,Collingwood,83
-2012,2,christopher mayne,Fremantle,83
+2012,2,chris mayne,Fremantle,83
 2012,2,kurt tippett,Adelaide,82
 2012,2,ted richards,Sydney,81
 2012,2,todd goldstein,North Melbourne,81
@@ -579,7 +579,7 @@ year,round,displayName,team,score
 2012,2,jamie macmillan,North Melbourne,78
 2012,2,lewis jetta,Sydney,78
 2012,2,alex fasolo,Collingwood,77
-2012,2,christopher yarran,Carlton,77
+2012,2,chris yarran,Carlton,77
 2012,2,jake carlisle,Essendon,77
 2012,2,ashley smith,West Coast,77
 2012,2,zac smith,Gold Coast,76
@@ -592,7 +592,7 @@ year,round,displayName,team,score
 2012,2,stephen hill,Fremantle,74
 2012,2,dion prestia,Gold Coast,73
 2012,2,darren jolly,Collingwood,73
-2012,2,mitchell clark,Melbourne,73
+2012,2,mitch clark,Melbourne,73
 2012,2,ben mcglynn,Sydney,73
 2012,2,daniel merrett,Brisbane Lions,73
 2012,2,shaun higgins,Western Bulldogs,72
@@ -604,7 +604,7 @@ year,round,displayName,team,score
 2012,2,bryce gibbs,Carlton,71
 2012,2,kyle hardingham,Essendon,71
 2012,2,james kelly,Geelong,71
-2012,2,matthew de boer,Fremantle,71
+2012,2,matt de boer,Fremantle,71
 2012,2,nathan djerrkura,Western Bulldogs,71
 2012,2,isaac smith,Hawthorn,70
 2012,2,cheynee stiller,Brisbane Lions,70
@@ -633,19 +633,19 @@ year,round,displayName,team,score
 2012,2,ben hudson,Brisbane Lions,67
 2012,2,gary rohan,Sydney,67
 2012,2,stephen milne,St Kilda,67
-2012,2,zachary clarke,Fremantle,67
+2012,2,zac clarke,Fremantle,67
 2012,2,matthew pavlich,Fremantle,66
 2012,2,matt thomas,Port Adelaide,66
 2012,2,kepler bradley,Fremantle,66
 2012,2,tom scully,Greater Western Sydney,66
 2012,2,kane lucas,Carlton,65
-2012,2,samuel wright,North Melbourne,65
+2012,2,sam wright,North Melbourne,65
 2012,2,danyle pearce,Port Adelaide,65
 2012,2,tom mcdonald,Melbourne,65
 2012,2,nick smith,Sydney,64
 2012,2,jarrad grant,Western Bulldogs,64
 2012,2,jordan roughead,Western Bulldogs,64
-2012,2,lachlan henderson,Carlton,64
+2012,2,lachie henderson,Carlton,64
 2012,2,dylan shiel,Greater Western Sydney,63
 2012,2,john anthony,Fremantle,63
 2012,2,easton wood,Western Bulldogs,63
@@ -683,13 +683,13 @@ year,round,displayName,team,score
 2012,2,matt campbell,North Melbourne,55
 2012,2,colin garland,Melbourne,54
 2012,2,graham johncock,Adelaide,54
-2012,2,daniel hannebery,Sydney,54
+2012,2,dan hannebery,Sydney,54
 2012,2,lynden dunn,Melbourne,54
 2012,2,jake melksham,Essendon,54
 2012,2,luke parker,Sydney,54
-2012,2,mitchell golby,Brisbane Lions,53
+2012,2,mitch golby,Brisbane Lions,53
 2012,2,will minson,Western Bulldogs,53
-2012,2,thomas liberatore,Western Bulldogs,53
+2012,2,tom liberatore,Western Bulldogs,53
 2012,2,brandon ellis,Richmond,53
 2012,2,pearce hanley,Brisbane Lions,53
 2012,2,devon smith,Greater Western Sydney,53
@@ -705,7 +705,7 @@ year,round,displayName,team,score
 2012,2,tim mohr,Greater Western Sydney,49
 2012,2,jude bolton,Sydney,49
 2012,2,travis boak,Port Adelaide,49
-2012,2,benjamin stratton,Hawthorn,49
+2012,2,ben stratton,Hawthorn,49
 2012,2,jack gunston,Hawthorn,49
 2012,2,nathan lovett-murray,Essendon,49
 2012,2,steven may,Gold Coast,48
@@ -717,19 +717,19 @@ year,round,displayName,team,score
 2012,2,kieren jack,Sydney,47
 2012,2,maverick weller,Gold Coast,47
 2012,2,james sellar,Melbourne,46
-2012,2,joshua kennedy,West Coast,46
+2012,2,josh kennedy,West Coast,46
 2012,2,luke breust,Hawthorn,46
 2012,2,steven motlop,Geelong,46
 2012,2,jacob townsend,Greater Western Sydney,44
 2012,2,matthew warnock,Gold Coast,44
 2012,2,aaron mullett,North Melbourne,44
-2012,2,tyrone vickery,Richmond,44
+2012,2,ty vickery,Richmond,44
 2012,2,jordie mckenzie,Melbourne,44
 2012,2,jackson paine,Collingwood,43
 2012,2,clint bartram,Melbourne,43
 2012,2,lindsay thomas,North Melbourne,42
 2012,2,dylan addison,Western Bulldogs,42
-2012,2,mitchell duncan,Geelong,42
+2012,2,mitch duncan,Geelong,42
 2012,2,shannon byrnes,Geelong,42
 2012,2,billie smedts,Geelong,42
 2012,2,ashley mcgrath,Brisbane Lions,42
@@ -750,11 +750,11 @@ year,round,displayName,team,score
 2012,2,rohan bail,Melbourne,37
 2012,2,tom lonergan,Geelong,37
 2012,2,ben sinclair,Collingwood,36
-2012,2,nial mckeever,Brisbane Lions,36
+2012,2,niall mckeever,Brisbane Lions,36
 2012,2,campbell brown,Gold Coast,36
 2012,2,rhys palmer,Greater Western Sydney,35
 2012,2,ben jacobs,Port Adelaide,35
-2012,2,nicholas suban,Fremantle,31
+2012,2,nick suban,Fremantle,31
 2012,2,daniel jackson,Richmond,31
 2012,2,aaron hall,Gold Coast,30
 2012,2,dennis armfield,Carlton,29
@@ -774,7 +774,7 @@ year,round,displayName,team,score
 2012,2,karmichael hunt,Gold Coast,22
 2012,2,israel folau,Greater Western Sydney,22
 2012,2,trent mckenzie,Gold Coast,21
-2012,2,ryan o'keefe,Sydney,21
+2012,2,ryan okeefe,Sydney,21
 2012,2,josh mellington,Fremantle,19
 2012,2,tayte pears,Essendon,19
 2012,2,andrew embley,West Coast,19
@@ -783,13 +783,13 @@ year,round,displayName,team,score
 2012,2,tom ledger,St Kilda,17
 2012,2,chance bateman,Hawthorn,17
 2012,2,chris tarrant,Collingwood,17
-2012,2,cameron o'shea,Port Adelaide,17
+2012,2,cameron oshea,Port Adelaide,17
 2012,2,david hille,Essendon,15
 2012,2,nathan wilson,Greater Western Sydney,13
 2012,2,jake king,Richmond,13
-2012,2,mitchell brown,Geelong,10
+2012,2,mitch brown,Geelong,10
 2012,2,jordan russell,Carlton,10
-2012,2,jesse o'brien,Brisbane Lions,9
+2012,2,jesse obrien,Brisbane Lions,9
 2012,2,richard douglas,Adelaide,4
 2012,3,gary ablett,Gold Coast,182
 2012,3,shane tuck,Richmond,152
@@ -809,14 +809,14 @@ year,round,displayName,team,score
 2012,3,josh gibson,Hawthorn,129
 2012,3,kurt tippett,Adelaide,128
 2012,3,heath scotland,Carlton,127
-2012,3,patrick ryder,Essendon,127
+2012,3,paddy ryder,Essendon,127
 2012,3,aaron edwards,North Melbourne,127
 2012,3,trent cotchin,Richmond,126
 2012,3,sean dempster,St Kilda,125
 2012,3,lenny hayes,St Kilda,124
 2012,3,andrew carrazzo,Carlton,123
 2012,3,jarryd roughead,Hawthorn,121
-2012,3,daniel hannebery,Sydney,121
+2012,3,dan hannebery,Sydney,121
 2012,3,jordan lewis,Hawthorn,121
 2012,3,jeremy howe,Melbourne,121
 2012,3,mitch robinson,Carlton,121
@@ -837,7 +837,7 @@ year,round,displayName,team,score
 2012,3,domenic cassisi,Port Adelaide,115
 2012,3,nathan foley,Richmond,114
 2012,3,andrew gaff,West Coast,114
-2012,3,josh kennedy injured,Sydney,113
+2012,3,josh kennedy,Sydney,113
 2012,3,robin nahas,Richmond,112
 2012,3,jarrad waite,Carlton,112
 2012,3,bachar houli,Richmond,111
@@ -869,9 +869,9 @@ year,round,displayName,team,score
 2012,3,brendon goddard,St Kilda,102
 2012,3,jimmy bartel,Geelong,102
 2012,3,luke breust,Hawthorn,101
-2012,3,nicholas naitanui,West Coast,101
+2012,3,nic naitanui,West Coast,101
 2012,3,dean cox,West Coast,101
-2012,3,matthew suckling,Hawthorn,100
+2012,3,matt suckling,Hawthorn,100
 2012,3,shannon hurn,West Coast,100
 2012,3,patrick dangerfield,Adelaide,99
 2012,3,brendan whitecross,Hawthorn,99
@@ -881,7 +881,7 @@ year,round,displayName,team,score
 2012,3,ben howlett,Essendon,97
 2012,3,harry taylor,Geelong,97
 2012,3,garrick ibbotson,Fremantle,97
-2012,3,zachary clarke,Fremantle,97
+2012,3,zac clarke,Fremantle,97
 2012,3,liam anthony,North Melbourne,96
 2012,3,josh drummond,Brisbane Lions,96
 2012,3,will minson,Western Bulldogs,96
@@ -916,7 +916,7 @@ year,round,displayName,team,score
 2012,3,michael hibberd,Essendon,89
 2012,3,rhys stanley,St Kilda,88
 2012,3,luke dahlhaus,Western Bulldogs,88
-2012,3,ryan o'keefe,Sydney,87
+2012,3,ryan okeefe,Sydney,87
 2012,3,joel patfull,Brisbane Lions,87
 2012,3,ted richards,Sydney,86
 2012,3,will schofield,West Coast,86
@@ -927,7 +927,7 @@ year,round,displayName,team,score
 2012,3,martin clarke,Collingwood,85
 2012,3,billy longer,Brisbane Lions,85
 2012,3,adam cooney,Western Bulldogs,85
-2012,3,matthew maguire,Brisbane Lions,84
+2012,3,matt maguire,Brisbane Lions,84
 2012,3,adam selwood,West Coast,84
 2012,3,mark jamar,Melbourne,84
 2012,3,alex fasolo,Collingwood,84
@@ -939,16 +939,16 @@ year,round,displayName,team,score
 2012,3,tom simpkin,St Kilda,83
 2012,3,brandon matera,Gold Coast,83
 2012,3,daniel cross,Western Bulldogs,83
-2012,3,nicholas suban,Fremantle,83
-2012,3,mitchell duncan,Geelong,82
+2012,3,nick suban,Fremantle,83
+2012,3,mitch duncan,Geelong,82
 2012,3,paul stewart,Port Adelaide,81
 2012,3,ben mcevoy,St Kilda,81
-2012,3,sebastian tape,Gold Coast,81
-2012,3,mitchell golby,Brisbane Lions,81
+2012,3,seb tape,Gold Coast,81
+2012,3,mitch golby,Brisbane Lions,81
 2012,3,jonathan giles,Greater Western Sydney,81
 2012,3,dion prestia,Gold Coast,81
 2012,3,orren stephenson,Geelong,81
-2012,3,benjamin stratton,Hawthorn,81
+2012,3,ben stratton,Hawthorn,81
 2012,3,koby stevens,West Coast,81
 2012,3,travis boak,Port Adelaide,80
 2012,3,nick malceski,Sydney,80
@@ -964,14 +964,14 @@ year,round,displayName,team,score
 2012,3,tom hawkins,Geelong,78
 2012,3,kyle hardingham,Essendon,78
 2012,3,josh hill,West Coast,78
-2012,3,mitchell clark,Melbourne,77
+2012,3,mitch clark,Melbourne,77
 2012,3,james polkinghorne,Brisbane Lions,77
 2012,3,daniel jackson,Richmond,77
-2012,3,samuel wright,North Melbourne,76
+2012,3,sam wright,North Melbourne,76
 2012,3,daniel stewart,Port Adelaide,76
 2012,3,ian callinan,Adelaide,76
 2012,3,craig bird,Sydney,76
-2012,3,edward curnow,Carlton,76
+2012,3,ed curnow,Carlton,76
 2012,3,liam picken,Western Bulldogs,76
 2012,3,beau waters,West Coast,76
 2012,3,rory sloane,Adelaide,76
@@ -1005,7 +1005,7 @@ year,round,displayName,team,score
 2012,3,josh fraser,Gold Coast,71
 2012,3,brent reilly,Adelaide,71
 2012,3,sharrod wellingham,Collingwood,71
-2012,3,thomas gillies,Geelong,71
+2012,3,tom gillies,Geelong,71
 2012,3,jeff garlett,Carlton,71
 2012,3,shaun higgins,Western Bulldogs,71
 2012,3,heath grundy,Sydney,71
@@ -1033,8 +1033,8 @@ year,round,displayName,team,score
 2012,3,clint bartram,Melbourne,66
 2012,3,scott mcmahon,North Melbourne,65
 2012,3,michael hurley,Essendon,65
-2012,3,lachlan henderson,Carlton,65
-2012,3,matthew de boer,Fremantle,65
+2012,3,lachie henderson,Carlton,65
+2012,3,matt de boer,Fremantle,65
 2012,3,robert murphy,Western Bulldogs,64
 2012,3,dean brogan,Greater Western Sydney,64
 2012,3,dale thomas,Collingwood,64
@@ -1046,7 +1046,7 @@ year,round,displayName,team,score
 2012,3,jarrad grant,Western Bulldogs,63
 2012,3,daniel rich,Brisbane Lions,63
 2012,3,stephen hill,Fremantle,63
-2012,3,sam reid injured,Sydney,63
+2012,3,sam reid,Sydney,63
 2012,3,matt thomas,Port Adelaide,63
 2012,3,jarrad mcveigh,Sydney,63
 2012,3,matthew warnock,Gold Coast,63
@@ -1054,7 +1054,7 @@ year,round,displayName,team,score
 2012,3,travis cloke,Collingwood,62
 2012,3,scott pendlebury,Collingwood,62
 2012,3,jack riewoldt,Richmond,62
-2012,3,joshua kennedy,West Coast,62
+2012,3,josh kennedy,West Coast,62
 2012,3,martin mattner,Sydney,62
 2012,3,jay schulz,Port Adelaide,62
 2012,3,aaron davey,Melbourne,62
@@ -1086,7 +1086,7 @@ year,round,displayName,team,score
 2012,3,scott thompson,North Melbourne,57
 2012,3,pearce hanley,Brisbane Lions,56
 2012,3,steve johnson,Geelong,56
-2012,3,christopher yarran,Carlton,56
+2012,3,chris yarran,Carlton,56
 2012,3,cameron wood,Collingwood,55
 2012,3,justin koschitzke,St Kilda,55
 2012,3,john mccarthy,Port Adelaide,55
@@ -1099,7 +1099,7 @@ year,round,displayName,team,score
 2012,3,zac dawson,Fremantle,54
 2012,3,jack newnes,St Kilda,54
 2012,3,tom lynch,Adelaide,54
-2012,3,christopher mayne,Fremantle,54
+2012,3,chris mayne,Fremantle,54
 2012,3,jared petrenko,Adelaide,53
 2012,3,todd banfield,Brisbane Lions,53
 2012,3,tom mcdonald,Melbourne,53
@@ -1113,7 +1113,7 @@ year,round,displayName,team,score
 2012,3,kane lucas,Carlton,50
 2012,3,ayce cordy,Western Bulldogs,50
 2012,3,luke delaney,North Melbourne,50
-2012,3,rick dyson,Essendon,50
+2012,3,ricky dyson,Essendon,50
 2012,3,david zaharakis,Essendon,50
 2012,3,brandon ellis,Richmond,49
 2012,3,luke russell,Gold Coast,49
@@ -1135,18 +1135,18 @@ year,round,displayName,team,score
 2012,3,shannon byrnes,Geelong,46
 2012,3,george horlin-smith,Geelong,46
 2012,3,easton wood,Western Bulldogs,45
-2012,3,mitchell brown,West Coast,44
+2012,3,mitch brown,West Coast,44
 2012,3,tom lynch,Gold Coast,44
 2012,3,darren jolly,Collingwood,44
 2012,3,brodie smith,Adelaide,43
 2012,3,trent mckenzie,Gold Coast,43
 2012,3,ben mcglynn,Sydney,43
 2012,3,chad wingard,Port Adelaide,42
-2012,3,tyrone vickery,Richmond,42
-2012,3,jesse o'brien,Brisbane Lions,42
+2012,3,ty vickery,Richmond,42
+2012,3,jesse obrien,Brisbane Lions,42
 2012,3,drew petrie,North Melbourne,41
 2012,3,daniel giansiracusa,Western Bulldogs,40
-2012,3,thomas liberatore,Western Bulldogs,39
+2012,3,tom liberatore,Western Bulldogs,39
 2012,3,rhyce shaw,Sydney,39
 2012,3,josh mellington,Fremantle,38
 2012,3,patrick mcginnity,West Coast,38
@@ -1155,7 +1155,7 @@ year,round,displayName,team,score
 2012,3,andrejs everitt,Sydney,35
 2012,3,jake carlisle,Essendon,35
 2012,3,luke tapscott,Melbourne,34
-2012,3,nathan fyfe,Fremantle,34
+2012,3,nat fyfe,Fremantle,34
 2012,3,rohan bail,Melbourne,33
 2012,3,bernie vince,Adelaide,32
 2012,3,cameron guthrie,Geelong,32
@@ -1175,7 +1175,7 @@ year,round,displayName,team,score
 2012,3,kieran harper,North Melbourne,22
 2012,3,curtly hampton,Greater Western Sydney,21
 2012,3,andrew raines,Brisbane Lions,21
-2012,3,nicholas duigan,Carlton,18
+2012,3,nick duigan,Carlton,18
 2012,3,jeremy cameron,Greater Western Sydney,18
 2012,3,sam day,Gold Coast,16
 2012,3,andrew mackie,Geelong,15
@@ -1186,7 +1186,7 @@ year,round,displayName,team,score
 2012,3,sam kerridge,Adelaide,5
 2012,3,ben sinclair,Collingwood,4
 2012,3,addam maric,Richmond,2
-2012,3,cameron o'shea,Port Adelaide,1
+2012,3,cameron oshea,Port Adelaide,1
 2012,4,tom rockliff,Brisbane Lions,167
 2012,4,brent stanton,Essendon,161
 2012,4,luke dahlhaus,Western Bulldogs,149
@@ -1210,7 +1210,7 @@ year,round,displayName,team,score
 2012,4,dane swan,Collingwood,121
 2012,4,aaron sandilands,Fremantle,121
 2012,4,marc murphy,Carlton,120
-2012,4,matthew suckling,Hawthorn,120
+2012,4,matt suckling,Hawthorn,120
 2012,4,corey enright,Geelong,120
 2012,4,kade simpson,Carlton,119
 2012,4,travis boak,Port Adelaide,119
@@ -1232,26 +1232,26 @@ year,round,displayName,team,score
 2012,4,clinton jones,St Kilda,109
 2012,4,darren jolly,Collingwood,108
 2012,4,robert murphy,Western Bulldogs,108
-2012,4,josh kennedy injured,Sydney,107
+2012,4,josh kennedy,Sydney,107
 2012,4,jared brennan,Gold Coast,107
 2012,4,jonathan giles,Greater Western Sydney,106
 2012,4,nick malceski,Sydney,106
 2012,4,dayne beams,Collingwood,106
 2012,4,harry taylor,Geelong,105
 2012,4,jordan lewis,Hawthorn,105
-2012,4,mitchell wallis,Western Bulldogs,105
+2012,4,mitch wallis,Western Bulldogs,105
 2012,4,domenic cassisi,Port Adelaide,105
 2012,4,ivan maric,Richmond,104
 2012,4,daniel rich,Brisbane Lions,104
-2012,4,matthew priddis,West Coast,104
+2012,4,matt priddis,West Coast,104
 2012,4,jobe watson,Essendon,104
 2012,4,lenny hayes,St Kilda,104
 2012,4,kane cornes,Port Adelaide,103
-2012,4,mitchell golby,Brisbane Lions,103
+2012,4,mitch golby,Brisbane Lions,103
 2012,4,paul chapman,Geelong,103
 2012,4,jared rivers,Melbourne,103
 2012,4,trent cotchin,Richmond,103
-2012,4,nicholas naitanui,West Coast,102
+2012,4,nic naitanui,West Coast,102
 2012,4,brett deledio,Richmond,102
 2012,4,simon black,Brisbane Lions,102
 2012,4,dyson heppell,Essendon,102
@@ -1279,14 +1279,14 @@ year,round,displayName,team,score
 2012,4,stephen hill,Fremantle,97
 2012,4,jack darling,West Coast,97
 2012,4,harley bennell,Gold Coast,96
-2012,4,zachary clarke,Fremantle,96
+2012,4,zac clarke,Fremantle,96
 2012,4,craig bird,Sydney,96
 2012,4,dean cox,West Coast,96
 2012,4,jason porplyzia,Adelaide,95
 2012,4,john mccarthy,Port Adelaide,94
-2012,4,patrick ryder,Essendon,94
+2012,4,paddy ryder,Essendon,94
 2012,4,scott selwood,West Coast,94
-2012,4,matthew de boer,Fremantle,94
+2012,4,matt de boer,Fremantle,94
 2012,4,jarrad waite,Carlton,94
 2012,4,leigh montagna,St Kilda,94
 2012,4,jack steven,St Kilda,93
@@ -1359,19 +1359,19 @@ year,round,displayName,team,score
 2012,4,jordan roughead,Western Bulldogs,82
 2012,4,andrejs everitt,Sydney,82
 2012,4,robbie gray,Port Adelaide,82
-2012,4,matthew rosa,West Coast,82
+2012,4,matt rosa,West Coast,82
 2012,4,daniel merrett,Brisbane Lions,81
 2012,4,jed adcock,Brisbane Lions,81
 2012,4,nathan jones,Melbourne,80
 2012,4,lindsay thomas,North Melbourne,80
 2012,4,justin koschitzke,St Kilda,80
 2012,4,steven morris,Richmond,80
-2012,4,lachlan henderson,Carlton,80
+2012,4,lachie henderson,Carlton,80
 2012,4,jarrad grant,Western Bulldogs,79
 2012,4,rohan bail,Melbourne,79
-2012,4,benjamin stratton,Hawthorn,79
+2012,4,ben stratton,Hawthorn,79
 2012,4,dustin martin,Richmond,79
-2012,4,rick dyson,Essendon,79
+2012,4,ricky dyson,Essendon,79
 2012,4,bachar houli,Richmond,79
 2012,4,alex johnson,Sydney,79
 2012,4,michael firrito,North Melbourne,79
@@ -1415,9 +1415,9 @@ year,round,displayName,team,score
 2012,4,matthew jaensch,Adelaide,71
 2012,4,josh hunt,Geelong,70
 2012,4,justin westhoff,Port Adelaide,70
-2012,4,samuel wright,North Melbourne,70
-2012,4,ryan o'keefe,Sydney,69
-2012,4,christopher mayne,Fremantle,69
+2012,4,sam wright,North Melbourne,70
+2012,4,ryan okeefe,Sydney,69
+2012,4,chris mayne,Fremantle,69
 2012,4,dylan shiel,Greater Western Sydney,69
 2012,4,steve johnson,Geelong,69
 2012,4,sam fisher,St Kilda,68
@@ -1459,9 +1459,9 @@ year,round,displayName,team,score
 2012,4,alex fasolo,Collingwood,61
 2012,4,terry milera,St Kilda,61
 2012,4,trent mckenzie,Gold Coast,61
-2012,4,joshua kennedy,West Coast,61
+2012,4,josh kennedy,West Coast,61
 2012,4,ryan crowley,Fremantle,61
-2012,4,matthew maguire,Brisbane Lions,61
+2012,4,matt maguire,Brisbane Lions,61
 2012,4,heath grundy,Sydney,60
 2012,4,josh hill,West Coast,60
 2012,4,alan toovey,Collingwood,60
@@ -1477,7 +1477,7 @@ year,round,displayName,team,score
 2012,4,kane lucas,Carlton,58
 2012,4,jack crisp,Brisbane Lions,58
 2012,4,martin mattner,Sydney,58
-2012,4,christopher yarran,Carlton,58
+2012,4,chris yarran,Carlton,58
 2012,4,michael hurley,Essendon,58
 2012,4,matthew warnock,Gold Coast,58
 2012,4,alipate carlile,Port Adelaide,57
@@ -1492,22 +1492,22 @@ year,round,displayName,team,score
 2012,4,jackson trengove,Port Adelaide,55
 2012,4,jeremy laidler,Carlton,55
 2012,4,daniel talia,Adelaide,55
-2012,4,tyrone vickery,Richmond,54
+2012,4,ty vickery,Richmond,54
 2012,4,kyle cheney,Hawthorn,54
 2012,4,matthew broadbent,Port Adelaide,54
 2012,4,kyle hardingham,Essendon,54
 2012,4,jeremy howe,Melbourne,54
 2012,4,sam sheldon,Brisbane Lions,54
-2012,4,thomas gillies,Geelong,53
+2012,4,tom gillies,Geelong,53
 2012,4,josh caddy,Gold Coast,53
-2012,4,mitchell clark,Melbourne,53
+2012,4,mitch clark,Melbourne,53
 2012,4,colin garland,Melbourne,53
 2012,4,patrick veszpremi,Western Bulldogs,52
 2012,4,ashley smith,West Coast,51
 2012,4,lachlan keeffe,Collingwood,51
 2012,4,john anthony,Fremantle,50
 2012,4,mark austin,Western Bulldogs,50
-2012,4,edward curnow,Carlton,50
+2012,4,ed curnow,Carlton,50
 2012,4,david mackay,Adelaide,50
 2012,4,paul bower,Carlton,50
 2012,4,michael osborne,Hawthorn,49
@@ -1516,23 +1516,23 @@ year,round,displayName,team,score
 2012,4,luke mcpharlin,Fremantle,49
 2012,4,zach tuohy,Carlton,48
 2012,4,david armitage,St Kilda,48
-2012,4,thomas young,Collingwood,48
+2012,4,tom young,Collingwood,48
 2012,4,jack riewoldt,Richmond,48
 2012,4,ryan schoenmakers,Hawthorn,48
 2012,4,ben johnson,Collingwood,48
-2012,4,daniel hannebery,Sydney,47
+2012,4,dan hannebery,Sydney,47
 2012,4,brock mclean,Carlton,47
 2012,4,brandon matera,Gold Coast,47
 2012,4,brendan whitecross,Hawthorn,47
 2012,4,brent harvey,North Melbourne,46
 2012,4,adam tomlinson,Greater Western Sydney,46
 2012,4,zac dawson,Fremantle,45
-2012,4,nicholas duigan,Carlton,45
+2012,4,nick duigan,Carlton,45
 2012,4,john butcher,Port Adelaide,44
 2012,4,luke delaney,North Melbourne,42
 2012,4,liam shiels,Hawthorn,42
 2012,4,tom simpkin,St Kilda,42
-2012,4,mitchell duncan,Geelong,42
+2012,4,mitch duncan,Geelong,42
 2012,4,brent renouf,Port Adelaide,41
 2012,4,tom mcdonald,Melbourne,41
 2012,4,paul seedsman,Collingwood,41
@@ -1552,10 +1552,10 @@ year,round,displayName,team,score
 2012,4,daniel giansiracusa,Western Bulldogs,33
 2012,4,shaun edwards,Greater Western Sydney,33
 2012,4,tony armstrong,Sydney,33
-2012,4,corey dell'olio,Essendon,32
+2012,4,cory dellolio,Essendon,32
 2012,4,cameron bruce,Hawthorn,31
 2012,4,shaun higgins,Western Bulldogs,29
-2012,4,sam reid injured,Sydney,29
+2012,4,sam reid,Sydney,29
 2012,4,campbell brown,Gold Coast,28
 2012,4,matt campbell,North Melbourne,28
 2012,4,lachie neale,Fremantle,27
@@ -1566,7 +1566,7 @@ year,round,displayName,team,score
 2012,4,quinten lynch,West Coast,25
 2012,4,aaron edwards,North Melbourne,25
 2012,4,jackson paine,Collingwood,24
-2012,4,matthew white,Richmond,20
+2012,4,matt white,Richmond,20
 2012,4,ryan harwood,Brisbane Lions,20
 2012,4,lynden dunn,Melbourne,20
 2012,4,ben rutten,Adelaide,20
@@ -1574,8 +1574,8 @@ year,round,displayName,team,score
 2012,4,patrick mcginnity,West Coast,19
 2012,4,chad wingard,Port Adelaide,17
 2012,4,addam maric,Richmond,17
-2012,4,sebastian tape,Gold Coast,16
-2012,4,nicholas suban,Fremantle,16
+2012,4,seb tape,Gold Coast,16
+2012,4,nick suban,Fremantle,16
 2012,4,luke tapscott,Melbourne,15
 2012,4,george horlin-smith,Geelong,14
 2012,4,kieran harper,North Melbourne,13
@@ -1584,7 +1584,7 @@ year,round,displayName,team,score
 2012,4,andrew carrazzo,Carlton,3
 2012,4,jared petrenko,Adelaide,0
 2012,5,dane swan,Collingwood,180
-2012,5,josh kennedy injured,Sydney,173
+2012,5,josh kennedy,Sydney,173
 2012,5,ryan griffen,Western Bulldogs,155
 2012,5,scott thompson,Adelaide,141
 2012,5,patrick dangerfield,Adelaide,141
@@ -1606,7 +1606,7 @@ year,round,displayName,team,score
 2012,5,ben hudson,Brisbane Lions,122
 2012,5,sam jacobs,Adelaide,122
 2012,5,troy chaplin,Port Adelaide,121
-2012,5,daniel hannebery,Sydney,121
+2012,5,dan hannebery,Sydney,121
 2012,5,rory sloane,Adelaide,121
 2012,5,harry taylor,Geelong,121
 2012,5,luke power,Greater Western Sydney,120
@@ -1626,7 +1626,7 @@ year,round,displayName,team,score
 2012,5,daniel cross,Western Bulldogs,112
 2012,5,andrew swallow,North Melbourne,112
 2012,5,dustin martin,Richmond,112
-2012,5,nicholas naitanui,West Coast,112
+2012,5,nic naitanui,West Coast,112
 2012,5,justin sherman,Western Bulldogs,112
 2012,5,jack steven,St Kilda,111
 2012,5,scott selwood,West Coast,111
@@ -1635,7 +1635,7 @@ year,round,displayName,team,score
 2012,5,david mundy,Fremantle,110
 2012,5,bryce gibbs,Carlton,109
 2012,5,nathan jones,Melbourne,108
-2012,5,matthew priddis,West Coast,108
+2012,5,matt priddis,West Coast,108
 2012,5,shane savage,Hawthorn,108
 2012,5,jared brennan,Gold Coast,108
 2012,5,jonathon griffin,Fremantle,107
@@ -1647,10 +1647,10 @@ year,round,displayName,team,score
 2012,5,greg broughton,Fremantle,105
 2012,5,graham johncock,Adelaide,105
 2012,5,jared petrenko,Adelaide,105
-2012,5,mitchell wallis,Western Bulldogs,105
+2012,5,mitch wallis,Western Bulldogs,105
 2012,5,ben cunnington,North Melbourne,105
 2012,5,michael barlow,Fremantle,105
-2012,5,patrick ryder,Essendon,104
+2012,5,paddy ryder,Essendon,104
 2012,5,steele sidebottom,Collingwood,104
 2012,5,andrew gaff,West Coast,103
 2012,5,trent west,Geelong,103
@@ -1670,18 +1670,18 @@ year,round,displayName,team,score
 2012,5,chris masten,West Coast,99
 2012,5,shaun higgins,Western Bulldogs,99
 2012,5,jordan lewis,Hawthorn,99
-2012,5,nathan fyfe,Fremantle,98
+2012,5,nat fyfe,Fremantle,98
 2012,5,dayne beams,Collingwood,98
 2012,5,tendai mzungu,Fremantle,97
 2012,5,joel corey,Geelong,97
 2012,5,paul chapman,Geelong,96
 2012,5,matthew wright,Adelaide,96
 2012,5,toby greene,Greater Western Sydney,96
-2012,5,lachlan henderson,Carlton,96
+2012,5,lachie henderson,Carlton,96
 2012,5,adam cooney,Western Bulldogs,96
 2012,5,kieran harper,North Melbourne,96
 2012,5,matthew pavlich,Fremantle,95
-2012,5,ryan o'keefe,Sydney,95
+2012,5,ryan okeefe,Sydney,95
 2012,5,jarryd roughead,Hawthorn,95
 2012,5,ted richards,Sydney,95
 2012,5,paul duffield,Fremantle,95
@@ -1691,7 +1691,7 @@ year,round,displayName,team,score
 2012,5,jack riewoldt,Richmond,94
 2012,5,brad ebert,Port Adelaide,94
 2012,5,brent moloney,Melbourne,93
-2012,5,matthew maguire,Brisbane Lions,93
+2012,5,matt maguire,Brisbane Lions,93
 2012,5,mark seaby,Sydney,93
 2012,5,corey enright,Geelong,93
 2012,5,jobe watson,Essendon,93
@@ -1711,7 +1711,7 @@ year,round,displayName,team,score
 2012,5,travis boak,Port Adelaide,89
 2012,5,ben howlett,Essendon,88
 2012,5,chris newman,Richmond,88
-2012,5,christopher mayne,Fremantle,88
+2012,5,chris mayne,Fremantle,88
 2012,5,chris judd,Carlton,87
 2012,5,jesse stringer,Geelong,87
 2012,5,sharrod wellingham,Collingwood,87
@@ -1720,7 +1720,7 @@ year,round,displayName,team,score
 2012,5,kyal horsley,Gold Coast,87
 2012,5,pearce hanley,Brisbane Lions,86
 2012,5,clancee pearce,Fremantle,86
-2012,5,edward curnow,Carlton,86
+2012,5,ed curnow,Carlton,86
 2012,5,david rodan,Port Adelaide,85
 2012,5,leigh adams,North Melbourne,85
 2012,5,brian lake,Western Bulldogs,85
@@ -1735,12 +1735,12 @@ year,round,displayName,team,score
 2012,5,stephen hill,Fremantle,83
 2012,5,luke parker,Sydney,83
 2012,5,scott thompson,North Melbourne,83
-2012,5,rick dyson,Essendon,83
+2012,5,ricky dyson,Essendon,83
 2012,5,dean cox,West Coast,82
 2012,5,cale morton,Melbourne,82
 2012,5,ben johnson,Collingwood,82
 2012,5,sam fisher,St Kilda,82
-2012,5,matthew suckling,Hawthorn,82
+2012,5,matt suckling,Hawthorn,82
 2012,5,robert murphy,Western Bulldogs,81
 2012,5,jared polec,Brisbane Lions,81
 2012,5,clint bartram,Melbourne,81
@@ -1786,7 +1786,7 @@ year,round,displayName,team,score
 2012,5,luke breust,Hawthorn,74
 2012,5,jared rivers,Melbourne,73
 2012,5,alwyn davey,Essendon,73
-2012,5,mitchell duncan,Geelong,73
+2012,5,mitch duncan,Geelong,73
 2012,5,ben rutten,Adelaide,72
 2012,5,jamie cripps,St Kilda,72
 2012,5,andy otten,Adelaide,72
@@ -1823,7 +1823,7 @@ year,round,displayName,team,score
 2012,5,kyle hardingham,Essendon,66
 2012,5,mark austin,Western Bulldogs,65
 2012,5,steve johnson,Geelong,65
-2012,5,samuel reid,Greater Western Sydney,65
+2012,5,sam reid,Greater Western Sydney,65
 2012,5,brent reilly,Adelaide,65
 2012,5,kurt tippett,Adelaide,65
 2012,5,simon buckley,Collingwood,65
@@ -1850,9 +1850,9 @@ year,round,displayName,team,score
 2012,5,brendan whitecross,Hawthorn,61
 2012,5,sam gilbert,St Kilda,61
 2012,5,ryan crowley,Fremantle,61
-2012,5,mitchell golby,Brisbane Lions,61
+2012,5,mitch golby,Brisbane Lions,61
 2012,5,josh gibson,Hawthorn,60
-2012,5,tyrone vickery,Richmond,60
+2012,5,ty vickery,Richmond,60
 2012,5,darren pfeiffer,Port Adelaide,60
 2012,5,karmichael hunt,Gold Coast,60
 2012,5,daniel wells,North Melbourne,60
@@ -1885,7 +1885,7 @@ year,round,displayName,team,score
 2012,5,will schofield,West Coast,55
 2012,5,clinton jones,St Kilda,55
 2012,5,jake melksham,Essendon,54
-2012,5,matthew de boer,Fremantle,54
+2012,5,matt de boer,Fremantle,54
 2012,5,dennis armfield,Carlton,54
 2012,5,tyson goldsack,Collingwood,54
 2012,5,jarryd lyons,Adelaide,54
@@ -1902,7 +1902,7 @@ year,round,displayName,team,score
 2012,5,ashley smith,West Coast,51
 2012,5,david hale,Hawthorn,51
 2012,5,zac dawson,Fremantle,51
-2012,5,nicholas duigan,Carlton,51
+2012,5,nick duigan,Carlton,51
 2012,5,jack ziebell,North Melbourne,50
 2012,5,david mackay,Adelaide,50
 2012,5,brodie smith,Adelaide,49
@@ -1910,11 +1910,11 @@ year,round,displayName,team,score
 2012,5,michael doughty,Adelaide,49
 2012,5,jack crisp,Brisbane Lions,48
 2012,5,curtly hampton,Greater Western Sydney,47
-2012,5,matthew rosa,West Coast,47
+2012,5,matt rosa,West Coast,47
 2012,5,mathew stokes,Geelong,47
-2012,5,sebastian tape,Gold Coast,46
+2012,5,seb tape,Gold Coast,46
 2012,5,darren glass,West Coast,46
-2012,5,thomas liberatore,Western Bulldogs,46
+2012,5,tom liberatore,Western Bulldogs,46
 2012,5,stewart crameri,Essendon,46
 2012,5,joel patfull,Brisbane Lions,45
 2012,5,robin nahas,Richmond,45
@@ -1934,7 +1934,7 @@ year,round,displayName,team,score
 2012,5,dean polo,St Kilda,42
 2012,5,lewis roberts-thomson,Sydney,41
 2012,5,reece conca,Richmond,41
-2012,5,benjamin stratton,Hawthorn,41
+2012,5,ben stratton,Hawthorn,41
 2012,5,maverick weller,Gold Coast,39
 2012,5,cameron guthrie,Geelong,39
 2012,5,josh hunt,Geelong,38
@@ -1944,28 +1944,28 @@ year,round,displayName,team,score
 2012,5,chris dawes,Collingwood,38
 2012,5,adam tomlinson,Greater Western Sydney,38
 2012,5,josh bruce,Greater Western Sydney,37
-2012,5,zachary clarke,Fremantle,36
+2012,5,zac clarke,Fremantle,36
 2012,5,nathan van berlo,Adelaide,36
 2012,5,liam jones,Western Bulldogs,34
 2012,5,joel wilkinson,Gold Coast,34
 2012,5,daniel talia,Adelaide,34
 2012,5,paul puopolo,Hawthorn,33
-2012,5,samuel wright,North Melbourne,33
+2012,5,sam wright,North Melbourne,33
 2012,5,shaun edwards,Greater Western Sydney,32
 2012,5,luke russell,Gold Coast,31
 2012,5,jacob surjan,Port Adelaide,31
 2012,5,josh drummond,Brisbane Lions,30
 2012,5,ricky henderson,Adelaide,30
 2012,5,jarryn geary,St Kilda,28
-2012,5,corey dell'olio,Essendon,27
-2012,5,sam reid injured,Sydney,27
+2012,5,cory dellolio,Essendon,27
+2012,5,sam reid,Sydney,27
 2012,5,aaron cornelius,Brisbane Lions,27
 2012,5,rhyce shaw,Sydney,25
 2012,5,kirk ugle,Collingwood,24
 2012,5,luke delaney,North Melbourne,23
-2012,5,joshua kennedy,West Coast,22
+2012,5,josh kennedy,West Coast,22
 2012,5,lachie neale,Fremantle,21
-2012,5,matthew white,Richmond,21
+2012,5,matt white,Richmond,21
 2012,5,aaron young,Port Adelaide,20
 2012,5,paul seedsman,Collingwood,20
 2012,5,matt shaw,Gold Coast,18
@@ -1974,11 +1974,11 @@ year,round,displayName,team,score
 2012,5,michael hibberd,Essendon,15
 2012,5,patrick karnezis,Brisbane Lions,15
 2012,5,levi greenwood,North Melbourne,12
-2012,5,matthew dea,Richmond,10
+2012,5,matt dea,Richmond,10
 2012,5,john anthony,Fremantle,9
 2012,5,kane lucas,Carlton,5
 2012,5,billie smedts,Geelong,3
-2012,5,mitchell brown,West Coast,0
+2012,5,mitch brown,West Coast,0
 2012,6,steve johnson,Geelong,169
 2012,6,brent stanton,Essendon,154
 2012,6,ryan griffen,Western Bulldogs,152
@@ -1994,9 +1994,9 @@ year,round,displayName,team,score
 2012,6,jobe watson,Essendon,134
 2012,6,lance franklin,Hawthorn,131
 2012,6,steele sidebottom,Collingwood,131
-2012,6,mitchell clark,Melbourne,130
+2012,6,mitch clark,Melbourne,130
 2012,6,ivan maric,Richmond,129
-2012,6,christopher mayne,Fremantle,128
+2012,6,chris mayne,Fremantle,128
 2012,6,mitch robinson,Carlton,128
 2012,6,shannon hurn,West Coast,127
 2012,6,lewis jetta,Sydney,126
@@ -2016,7 +2016,7 @@ year,round,displayName,team,score
 2012,6,scott thompson,Adelaide,119
 2012,6,josh hill,West Coast,119
 2012,6,robin nahas,Richmond,118
-2012,6,josh kennedy injured,Sydney,118
+2012,6,josh kennedy,Sydney,118
 2012,6,joel corey,Geelong,117
 2012,6,sam mitchell,Hawthorn,117
 2012,6,brad ebert,Port Adelaide,116
@@ -2024,8 +2024,8 @@ year,round,displayName,team,score
 2012,6,matthew scarlett,Geelong,115
 2012,6,shaun hampson,Carlton,115
 2012,6,kade simpson,Carlton,113
-2012,6,mitchell duncan,Geelong,113
-2012,6,zachary clarke,Fremantle,113
+2012,6,mitch duncan,Geelong,113
+2012,6,zac clarke,Fremantle,113
 2012,6,daniel cross,Western Bulldogs,113
 2012,6,dane swan,Collingwood,112
 2012,6,ben cunnington,North Melbourne,111
@@ -2046,7 +2046,7 @@ year,round,displayName,team,score
 2012,6,scott thompson,North Melbourne,104
 2012,6,clancee pearce,Fremantle,104
 2012,6,sam iles,Gold Coast,103
-2012,6,matthew de boer,Fremantle,103
+2012,6,matt de boer,Fremantle,103
 2012,6,ben hudson,Brisbane Lions,103
 2012,6,troy chaplin,Port Adelaide,102
 2012,6,jake melksham,Essendon,102
@@ -2076,11 +2076,11 @@ year,round,displayName,team,score
 2012,6,luke parker,Sydney,94
 2012,6,david mackay,Adelaide,94
 2012,6,matthew wright,Adelaide,94
-2012,6,matthew rosa,West Coast,94
+2012,6,matt rosa,West Coast,94
 2012,6,garrick ibbotson,Fremantle,93
 2012,6,heath scotland,Carlton,93
 2012,6,jason blake,St Kilda,93
-2012,6,rick dyson,Essendon,93
+2012,6,ricky dyson,Essendon,93
 2012,6,kieren jack,Sydney,93
 2012,6,jonathon griffin,Fremantle,93
 2012,6,daniel rich,Brisbane Lions,93
@@ -2099,15 +2099,15 @@ year,round,displayName,team,score
 2012,6,angus monfries,Essendon,90
 2012,6,marc murphy,Carlton,89
 2012,6,dylan grimes,Richmond,89
-2012,6,daniel hannebery,Sydney,89
+2012,6,dan hannebery,Sydney,89
 2012,6,tendai mzungu,Fremantle,89
 2012,6,domenic cassisi,Port Adelaide,89
 2012,6,steven motlop,Geelong,89
 2012,6,nathan jones,Melbourne,89
 2012,6,david rodan,Port Adelaide,89
-2012,6,matthew priddis,West Coast,89
+2012,6,matt priddis,West Coast,89
 2012,6,ricky henderson,Adelaide,89
-2012,6,thomas liberatore,Western Bulldogs,88
+2012,6,tom liberatore,Western Bulldogs,88
 2012,6,jack steven,St Kilda,88
 2012,6,taylor walker,Adelaide,87
 2012,6,stephen coniglio,Greater Western Sydney,87
@@ -2134,9 +2134,9 @@ year,round,displayName,team,score
 2012,6,aaron joseph,Carlton,84
 2012,6,jack redden,Brisbane Lions,84
 2012,6,karmichael hunt,Gold Coast,84
-2012,6,samuel wright,North Melbourne,83
-2012,6,thomas gillies,Geelong,83
-2012,6,ryan o'keefe,Sydney,83
+2012,6,sam wright,North Melbourne,83
+2012,6,tom gillies,Geelong,83
+2012,6,ryan okeefe,Sydney,83
 2012,6,leroy jetta,Essendon,83
 2012,6,nick malceski,Sydney,83
 2012,6,matthew kreuzer,Carlton,83
@@ -2152,10 +2152,10 @@ year,round,displayName,team,score
 2012,6,jarrad mcveigh,Sydney,80
 2012,6,clint bartram,Melbourne,80
 2012,6,colin garland,Melbourne,79
-2012,6,matthew dea,Richmond,79
+2012,6,matt dea,Richmond,79
 2012,6,david swallow,Gold Coast,79
 2012,6,leigh adams,North Melbourne,79
-2012,6,nicholas duigan,Carlton,78
+2012,6,nick duigan,Carlton,78
 2012,6,leigh montagna,St Kilda,78
 2012,6,nathan van berlo,Adelaide,78
 2012,6,david ellard,Carlton,78
@@ -2164,7 +2164,7 @@ year,round,displayName,team,score
 2012,6,michael barlow,Fremantle,76
 2012,6,allen christensen,Geelong,76
 2012,6,chris dawes,Collingwood,76
-2012,6,matthew suckling,Hawthorn,76
+2012,6,matt suckling,Hawthorn,76
 2012,6,simon buckley,Collingwood,76
 2012,6,brent harvey,North Melbourne,76
 2012,6,josh hunt,Geelong,76
@@ -2172,7 +2172,7 @@ year,round,displayName,team,score
 2012,6,bret thornton,Carlton,75
 2012,6,bachar houli,Richmond,75
 2012,6,cameron wood,Collingwood,75
-2012,6,matthew maguire,Brisbane Lions,75
+2012,6,matt maguire,Brisbane Lions,75
 2012,6,alipate carlile,Port Adelaide,75
 2012,6,michael firrito,North Melbourne,74
 2012,6,charlie dixon,Gold Coast,74
@@ -2181,11 +2181,11 @@ year,round,displayName,team,score
 2012,6,trent cotchin,Richmond,73
 2012,6,patrick veszpremi,Western Bulldogs,73
 2012,6,jack crisp,Brisbane Lions,72
-2012,6,patrick ryder,Essendon,72
+2012,6,paddy ryder,Essendon,72
 2012,6,cale hooker,Essendon,72
 2012,6,ted richards,Sydney,72
 2012,6,robert murphy,Western Bulldogs,72
-2012,6,benjamin stratton,Hawthorn,72
+2012,6,ben stratton,Hawthorn,72
 2012,6,trent mckenzie,Gold Coast,72
 2012,6,adam cooney,Western Bulldogs,72
 2012,6,brandon ellis,Richmond,72
@@ -2198,7 +2198,7 @@ year,round,displayName,team,score
 2012,6,jordan roughead,Western Bulldogs,70
 2012,6,heath grundy,Sydney,69
 2012,6,josh caddy,Gold Coast,69
-2012,6,sebastian tape,Gold Coast,69
+2012,6,seb tape,Gold Coast,69
 2012,6,lindsay thomas,North Melbourne,69
 2012,6,jamie macmillan,North Melbourne,69
 2012,6,chris masten,West Coast,69
@@ -2215,7 +2215,7 @@ year,round,displayName,team,score
 2012,6,ben howlett,Essendon,67
 2012,6,jason porplyzia,Adelaide,66
 2012,6,matthew broadbent,Port Adelaide,66
-2012,6,lachlan henderson,Carlton,66
+2012,6,lachie henderson,Carlton,66
 2012,6,alwyn davey,Essendon,66
 2012,6,ryan lester,Brisbane Lions,66
 2012,6,sam fisher,St Kilda,66
@@ -2254,10 +2254,10 @@ year,round,displayName,team,score
 2012,6,ryan crowley,Fremantle,60
 2012,6,tom mcdonald,Melbourne,60
 2012,6,ashton hams,West Coast,60
-2012,6,mitchell golby,Brisbane Lions,59
+2012,6,mitch golby,Brisbane Lions,59
 2012,6,brent moloney,Melbourne,59
 2012,6,jed adcock,Brisbane Lions,59
-2012,6,setanta o'hailpin,Greater Western Sydney,59
+2012,6,setanta ohailpin,Greater Western Sydney,59
 2012,6,mark austin,Western Bulldogs,59
 2012,6,justin westhoff,Port Adelaide,58
 2012,6,sharrod wellingham,Collingwood,57
@@ -2326,7 +2326,7 @@ year,round,displayName,team,score
 2012,6,kurt tippett,Adelaide,42
 2012,6,billie smedts,Geelong,42
 2012,6,ryan bastinac,North Melbourne,41
-2012,6,mitchell brown,Geelong,41
+2012,6,mitch brown,Geelong,41
 2012,6,dom tyson,Greater Western Sydney,41
 2012,6,aaron young,Port Adelaide,40
 2012,6,aaron edwards,North Melbourne,40
@@ -2339,9 +2339,9 @@ year,round,displayName,team,score
 2012,6,arryn siposs,St Kilda,38
 2012,6,dylan roberton,Fremantle,38
 2012,6,john butcher,Port Adelaide,37
-2012,6,mitchell wallis,Western Bulldogs,35
+2012,6,mitch wallis,Western Bulldogs,35
 2012,6,joel patfull,Brisbane Lions,35
-2012,6,sam reid injured,Sydney,34
+2012,6,sam reid,Sydney,34
 2012,6,nathan djerrkura,Western Bulldogs,33
 2012,6,graham johncock,Adelaide,32
 2012,6,jarrad boumann,Hawthorn,31
@@ -2350,9 +2350,9 @@ year,round,displayName,team,score
 2012,6,adam mcphee,Fremantle,29
 2012,6,ahmed saad,St Kilda,29
 2012,6,lynden dunn,Melbourne,26
-2012,6,tyrone vickery,Richmond,26
+2012,6,ty vickery,Richmond,26
 2012,6,liam jones,Western Bulldogs,25
-2012,6,samuel reid,Greater Western Sydney,25
+2012,6,sam reid,Greater Western Sydney,25
 2012,6,travis colyer,Essendon,24
 2012,6,billy longer,Brisbane Lions,23
 2012,6,patrick karnezis,Brisbane Lions,22
@@ -2371,8 +2371,8 @@ year,round,displayName,team,score
 2012,6,dean brogan,Greater Western Sydney,15
 2012,6,jarryd lyons,Adelaide,14
 2012,6,cameron hitchcock,Port Adelaide,13
-2012,6,bradley sheppard,West Coast,11
-2012,6,joshua bootsma,Carlton,10
+2012,6,brad sheppard,West Coast,11
+2012,6,josh bootsma,Carlton,10
 2012,6,cameron guthrie,Geelong,9
 2012,6,andrejs everitt,Sydney,2
 2012,7,brent stanton,Essendon,164
@@ -2385,7 +2385,7 @@ year,round,displayName,team,score
 2012,7,dane swan,Collingwood,141
 2012,7,brad sewell,Hawthorn,140
 2012,7,lance franklin,Hawthorn,140
-2012,7,patrick ryder,Essendon,137
+2012,7,paddy ryder,Essendon,137
 2012,7,matthew boyd,Western Bulldogs,137
 2012,7,jonathan giles,Greater Western Sydney,134
 2012,7,nathan foley,Richmond,134
@@ -2419,11 +2419,11 @@ year,round,displayName,team,score
 2012,7,shaun grigg,Richmond,111
 2012,7,trent cotchin,Richmond,111
 2012,7,luke shuey,West Coast,110
-2012,7,mitchell wallis,Western Bulldogs,110
+2012,7,mitch wallis,Western Bulldogs,110
 2012,7,jack steven,St Kilda,109
 2012,7,dylan grimes,Richmond,109
 2012,7,brad ebert,Port Adelaide,109
-2012,7,matthew maguire,Brisbane Lions,109
+2012,7,matt maguire,Brisbane Lions,109
 2012,7,stewart crameri,Essendon,109
 2012,7,dayne beams,Collingwood,109
 2012,7,james kelly,Geelong,108
@@ -2439,16 +2439,16 @@ year,round,displayName,team,score
 2012,7,jackson trengove,Port Adelaide,105
 2012,7,john mccarthy,Port Adelaide,105
 2012,7,justin sherman,Western Bulldogs,104
-2012,7,mitchell clark,Melbourne,104
+2012,7,mitch clark,Melbourne,104
 2012,7,ryan schoenmakers,Hawthorn,104
 2012,7,stephen coniglio,Greater Western Sydney,103
-2012,7,matthew suckling,Hawthorn,103
+2012,7,matt suckling,Hawthorn,103
 2012,7,sean dempster,St Kilda,102
 2012,7,cameron wood,Collingwood,102
 2012,7,nick dal santo,St Kilda,101
 2012,7,sam mitchell,Hawthorn,101
 2012,7,leigh montagna,St Kilda,101
-2012,7,josh kennedy injured,Sydney,101
+2012,7,josh kennedy,Sydney,101
 2012,7,daniel giansiracusa,Western Bulldogs,100
 2012,7,brett deledio,Richmond,100
 2012,7,brendan whitecross,Hawthorn,100
@@ -2472,10 +2472,10 @@ year,round,displayName,team,score
 2012,7,adam treloar,Greater Western Sydney,96
 2012,7,michael doughty,Adelaide,96
 2012,7,jack riewoldt,Richmond,96
-2012,7,rick dyson,Essendon,95
+2012,7,ricky dyson,Essendon,95
 2012,7,trent west,Geelong,95
 2012,7,graham johncock,Adelaide,95
-2012,7,zachary clarke,Fremantle,95
+2012,7,zac clarke,Fremantle,95
 2012,7,beau waters,West Coast,94
 2012,7,james frawley,Melbourne,94
 2012,7,jason blake,St Kilda,94
@@ -2496,7 +2496,7 @@ year,round,displayName,team,score
 2012,7,andrew gaff,West Coast,90
 2012,7,matthew jaensch,Adelaide,90
 2012,7,reece conca,Richmond,90
-2012,7,thomas liberatore,Western Bulldogs,90
+2012,7,tom liberatore,Western Bulldogs,90
 2012,7,martin clarke,Collingwood,90
 2012,7,alan toovey,Collingwood,90
 2012,7,brent moloney,Melbourne,89
@@ -2521,12 +2521,12 @@ year,round,displayName,team,score
 2012,7,robert murphy,Western Bulldogs,85
 2012,7,luke russell,Gold Coast,84
 2012,7,shaun atley,North Melbourne,84
-2012,7,christopher mayne,Fremantle,84
+2012,7,chris mayne,Fremantle,84
 2012,7,nathan jones,Melbourne,84
-2012,7,ryan o'keefe,Sydney,84
+2012,7,ryan okeefe,Sydney,84
 2012,7,domenic cassisi,Port Adelaide,84
 2012,7,james magner,Melbourne,84
-2012,7,samuel wright,North Melbourne,83
+2012,7,sam wright,North Melbourne,83
 2012,7,matthew broadbent,Port Adelaide,83
 2012,7,josh drummond,Brisbane Lions,83
 2012,7,shannon hurn,West Coast,83
@@ -2554,9 +2554,9 @@ year,round,displayName,team,score
 2012,7,bachar houli,Richmond,79
 2012,7,daniel jackson,Richmond,79
 2012,7,allen christensen,Geelong,79
-2012,7,mitchell duncan,Geelong,79
+2012,7,mitch duncan,Geelong,79
 2012,7,jack grimes,Melbourne,78
-2012,7,daniel hannebery,Sydney,78
+2012,7,dan hannebery,Sydney,78
 2012,7,mark seaby,Sydney,77
 2012,7,devon smith,Greater Western Sydney,77
 2012,7,david mundy,Fremantle,77
@@ -2577,14 +2577,14 @@ year,round,displayName,team,score
 2012,7,justin koschitzke,St Kilda,75
 2012,7,adam kennedy,Greater Western Sydney,75
 2012,7,jude bolton,Sydney,74
-2012,7,benjamin stratton,Hawthorn,74
+2012,7,ben stratton,Hawthorn,74
 2012,7,tyson goldsack,Collingwood,74
 2012,7,simon black,Brisbane Lions,74
 2012,7,darren glass,West Coast,74
-2012,7,nicholas duigan,Carlton,74
+2012,7,nick duigan,Carlton,74
 2012,7,josh caddy,Gold Coast,73
-2012,7,edward curnow,Carlton,73
-2012,7,matthew rosa,West Coast,73
+2012,7,ed curnow,Carlton,73
+2012,7,matt rosa,West Coast,73
 2012,7,marc murphy,Carlton,73
 2012,7,steven morris,Richmond,73
 2012,7,scott selwood,West Coast,73
@@ -2609,7 +2609,7 @@ year,round,displayName,team,score
 2012,7,lee spurr,Fremantle,70
 2012,7,jason porplyzia,Adelaide,70
 2012,7,ben reid,Collingwood,69
-2012,7,matthew de boer,Fremantle,69
+2012,7,matt de boer,Fremantle,69
 2012,7,brent renouf,Port Adelaide,69
 2012,7,leigh adams,North Melbourne,69
 2012,7,craig bird,Sydney,69
@@ -2632,11 +2632,11 @@ year,round,displayName,team,score
 2012,7,brent harvey,North Melbourne,65
 2012,7,brad miller,Richmond,65
 2012,7,leroy jetta,Essendon,65
-2012,7,matthew dea,Richmond,65
-2012,7,bradley sheppard,West Coast,64
-2012,7,mitchell golby,Brisbane Lions,64
+2012,7,matt dea,Richmond,65
+2012,7,brad sheppard,West Coast,64
+2012,7,mitch golby,Brisbane Lions,64
 2012,7,jamie macmillan,North Melbourne,63
-2012,7,sebastian tape,Gold Coast,62
+2012,7,seb tape,Gold Coast,62
 2012,7,ian callinan,Adelaide,62
 2012,7,dylan shiel,Greater Western Sydney,62
 2012,7,alan didak,Collingwood,62
@@ -2682,7 +2682,7 @@ year,round,displayName,team,score
 2012,7,taylor hunt,Geelong,53
 2012,7,rhys palmer,Greater Western Sydney,53
 2012,7,jeremy cameron,Greater Western Sydney,52
-2012,7,nial mckeever,Brisbane Lions,52
+2012,7,niall mckeever,Brisbane Lions,52
 2012,7,michael jamison,Carlton,52
 2012,7,jake carlisle,Essendon,52
 2012,7,jared rivers,Melbourne,52
@@ -2719,7 +2719,7 @@ year,round,displayName,team,score
 2012,7,daniel stewart,Port Adelaide,44
 2012,7,jarryn geary,St Kilda,43
 2012,7,tom simpkin,St Kilda,43
-2012,7,thomas gillies,Geelong,43
+2012,7,tom gillies,Geelong,43
 2012,7,rhyce shaw,Sydney,42
 2012,7,jeff garlett,Carlton,42
 2012,7,kieran harper,North Melbourne,42
@@ -2740,7 +2740,7 @@ year,round,displayName,team,score
 2012,7,matthew wright,Adelaide,35
 2012,7,jake king,Richmond,34
 2012,7,cameron guthrie,Geelong,34
-2012,7,lachlan henderson,Carlton,33
+2012,7,lachie henderson,Carlton,33
 2012,7,daniel merrett,Brisbane Lions,33
 2012,7,scott lycett,West Coast,32
 2012,7,cale morton,Melbourne,30
@@ -2749,15 +2749,15 @@ year,round,displayName,team,score
 2012,7,joel wilkinson,Gold Coast,26
 2012,7,colin sylvia,Melbourne,26
 2012,7,rohan bail,Melbourne,25
-2012,7,mitchell brown,West Coast,24
+2012,7,mitch brown,West Coast,24
 2012,7,liam sumner,Greater Western Sydney,24
-2012,7,matthew priddis,West Coast,24
+2012,7,matt priddis,West Coast,24
 2012,7,daniel talia,Adelaide,23
 2012,7,simon phillips,Port Adelaide,20
 2012,7,nathan brown,Collingwood,20
 2012,7,brett ebert,Port Adelaide,19
 2012,7,ryan neates,West Coast,18
-2012,7,sam reid injured,Sydney,18
+2012,7,sam reid,Sydney,18
 2012,7,dayne zorko,Brisbane Lions,16
 2012,7,dylan roberton,Fremantle,16
 2012,7,shannon byrnes,Geelong,14
@@ -2765,7 +2765,7 @@ year,round,displayName,team,score
 2012,7,matthew bate,Melbourne,13
 2012,7,josh toy,Gold Coast,11
 2012,7,clay smith,Western Bulldogs,10
-2012,7,bradley mckenzie,North Melbourne,8
+2012,7,brad mckenzie,North Melbourne,8
 2012,7,travis colyer,Essendon,6
 2012,7,arryn siposs,St Kilda,3
 2012,7,michael osborne,Hawthorn,2
@@ -2789,9 +2789,9 @@ year,round,displayName,team,score
 2012,8,scott thompson,Adelaide,139
 2012,8,matthew boyd,Western Bulldogs,137
 2012,8,ivan maric,Richmond,137
-2012,8,ryan o'keefe,Sydney,136
+2012,8,ryan okeefe,Sydney,136
 2012,8,heath shaw,Collingwood,133
-2012,8,josh kennedy injured,Sydney,132
+2012,8,josh kennedy,Sydney,132
 2012,8,beau waters,West Coast,132
 2012,8,trent cotchin,Richmond,130
 2012,8,luke breust,Hawthorn,129
@@ -2801,7 +2801,7 @@ year,round,displayName,team,score
 2012,8,drew petrie,North Melbourne,122
 2012,8,pearce hanley,Brisbane Lions,122
 2012,8,nathan van berlo,Adelaide,120
-2012,8,daniel hannebery,Sydney,120
+2012,8,dan hannebery,Sydney,120
 2012,8,heath scotland,Carlton,120
 2012,8,jack ziebell,North Melbourne,118
 2012,8,john mccarthy,Port Adelaide,115
@@ -2812,7 +2812,7 @@ year,round,displayName,team,score
 2012,8,matthew broadbent,Port Adelaide,114
 2012,8,chris judd,Carlton,113
 2012,8,luke shuey,West Coast,112
-2012,8,thomas liberatore,Western Bulldogs,112
+2012,8,tom liberatore,Western Bulldogs,112
 2012,8,rory sloane,Adelaide,112
 2012,8,brian lake,Western Bulldogs,112
 2012,8,steele sidebottom,Collingwood,111
@@ -2824,7 +2824,7 @@ year,round,displayName,team,score
 2012,8,shaun grigg,Richmond,109
 2012,8,simon black,Brisbane Lions,109
 2012,8,shannon hurn,West Coast,108
-2012,8,nicholas naitanui,West Coast,108
+2012,8,nic naitanui,West Coast,108
 2012,8,clinton young,Hawthorn,108
 2012,8,nick dal santo,St Kilda,107
 2012,8,kurt tippett,Adelaide,107
@@ -2835,7 +2835,7 @@ year,round,displayName,team,score
 2012,8,paul duffield,Fremantle,105
 2012,8,daniel rich,Brisbane Lions,104
 2012,8,sam jacobs,Adelaide,104
-2012,8,mitchell wallis,Western Bulldogs,104
+2012,8,mitch wallis,Western Bulldogs,104
 2012,8,brent guerra,Hawthorn,104
 2012,8,sam blease,Melbourne,104
 2012,8,paul chapman,Geelong,104
@@ -2848,7 +2848,7 @@ year,round,displayName,team,score
 2012,8,lewis jetta,Sydney,102
 2012,8,stewart crameri,Essendon,102
 2012,8,david mackay,Adelaide,100
-2012,8,bradley sheppard,West Coast,100
+2012,8,brad sheppard,West Coast,100
 2012,8,aaron sandilands,Fremantle,100
 2012,8,luke parker,Sydney,100
 2012,8,dayne zorko,Brisbane Lions,100
@@ -2870,7 +2870,7 @@ year,round,displayName,team,score
 2012,8,mike pyke,Sydney,95
 2012,8,lewis roberts-thomson,Sydney,95
 2012,8,isaac smith,Hawthorn,94
-2012,8,matthew rosa,West Coast,94
+2012,8,matt rosa,West Coast,94
 2012,8,tom scully,Greater Western Sydney,94
 2012,8,darren pfeiffer,Port Adelaide,94
 2012,8,brad ebert,Port Adelaide,94
@@ -2886,10 +2886,10 @@ year,round,displayName,team,score
 2012,8,patrick karnezis,Brisbane Lions,91
 2012,8,jack grimes,Melbourne,91
 2012,8,todd goldstein,North Melbourne,91
-2012,8,mitchell clark,Melbourne,91
+2012,8,mitch clark,Melbourne,91
 2012,8,jared rivers,Melbourne,91
 2012,8,matthew warnock,Gold Coast,90
-2012,8,mitchell golby,Brisbane Lions,90
+2012,8,mitch golby,Brisbane Lions,90
 2012,8,jack redden,Brisbane Lions,90
 2012,8,david hale,Hawthorn,90
 2012,8,jarryd roughead,Hawthorn,90
@@ -2899,7 +2899,7 @@ year,round,displayName,team,score
 2012,8,jeff garlett,Carlton,88
 2012,8,scott thompson,North Melbourne,88
 2012,8,darren jolly,Collingwood,88
-2012,8,patrick ryder,Essendon,88
+2012,8,paddy ryder,Essendon,88
 2012,8,josh gibson,Hawthorn,87
 2012,8,shane tuck,Richmond,87
 2012,8,zac smith,Gold Coast,86
@@ -2915,14 +2915,14 @@ year,round,displayName,team,score
 2012,8,michael hurley,Essendon,83
 2012,8,stephen coniglio,Greater Western Sydney,83
 2012,8,kade simpson,Carlton,82
-2012,8,matthew maguire,Brisbane Lions,82
-2012,8,matthew suckling,Hawthorn,82
+2012,8,matt maguire,Brisbane Lions,82
+2012,8,matt suckling,Hawthorn,82
 2012,8,sam darley,Greater Western Sydney,82
 2012,8,james kelly,Geelong,82
 2012,8,brent reilly,Adelaide,82
 2012,8,alex fasolo,Collingwood,81
-2012,8,sam reid injured,Sydney,81
-2012,8,rick dyson,Essendon,81
+2012,8,sam reid,Sydney,81
+2012,8,ricky dyson,Essendon,81
 2012,8,josh caddy,Gold Coast,81
 2012,8,ian callinan,Adelaide,81
 2012,8,matthew wright,Adelaide,81
@@ -2931,7 +2931,7 @@ year,round,displayName,team,score
 2012,8,andrew mcqualter,Gold Coast,80
 2012,8,harry taylor,Geelong,80
 2012,8,dayne beams,Collingwood,80
-2012,8,benjamin stratton,Hawthorn,80
+2012,8,ben stratton,Hawthorn,80
 2012,8,troy chaplin,Port Adelaide,80
 2012,8,leigh adams,North Melbourne,80
 2012,8,nick malceski,Sydney,80
@@ -2950,7 +2950,7 @@ year,round,displayName,team,score
 2012,8,matt thomas,Port Adelaide,77
 2012,8,rory thompson,Gold Coast,77
 2012,8,jason gram,St Kilda,77
-2012,8,mitchell duncan,Geelong,77
+2012,8,mitch duncan,Geelong,77
 2012,8,ted richards,Sydney,76
 2012,8,joel corey,Geelong,76
 2012,8,matthew kreuzer,Carlton,76
@@ -2960,14 +2960,14 @@ year,round,displayName,team,score
 2012,8,courtenay dempsey,Essendon,76
 2012,8,clinton jones,St Kilda,75
 2012,8,daniel giansiracusa,Western Bulldogs,75
-2012,8,zachary clarke,Fremantle,74
+2012,8,zac clarke,Fremantle,74
 2012,8,michael jamison,Carlton,74
-2012,8,lachlan henderson,Carlton,74
+2012,8,lachie henderson,Carlton,74
 2012,8,steve johnson,Geelong,74
 2012,8,luke dahlhaus,Western Bulldogs,74
 2012,8,dustin martin,Richmond,74
 2012,8,matt shaw,Gold Coast,73
-2012,8,joshua green,Brisbane Lions,73
+2012,8,josh green,Brisbane Lions,73
 2012,8,alan toovey,Collingwood,73
 2012,8,travis cloke,Collingwood,73
 2012,8,paul bower,Carlton,73
@@ -2985,19 +2985,19 @@ year,round,displayName,team,score
 2012,8,jacob surjan,Port Adelaide,69
 2012,8,dale thomas,Collingwood,69
 2012,8,phil davis,Greater Western Sydney,69
-2012,8,christopher mayne,Fremantle,69
+2012,8,chris mayne,Fremantle,69
 2012,8,brad miller,Richmond,69
 2012,8,sam butler,West Coast,69
 2012,8,brent renouf,Port Adelaide,69
 2012,8,ricky henderson,Adelaide,68
 2012,8,tom bellchambers,Essendon,68
 2012,8,campbell brown,Gold Coast,68
-2012,8,matthew de boer,Fremantle,68
+2012,8,matt de boer,Fremantle,68
 2012,8,brent harvey,North Melbourne,68
 2012,8,matthew jaensch,Adelaide,68
 2012,8,nathan grima,North Melbourne,68
 2012,8,tom hawkins,Geelong,67
-2012,8,edward curnow,Carlton,67
+2012,8,ed curnow,Carlton,67
 2012,8,orren stephenson,Geelong,67
 2012,8,leroy jetta,Essendon,67
 2012,8,dennis armfield,Carlton,67
@@ -3050,7 +3050,7 @@ year,round,displayName,team,score
 2012,8,brent moloney,Melbourne,58
 2012,8,sam lonergan,Essendon,58
 2012,8,kieran harper,North Melbourne,58
-2012,8,samuel reid,Greater Western Sydney,58
+2012,8,sam reid,Greater Western Sydney,58
 2012,8,kyle hardingham,Essendon,57
 2012,8,liam jones,Western Bulldogs,56
 2012,8,bachar houli,Richmond,56
@@ -3074,7 +3074,7 @@ year,round,displayName,team,score
 2012,8,graham johncock,Adelaide,52
 2012,8,toby greene,Greater Western Sydney,52
 2012,8,clay smith,Western Bulldogs,52
-2012,8,nicholas duigan,Carlton,52
+2012,8,nick duigan,Carlton,52
 2012,8,justin sherman,Western Bulldogs,52
 2012,8,tom lynch,Gold Coast,52
 2012,8,dylan roberton,Fremantle,51
@@ -3140,18 +3140,18 @@ year,round,displayName,team,score
 2012,8,chris newman,Richmond,34
 2012,8,ryan schoenmakers,Hawthorn,34
 2012,8,ben cunnington,North Melbourne,33
-2012,8,matthew dea,Richmond,31
+2012,8,matt dea,Richmond,31
 2012,8,luke delaney,North Melbourne,31
 2012,8,jeremy cameron,Greater Western Sydney,30
 2012,8,heath grundy,Sydney,30
 2012,8,john butcher,Port Adelaide,29
 2012,8,dylan grimes,Richmond,28
-2012,8,christopher yarran,Carlton,25
+2012,8,chris yarran,Carlton,25
 2012,8,israel folau,Greater Western Sydney,24
 2012,8,adam tomlinson,Greater Western Sydney,24
 2012,8,shane savage,Hawthorn,22
 2012,8,zephaniah skinner,Western Bulldogs,21
-2012,8,sebastian tape,Gold Coast,21
+2012,8,seb tape,Gold Coast,21
 2012,8,koby stevens,West Coast,21
 2012,8,paul puopolo,Hawthorn,21
 2012,8,simon buckley,Collingwood,21
@@ -3162,14 +3162,14 @@ year,round,displayName,team,score
 2012,8,billie smedts,Geelong,17
 2012,8,jamie bennell,Melbourne,17
 2012,8,craig bird,Sydney,16
-2012,8,matthew buntine,Greater Western Sydney,15
+2012,8,matt buntine,Greater Western Sydney,15
 2012,8,alex sexton,Gold Coast,13
 2012,8,will hoskin-elliott,Greater Western Sydney,10
-2012,8,bradley mckenzie,North Melbourne,10
+2012,8,brad mckenzie,North Melbourne,10
 2012,8,jared polec,Brisbane Lions,5
 2012,9,dayne beams,Collingwood,175
 2012,9,mitch robinson,Carlton,161
-2012,9,matthew rosa,West Coast,158
+2012,9,matt rosa,West Coast,158
 2012,9,todd goldstein,North Melbourne,153
 2012,9,matthew broadbent,Port Adelaide,153
 2012,9,shane tuck,Richmond,148
@@ -3190,13 +3190,13 @@ year,round,displayName,team,score
 2012,9,nathan foley,Richmond,127
 2012,9,matthew boyd,Western Bulldogs,125
 2012,9,ben howlett,Essendon,124
-2012,9,patrick ryder,Essendon,124
+2012,9,paddy ryder,Essendon,124
 2012,9,kieren jack,Sydney,123
-2012,9,josh kennedy injured,Sydney,122
+2012,9,josh kennedy,Sydney,122
 2012,9,drew petrie,North Melbourne,121
 2012,9,michael johnson,Fremantle,120
 2012,9,dustin martin,Richmond,119
-2012,9,matthew priddis,West Coast,119
+2012,9,matt priddis,West Coast,119
 2012,9,tom hawkins,Geelong,119
 2012,9,scott pendlebury,Collingwood,118
 2012,9,jarrad mcveigh,Sydney,118
@@ -3220,11 +3220,11 @@ year,round,displayName,team,score
 2012,9,corey enright,Geelong,111
 2012,9,robert warnock,Carlton,111
 2012,9,joel selwood,Geelong,110
-2012,9,ryan o'keefe,Sydney,109
+2012,9,ryan okeefe,Sydney,109
 2012,9,jarryd roughead,Hawthorn,109
 2012,9,jobe watson,Essendon,108
 2012,9,shannon hurn,West Coast,108
-2012,9,mitchell wallis,Western Bulldogs,108
+2012,9,mitch wallis,Western Bulldogs,108
 2012,9,mike pyke,Sydney,108
 2012,9,andrew walker,Carlton,107
 2012,9,darren glass,West Coast,107
@@ -3248,7 +3248,7 @@ year,round,displayName,team,score
 2012,9,sam iles,Gold Coast,101
 2012,9,cale hooker,Essendon,101
 2012,9,tom scully,Greater Western Sydney,101
-2012,9,thomas liberatore,Western Bulldogs,100
+2012,9,tom liberatore,Western Bulldogs,100
 2012,9,nathan lovett-murray,Essendon,100
 2012,9,tom mcdonald,Melbourne,100
 2012,9,bryce gibbs,Carlton,99
@@ -3258,13 +3258,13 @@ year,round,displayName,team,score
 2012,9,dylan shiel,Greater Western Sydney,98
 2012,9,matthew jaensch,Adelaide,98
 2012,9,nathan grima,North Melbourne,97
-2012,9,samuel wright,North Melbourne,97
+2012,9,sam wright,North Melbourne,97
 2012,9,brendon goddard,St Kilda,97
 2012,9,leigh adams,North Melbourne,97
 2012,9,jarryd blair,Collingwood,96
 2012,9,jay schulz,Port Adelaide,96
 2012,9,david zaharakis,Essendon,96
-2012,9,matthew maguire,Brisbane Lions,96
+2012,9,matt maguire,Brisbane Lions,96
 2012,9,chris newman,Richmond,96
 2012,9,brad ebert,Port Adelaide,96
 2012,9,ted richards,Sydney,95
@@ -3275,7 +3275,7 @@ year,round,displayName,team,score
 2012,9,rohan bail,Melbourne,94
 2012,9,alan toovey,Collingwood,94
 2012,9,andrew mcqualter,Gold Coast,94
-2012,9,nicholas naitanui,West Coast,94
+2012,9,nic naitanui,West Coast,94
 2012,9,steven motlop,Geelong,94
 2012,9,nick maxwell,Collingwood,93
 2012,9,jordan roughead,Western Bulldogs,93
@@ -3313,10 +3313,10 @@ year,round,displayName,team,score
 2012,9,andrew mackie,Geelong,86
 2012,9,nathan van berlo,Adelaide,86
 2012,9,david mackay,Adelaide,86
-2012,9,benjamin stratton,Hawthorn,85
+2012,9,ben stratton,Hawthorn,85
 2012,9,jude bolton,Sydney,85
 2012,9,joel patfull,Brisbane Lions,85
-2012,9,rick dyson,Essendon,85
+2012,9,ricky dyson,Essendon,85
 2012,9,daniel cross,Western Bulldogs,85
 2012,9,troy chaplin,Port Adelaide,85
 2012,9,aaron black,North Melbourne,85
@@ -3339,8 +3339,8 @@ year,round,displayName,team,score
 2012,9,alex silvagni,Fremantle,78
 2012,9,brian lake,Western Bulldogs,78
 2012,9,sam lonergan,Essendon,78
-2012,9,mitchell golby,Brisbane Lions,78
-2012,9,bradley sheppard,West Coast,78
+2012,9,mitch golby,Brisbane Lions,78
+2012,9,brad sheppard,West Coast,78
 2012,9,eric mackenzie,West Coast,78
 2012,9,luke delaney,North Melbourne,78
 2012,9,sean dempster,St Kilda,77
@@ -3348,7 +3348,7 @@ year,round,displayName,team,score
 2012,9,rory sloane,Adelaide,77
 2012,9,brent renouf,Port Adelaide,77
 2012,9,mark jamar,Melbourne,77
-2012,9,matthew de boer,Fremantle,77
+2012,9,matt de boer,Fremantle,77
 2012,9,adam cooney,Western Bulldogs,77
 2012,9,sam jacobs,Adelaide,76
 2012,9,levi greenwood,North Melbourne,76
@@ -3362,10 +3362,10 @@ year,round,displayName,team,score
 2012,9,ryan griffen,Western Bulldogs,76
 2012,9,aaron joseph,Carlton,76
 2012,9,tom lynch,Gold Coast,76
-2012,9,mitchell clark,Melbourne,76
+2012,9,mitch clark,Melbourne,76
 2012,9,angus monfries,Essendon,76
 2012,9,daniel rich,Brisbane Lions,76
-2012,9,samuel reid,Greater Western Sydney,75
+2012,9,sam reid,Greater Western Sydney,75
 2012,9,simon buckley,Collingwood,75
 2012,9,kyal horsley,Gold Coast,75
 2012,9,heath hocking,Essendon,74
@@ -3373,7 +3373,7 @@ year,round,displayName,team,score
 2012,9,greg broughton,Fremantle,74
 2012,9,chad cornes,Greater Western Sydney,74
 2012,9,james mcdonald,Greater Western Sydney,74
-2012,9,christopher mayne,Fremantle,73
+2012,9,chris mayne,Fremantle,73
 2012,9,tayte pears,Essendon,73
 2012,9,brett ebert,Port Adelaide,73
 2012,9,brendan whitecross,Hawthorn,73
@@ -3386,7 +3386,7 @@ year,round,displayName,team,score
 2012,9,scott thompson,North Melbourne,71
 2012,9,jordie mckenzie,Melbourne,71
 2012,9,josh caddy,Gold Coast,71
-2012,9,joshua bootsma,Carlton,71
+2012,9,josh bootsma,Carlton,71
 2012,9,aaron sandilands,Fremantle,71
 2012,9,grant birchall,Hawthorn,71
 2012,9,devon smith,Greater Western Sydney,71
@@ -3397,7 +3397,7 @@ year,round,displayName,team,score
 2012,9,phil davis,Greater Western Sydney,69
 2012,9,dean cox,West Coast,68
 2012,9,robin nahas,Richmond,68
-2012,9,daniel hannebery,Sydney,68
+2012,9,dan hannebery,Sydney,68
 2012,9,reece conca,Richmond,67
 2012,9,james gwilt,St Kilda,67
 2012,9,stephen hill,Fremantle,67
@@ -3405,9 +3405,9 @@ year,round,displayName,team,score
 2012,9,jack darling,West Coast,67
 2012,9,ryan bastinac,North Melbourne,67
 2012,9,shaun hampson,Carlton,67
-2012,9,zachary clarke,Fremantle,67
+2012,9,zac clarke,Fremantle,67
 2012,9,jesse stringer,Geelong,66
-2012,9,sebastian tape,Gold Coast,66
+2012,9,seb tape,Gold Coast,66
 2012,9,ben jacobs,Port Adelaide,66
 2012,9,lachie neale,Fremantle,65
 2012,9,alex rance,Richmond,65
@@ -3418,13 +3418,13 @@ year,round,displayName,team,score
 2012,9,jack trengove,Melbourne,64
 2012,9,lewis roberts-thomson,Sydney,64
 2012,9,lewis jetta,Sydney,64
-2012,9,edward curnow,Carlton,64
+2012,9,ed curnow,Carlton,64
 2012,9,aaron cornelius,Brisbane Lions,63
 2012,9,ryan schoenmakers,Hawthorn,63
 2012,9,rory thompson,Gold Coast,63
 2012,9,cameron delaney,North Melbourne,62
 2012,9,bachar houli,Richmond,62
-2012,9,tyrone vickery,Richmond,62
+2012,9,ty vickery,Richmond,62
 2012,9,david hale,Hawthorn,62
 2012,9,jason porplyzia,Adelaide,62
 2012,9,daniel nicholson,Melbourne,61
@@ -3438,7 +3438,7 @@ year,round,displayName,team,score
 2012,9,heath grundy,Sydney,59
 2012,9,adam selwood,West Coast,59
 2012,9,andrew collins,Carlton,59
-2012,9,benjamin griffiths,Richmond,59
+2012,9,ben griffiths,Richmond,59
 2012,9,jared petrenko,Adelaide,59
 2012,9,josh jenkins,Adelaide,58
 2012,9,clinton jones,St Kilda,58
@@ -3455,7 +3455,7 @@ year,round,displayName,team,score
 2012,9,liam jones,Western Bulldogs,55
 2012,9,clinton young,Hawthorn,55
 2012,9,taylor adams,Greater Western Sydney,55
-2012,9,sam reid injured,Sydney,55
+2012,9,sam reid,Sydney,55
 2012,9,matt shaw,Gold Coast,55
 2012,9,james magner,Melbourne,54
 2012,9,matt thomas,Port Adelaide,54
@@ -3465,7 +3465,7 @@ year,round,displayName,team,score
 2012,9,craig bird,Sydney,53
 2012,9,jamie cripps,St Kilda,53
 2012,9,lachlan keeffe,Collingwood,52
-2012,9,joshua green,Brisbane Lions,52
+2012,9,josh green,Brisbane Lions,52
 2012,9,justin koschitzke,St Kilda,51
 2012,9,alex johnson,Sydney,51
 2012,9,jason gram,St Kilda,50
@@ -3481,7 +3481,7 @@ year,round,displayName,team,score
 2012,9,liam picken,Western Bulldogs,49
 2012,9,jeremy taylor,Gold Coast,49
 2012,9,mark austin,Western Bulldogs,49
-2012,9,matthew suckling,Hawthorn,48
+2012,9,matt suckling,Hawthorn,48
 2012,9,sam gilbert,St Kilda,48
 2012,9,jamie macmillan,North Melbourne,48
 2012,9,campbell brown,Gold Coast,48
@@ -3513,8 +3513,8 @@ year,round,displayName,team,score
 2012,9,karmichael hunt,Gold Coast,41
 2012,9,jack ziebell,North Melbourne,41
 2012,9,lynden dunn,Melbourne,41
-2012,9,mitchell duncan,Geelong,40
-2012,9,matthew dea,Richmond,40
+2012,9,mitch duncan,Geelong,40
+2012,9,matt dea,Richmond,40
 2012,9,jesse crichton,Fremantle,40
 2012,9,joel wilkinson,Gold Coast,40
 2012,9,brent moloney,Melbourne,39
@@ -3578,9 +3578,9 @@ year,round,displayName,team,score
 2012,10,patrick dangerfield,Adelaide,145
 2012,10,jobe watson,Essendon,140
 2012,10,james kelly,Geelong,137
-2012,10,daniel hannebery,Sydney,136
+2012,10,dan hannebery,Sydney,136
 2012,10,sam mitchell,Hawthorn,133
-2012,10,matthew priddis,West Coast,133
+2012,10,matt priddis,West Coast,133
 2012,10,nathan jones,Melbourne,130
 2012,10,todd goldstein,North Melbourne,127
 2012,10,travis cloke,Collingwood,127
@@ -3600,11 +3600,11 @@ year,round,displayName,team,score
 2012,10,jimmy bartel,Geelong,118
 2012,10,daniel wells,North Melbourne,116
 2012,10,brett deledio,Richmond,114
-2012,10,mitchell golby,Brisbane Lions,112
+2012,10,mitch golby,Brisbane Lions,112
 2012,10,ivan maric,Richmond,111
 2012,10,jack watts,Melbourne,111
 2012,10,matthew wright,Adelaide,111
-2012,10,patrick ryder,Essendon,111
+2012,10,paddy ryder,Essendon,111
 2012,10,matt thomas,Port Adelaide,110
 2012,10,brad ebert,Port Adelaide,110
 2012,10,harry taylor,Geelong,110
@@ -3612,7 +3612,7 @@ year,round,displayName,team,score
 2012,10,matthew scarlett,Geelong,108
 2012,10,daniel nicholson,Melbourne,108
 2012,10,david hale,Hawthorn,108
-2012,10,nicholas naitanui,West Coast,108
+2012,10,nic naitanui,West Coast,108
 2012,10,tom hickey,Gold Coast,107
 2012,10,will minson,Western Bulldogs,107
 2012,10,grant birchall,Hawthorn,107
@@ -3628,7 +3628,7 @@ year,round,displayName,team,score
 2012,10,alan didak,Collingwood,102
 2012,10,alex fasolo,Collingwood,102
 2012,10,dayne zorko,Brisbane Lions,102
-2012,10,josh kennedy injured,Sydney,102
+2012,10,josh kennedy,Sydney,102
 2012,10,jack trengove,Melbourne,102
 2012,10,danyle pearce,Port Adelaide,102
 2012,10,jack grimes,Melbourne,102
@@ -3639,7 +3639,7 @@ year,round,displayName,team,score
 2012,10,jared rivers,Melbourne,101
 2012,10,greg broughton,Fremantle,100
 2012,10,ben hudson,Brisbane Lions,100
-2012,10,matthew de boer,Fremantle,100
+2012,10,matt de boer,Fremantle,100
 2012,10,matthew boyd,Western Bulldogs,100
 2012,10,ryan griffen,Western Bulldogs,99
 2012,10,ted richards,Sydney,99
@@ -3697,17 +3697,17 @@ year,round,displayName,team,score
 2012,10,jake batchelor,Richmond,85
 2012,10,courtenay dempsey,Essendon,85
 2012,10,james polkinghorne,Brisbane Lions,85
-2012,10,matthew rosa,West Coast,85
+2012,10,matt rosa,West Coast,85
 2012,10,martin clarke,Collingwood,85
 2012,10,luke parker,Sydney,84
 2012,10,heath scotland,Carlton,84
-2012,10,mitchell wallis,Western Bulldogs,84
+2012,10,mitch wallis,Western Bulldogs,84
 2012,10,heath grundy,Sydney,84
 2012,10,nick maxwell,Collingwood,84
 2012,10,shane tuck,Richmond,84
 2012,10,ian callinan,Adelaide,84
-2012,10,ryan o'keefe,Sydney,84
-2012,10,mitchell clark,Melbourne,83
+2012,10,ryan okeefe,Sydney,84
+2012,10,mitch clark,Melbourne,83
 2012,10,marley williams,Collingwood,83
 2012,10,nick dal santo,St Kilda,83
 2012,10,daniel cross,Western Bulldogs,83
@@ -3716,14 +3716,14 @@ year,round,displayName,team,score
 2012,10,darren glass,West Coast,82
 2012,10,lewis roberts-thomson,Sydney,81
 2012,10,taylor hunt,Geelong,81
-2012,10,samuel wright,North Melbourne,81
+2012,10,sam wright,North Melbourne,81
 2012,10,luke power,Greater Western Sydney,81
 2012,10,jonathan giles,Greater Western Sydney,81
 2012,10,hayden ballantyne,Fremantle,81
 2012,10,jack ziebell,North Melbourne,81
 2012,10,mike pyke,Sydney,80
 2012,10,andrew walker,Carlton,80
-2012,10,joshua bootsma,Carlton,80
+2012,10,josh bootsma,Carlton,80
 2012,10,sean dempster,St Kilda,79
 2012,10,chris judd,Carlton,79
 2012,10,jarryd blair,Collingwood,79
@@ -3733,7 +3733,7 @@ year,round,displayName,team,score
 2012,10,bryce gibbs,Carlton,79
 2012,10,darren pfeiffer,Port Adelaide,79
 2012,10,alex johnson,Sydney,78
-2012,10,matthew maguire,Brisbane Lions,78
+2012,10,matt maguire,Brisbane Lions,78
 2012,10,sam jacobs,Adelaide,78
 2012,10,jake carlisle,Essendon,77
 2012,10,adam cooney,Western Bulldogs,77
@@ -3756,14 +3756,14 @@ year,round,displayName,team,score
 2012,10,robert murphy,Western Bulldogs,73
 2012,10,trent west,Geelong,73
 2012,10,james podsiadly,Geelong,73
-2012,10,mitchell duncan,Geelong,73
+2012,10,mitch duncan,Geelong,73
 2012,10,chad wingard,Port Adelaide,73
 2012,10,andrew swallow,North Melbourne,73
 2012,10,dustin fletcher,Essendon,73
 2012,10,lachie neale,Fremantle,73
 2012,10,danny stanley,Gold Coast,73
 2012,10,adam treloar,Greater Western Sydney,73
-2012,10,thomas liberatore,Western Bulldogs,72
+2012,10,tom liberatore,Western Bulldogs,72
 2012,10,joel patfull,Brisbane Lions,72
 2012,10,cameron guthrie,Geelong,72
 2012,10,ryan lester,Brisbane Lions,72
@@ -3785,14 +3785,14 @@ year,round,displayName,team,score
 2012,10,reece conca,Richmond,69
 2012,10,ben howlett,Essendon,69
 2012,10,clancee pearce,Fremantle,68
-2012,10,matthew suckling,Hawthorn,68
+2012,10,matt suckling,Hawthorn,68
 2012,10,drew petrie,North Melbourne,68
 2012,10,brandon ellis,Richmond,68
 2012,10,jordan roughead,Western Bulldogs,67
 2012,10,david mundy,Fremantle,67
 2012,10,jeff garlett,Carlton,67
 2012,10,aaron hall,Gold Coast,67
-2012,10,thomas gillies,Geelong,67
+2012,10,tom gillies,Geelong,67
 2012,10,alex rance,Richmond,67
 2012,10,rory thompson,Gold Coast,66
 2012,10,luke breust,Hawthorn,66
@@ -3806,7 +3806,7 @@ year,round,displayName,team,score
 2012,10,eric mackenzie,West Coast,65
 2012,10,jackson trengove,Port Adelaide,65
 2012,10,jack darling,West Coast,65
-2012,10,christopher mayne,Fremantle,64
+2012,10,chris mayne,Fremantle,64
 2012,10,kyle hardingham,Essendon,64
 2012,10,travis colyer,Essendon,64
 2012,10,sam darley,Greater Western Sydney,64
@@ -3837,12 +3837,12 @@ year,round,displayName,team,score
 2012,10,stephen milne,St Kilda,58
 2012,10,billie smedts,Geelong,58
 2012,10,quinten lynch,West Coast,58
-2012,10,nial mckeever,Brisbane Lions,58
+2012,10,niall mckeever,Brisbane Lions,58
 2012,10,clinton jones,St Kilda,58
 2012,10,jack steven,St Kilda,57
 2012,10,jason blake,St Kilda,57
 2012,10,orren stephenson,Geelong,57
-2012,10,rick dyson,Essendon,57
+2012,10,ricky dyson,Essendon,57
 2012,10,ben cunnington,North Melbourne,57
 2012,10,stewart crameri,Essendon,57
 2012,10,tom lonergan,Geelong,57
@@ -3857,7 +3857,7 @@ year,round,displayName,team,score
 2012,10,nick haynes,Greater Western Sydney,55
 2012,10,martin mattner,Sydney,55
 2012,10,patrick veszpremi,Western Bulldogs,55
-2012,10,tyrone vickery,Richmond,55
+2012,10,ty vickery,Richmond,55
 2012,10,cameron delaney,North Melbourne,55
 2012,10,alipate carlile,Port Adelaide,55
 2012,10,paul stewart,Port Adelaide,55
@@ -3865,13 +3865,13 @@ year,round,displayName,team,score
 2012,10,pearce hanley,Brisbane Lions,55
 2012,10,jonathan brown,Brisbane Lions,54
 2012,10,paul duffield,Fremantle,54
-2012,10,joshua green,Brisbane Lions,54
+2012,10,josh green,Brisbane Lions,54
 2012,10,mathew stokes,Geelong,54
 2012,10,karmichael hunt,Gold Coast,53
 2012,10,jordie mckenzie,Melbourne,53
 2012,10,ryan bastinac,North Melbourne,53
 2012,10,craig bird,Sydney,53
-2012,10,benjamin griffiths,Richmond,51
+2012,10,ben griffiths,Richmond,51
 2012,10,daniel kerr,West Coast,51
 2012,10,leroy jetta,Essendon,51
 2012,10,nathan lovett-murray,Essendon,51
@@ -3879,9 +3879,9 @@ year,round,displayName,team,score
 2012,10,trent dennis-lane,Sydney,50
 2012,10,josh hill,West Coast,50
 2012,10,matthew warnock,Gold Coast,50
-2012,10,benjamin stratton,Hawthorn,50
+2012,10,ben stratton,Hawthorn,50
 2012,10,shaun hampson,Carlton,50
-2012,10,samuel reid,Greater Western Sydney,49
+2012,10,sam reid,Greater Western Sydney,49
 2012,10,matthew jaensch,Adelaide,49
 2012,10,brian lake,Western Bulldogs,49
 2012,10,dennis armfield,Carlton,49
@@ -3895,7 +3895,7 @@ year,round,displayName,team,score
 2012,10,liam shiels,Hawthorn,48
 2012,10,aaron joseph,Carlton,47
 2012,10,ryan hargrave,Western Bulldogs,46
-2012,10,sam reid injured,Sydney,46
+2012,10,sam reid,Sydney,46
 2012,10,josh jenkins,Adelaide,46
 2012,10,cruize garlett,North Melbourne,45
 2012,10,josh gibson,Hawthorn,45
@@ -3904,11 +3904,11 @@ year,round,displayName,team,score
 2012,10,jake melksham,Essendon,45
 2012,10,devon smith,Greater Western Sydney,44
 2012,10,luke dahlhaus,Western Bulldogs,43
-2012,10,thomas young,Collingwood,43
+2012,10,tom young,Collingwood,43
 2012,10,daniel talia,Adelaide,43
 2012,10,ben rutten,Adelaide,42
-2012,10,christopher yarran,Carlton,42
-2012,10,bradley sheppard,West Coast,42
+2012,10,chris yarran,Carlton,42
+2012,10,brad sheppard,West Coast,42
 2012,10,daniel giansiracusa,Western Bulldogs,41
 2012,10,brodie smith,Adelaide,41
 2012,10,aaron black,North Melbourne,41
@@ -3923,8 +3923,8 @@ year,round,displayName,team,score
 2012,10,brad green,Melbourne,38
 2012,10,andrew phillips,Greater Western Sydney,37
 2012,10,paul bower,Carlton,36
-2012,10,zachary clarke,Fremantle,35
-2012,10,edward curnow,Carlton,35
+2012,10,zac clarke,Fremantle,35
+2012,10,ed curnow,Carlton,35
 2012,10,aaron cornelius,Brisbane Lions,35
 2012,10,scott thompson,North Melbourne,34
 2012,10,graham johncock,Adelaide,33
@@ -3967,7 +3967,7 @@ year,round,displayName,team,score
 2012,11,jobe watson,Essendon,149
 2012,11,jarryd blair,Collingwood,148
 2012,11,jason blake,St Kilda,144
-2012,11,matthew de boer,Fremantle,141
+2012,11,matt de boer,Fremantle,141
 2012,11,dayne beams,Collingwood,137
 2012,11,matthew scarlett,Geelong,134
 2012,11,sam iles,Gold Coast,131
@@ -3978,7 +3978,7 @@ year,round,displayName,team,score
 2012,11,cyril rioli,Hawthorn,125
 2012,11,kane cornes,Port Adelaide,124
 2012,11,luke breust,Hawthorn,124
-2012,11,ryan o'keefe,Sydney,123
+2012,11,ryan okeefe,Sydney,123
 2012,11,david hale,Hawthorn,122
 2012,11,michael johnson,Fremantle,121
 2012,11,kieren jack,Sydney,121
@@ -3991,11 +3991,11 @@ year,round,displayName,team,score
 2012,11,nathan jones,Melbourne,114
 2012,11,lewis jetta,Sydney,114
 2012,11,lance franklin,Hawthorn,113
-2012,11,mitchell clark,Melbourne,113
+2012,11,mitch clark,Melbourne,113
 2012,11,kade simpson,Carlton,113
 2012,11,jared brennan,Gold Coast,113
 2012,11,nick dal santo,St Kilda,112
-2012,11,mitchell duncan,Geelong,111
+2012,11,mitch duncan,Geelong,111
 2012,11,ivan maric,Richmond,111
 2012,11,dustin fletcher,Essendon,110
 2012,11,harry taylor,Geelong,109
@@ -4013,7 +4013,7 @@ year,round,displayName,team,score
 2012,11,michael barlow,Fremantle,100
 2012,11,jimmy bartel,Geelong,100
 2012,11,paul chapman,Geelong,99
-2012,11,patrick ryder,Essendon,99
+2012,11,paddy ryder,Essendon,99
 2012,11,eddie betts,Carlton,99
 2012,11,matthew pavlich,Fremantle,99
 2012,11,jeremy howe,Melbourne,98
@@ -4031,9 +4031,9 @@ year,round,displayName,team,score
 2012,11,tyson goldsack,Collingwood,91
 2012,11,dennis armfield,Carlton,90
 2012,11,tendai mzungu,Fremantle,90
-2012,11,matthew suckling,Hawthorn,89
+2012,11,matt suckling,Hawthorn,89
 2012,11,lenny hayes,St Kilda,88
-2012,11,sam reid injured,Sydney,88
+2012,11,sam reid,Sydney,88
 2012,11,hayden ballantyne,Fremantle,88
 2012,11,simon buckley,Collingwood,88
 2012,11,ted richards,Sydney,88
@@ -4044,7 +4044,7 @@ year,round,displayName,team,score
 2012,11,ben sinclair,Collingwood,86
 2012,11,heath grundy,Sydney,86
 2012,11,danyle pearce,Port Adelaide,86
-2012,11,josh kennedy injured,Sydney,86
+2012,11,josh kennedy,Sydney,86
 2012,11,dale thomas,Collingwood,86
 2012,11,alex rance,Richmond,85
 2012,11,david mundy,Fremantle,84
@@ -4053,18 +4053,18 @@ year,round,displayName,team,score
 2012,11,leigh montagna,St Kilda,83
 2012,11,steven motlop,Geelong,83
 2012,11,brent stanton,Essendon,83
-2012,11,nicholas duigan,Carlton,83
+2012,11,nick duigan,Carlton,83
 2012,11,alwyn davey,Essendon,82
 2012,11,raphael clarke,St Kilda,82
 2012,11,ben howlett,Essendon,82
 2012,11,chris dawes,Collingwood,81
 2012,11,josh caddy,Gold Coast,81
 2012,11,matthew broadbent,Port Adelaide,81
-2012,11,tyrone vickery,Richmond,81
+2012,11,ty vickery,Richmond,81
 2012,11,bryce gibbs,Carlton,81
 2012,11,craig bird,Sydney,81
 2012,11,andrew walker,Carlton,81
-2012,11,christopher mayne,Fremantle,80
+2012,11,chris mayne,Fremantle,80
 2012,11,ahmed saad,St Kilda,80
 2012,11,paul puopolo,Hawthorn,80
 2012,11,josh hunt,Geelong,80
@@ -4107,7 +4107,7 @@ year,round,displayName,team,score
 2012,11,justin koschitzke,St Kilda,67
 2012,11,brett deledio,Richmond,67
 2012,11,steven morris,Richmond,66
-2012,11,matthew dea,Richmond,66
+2012,11,matt dea,Richmond,66
 2012,11,kyle hardingham,Essendon,66
 2012,11,tom hickey,Gold Coast,66
 2012,11,aaron hall,Gold Coast,65
@@ -4140,7 +4140,7 @@ year,round,displayName,team,score
 2012,11,angus monfries,Essendon,56
 2012,11,matthew watson,Carlton,56
 2012,11,chris newman,Richmond,56
-2012,11,rick dyson,Essendon,56
+2012,11,ricky dyson,Essendon,56
 2012,11,chad wingard,Port Adelaide,56
 2012,11,martin clarke,Collingwood,56
 2012,11,luke mcpharlin,Fremantle,56
@@ -4158,18 +4158,18 @@ year,round,displayName,team,score
 2012,11,colin sylvia,Melbourne,53
 2012,11,rory thompson,Gold Coast,53
 2012,11,jack riewoldt,Richmond,53
-2012,11,lachlan henderson,Carlton,52
+2012,11,lachie henderson,Carlton,52
 2012,11,lachie neale,Fremantle,52
 2012,11,liam shiels,Hawthorn,52
 2012,11,brett ebert,Port Adelaide,52
 2012,11,karmichael hunt,Gold Coast,51
 2012,11,colin garland,Melbourne,51
 2012,11,david wojcinski,Geelong,51
-2012,11,thomas young,Collingwood,51
+2012,11,tom young,Collingwood,51
 2012,11,domenic cassisi,Port Adelaide,50
 2012,11,ryan crowley,Fremantle,50
 2012,11,jesse crichton,Fremantle,50
-2012,11,nicholas suban,Fremantle,50
+2012,11,nick suban,Fremantle,50
 2012,11,jarrad redden,Port Adelaide,50
 2012,11,addam maric,Richmond,49
 2012,11,heritier lumumba,Collingwood,49
@@ -4179,13 +4179,13 @@ year,round,displayName,team,score
 2012,11,brandon ellis,Richmond,49
 2012,11,clinton young,Hawthorn,49
 2012,11,john mccarthy,Port Adelaide,48
-2012,11,daniel hannebery,Sydney,48
+2012,11,dan hannebery,Sydney,48
 2012,11,courtenay dempsey,Essendon,48
 2012,11,jacob surjan,Port Adelaide,47
 2012,11,james frawley,Melbourne,47
 2012,11,daniel nicholson,Melbourne,45
-2012,11,sebastian tape,Gold Coast,45
-2012,11,benjamin stratton,Hawthorn,45
+2012,11,seb tape,Gold Coast,45
+2012,11,ben stratton,Hawthorn,45
 2012,11,nick maxwell,Collingwood,45
 2012,11,michael jamison,Carlton,44
 2012,11,reece conca,Richmond,44
@@ -4199,12 +4199,12 @@ year,round,displayName,team,score
 2012,11,alex sexton,Gold Coast,40
 2012,11,josh toy,Gold Coast,39
 2012,11,jake carlisle,Essendon,39
-2012,11,joshua bootsma,Carlton,39
+2012,11,josh bootsma,Carlton,39
 2012,11,troy chaplin,Port Adelaide,37
-2012,11,benjamin griffiths,Richmond,37
+2012,11,ben griffiths,Richmond,37
 2012,11,shane savage,Hawthorn,37
 2012,11,brad green,Melbourne,36
-2012,11,christopher yarran,Carlton,36
+2012,11,chris yarran,Carlton,36
 2012,11,michael rischitelli,Gold Coast,35
 2012,11,jesse stringer,Geelong,34
 2012,11,bradley hill,Hawthorn,33
@@ -4215,7 +4215,7 @@ year,round,displayName,team,score
 2012,11,lynden dunn,Melbourne,30
 2012,11,trent dennis-lane,Sydney,28
 2012,11,matt shaw,Gold Coast,26
-2012,11,brett o'hanlon,Richmond,26
+2012,11,brett ohanlon,Richmond,26
 2012,11,adam schneider,St Kilda,22
 2012,11,orren stephenson,Geelong,20
 2012,11,sam day,Gold Coast,17
@@ -4224,7 +4224,7 @@ year,round,displayName,team,score
 2012,11,alan didak,Collingwood,5
 2012,11,aaron sandilands,Fremantle,5
 2012,12,gary ablett,Gold Coast,188
-2012,12,nicholas naitanui,West Coast,185
+2012,12,nic naitanui,West Coast,185
 2012,12,drew petrie,North Melbourne,156
 2012,12,scott selwood,West Coast,155
 2012,12,ivan maric,Richmond,146
@@ -4237,7 +4237,7 @@ year,round,displayName,team,score
 2012,12,dean cox,West Coast,132
 2012,12,brett deledio,Richmond,132
 2012,12,andrew carrazzo,Carlton,132
-2012,12,matthew priddis,West Coast,131
+2012,12,matt priddis,West Coast,131
 2012,12,nick dal santo,St Kilda,130
 2012,12,jarryd roughead,Hawthorn,129
 2012,12,harley bennell,Gold Coast,127
@@ -4249,7 +4249,7 @@ year,round,displayName,team,score
 2012,12,shane savage,Hawthorn,121
 2012,12,lindsay thomas,North Melbourne,121
 2012,12,jed adcock,Brisbane Lions,120
-2012,12,matthew suckling,Hawthorn,119
+2012,12,matt suckling,Hawthorn,119
 2012,12,lance franklin,Hawthorn,118
 2012,12,phil davis,Greater Western Sydney,117
 2012,12,cyril rioli,Hawthorn,115
@@ -4263,10 +4263,10 @@ year,round,displayName,team,score
 2012,12,will schofield,West Coast,110
 2012,12,chad cornes,Greater Western Sydney,108
 2012,12,alex rance,Richmond,107
-2012,12,matthew rosa,West Coast,106
+2012,12,matt rosa,West Coast,106
 2012,12,toby greene,Greater Western Sydney,106
 2012,12,luke dahlhaus,Western Bulldogs,105
-2012,12,mitchell wallis,Western Bulldogs,105
+2012,12,mitch wallis,Western Bulldogs,105
 2012,12,jeremy cameron,Greater Western Sydney,105
 2012,12,daniel wells,North Melbourne,104
 2012,12,troy chaplin,Port Adelaide,104
@@ -4323,12 +4323,12 @@ year,round,displayName,team,score
 2012,12,josh gibson,Hawthorn,84
 2012,12,jack gunston,Hawthorn,84
 2012,12,jay schulz,Port Adelaide,84
-2012,12,nicholas duigan,Carlton,83
+2012,12,nick duigan,Carlton,83
 2012,12,grant birchall,Hawthorn,83
 2012,12,jack riewoldt,Richmond,83
 2012,12,david mackay,Adelaide,83
 2012,12,luke power,Greater Western Sydney,83
-2012,12,thomas liberatore,Western Bulldogs,82
+2012,12,tom liberatore,Western Bulldogs,82
 2012,12,kane cornes,Port Adelaide,82
 2012,12,daniel jackson,Richmond,82
 2012,12,shaun atley,North Melbourne,82
@@ -4351,14 +4351,14 @@ year,round,displayName,team,score
 2012,12,ben mcevoy,St Kilda,76
 2012,12,arryn siposs,St Kilda,76
 2012,12,tim mohr,Greater Western Sydney,76
-2012,12,benjamin stratton,Hawthorn,76
+2012,12,ben stratton,Hawthorn,76
 2012,12,matthew wright,Adelaide,75
 2012,12,daniel rich,Brisbane Lions,75
 2012,12,shane edwards,Richmond,75
 2012,12,nathan van berlo,Adelaide,74
 2012,12,brandon matera,Gold Coast,74
-2012,12,matthew maguire,Brisbane Lions,74
-2012,12,thomas murphy,Hawthorn,73
+2012,12,matt maguire,Brisbane Lions,74
+2012,12,tom murphy,Hawthorn,73
 2012,12,andrew raines,Brisbane Lions,73
 2012,12,clinton jones,St Kilda,73
 2012,12,will minson,Western Bulldogs,72
@@ -4405,13 +4405,13 @@ year,round,displayName,team,score
 2012,12,daniel merrett,Brisbane Lions,61
 2012,12,dean brogan,Greater Western Sydney,60
 2012,12,chris newman,Richmond,60
-2012,12,matthew dea,Richmond,60
+2012,12,matt dea,Richmond,60
 2012,12,liam patrick,Gold Coast,59
 2012,12,nick riewoldt,St Kilda,59
 2012,12,leigh adams,North Melbourne,59
 2012,12,michael firrito,North Melbourne,57
 2012,12,sam gibson,North Melbourne,56
-2012,12,lachlan henderson,Carlton,56
+2012,12,lachie henderson,Carlton,56
 2012,12,liam shiels,Hawthorn,55
 2012,12,james gwilt,St Kilda,54
 2012,12,andrew moore,Port Adelaide,54
@@ -4421,10 +4421,10 @@ year,round,displayName,team,score
 2012,12,mark austin,Western Bulldogs,53
 2012,12,hamish hartlett,Port Adelaide,52
 2012,12,josh hill,West Coast,52
-2012,12,mitchell golby,Brisbane Lions,52
+2012,12,mitch golby,Brisbane Lions,52
 2012,12,david hale,Hawthorn,52
-2012,12,benjamin griffiths,Richmond,51
-2012,12,bradley sheppard,West Coast,50
+2012,12,ben griffiths,Richmond,51
+2012,12,brad sheppard,West Coast,50
 2012,12,taylor hine,Gold Coast,50
 2012,12,michael jamison,Carlton,50
 2012,12,darren glass,West Coast,49
@@ -4433,7 +4433,7 @@ year,round,displayName,team,score
 2012,12,michael doughty,Adelaide,47
 2012,12,chris judd,Carlton,47
 2012,12,eric mackenzie,West Coast,47
-2012,12,samuel wright,North Melbourne,46
+2012,12,sam wright,North Melbourne,46
 2012,12,james polkinghorne,Brisbane Lions,45
 2012,12,ashton hams,West Coast,45
 2012,12,jared polec,Brisbane Lions,45
@@ -4448,10 +4448,10 @@ year,round,displayName,team,score
 2012,12,matthew jaensch,Adelaide,39
 2012,12,josh jenkins,Adelaide,39
 2012,12,tom logan,Port Adelaide,39
-2012,12,joshua green,Brisbane Lions,38
+2012,12,josh green,Brisbane Lions,38
 2012,12,jake king,Richmond,38
 2012,12,ben jacobs,Port Adelaide,36
-2012,12,nial mckeever,Brisbane Lions,35
+2012,12,niall mckeever,Brisbane Lions,35
 2012,12,sam schulz,Greater Western Sydney,35
 2012,12,sam day,Gold Coast,35
 2012,12,ryan schoenmakers,Hawthorn,34
@@ -4459,7 +4459,7 @@ year,round,displayName,team,score
 2012,12,devon smith,Greater Western Sydney,33
 2012,12,jackson trengove,Port Adelaide,33
 2012,12,aaron joseph,Carlton,31
-2012,12,christopher yarran,Carlton,30
+2012,12,chris yarran,Carlton,30
 2012,12,adam selwood,West Coast,30
 2012,12,alex sexton,Gold Coast,30
 2012,12,matthew warnock,Gold Coast,30
@@ -4475,7 +4475,7 @@ year,round,displayName,team,score
 2012,12,aaron cornelius,Brisbane Lions,24
 2012,12,aaron black,North Melbourne,23
 2012,12,jake batchelor,Richmond,22
-2012,12,sebastian tape,Gold Coast,21
+2012,12,seb tape,Gold Coast,21
 2012,12,chad wingard,Port Adelaide,21
 2012,12,kieran harper,North Melbourne,19
 2012,12,brent renouf,Port Adelaide,18
@@ -4486,13 +4486,13 @@ year,round,displayName,team,score
 2012,12,jason blake,St Kilda,12
 2012,12,clay smith,Western Bulldogs,8
 2012,12,adam treloar,Greater Western Sydney,7
-2012,12,brett o'hanlon,Richmond,3
+2012,12,brett ohanlon,Richmond,3
 2012,13,leigh adams,North Melbourne,151
 2012,13,pearce hanley,Brisbane Lions,151
 2012,13,tom rockliff,Brisbane Lions,147
 2012,13,dayne beams,Collingwood,128
 2012,13,jack redden,Brisbane Lions,127
-2012,13,matthew de boer,Fremantle,123
+2012,13,matt de boer,Fremantle,123
 2012,13,corey enright,Geelong,123
 2012,13,jobe watson,Essendon,120
 2012,13,ryan bastinac,North Melbourne,120
@@ -4522,12 +4522,12 @@ year,round,displayName,team,score
 2012,13,taylor walker,Adelaide,105
 2012,13,robbie tarrant,North Melbourne,105
 2012,13,todd goldstein,North Melbourne,105
-2012,13,patrick ryder,Essendon,104
-2012,13,samuel wright,North Melbourne,103
+2012,13,paddy ryder,Essendon,104
+2012,13,sam wright,North Melbourne,103
 2012,13,scott thompson,Adelaide,102
 2012,13,daniel cross,Western Bulldogs,102
 2012,13,david myers,Essendon,102
-2012,13,christopher mayne,Fremantle,102
+2012,13,chris mayne,Fremantle,102
 2012,13,nick lower,Fremantle,101
 2012,13,andrew gaff,West Coast,101
 2012,13,tom mcdonald,Melbourne,101
@@ -4545,15 +4545,15 @@ year,round,displayName,team,score
 2012,13,taylor adams,Greater Western Sydney,97
 2012,13,jamie elliott,Collingwood,96
 2012,13,brent reilly,Adelaide,96
-2012,13,bradley sheppard,West Coast,95
+2012,13,brad sheppard,West Coast,95
 2012,13,colin garland,Melbourne,95
 2012,13,nick maxwell,Collingwood,95
 2012,13,paul chapman,Geelong,95
 2012,13,jarryd blair,Collingwood,94
-2012,13,josh kennedy injured,Sydney,94
-2012,13,zachary clarke,Fremantle,94
+2012,13,josh kennedy,Sydney,94
+2012,13,zac clarke,Fremantle,94
 2012,13,scott mcmahon,North Melbourne,94
-2012,13,ryan o'keefe,Sydney,93
+2012,13,ryan okeefe,Sydney,93
 2012,13,david hille,Essendon,93
 2012,13,daniel merrett,Brisbane Lions,93
 2012,13,josh hunt,Geelong,92
@@ -4562,7 +4562,7 @@ year,round,displayName,team,score
 2012,13,jeremy howe,Melbourne,92
 2012,13,lynden dunn,Melbourne,91
 2012,13,tom lonergan,Geelong,91
-2012,13,thomas liberatore,Western Bulldogs,91
+2012,13,tom liberatore,Western Bulldogs,91
 2012,13,steve johnson,Geelong,91
 2012,13,james kelly,Geelong,91
 2012,13,michael barlow,Fremantle,90
@@ -4578,7 +4578,7 @@ year,round,displayName,team,score
 2012,13,brent stanton,Essendon,88
 2012,13,christian howard,Western Bulldogs,88
 2012,13,daniel rich,Brisbane Lions,88
-2012,13,matthew rosa,West Coast,87
+2012,13,matt rosa,West Coast,87
 2012,13,andrew swallow,North Melbourne,87
 2012,13,heath shaw,Collingwood,86
 2012,13,mike pyke,Sydney,86
@@ -4591,7 +4591,7 @@ year,round,displayName,team,score
 2012,13,ted richards,Sydney,84
 2012,13,tory dickson,Western Bulldogs,84
 2012,13,jonathan brown,Brisbane Lions,84
-2012,13,matthew priddis,West Coast,83
+2012,13,matt priddis,West Coast,83
 2012,13,nick smith,Sydney,83
 2012,13,sam jacobs,Adelaide,83
 2012,13,dyson heppell,Essendon,83
@@ -4617,13 +4617,13 @@ year,round,displayName,team,score
 2012,13,joel corey,Geelong,78
 2012,13,matthew scarlett,Geelong,78
 2012,13,daniel nicholson,Melbourne,78
-2012,13,mitchell golby,Brisbane Lions,78
+2012,13,mitch golby,Brisbane Lions,78
 2012,13,james sellar,Melbourne,78
 2012,13,ashton hams,West Coast,77
 2012,13,clancee pearce,Fremantle,77
 2012,13,cale hooker,Essendon,77
-2012,13,nicholas naitanui,West Coast,76
-2012,13,mitchell clark,Melbourne,76
+2012,13,nic naitanui,West Coast,76
+2012,13,mitch clark,Melbourne,76
 2012,13,rhyce shaw,Sydney,76
 2012,13,luke shuey,West Coast,75
 2012,13,liam anthony,North Melbourne,75
@@ -4634,7 +4634,7 @@ year,round,displayName,team,score
 2012,13,jeremy cameron,Greater Western Sydney,74
 2012,13,jordie mckenzie,Melbourne,73
 2012,13,trent west,Geelong,73
-2012,13,mitchell wallis,Western Bulldogs,73
+2012,13,mitch wallis,Western Bulldogs,73
 2012,13,dustin fletcher,Essendon,73
 2012,13,robert murphy,Western Bulldogs,72
 2012,13,marley williams,Collingwood,72
@@ -4648,11 +4648,11 @@ year,round,displayName,team,score
 2012,13,josh hill,West Coast,70
 2012,13,sharrod wellingham,Collingwood,70
 2012,13,jed adcock,Brisbane Lions,70
-2012,13,daniel hannebery,Sydney,70
+2012,13,dan hannebery,Sydney,70
 2012,13,scott thompson,North Melbourne,69
 2012,13,heritier lumumba,Collingwood,69
 2012,13,david mundy,Fremantle,68
-2012,13,nicholas suban,Fremantle,68
+2012,13,nick suban,Fremantle,68
 2012,13,luke mcpharlin,Fremantle,68
 2012,13,james mcdonald,Greater Western Sydney,66
 2012,13,steven motlop,Geelong,66
@@ -4688,16 +4688,16 @@ year,round,displayName,team,score
 2012,13,jack grimes,Melbourne,56
 2012,13,matthew jaensch,Adelaide,55
 2012,13,nathan van berlo,Adelaide,55
-2012,13,sam reid injured,Sydney,55
+2012,13,sam reid,Sydney,55
 2012,13,jason porplyzia,Adelaide,55
 2012,13,tony armstrong,Sydney,55
 2012,13,joel patfull,Brisbane Lions,55
 2012,13,nathan wilson,Greater Western Sydney,55
-2012,13,mitchell duncan,Geelong,54
+2012,13,mitch duncan,Geelong,54
 2012,13,jonathan giles,Greater Western Sydney,54
 2012,13,ryan crowley,Fremantle,54
 2012,13,nathan lovett-murray,Essendon,53
-2012,13,nial mckeever,Brisbane Lions,53
+2012,13,niall mckeever,Brisbane Lions,53
 2012,13,taylor hunt,Geelong,53
 2012,13,jacob brennan,West Coast,53
 2012,13,david wojcinski,Geelong,52
@@ -4724,9 +4724,9 @@ year,round,displayName,team,score
 2012,13,hayden crozier,Fremantle,40
 2012,13,sam shaw,Adelaide,39
 2012,13,tyson goldsack,Collingwood,38
-2012,13,corey dell'olio,Essendon,37
+2012,13,cory dellolio,Essendon,37
 2012,13,michael firrito,North Melbourne,37
-2012,13,joshua green,Brisbane Lions,36
+2012,13,josh green,Brisbane Lions,36
 2012,13,tomas bugg,Greater Western Sydney,34
 2012,13,chris dawes,Collingwood,34
 2012,13,patrick mcginnity,West Coast,33
@@ -4737,20 +4737,20 @@ year,round,displayName,team,score
 2012,13,ayce cordy,Western Bulldogs,30
 2012,13,sam blease,Melbourne,29
 2012,13,adam goodes,Sydney,25
-2012,13,thomas young,Collingwood,25
+2012,13,tom young,Collingwood,25
 2012,13,mathew stokes,Geelong,24
 2012,13,luke power,Greater Western Sydney,23
 2012,13,dawson simpson,Geelong,23
 2012,13,mark whiley,Greater Western Sydney,23
 2012,13,jared petrenko,Adelaide,22
-2012,13,mitchell brown,West Coast,22
+2012,13,mitch brown,West Coast,22
 2012,13,jayden pitt,Fremantle,21
 2012,13,martin clarke,Collingwood,18
 2012,13,ben cunnington,North Melbourne,17
 2012,13,jamie macmillan,North Melbourne,17
 2012,13,lewis roberts-thomson,Sydney,14
 2012,13,sam gibson,North Melbourne,9
-2012,13,matthew maguire,Brisbane Lions,5
+2012,13,matt maguire,Brisbane Lions,5
 2012,14,darren jolly,Collingwood,157
 2012,14,joel selwood,Geelong,149
 2012,14,ryan harwood,Brisbane Lions,148
@@ -4778,20 +4778,20 @@ year,round,displayName,team,score
 2012,14,chris judd,Carlton,126
 2012,14,daniel wells,North Melbourne,126
 2012,14,heath hocking,Essendon,125
-2012,14,ryan o'keefe,Sydney,124
+2012,14,ryan okeefe,Sydney,124
 2012,14,pearce hanley,Brisbane Lions,124
-2012,14,josh kennedy injured,Sydney,123
+2012,14,josh kennedy,Sydney,123
 2012,14,corey enright,Geelong,123
 2012,14,chris masten,West Coast,123
 2012,14,josh hill,West Coast,123
 2012,14,mitch robinson,Carlton,122
 2012,14,jack steven,St Kilda,119
 2012,14,tom logan,Port Adelaide,117
-2012,14,matthew priddis,West Coast,117
+2012,14,matt priddis,West Coast,117
 2012,14,dayne beams,Collingwood,117
 2012,14,michael barlow,Fremantle,117
 2012,14,danny stanley,Gold Coast,117
-2012,14,nicholas naitanui,West Coast,116
+2012,14,nic naitanui,West Coast,116
 2012,14,brock mclean,Carlton,116
 2012,14,dylan grimes,Richmond,115
 2012,14,ivan maric,Richmond,115
@@ -4813,8 +4813,8 @@ year,round,displayName,team,score
 2012,14,daniel jackson,Richmond,110
 2012,14,drew petrie,North Melbourne,110
 2012,14,sharrod wellingham,Collingwood,109
-2012,14,patrick ryder,Essendon,109
-2012,14,matthew rosa,West Coast,109
+2012,14,paddy ryder,Essendon,109
+2012,14,matt rosa,West Coast,109
 2012,14,daniel kerr,West Coast,109
 2012,14,andrew gaff,West Coast,109
 2012,14,tom rockliff,Brisbane Lions,107
@@ -4836,7 +4836,7 @@ year,round,displayName,team,score
 2012,14,quinten lynch,West Coast,102
 2012,14,michael johnson,Fremantle,102
 2012,14,richard douglas,Adelaide,101
-2012,14,thomas liberatore,Western Bulldogs,101
+2012,14,tom liberatore,Western Bulldogs,101
 2012,14,kane cornes,Port Adelaide,101
 2012,14,taylor walker,Adelaide,101
 2012,14,michael firrito,North Melbourne,101
@@ -4850,7 +4850,7 @@ year,round,displayName,team,score
 2012,14,jack ziebell,North Melbourne,99
 2012,14,courtenay dempsey,Essendon,99
 2012,14,allen christensen,Geelong,98
-2012,14,christopher yarran,Carlton,98
+2012,14,chris yarran,Carlton,98
 2012,14,andrew carrazzo,Carlton,98
 2012,14,dustin fletcher,Essendon,98
 2012,14,jimmy bartel,Geelong,97
@@ -4862,7 +4862,7 @@ year,round,displayName,team,score
 2012,14,liam anthony,North Melbourne,94
 2012,14,alex fasolo,Collingwood,94
 2012,14,ashton hams,West Coast,94
-2012,14,daniel hannebery,Sydney,94
+2012,14,dan hannebery,Sydney,94
 2012,14,david hale,Hawthorn,94
 2012,14,shane mumford,Sydney,93
 2012,14,steele sidebottom,Collingwood,93
@@ -4886,9 +4886,9 @@ year,round,displayName,team,score
 2012,14,david ellard,Carlton,85
 2012,14,simon buckley,Collingwood,85
 2012,14,david hille,Essendon,85
-2012,14,mitchell golby,Brisbane Lions,85
+2012,14,mitch golby,Brisbane Lions,85
 2012,14,toby greene,Greater Western Sydney,85
-2012,14,matthew suckling,Hawthorn,84
+2012,14,matt suckling,Hawthorn,84
 2012,14,michael hibberd,Essendon,84
 2012,14,ryan hargrave,Western Bulldogs,83
 2012,14,adam treloar,Greater Western Sydney,83
@@ -4927,7 +4927,7 @@ year,round,displayName,team,score
 2012,14,brent harvey,North Melbourne,78
 2012,14,david rodan,Port Adelaide,78
 2012,14,daniel merrett,Brisbane Lions,78
-2012,14,matthew de boer,Fremantle,77
+2012,14,matt de boer,Fremantle,77
 2012,14,andrew moore,Port Adelaide,77
 2012,14,rory sloane,Adelaide,77
 2012,14,shane savage,Hawthorn,77
@@ -4937,7 +4937,7 @@ year,round,displayName,team,score
 2012,14,lachlan hansen,North Melbourne,76
 2012,14,andrew mackie,Geelong,76
 2012,14,brad ebert,Port Adelaide,76
-2012,14,nial mckeever,Brisbane Lions,75
+2012,14,niall mckeever,Brisbane Lions,75
 2012,14,tony armstrong,Sydney,75
 2012,14,chris dawes,Collingwood,75
 2012,14,jed adcock,Brisbane Lions,74
@@ -4969,9 +4969,9 @@ year,round,displayName,team,score
 2012,14,jack trengove,Melbourne,71
 2012,14,rhyce shaw,Sydney,71
 2012,14,jordie mckenzie,Melbourne,70
-2012,14,benjamin griffiths,Richmond,70
+2012,14,ben griffiths,Richmond,70
 2012,14,luke breust,Hawthorn,70
-2012,14,mitchell duncan,Geelong,70
+2012,14,mitch duncan,Geelong,70
 2012,14,dyson heppell,Essendon,70
 2012,14,nick dal santo,St Kilda,70
 2012,14,jacob brennan,West Coast,70
@@ -4979,7 +4979,7 @@ year,round,displayName,team,score
 2012,14,devon smith,Greater Western Sydney,69
 2012,14,joel corey,Geelong,69
 2012,14,david mackay,Adelaide,68
-2012,14,nicholas suban,Fremantle,68
+2012,14,nick suban,Fremantle,68
 2012,14,matthew scarlett,Geelong,68
 2012,14,matthew watson,Carlton,68
 2012,14,ashley mcgrath,Brisbane Lions,67
@@ -4987,7 +4987,7 @@ year,round,displayName,team,score
 2012,14,ted richards,Sydney,67
 2012,14,sam blease,Melbourne,67
 2012,14,daniel talia,Adelaide,66
-2012,14,mitchell brown,West Coast,66
+2012,14,mitch brown,West Coast,66
 2012,14,nick lower,Fremantle,66
 2012,14,shaun edwards,Greater Western Sydney,66
 2012,14,brendan whitecross,Hawthorn,66
@@ -5014,17 +5014,17 @@ year,round,displayName,team,score
 2012,14,liam picken,Western Bulldogs,61
 2012,14,nathan grima,North Melbourne,61
 2012,14,tim mohr,Greater Western Sydney,61
-2012,14,bradley sheppard,West Coast,61
+2012,14,brad sheppard,West Coast,61
 2012,14,shaun hampson,Carlton,61
 2012,14,heritier lumumba,Collingwood,61
 2012,14,tendai mzungu,Fremantle,61
 2012,14,ryan griffen,Western Bulldogs,60
 2012,14,andrew raines,Brisbane Lions,60
 2012,14,nick maxwell,Collingwood,60
-2012,14,joshua green,Brisbane Lions,60
+2012,14,josh green,Brisbane Lions,60
 2012,14,brent renouf,Port Adelaide,59
 2012,14,andrew walker,Carlton,59
-2012,14,thomas jonas,Port Adelaide,59
+2012,14,tom jonas,Port Adelaide,59
 2012,14,andrejs everitt,Sydney,59
 2012,14,james magner,Melbourne,59
 2012,14,sam shaw,Adelaide,59
@@ -5039,7 +5039,7 @@ year,round,displayName,team,score
 2012,14,rhys stanley,St Kilda,57
 2012,14,darren glass,West Coast,57
 2012,14,john butcher,Port Adelaide,56
-2012,14,corey dell'olio,Essendon,56
+2012,14,cory dellolio,Essendon,56
 2012,14,easton wood,Western Bulldogs,56
 2012,14,brent moloney,Melbourne,56
 2012,14,chad wingard,Port Adelaide,55
@@ -5052,7 +5052,7 @@ year,round,displayName,team,score
 2012,14,rohan bail,Melbourne,53
 2012,14,eric mackenzie,West Coast,52
 2012,14,alan toovey,Collingwood,52
-2012,14,christopher mayne,Fremantle,52
+2012,14,chris mayne,Fremantle,52
 2012,14,liam patrick,Gold Coast,51
 2012,14,george horlin-smith,Geelong,51
 2012,14,zach tuohy,Carlton,51
@@ -5063,7 +5063,7 @@ year,round,displayName,team,score
 2012,14,josh gibson,Hawthorn,50
 2012,14,travis cloke,Collingwood,49
 2012,14,lindsay thomas,North Melbourne,48
-2012,14,sam reid injured,Sydney,48
+2012,14,sam reid,Sydney,48
 2012,14,adam tomlinson,Greater Western Sydney,48
 2012,14,steven morris,Richmond,48
 2012,14,ryan schoenmakers,Hawthorn,48
@@ -5073,7 +5073,7 @@ year,round,displayName,team,score
 2012,14,brodie martin,Adelaide,47
 2012,14,sean dempster,St Kilda,47
 2012,14,jake king,Richmond,47
-2012,14,benjamin stratton,Hawthorn,46
+2012,14,ben stratton,Hawthorn,46
 2012,14,jason blake,St Kilda,46
 2012,14,charlie dixon,Gold Coast,46
 2012,14,jeremy cameron,Greater Western Sydney,46
@@ -5095,12 +5095,12 @@ year,round,displayName,team,score
 2012,14,joel wilkinson,Gold Coast,42
 2012,14,murray newman,West Coast,42
 2012,14,nathan wilson,Greater Western Sydney,42
-2012,14,matthew dea,Richmond,41
+2012,14,matt dea,Richmond,41
 2012,14,james polkinghorne,Brisbane Lions,41
 2012,14,zac smith,Gold Coast,40
 2012,14,rohan bewick,Brisbane Lions,39
 2012,14,matthew warnock,Gold Coast,39
-2012,14,samuel wright,North Melbourne,38
+2012,14,sam wright,North Melbourne,38
 2012,14,jared brennan,Gold Coast,37
 2012,14,alex rance,Richmond,37
 2012,14,mathew stokes,Geelong,37
@@ -5116,15 +5116,15 @@ year,round,displayName,team,score
 2012,14,karmichael hunt,Gold Coast,33
 2012,14,christian howard,Western Bulldogs,33
 2012,14,jared petrenko,Adelaide,32
-2012,14,zachary clarke,Fremantle,31
+2012,14,zac clarke,Fremantle,31
 2012,14,jeff garlett,Carlton,31
 2012,14,justin sherman,Western Bulldogs,31
 2012,14,aaron joseph,Carlton,31
 2012,14,sam day,Gold Coast,30
-2012,14,nicholas duigan,Carlton,30
+2012,14,nick duigan,Carlton,30
 2012,14,brett ebert,Port Adelaide,29
 2012,14,james frawley,Melbourne,28
-2012,14,cameron o'shea,Port Adelaide,28
+2012,14,cameron oshea,Port Adelaide,28
 2012,14,jared polec,Brisbane Lions,27
 2012,14,lachie neale,Fremantle,26
 2012,14,craig bird,Sydney,24
@@ -5139,7 +5139,7 @@ year,round,displayName,team,score
 2012,14,tom mcdonald,Melbourne,13
 2012,14,dylan addison,Western Bulldogs,13
 2012,14,terry milera,St Kilda,12
-2012,14,joshua bootsma,Carlton,11
+2012,14,josh bootsma,Carlton,11
 2012,14,alex sexton,Gold Coast,10
 2012,14,justin koschitzke,St Kilda,10
 2012,14,jayden pitt,Fremantle,9
@@ -5149,7 +5149,7 @@ year,round,displayName,team,score
 2012,14,nathan van berlo,Adelaide,2
 2012,15,dean cox,West Coast,215
 2012,15,matthew pavlich,Fremantle,175
-2012,15,matthew priddis,West Coast,170
+2012,15,matt priddis,West Coast,170
 2012,15,cyril rioli,Hawthorn,159
 2012,15,jarrad mcveigh,Sydney,152
 2012,15,james kelly,Geelong,148
@@ -5157,13 +5157,13 @@ year,round,displayName,team,score
 2012,15,sam jacobs,Adelaide,146
 2012,15,scott thompson,Adelaide,143
 2012,15,paul chapman,Geelong,141
-2012,15,christopher mayne,Fremantle,139
+2012,15,chris mayne,Fremantle,139
 2012,15,andrew swallow,North Melbourne,134
 2012,15,shane tuck,Richmond,133
 2012,15,shaun grigg,Richmond,133
 2012,15,bachar houli,Richmond,133
 2012,15,jordan lewis,Hawthorn,130
-2012,15,sam reid injured,Sydney,129
+2012,15,sam reid,Sydney,129
 2012,15,chris judd,Carlton,126
 2012,15,toby greene,Greater Western Sydney,126
 2012,15,jarryd roughead,Hawthorn,126
@@ -5172,7 +5172,7 @@ year,round,displayName,team,score
 2012,15,matthew boyd,Western Bulldogs,123
 2012,15,dayne zorko,Brisbane Lions,121
 2012,15,ricky henderson,Adelaide,120
-2012,15,nicholas naitanui,West Coast,120
+2012,15,nic naitanui,West Coast,120
 2012,15,liam shiels,Hawthorn,119
 2012,15,josh gibson,Hawthorn,119
 2012,15,pearce hanley,Brisbane Lions,119
@@ -5186,7 +5186,7 @@ year,round,displayName,team,score
 2012,15,brock mclean,Carlton,116
 2012,15,nick dal santo,St Kilda,115
 2012,15,david hale,Hawthorn,114
-2012,15,christopher yarran,Carlton,114
+2012,15,chris yarran,Carlton,114
 2012,15,troy chaplin,Port Adelaide,114
 2012,15,nathan jones,Melbourne,114
 2012,15,jimmy bartel,Geelong,113
@@ -5194,7 +5194,7 @@ year,round,displayName,team,score
 2012,15,dane swan,Collingwood,112
 2012,15,heath shaw,Collingwood,112
 2012,15,tom lonergan,Geelong,111
-2012,15,matthew suckling,Hawthorn,111
+2012,15,matt suckling,Hawthorn,111
 2012,15,jed adcock,Brisbane Lions,111
 2012,15,jonathon griffin,Fremantle,111
 2012,15,quinten lynch,West Coast,110
@@ -5242,11 +5242,11 @@ year,round,displayName,team,score
 2012,15,tory dickson,Western Bulldogs,98
 2012,15,sam shaw,Adelaide,98
 2012,15,josh caddy,Gold Coast,98
-2012,15,edward curnow,Carlton,98
+2012,15,ed curnow,Carlton,98
 2012,15,lynden dunn,Melbourne,98
 2012,15,mitch robinson,Carlton,98
 2012,15,shane edwards,Richmond,97
-2012,15,josh kennedy injured,Sydney,97
+2012,15,josh kennedy,Sydney,97
 2012,15,patrick dangerfield,Adelaide,97
 2012,15,jack riewoldt,Richmond,97
 2012,15,ben rutten,Adelaide,96
@@ -5256,7 +5256,7 @@ year,round,displayName,team,score
 2012,15,sam butler,West Coast,95
 2012,15,josh drummond,Brisbane Lions,94
 2012,15,corey enright,Geelong,93
-2012,15,mitchell wallis,Western Bulldogs,93
+2012,15,mitch wallis,Western Bulldogs,93
 2012,15,daniel nicholson,Melbourne,93
 2012,15,steele sidebottom,Collingwood,93
 2012,15,jobe watson,Essendon,93
@@ -5273,14 +5273,14 @@ year,round,displayName,team,score
 2012,15,matthew wright,Adelaide,90
 2012,15,daniel rich,Brisbane Lions,90
 2012,15,todd goldstein,North Melbourne,90
-2012,15,ryan o'keefe,Sydney,90
+2012,15,ryan okeefe,Sydney,90
 2012,15,sean dempster,St Kilda,90
 2012,15,nick maxwell,Collingwood,90
 2012,15,clinton jones,St Kilda,90
 2012,15,trent mckenzie,Gold Coast,89
 2012,15,brent stanton,Essendon,89
-2012,15,matthew rosa,West Coast,89
-2012,15,matthew de boer,Fremantle,89
+2012,15,matt rosa,West Coast,89
+2012,15,matt de boer,Fremantle,89
 2012,15,heath scotland,Carlton,89
 2012,15,sam fisher,St Kilda,88
 2012,15,david hille,Essendon,88
@@ -5292,7 +5292,7 @@ year,round,displayName,team,score
 2012,15,jack crisp,Brisbane Lions,86
 2012,15,reece conca,Richmond,85
 2012,15,david mundy,Fremantle,84
-2012,15,thomas murphy,Hawthorn,84
+2012,15,tom murphy,Hawthorn,84
 2012,15,rhyce shaw,Sydney,84
 2012,15,adam mcphee,Fremantle,84
 2012,15,justin koschitzke,St Kilda,84
@@ -5304,7 +5304,7 @@ year,round,displayName,team,score
 2012,15,jason gram,St Kilda,83
 2012,15,nathan djerrkura,Western Bulldogs,82
 2012,15,danny stanley,Gold Coast,82
-2012,15,daniel hannebery,Sydney,82
+2012,15,dan hannebery,Sydney,82
 2012,15,david mackay,Adelaide,82
 2012,15,isaac smith,Hawthorn,81
 2012,15,ted richards,Sydney,81
@@ -5314,17 +5314,17 @@ year,round,displayName,team,score
 2012,15,dyson heppell,Essendon,80
 2012,15,dustin fletcher,Essendon,80
 2012,15,sam lonergan,Essendon,80
-2012,15,mitchell brown,Geelong,80
+2012,15,mitch brown,Geelong,80
 2012,15,jack trengove,Melbourne,80
 2012,15,jason porplyzia,Adelaide,80
 2012,15,dayne beams,Collingwood,80
 2012,15,travis cloke,Collingwood,80
-2012,15,thomas liberatore,Western Bulldogs,80
+2012,15,tom liberatore,Western Bulldogs,80
 2012,15,nathan grima,North Melbourne,79
 2012,15,stefan martin,Melbourne,79
 2012,15,ivan maric,Richmond,79
-2012,15,nicholas duigan,Carlton,79
-2012,15,patrick ryder,Essendon,79
+2012,15,nick duigan,Carlton,79
+2012,15,paddy ryder,Essendon,79
 2012,15,billie smedts,Geelong,78
 2012,15,sharrod wellingham,Collingwood,78
 2012,15,harley bennell,Gold Coast,78
@@ -5334,7 +5334,7 @@ year,round,displayName,team,score
 2012,15,michael johnson,Fremantle,78
 2012,15,alex rance,Richmond,77
 2012,15,zac smith,Gold Coast,77
-2012,15,matthew white,Richmond,77
+2012,15,matt white,Richmond,77
 2012,15,justin westhoff,Port Adelaide,77
 2012,15,tim mohr,Greater Western Sydney,77
 2012,15,ryan harwood,Brisbane Lions,76
@@ -5372,7 +5372,7 @@ year,round,displayName,team,score
 2012,15,liam anthony,North Melbourne,68
 2012,15,brandon ellis,Richmond,68
 2012,15,matthew broadbent,Port Adelaide,68
-2012,15,benjamin griffiths,Richmond,68
+2012,15,ben griffiths,Richmond,68
 2012,15,jack darling,West Coast,67
 2012,15,andrew raines,Brisbane Lions,66
 2012,15,heritier lumumba,Collingwood,66
@@ -5382,13 +5382,13 @@ year,round,displayName,team,score
 2012,15,sam gibson,North Melbourne,66
 2012,15,danyle pearce,Port Adelaide,66
 2012,15,brodie smith,Adelaide,65
-2012,15,samuel wright,North Melbourne,65
+2012,15,sam wright,North Melbourne,65
 2012,15,simon buckley,Collingwood,65
 2012,15,alipate carlile,Port Adelaide,64
 2012,15,ben mcglynn,Sydney,64
 2012,15,sam gilbert,St Kilda,64
 2012,15,martin clarke,Collingwood,63
-2012,15,cameron sutcliffe,Fremantle,63
+2012,15,cam sutcliffe,Fremantle,63
 2012,15,josh hill,West Coast,63
 2012,15,tomas bugg,Greater Western Sydney,63
 2012,15,scott selwood,West Coast,63
@@ -5414,7 +5414,7 @@ year,round,displayName,team,score
 2012,15,chris masten,West Coast,59
 2012,15,matthew lobbe,Port Adelaide,59
 2012,15,tyson goldsack,Collingwood,59
-2012,15,thomas jonas,Port Adelaide,59
+2012,15,tom jonas,Port Adelaide,59
 2012,15,tom derickx,Richmond,59
 2012,15,hayden ballantyne,Fremantle,58
 2012,15,kade simpson,Carlton,58
@@ -5455,11 +5455,11 @@ year,round,displayName,team,score
 2012,15,david myers,Essendon,52
 2012,15,andrew mcinnes,Carlton,51
 2012,15,matthew scarlett,Geelong,51
-2012,15,matthew dea,Richmond,51
+2012,15,matt dea,Richmond,51
 2012,15,michael jamison,Carlton,51
 2012,15,jonathan giles,Greater Western Sydney,51
 2012,15,dawson simpson,Geelong,51
-2012,15,nial mckeever,Brisbane Lions,50
+2012,15,niall mckeever,Brisbane Lions,50
 2012,15,andrew moore,Port Adelaide,50
 2012,15,tom logan,Port Adelaide,50
 2012,15,michael doughty,Adelaide,50
@@ -5483,7 +5483,7 @@ year,round,displayName,team,score
 2012,15,craig bird,Sydney,45
 2012,15,michael hurley,Essendon,45
 2012,15,jackson paine,Collingwood,44
-2012,15,brett o'hanlon,Richmond,44
+2012,15,brett ohanlon,Richmond,44
 2012,15,jamie bennell,Melbourne,43
 2012,15,john mccarthy,Port Adelaide,43
 2012,15,jacob brennan,West Coast,42
@@ -5520,9 +5520,9 @@ year,round,displayName,team,score
 2012,15,marley williams,Collingwood,27
 2012,15,liam patrick,Gold Coast,25
 2012,15,ayce cordy,Western Bulldogs,25
-2012,15,benjamin stratton,Hawthorn,25
+2012,15,ben stratton,Hawthorn,25
 2012,15,lukas markovic,Western Bulldogs,24
-2012,15,joshua green,Brisbane Lions,24
+2012,15,josh green,Brisbane Lions,24
 2012,15,brent moloney,Melbourne,24
 2012,15,kurt tippett,Adelaide,23
 2012,15,ben sinclair,Collingwood,22
@@ -5540,7 +5540,7 @@ year,round,displayName,team,score
 2012,15,addam maric,Richmond,11
 2012,15,claye beams,Brisbane Lions,10
 2012,15,shaun hampson,Carlton,8
-2012,15,rick dyson,Essendon,7
+2012,15,ricky dyson,Essendon,7
 2012,15,joel wilkinson,Gold Coast,5
 2012,15,kieran harper,North Melbourne,0
 2012,16,drew petrie,North Melbourne,168
@@ -5552,7 +5552,7 @@ year,round,displayName,team,score
 2012,16,steve johnson,Geelong,148
 2012,16,callan ward,Greater Western Sydney,146
 2012,16,ben mcevoy,St Kilda,145
-2012,16,ryan o'keefe,Sydney,142
+2012,16,ryan okeefe,Sydney,142
 2012,16,trent cotchin,Richmond,141
 2012,16,matthew boyd,Western Bulldogs,141
 2012,16,brett deledio,Richmond,139
@@ -5567,13 +5567,13 @@ year,round,displayName,team,score
 2012,16,brett ebert,Port Adelaide,131
 2012,16,clinton jones,St Kilda,129
 2012,16,jason porplyzia,Adelaide,128
-2012,16,matthew priddis,West Coast,128
+2012,16,matt priddis,West Coast,128
 2012,16,lenny hayes,St Kilda,127
 2012,16,toby greene,Greater Western Sydney,127
 2012,16,brian lake,Western Bulldogs,124
 2012,16,jobe watson,Essendon,123
 2012,16,brent reilly,Adelaide,120
-2012,16,daniel hannebery,Sydney,119
+2012,16,dan hannebery,Sydney,119
 2012,16,stefan martin,Melbourne,119
 2012,16,ben howlett,Essendon,119
 2012,16,ryan griffen,Western Bulldogs,118
@@ -5581,7 +5581,7 @@ year,round,displayName,team,score
 2012,16,scott thompson,Adelaide,118
 2012,16,clancee pearce,Fremantle,117
 2012,16,simon black,Brisbane Lions,117
-2012,16,benjamin stratton,Hawthorn,115
+2012,16,ben stratton,Hawthorn,115
 2012,16,harley bennell,Gold Coast,115
 2012,16,scott selwood,West Coast,114
 2012,16,leigh montagna,St Kilda,114
@@ -5591,16 +5591,16 @@ year,round,displayName,team,score
 2012,16,hayden ballantyne,Fremantle,112
 2012,16,marc murphy,Carlton,112
 2012,16,brendan whitecross,Hawthorn,111
-2012,16,josh kennedy injured,Sydney,110
+2012,16,josh kennedy,Sydney,110
 2012,16,dayne zorko,Brisbane Lions,110
 2012,16,michael walters,Fremantle,110
-2012,16,christopher mayne,Fremantle,110
+2012,16,chris mayne,Fremantle,110
 2012,16,dane swan,Collingwood,110
 2012,16,patrick dangerfield,Adelaide,110
 2012,16,andrew swallow,North Melbourne,109
 2012,16,darren jolly,Collingwood,109
 2012,16,sam gilbert,St Kilda,108
-2012,16,rick dyson,Essendon,108
+2012,16,ricky dyson,Essendon,108
 2012,16,corey enright,Geelong,108
 2012,16,trent mckenzie,Gold Coast,107
 2012,16,joel selwood,Geelong,107
@@ -5608,7 +5608,7 @@ year,round,displayName,team,score
 2012,16,matthew wright,Adelaide,106
 2012,16,jordan lewis,Hawthorn,105
 2012,16,cyril rioli,Hawthorn,105
-2012,16,matthew maguire,Brisbane Lions,105
+2012,16,matt maguire,Brisbane Lions,105
 2012,16,daniel kerr,West Coast,105
 2012,16,brad sewell,Hawthorn,104
 2012,16,shaun grigg,Richmond,104
@@ -5657,12 +5657,12 @@ year,round,displayName,team,score
 2012,16,jarrod harbrow,Gold Coast,91
 2012,16,tom rockliff,Brisbane Lions,90
 2012,16,heritier lumumba,Collingwood,90
-2012,16,matthew rosa,West Coast,90
+2012,16,matt rosa,West Coast,90
 2012,16,chris masten,West Coast,90
 2012,16,colin sylvia,Melbourne,89
 2012,16,brad green,Melbourne,89
 2012,16,scott gumbleton,Essendon,89
-2012,16,mitchell duncan,Geelong,89
+2012,16,mitch duncan,Geelong,89
 2012,16,garrick ibbotson,Fremantle,89
 2012,16,brandon ellis,Richmond,88
 2012,16,bachar houli,Richmond,88
@@ -5676,7 +5676,7 @@ year,round,displayName,team,score
 2012,16,jack trengove,Melbourne,87
 2012,16,phil davis,Greater Western Sydney,87
 2012,16,steven morris,Richmond,87
-2012,16,sam reid injured,Sydney,87
+2012,16,sam reid,Sydney,87
 2012,16,robin nahas,Richmond,87
 2012,16,dean brogan,Greater Western Sydney,86
 2012,16,richard douglas,Adelaide,86
@@ -5708,7 +5708,7 @@ year,round,displayName,team,score
 2012,16,ryan schoenmakers,Hawthorn,81
 2012,16,lachlan hansen,North Melbourne,81
 2012,16,jeff garlett,Carlton,81
-2012,16,christopher yarran,Carlton,81
+2012,16,chris yarran,Carlton,81
 2012,16,nathan jones,Melbourne,81
 2012,16,danyle pearce,Port Adelaide,81
 2012,16,liam anthony,North Melbourne,80
@@ -5725,7 +5725,7 @@ year,round,displayName,team,score
 2012,16,adam treloar,Greater Western Sydney,78
 2012,16,lindsay thomas,North Melbourne,78
 2012,16,sam butler,West Coast,77
-2012,16,lachlan henderson,Carlton,77
+2012,16,lachie henderson,Carlton,77
 2012,16,andrew mcinnes,Carlton,77
 2012,16,jack gunston,Hawthorn,77
 2012,16,kepler bradley,Fremantle,77
@@ -5735,13 +5735,13 @@ year,round,displayName,team,score
 2012,16,addam maric,Richmond,76
 2012,16,tom mcdonald,Melbourne,76
 2012,16,charlie dixon,Gold Coast,76
-2012,16,thomas liberatore,Western Bulldogs,76
+2012,16,tom liberatore,Western Bulldogs,76
 2012,16,adam goodes,Sydney,75
 2012,16,darren pfeiffer,Port Adelaide,75
 2012,16,andrew raines,Brisbane Lions,75
 2012,16,eric mackenzie,West Coast,75
-2012,16,samuel wright,North Melbourne,75
-2012,16,matthew de boer,Fremantle,75
+2012,16,sam wright,North Melbourne,75
+2012,16,matt de boer,Fremantle,75
 2012,16,bryce gibbs,Carlton,74
 2012,16,kelvin moore,Richmond,74
 2012,16,dean cox,West Coast,74
@@ -5775,13 +5775,13 @@ year,round,displayName,team,score
 2012,16,dustin fletcher,Essendon,68
 2012,16,will minson,Western Bulldogs,68
 2012,16,tyson goldsack,Collingwood,68
-2012,16,corey dell'olio,Essendon,68
+2012,16,cory dellolio,Essendon,68
 2012,16,luke dahlhaus,Western Bulldogs,68
 2012,16,steven motlop,Geelong,68
 2012,16,matthew kreuzer,Carlton,67
-2012,16,brett o'hanlon,Richmond,67
+2012,16,brett ohanlon,Richmond,67
 2012,16,elliot yeo,Brisbane Lions,67
-2012,16,nicholas naitanui,West Coast,66
+2012,16,nic naitanui,West Coast,66
 2012,16,nick dal santo,St Kilda,66
 2012,16,tom logan,Port Adelaide,66
 2012,16,shaun atley,North Melbourne,66
@@ -5798,13 +5798,13 @@ year,round,displayName,team,score
 2012,16,tom simpkin,St Kilda,64
 2012,16,tom williams,Western Bulldogs,63
 2012,16,daniel talia,Adelaide,63
-2012,16,mitchell wallis,Western Bulldogs,62
-2012,16,edward curnow,Carlton,62
+2012,16,mitch wallis,Western Bulldogs,62
+2012,16,ed curnow,Carlton,62
 2012,16,michael hibberd,Essendon,62
 2012,16,arryn siposs,St Kilda,62
 2012,16,james gwilt,St Kilda,62
 2012,16,maverick weller,Gold Coast,61
-2012,16,thomas murphy,Hawthorn,61
+2012,16,tom murphy,Hawthorn,61
 2012,16,cale hooker,Essendon,61
 2012,16,john mccarthy,Port Adelaide,61
 2012,16,ryan hargrave,Western Bulldogs,61
@@ -5812,7 +5812,7 @@ year,round,displayName,team,score
 2012,16,ahmed saad,St Kilda,60
 2012,16,lindsay gilbee,Western Bulldogs,60
 2012,16,rhyce shaw,Sydney,59
-2012,16,matthew dea,Richmond,59
+2012,16,matt dea,Richmond,59
 2012,16,chris knights,Adelaide,59
 2012,16,nathan brown,Collingwood,58
 2012,16,dion prestia,Gold Coast,58
@@ -5824,9 +5824,9 @@ year,round,displayName,team,score
 2012,16,jacob brennan,West Coast,58
 2012,16,courtenay dempsey,Essendon,57
 2012,16,jonathon patton,Greater Western Sydney,57
-2012,16,bradley sheppard,West Coast,57
+2012,16,brad sheppard,West Coast,57
 2012,16,adam selwood,West Coast,57
-2012,16,thomas couch,Melbourne,57
+2012,16,tom couch,Melbourne,57
 2012,16,scott thompson,North Melbourne,57
 2012,16,jeremy howe,Melbourne,57
 2012,16,chris newman,Richmond,56
@@ -5867,7 +5867,7 @@ year,round,displayName,team,score
 2012,16,andrejs everitt,Sydney,48
 2012,16,adam kennedy,Greater Western Sydney,48
 2012,16,liam patrick,Gold Coast,47
-2012,16,joshua walker,Geelong,47
+2012,16,josh walker,Geelong,47
 2012,16,jason gram,St Kilda,47
 2012,16,patrick karnezis,Brisbane Lions,46
 2012,16,josh hall,Gold Coast,46
@@ -5899,7 +5899,7 @@ year,round,displayName,team,score
 2012,16,harry taylor,Geelong,37
 2012,16,ryan bastinac,North Melbourne,36
 2012,16,israel folau,Greater Western Sydney,36
-2012,16,cameron sutcliffe,Fremantle,36
+2012,16,cam sutcliffe,Fremantle,36
 2012,16,andrew mackie,Geelong,35
 2012,16,nathan wilson,Greater Western Sydney,35
 2012,16,scott mcmahon,North Melbourne,35
@@ -5910,18 +5910,18 @@ year,round,displayName,team,score
 2012,16,jamie bennell,Melbourne,31
 2012,16,lewis roberts-thomson,Sydney,31
 2012,16,nathan djerrkura,Western Bulldogs,30
-2012,16,matthew suckling,Hawthorn,30
+2012,16,matt suckling,Hawthorn,30
 2012,16,sam day,Gold Coast,29
 2012,16,aaron hall,Gold Coast,29
 2012,16,billie smedts,Geelong,28
 2012,16,rhys palmer,Greater Western Sydney,27
 2012,16,jackson sheringham,Geelong,26
-2012,16,mitchell brown,West Coast,26
+2012,16,mitch brown,West Coast,26
 2012,16,martin clarke,Collingwood,25
 2012,16,sam fisher,St Kilda,25
 2012,16,christian howard,Western Bulldogs,25
 2012,16,lukas markovic,Western Bulldogs,25
-2012,16,nicholas duigan,Carlton,25
+2012,16,nick duigan,Carlton,25
 2012,16,patrick mcginnity,West Coast,25
 2012,16,simon buckley,Collingwood,21
 2012,16,jeromey webberley,Richmond,20
@@ -5929,7 +5929,7 @@ year,round,displayName,team,score
 2012,16,kyle cheney,Hawthorn,18
 2012,16,brodie martin,Adelaide,18
 2012,16,chad wingard,Port Adelaide,18
-2012,16,thomas jonas,Port Adelaide,18
+2012,16,tom jonas,Port Adelaide,18
 2012,16,jeremy cameron,Greater Western Sydney,17
 2012,16,jason tutt,Western Bulldogs,14
 2012,16,paul puopolo,Hawthorn,14
@@ -5942,10 +5942,10 @@ year,round,displayName,team,score
 2012,17,dayne beams,Collingwood,162
 2012,17,drew petrie,North Melbourne,161
 2012,17,matthew pavlich,Fremantle,160
-2012,17,josh kennedy injured,Sydney,157
+2012,17,josh kennedy,Sydney,157
 2012,17,shane tuck,Richmond,155
 2012,17,gary ablett,Gold Coast,150
-2012,17,mitchell duncan,Geelong,148
+2012,17,mitch duncan,Geelong,148
 2012,17,dane swan,Collingwood,143
 2012,17,rory sloane,Adelaide,141
 2012,17,tom hawkins,Geelong,139
@@ -5969,7 +5969,7 @@ year,round,displayName,team,score
 2012,17,tom rockliff,Brisbane Lions,121
 2012,17,stephen hill,Fremantle,119
 2012,17,jack redden,Brisbane Lions,119
-2012,17,ryan o'keefe,Sydney,117
+2012,17,ryan okeefe,Sydney,117
 2012,17,brent reilly,Adelaide,117
 2012,17,will minson,Western Bulldogs,117
 2012,17,jordan lewis,Hawthorn,116
@@ -5978,8 +5978,8 @@ year,round,displayName,team,score
 2012,17,tom bellchambers,Essendon,114
 2012,17,daniel cross,Western Bulldogs,111
 2012,17,nathan jones,Melbourne,111
-2012,17,nicholas naitanui,West Coast,111
-2012,17,matthew priddis,West Coast,110
+2012,17,nic naitanui,West Coast,111
+2012,17,matt priddis,West Coast,110
 2012,17,pearce hanley,Brisbane Lions,109
 2012,17,jarrod harbrow,Gold Coast,109
 2012,17,steele sidebottom,Collingwood,109
@@ -6007,7 +6007,7 @@ year,round,displayName,team,score
 2012,17,charlie dixon,Gold Coast,104
 2012,17,luke power,Greater Western Sydney,103
 2012,17,lenny hayes,St Kilda,103
-2012,17,thomas liberatore,Western Bulldogs,103
+2012,17,tom liberatore,Western Bulldogs,103
 2012,17,andrew mackie,Geelong,102
 2012,17,jobe watson,Essendon,101
 2012,17,ben hudson,Brisbane Lions,101
@@ -6034,7 +6034,7 @@ year,round,displayName,team,score
 2012,17,jarryd roughead,Hawthorn,96
 2012,17,alex rance,Richmond,96
 2012,17,liam picken,Western Bulldogs,95
-2012,17,mitchell wallis,Western Bulldogs,95
+2012,17,mitch wallis,Western Bulldogs,95
 2012,17,todd goldstein,North Melbourne,95
 2012,17,sam jacobs,Adelaide,95
 2012,17,tom logan,Port Adelaide,94
@@ -6072,13 +6072,13 @@ year,round,displayName,team,score
 2012,17,heath grundy,Sydney,88
 2012,17,trent mckenzie,Gold Coast,88
 2012,17,daniel kerr,West Coast,88
-2012,17,zachary clarke,Fremantle,87
+2012,17,zac clarke,Fremantle,87
 2012,17,alipate carlile,Port Adelaide,87
 2012,17,trent west,Geelong,87
 2012,17,beau waters,West Coast,87
 2012,17,steven motlop,Geelong,87
 2012,17,ricky petterd,Melbourne,87
-2012,17,christopher yarran,Carlton,86
+2012,17,chris yarran,Carlton,86
 2012,17,kane cornes,Port Adelaide,85
 2012,17,mathew stokes,Geelong,85
 2012,17,paul duffield,Fremantle,85
@@ -6119,8 +6119,8 @@ year,round,displayName,team,score
 2012,17,lewis jetta,Sydney,77
 2012,17,david myers,Essendon,77
 2012,17,david hale,Hawthorn,77
-2012,17,edward curnow,Carlton,77
-2012,17,matthew maguire,Brisbane Lions,76
+2012,17,ed curnow,Carlton,77
+2012,17,matt maguire,Brisbane Lions,76
 2012,17,dean cox,West Coast,76
 2012,17,david swallow,Gold Coast,75
 2012,17,tom bell,Carlton,75
@@ -6128,8 +6128,8 @@ year,round,displayName,team,score
 2012,17,jayden post,Richmond,75
 2012,17,zac smith,Gold Coast,75
 2012,17,andrew collins,Carlton,74
-2012,17,matthew de boer,Fremantle,74
-2012,17,matthew suckling,Hawthorn,73
+2012,17,matt de boer,Fremantle,74
+2012,17,matt suckling,Hawthorn,73
 2012,17,chris dawes,Collingwood,73
 2012,17,clinton young,Hawthorn,73
 2012,17,liam shiels,Hawthorn,73
@@ -6152,7 +6152,7 @@ year,round,displayName,team,score
 2012,17,daniel giansiracusa,Western Bulldogs,71
 2012,17,adam goodes,Sydney,71
 2012,17,clinton jones,St Kilda,71
-2012,17,daniel hannebery,Sydney,71
+2012,17,dan hannebery,Sydney,71
 2012,17,eric mackenzie,West Coast,70
 2012,17,alex fasolo,Collingwood,70
 2012,17,darren jolly,Collingwood,70
@@ -6166,7 +6166,7 @@ year,round,displayName,team,score
 2012,17,josh caddy,Gold Coast,69
 2012,17,shaun grigg,Richmond,69
 2012,17,curtly hampton,Greater Western Sydney,69
-2012,17,bradley sheppard,West Coast,68
+2012,17,brad sheppard,West Coast,68
 2012,17,michael walters,Fremantle,68
 2012,17,shaun burgoyne,Hawthorn,68
 2012,17,elliot yeo,Brisbane Lions,68
@@ -6187,7 +6187,7 @@ year,round,displayName,team,score
 2012,17,james frawley,Melbourne,65
 2012,17,kelvin moore,Richmond,65
 2012,17,patrick veszpremi,Western Bulldogs,65
-2012,17,samuel wright,North Melbourne,65
+2012,17,sam wright,North Melbourne,65
 2012,17,chris newman,Richmond,65
 2012,17,matt shaw,Gold Coast,64
 2012,17,michael jamison,Carlton,64
@@ -6205,8 +6205,8 @@ year,round,displayName,team,score
 2012,17,dale thomas,Collingwood,62
 2012,17,jordan murdoch,Geelong,62
 2012,17,tom lonergan,Geelong,62
-2012,17,benjamin stratton,Hawthorn,61
-2012,17,nicholas duigan,Carlton,61
+2012,17,ben stratton,Hawthorn,61
+2012,17,nick duigan,Carlton,61
 2012,17,graham johncock,Adelaide,61
 2012,17,stewart crameri,Essendon,61
 2012,17,jake carlisle,Essendon,60
@@ -6234,15 +6234,15 @@ year,round,displayName,team,score
 2012,17,courtenay dempsey,Essendon,57
 2012,17,brent stanton,Essendon,57
 2012,17,karmichael hunt,Gold Coast,56
-2012,17,joshua walker,Geelong,56
+2012,17,josh walker,Geelong,56
 2012,17,phil davis,Greater Western Sydney,56
 2012,17,jacob brennan,West Coast,56
-2012,17,thomas murphy,Hawthorn,56
+2012,17,tom murphy,Hawthorn,56
 2012,17,shannon hurn,West Coast,56
-2012,17,sam reid injured,Sydney,55
-2012,17,rick dyson,Essendon,55
+2012,17,sam reid,Sydney,55
+2012,17,ricky dyson,Essendon,55
 2012,17,daniel talia,Adelaide,54
-2012,17,thomas jonas,Port Adelaide,54
+2012,17,tom jonas,Port Adelaide,54
 2012,17,nick smith,Sydney,54
 2012,17,james magner,Melbourne,54
 2012,17,aaron young,Port Adelaide,54
@@ -6262,7 +6262,7 @@ year,round,displayName,team,score
 2012,17,scott gumbleton,Essendon,51
 2012,17,aaron joseph,Carlton,51
 2012,17,jonathan giles,Greater Western Sydney,51
-2012,17,thomas couch,Melbourne,51
+2012,17,tom couch,Melbourne,51
 2012,17,michael doughty,Adelaide,50
 2012,17,jared brennan,Gold Coast,50
 2012,17,ayce cordy,Western Bulldogs,49
@@ -6270,9 +6270,9 @@ year,round,displayName,team,score
 2012,17,jamie elliott,Collingwood,49
 2012,17,joel macdonald,Melbourne,49
 2012,17,quinten lynch,West Coast,48
-2012,17,cameron sutcliffe,Fremantle,48
+2012,17,cam sutcliffe,Fremantle,48
 2012,17,matt campbell,North Melbourne,48
-2012,17,thomas young,Collingwood,47
+2012,17,tom young,Collingwood,47
 2012,17,jack crisp,Brisbane Lions,47
 2012,17,mark austin,Western Bulldogs,47
 2012,17,lewis roberts-thomson,Sydney,47
@@ -6284,15 +6284,15 @@ year,round,displayName,team,score
 2012,17,chris tarrant,Collingwood,45
 2012,17,tom scully,Greater Western Sydney,45
 2012,17,brandon matera,Gold Coast,45
-2012,17,matthew rosa,West Coast,45
+2012,17,matt rosa,West Coast,45
 2012,17,michael firrito,North Melbourne,43
 2012,17,jordan russell,Carlton,43
 2012,17,alan toovey,Collingwood,43
 2012,17,martin mattner,Sydney,43
 2012,17,shaun higgins,Western Bulldogs,42
-2012,17,matthew dea,Richmond,42
+2012,17,matt dea,Richmond,42
 2012,17,jeremy howe,Melbourne,41
-2012,17,nicholas suban,Fremantle,41
+2012,17,nick suban,Fremantle,41
 2012,17,lindsay thomas,North Melbourne,41
 2012,17,paul seedsman,Collingwood,40
 2012,17,levi casboult,Carlton,40
@@ -6303,7 +6303,7 @@ year,round,displayName,team,score
 2012,17,dennis armfield,Carlton,34
 2012,17,daniel pearce,Western Bulldogs,34
 2012,17,nick haynes,Greater Western Sydney,34
-2012,17,corey dell'olio,Essendon,34
+2012,17,cory dellolio,Essendon,34
 2012,17,josh drummond,Brisbane Lions,33
 2012,17,robbie tarrant,North Melbourne,32
 2012,17,kyle cheney,Hawthorn,32
@@ -6321,7 +6321,7 @@ year,round,displayName,team,score
 2012,17,brad symes,Adelaide,22
 2012,17,arryn siposs,St Kilda,21
 2012,17,sam dunell,St Kilda,20
-2012,17,brett o'hanlon,Richmond,18
+2012,17,brett ohanlon,Richmond,18
 2012,17,cameron guthrie,Geelong,17
 2012,17,frazer dale,Carlton,17
 2012,17,shane savage,Hawthorn,16
@@ -6336,14 +6336,14 @@ year,round,displayName,team,score
 2012,17,josh hall,Gold Coast,7
 2012,17,kurt tippett,Adelaide,4
 2012,18,gary ablett,Gold Coast,171
-2012,18,nicholas naitanui,West Coast,164
+2012,18,nic naitanui,West Coast,164
 2012,18,marc murphy,Carlton,160
 2012,18,ivan maric,Richmond,159
 2012,18,kieren jack,Sydney,158
 2012,18,andrew swallow,North Melbourne,158
 2012,18,shane tuck,Richmond,153
 2012,18,beau waters,West Coast,146
-2012,18,ryan o'keefe,Sydney,143
+2012,18,ryan okeefe,Sydney,143
 2012,18,todd goldstein,North Melbourne,142
 2012,18,dane swan,Collingwood,141
 2012,18,clancee pearce,Fremantle,139
@@ -6360,7 +6360,7 @@ year,round,displayName,team,score
 2012,18,lenny hayes,St Kilda,131
 2012,18,brent harvey,North Melbourne,130
 2012,18,brendon goddard,St Kilda,127
-2012,18,josh kennedy injured,Sydney,127
+2012,18,josh kennedy,Sydney,127
 2012,18,brett deledio,Richmond,126
 2012,18,joel selwood,Geelong,126
 2012,18,andrew carrazzo,Carlton,125
@@ -6373,20 +6373,20 @@ year,round,displayName,team,score
 2012,18,chris masten,West Coast,121
 2012,18,jobe watson,Essendon,120
 2012,18,jack darling,West Coast,119
-2012,18,matthew priddis,West Coast,119
+2012,18,matt priddis,West Coast,119
 2012,18,heath scotland,Carlton,117
 2012,18,jack gunston,Hawthorn,117
 2012,18,andrew gaff,West Coast,116
 2012,18,sam gibson,North Melbourne,116
 2012,18,nathan jones,Melbourne,116
 2012,18,kane cornes,Port Adelaide,115
-2012,18,edward curnow,Carlton,113
+2012,18,ed curnow,Carlton,113
 2012,18,paul duffield,Fremantle,113
 2012,18,jonathan giles,Greater Western Sydney,112
 2012,18,luke hodge,Hawthorn,112
 2012,18,luke mcpharlin,Fremantle,112
 2012,18,james kelly,Geelong,111
-2012,18,matthew suckling,Hawthorn,110
+2012,18,matt suckling,Hawthorn,110
 2012,18,dayne beams,Collingwood,109
 2012,18,matthew pavlich,Fremantle,108
 2012,18,domenic cassisi,Port Adelaide,108
@@ -6433,7 +6433,7 @@ year,round,displayName,team,score
 2012,18,michael barlow,Fremantle,94
 2012,18,jarrod harbrow,Gold Coast,94
 2012,18,taylor adams,Greater Western Sydney,93
-2012,18,matthew rosa,West Coast,93
+2012,18,matt rosa,West Coast,93
 2012,18,josh gibson,Hawthorn,93
 2012,18,tom bell,Carlton,93
 2012,18,cameron wood,Collingwood,92
@@ -6461,14 +6461,14 @@ year,round,displayName,team,score
 2012,18,jordan lewis,Hawthorn,88
 2012,18,daniel giansiracusa,Western Bulldogs,87
 2012,18,jack steven,St Kilda,87
-2012,18,nathan fyfe,Fremantle,87
+2012,18,nat fyfe,Fremantle,87
 2012,18,chris dawes,Collingwood,87
 2012,18,shaun grigg,Richmond,87
 2012,18,danyle pearce,Port Adelaide,87
 2012,18,tomas bugg,Greater Western Sydney,86
 2012,18,paul seedsman,Collingwood,86
 2012,18,jamie elliott,Collingwood,86
-2012,18,mitchell wallis,Western Bulldogs,85
+2012,18,mitch wallis,Western Bulldogs,85
 2012,18,jonathan brown,Brisbane Lions,85
 2012,18,bernie vince,Adelaide,85
 2012,18,richard douglas,Adelaide,85
@@ -6491,14 +6491,14 @@ year,round,displayName,team,score
 2012,18,craig bird,Sydney,81
 2012,18,matthew warnock,Gold Coast,81
 2012,18,alex rance,Richmond,81
-2012,18,thomas young,Collingwood,81
+2012,18,tom young,Collingwood,81
 2012,18,brent guerra,Hawthorn,80
 2012,18,josh hunt,Geelong,80
 2012,18,nick maxwell,Collingwood,80
 2012,18,alan toovey,Collingwood,80
 2012,18,ryan schoenmakers,Hawthorn,80
-2012,18,daniel hannebery,Sydney,80
-2012,18,christopher mayne,Fremantle,79
+2012,18,dan hannebery,Sydney,80
+2012,18,chris mayne,Fremantle,79
 2012,18,max bailey,Hawthorn,79
 2012,18,billie smedts,Geelong,79
 2012,18,isaac smith,Hawthorn,79
@@ -6507,7 +6507,7 @@ year,round,displayName,team,score
 2012,18,rhyce shaw,Sydney,78
 2012,18,liam shiels,Hawthorn,78
 2012,18,ben hudson,Brisbane Lions,78
-2012,18,mitchell duncan,Geelong,78
+2012,18,mitch duncan,Geelong,78
 2012,18,james frawley,Melbourne,78
 2012,18,tom scully,Greater Western Sydney,77
 2012,18,adam goodes,Sydney,77
@@ -6537,8 +6537,8 @@ year,round,displayName,team,score
 2012,18,ben howlett,Essendon,73
 2012,18,jordie mckenzie,Melbourne,73
 2012,18,luke russell,Gold Coast,73
-2012,18,thomas jonas,Port Adelaide,73
-2012,18,samuel wright,North Melbourne,73
+2012,18,tom jonas,Port Adelaide,73
+2012,18,sam wright,North Melbourne,73
 2012,18,dylan roberton,Fremantle,72
 2012,18,callan ward,Greater Western Sydney,72
 2012,18,lindsay thomas,North Melbourne,72
@@ -6557,7 +6557,7 @@ year,round,displayName,team,score
 2012,18,scott thompson,North Melbourne,69
 2012,18,tory dickson,Western Bulldogs,69
 2012,18,jarrad grant,Western Bulldogs,69
-2012,18,thomas liberatore,Western Bulldogs,69
+2012,18,tom liberatore,Western Bulldogs,69
 2012,18,rhys palmer,Greater Western Sydney,68
 2012,18,harley bennell,Gold Coast,68
 2012,18,james polkinghorne,Brisbane Lions,68
@@ -6594,7 +6594,7 @@ year,round,displayName,team,score
 2012,18,kyle hardingham,Essendon,62
 2012,18,shaun mckernan,Adelaide,62
 2012,18,alipate carlile,Port Adelaide,62
-2012,18,matthew de boer,Fremantle,61
+2012,18,matt de boer,Fremantle,61
 2012,18,kepler bradley,Fremantle,61
 2012,18,ted richards,Sydney,61
 2012,18,david mackay,Adelaide,61
@@ -6605,8 +6605,8 @@ year,round,displayName,team,score
 2012,18,jake king,Richmond,61
 2012,18,brandon ellis,Richmond,60
 2012,18,brad green,Melbourne,60
-2012,18,joshua walker,Geelong,59
-2012,18,benjamin stratton,Hawthorn,59
+2012,18,josh walker,Geelong,59
+2012,18,ben stratton,Hawthorn,59
 2012,18,james gwilt,St Kilda,59
 2012,18,taylor hunt,Geelong,59
 2012,18,sam frost,Greater Western Sydney,59
@@ -6614,7 +6614,7 @@ year,round,displayName,team,score
 2012,18,james sellar,Melbourne,58
 2012,18,jason winderlich,Essendon,58
 2012,18,jeremy cameron,Greater Western Sydney,58
-2012,18,christopher yarran,Carlton,58
+2012,18,chris yarran,Carlton,58
 2012,18,james hawksley,Brisbane Lions,58
 2012,18,campbell brown,Gold Coast,58
 2012,18,clay smith,Western Bulldogs,57
@@ -6643,7 +6643,7 @@ year,round,displayName,team,score
 2012,18,chris tarrant,Collingwood,51
 2012,18,graham johncock,Adelaide,51
 2012,18,ben mcglynn,Sydney,51
-2012,18,matthew maguire,Brisbane Lions,51
+2012,18,matt maguire,Brisbane Lions,51
 2012,18,ryan lester,Brisbane Lions,51
 2012,18,daniel cross,Western Bulldogs,51
 2012,18,rohan bewick,Brisbane Lions,51
@@ -6661,7 +6661,7 @@ year,round,displayName,team,score
 2012,18,jayden post,Richmond,48
 2012,18,josh jenkins,Adelaide,48
 2012,18,michael jamison,Carlton,47
-2012,18,matthew dea,Richmond,47
+2012,18,matt dea,Richmond,47
 2012,18,ian callinan,Adelaide,46
 2012,18,tom logan,Port Adelaide,46
 2012,18,josh bruce,Greater Western Sydney,46
@@ -6693,16 +6693,16 @@ year,round,displayName,team,score
 2012,18,hayden ballantyne,Fremantle,36
 2012,18,caolan mooney,Collingwood,36
 2012,18,matt shaw,Gold Coast,36
-2012,18,bradley sheppard,West Coast,36
+2012,18,brad sheppard,West Coast,36
 2012,18,andrew mcinnes,Carlton,35
 2012,18,matt campbell,North Melbourne,35
 2012,18,andrew raines,Brisbane Lions,35
 2012,18,patrick mcginnity,West Coast,33
 2012,18,sam butler,West Coast,33
-2012,18,corey dell'olio,Essendon,33
+2012,18,cory dellolio,Essendon,33
 2012,18,jacob townsend,Greater Western Sydney,33
 2012,18,neville jetta,Melbourne,33
-2012,18,nial mckeever,Brisbane Lions,32
+2012,18,niall mckeever,Brisbane Lions,32
 2012,18,nathan lovett-murray,Essendon,32
 2012,18,brad symes,Adelaide,32
 2012,18,sam dunell,St Kilda,31
@@ -6711,12 +6711,12 @@ year,round,displayName,team,score
 2012,18,daniel pearce,Western Bulldogs,30
 2012,18,david swallow,Gold Coast,29
 2012,18,martin mattner,Sydney,27
-2012,18,cameron sutcliffe,Fremantle,27
+2012,18,cam sutcliffe,Fremantle,27
 2012,18,elliott kavanagh,Essendon,26
 2012,18,aaron young,Port Adelaide,26
 2012,18,kieran harper,North Melbourne,25
 2012,18,liam patrick,Gold Coast,24
-2012,18,nicholas duigan,Carlton,24
+2012,18,nick duigan,Carlton,24
 2012,18,kelvin moore,Richmond,22
 2012,18,daniel kerr,West Coast,21
 2012,18,nick haynes,Greater Western Sydney,21
@@ -6725,7 +6725,7 @@ year,round,displayName,team,score
 2012,18,patrick veszpremi,Western Bulldogs,19
 2012,18,frazer dale,Carlton,18
 2012,18,liam jones,Western Bulldogs,15
-2012,18,sam reid injured,Sydney,14
+2012,18,sam reid,Sydney,14
 2012,18,addam maric,Richmond,12
 2012,18,ben rutten,Adelaide,8
 2012,18,shane savage,Hawthorn,5
@@ -6791,7 +6791,7 @@ year,round,displayName,team,score
 2012,19,marc murphy,Carlton,109
 2012,19,beau waters,West Coast,108
 2012,19,cruize garlett,North Melbourne,107
-2012,19,matthew priddis,West Coast,107
+2012,19,matt priddis,West Coast,107
 2012,19,steve johnson,Geelong,107
 2012,19,leigh montagna,St Kilda,107
 2012,19,chad cornes,Greater Western Sydney,106
@@ -6800,8 +6800,8 @@ year,round,displayName,team,score
 2012,19,dayne zorko,Brisbane Lions,105
 2012,19,sam jacobs,Adelaide,104
 2012,19,sam fisher,St Kilda,104
-2012,19,daniel hannebery,Sydney,104
-2012,19,nathan fyfe,Fremantle,104
+2012,19,dan hannebery,Sydney,104
+2012,19,nat fyfe,Fremantle,104
 2012,19,luke mcguane,Richmond,104
 2012,19,brad ebert,Port Adelaide,103
 2012,19,rory sloane,Adelaide,103
@@ -6812,16 +6812,16 @@ year,round,displayName,team,score
 2012,19,andrew gaff,West Coast,100
 2012,19,jordan roughead,Western Bulldogs,99
 2012,19,stephen hill,Fremantle,99
-2012,19,mitchell duncan,Geelong,99
+2012,19,mitch duncan,Geelong,99
 2012,19,lee spurr,Fremantle,99
-2012,19,thomas liberatore,Western Bulldogs,99
+2012,19,tom liberatore,Western Bulldogs,99
 2012,19,sam lonergan,Essendon,98
 2012,19,danyle pearce,Port Adelaide,97
 2012,19,dane swan,Collingwood,97
 2012,19,heath grundy,Sydney,97
 2012,19,jonathon griffin,Fremantle,96
 2012,19,paul duffield,Fremantle,96
-2012,19,ryan o'keefe,Sydney,96
+2012,19,ryan okeefe,Sydney,96
 2012,19,daniel wells,North Melbourne,96
 2012,19,dylan addison,Western Bulldogs,95
 2012,19,devon smith,Greater Western Sydney,95
@@ -6832,7 +6832,7 @@ year,round,displayName,team,score
 2012,19,jeremy howe,Melbourne,95
 2012,19,kane cornes,Port Adelaide,95
 2012,19,andrew swallow,North Melbourne,94
-2012,19,mitchell wallis,Western Bulldogs,94
+2012,19,mitch wallis,Western Bulldogs,94
 2012,19,liam anthony,North Melbourne,94
 2012,19,nathan van berlo,Adelaide,93
 2012,19,luke tapscott,Melbourne,93
@@ -6845,7 +6845,7 @@ year,round,displayName,team,score
 2012,19,cale hooker,Essendon,91
 2012,19,ben mcglynn,Sydney,90
 2012,19,tom lynch,Gold Coast,90
-2012,19,josh kennedy injured,Sydney,90
+2012,19,josh kennedy,Sydney,90
 2012,19,brendan whitecross,Hawthorn,90
 2012,19,jed adcock,Brisbane Lions,89
 2012,19,daniel giansiracusa,Western Bulldogs,89
@@ -6878,7 +6878,7 @@ year,round,displayName,team,score
 2012,19,jeff garlett,Carlton,84
 2012,19,james sellar,Melbourne,83
 2012,19,alex rance,Richmond,83
-2012,19,samuel wright,North Melbourne,83
+2012,19,sam wright,North Melbourne,83
 2012,19,ahmed saad,St Kilda,82
 2012,19,chris masten,West Coast,82
 2012,19,brent reilly,Adelaide,82
@@ -6891,7 +6891,7 @@ year,round,displayName,team,score
 2012,19,michael doughty,Adelaide,81
 2012,19,jarryn geary,St Kilda,81
 2012,19,andrew mackie,Geelong,81
-2012,19,nicholas naitanui,West Coast,81
+2012,19,nic naitanui,West Coast,81
 2012,19,domenic cassisi,Port Adelaide,80
 2012,19,adam mcphee,Fremantle,80
 2012,19,jared brennan,Gold Coast,80
@@ -6899,7 +6899,7 @@ year,round,displayName,team,score
 2012,19,michael jamison,Carlton,80
 2012,19,adam selwood,West Coast,79
 2012,19,james podsiadly,Geelong,79
-2012,19,christopher yarran,Carlton,79
+2012,19,chris yarran,Carlton,79
 2012,19,alex browne,Essendon,79
 2012,19,ben cunnington,North Melbourne,79
 2012,19,rohan bail,Melbourne,79
@@ -6934,12 +6934,12 @@ year,round,displayName,team,score
 2012,19,jason johannisen,Western Bulldogs,72
 2012,19,karmichael hunt,Gold Coast,72
 2012,19,alex fasolo,Collingwood,72
-2012,19,matthew buntine,Greater Western Sydney,72
+2012,19,matt buntine,Greater Western Sydney,72
 2012,19,dennis armfield,Carlton,72
 2012,19,nick smith,Sydney,72
 2012,19,leroy jetta,Essendon,71
 2012,19,daniel talia,Adelaide,71
-2012,19,edward curnow,Carlton,71
+2012,19,ed curnow,Carlton,71
 2012,19,michael walters,Fremantle,71
 2012,19,kepler bradley,Fremantle,71
 2012,19,nick riewoldt,St Kilda,70
@@ -6955,7 +6955,7 @@ year,round,displayName,team,score
 2012,19,jack darling,West Coast,70
 2012,19,heritier lumumba,Collingwood,70
 2012,19,alex johnson,Sydney,69
-2012,19,joshua green,Brisbane Lions,69
+2012,19,josh green,Brisbane Lions,69
 2012,19,graham johncock,Adelaide,69
 2012,19,scott mcmahon,North Melbourne,69
 2012,19,aidan riley,Adelaide,69
@@ -6974,7 +6974,7 @@ year,round,displayName,team,score
 2012,19,joel patfull,Brisbane Lions,65
 2012,19,jackson trengove,Port Adelaide,65
 2012,19,james frawley,Melbourne,65
-2012,19,matthew white,Richmond,65
+2012,19,matt white,Richmond,65
 2012,19,andrew moore,Port Adelaide,65
 2012,19,tomas bugg,Greater Western Sydney,65
 2012,19,farren ray,St Kilda,64
@@ -6997,7 +6997,7 @@ year,round,displayName,team,score
 2012,19,jamie macmillan,North Melbourne,61
 2012,19,matthew lobbe,Port Adelaide,61
 2012,19,alan toovey,Collingwood,60
-2012,19,christopher mayne,Fremantle,60
+2012,19,chris mayne,Fremantle,60
 2012,19,robin nahas,Richmond,59
 2012,19,jared rivers,Melbourne,59
 2012,19,andrew collins,Carlton,59
@@ -7012,7 +7012,7 @@ year,round,displayName,team,score
 2012,19,rhyce shaw,Sydney,57
 2012,19,travis boak,Port Adelaide,57
 2012,19,jason winderlich,Essendon,57
-2012,19,thomas jonas,Port Adelaide,57
+2012,19,tom jonas,Port Adelaide,57
 2012,19,brian lake,Western Bulldogs,57
 2012,19,josh drummond,Brisbane Lions,57
 2012,19,jarryd blair,Collingwood,56
@@ -7023,7 +7023,7 @@ year,round,displayName,team,score
 2012,19,billie smedts,Geelong,56
 2012,19,pearce hanley,Brisbane Lions,56
 2012,19,james gwilt,St Kilda,56
-2012,19,mitchell brown,West Coast,55
+2012,19,mitch brown,West Coast,55
 2012,19,brett ebert,Port Adelaide,55
 2012,19,jack steven,St Kilda,55
 2012,19,elliot yeo,Brisbane Lions,55
@@ -7049,7 +7049,7 @@ year,round,displayName,team,score
 2012,19,andrew raines,Brisbane Lions,49
 2012,19,jared petrenko,Adelaide,48
 2012,19,jacob townsend,Greater Western Sydney,48
-2012,19,benjamin stratton,Hawthorn,48
+2012,19,ben stratton,Hawthorn,48
 2012,19,taylor adams,Greater Western Sydney,48
 2012,19,jack crisp,Brisbane Lions,47
 2012,19,ben reid,Collingwood,47
@@ -7059,14 +7059,14 @@ year,round,displayName,team,score
 2012,19,allen christensen,Geelong,45
 2012,19,levi casboult,Carlton,45
 2012,19,john mccarthy,Port Adelaide,45
-2012,19,benjamin griffiths,Richmond,45
+2012,19,ben griffiths,Richmond,45
 2012,19,ben rutten,Adelaide,45
 2012,19,shannon hurn,West Coast,44
 2012,19,ryan schoenmakers,Hawthorn,44
 2012,19,tom campbell,Western Bulldogs,44
 2012,19,tom logan,Port Adelaide,44
 2012,19,anthony miles,Greater Western Sydney,44
-2012,19,matthew suckling,Hawthorn,43
+2012,19,matt suckling,Hawthorn,43
 2012,19,chris newman,Richmond,42
 2012,19,shane savage,Hawthorn,42
 2012,19,nathan brown,Collingwood,42
@@ -7086,7 +7086,7 @@ year,round,displayName,team,score
 2012,19,jason tutt,Western Bulldogs,37
 2012,19,nick maxwell,Collingwood,37
 2012,19,sam dunell,St Kilda,36
-2012,19,joshua walker,Geelong,35
+2012,19,josh walker,Geelong,35
 2012,19,josh hunt,Geelong,35
 2012,19,brandon ellis,Richmond,35
 2012,19,simon black,Brisbane Lions,35
@@ -7095,7 +7095,7 @@ year,round,displayName,team,score
 2012,19,dion prestia,Gold Coast,33
 2012,19,martin mattner,Sydney,33
 2012,19,eric mackenzie,West Coast,32
-2012,19,matthew de boer,Fremantle,31
+2012,19,matt de boer,Fremantle,31
 2012,19,zach tuohy,Carlton,31
 2012,19,richard tambling,Adelaide,31
 2012,19,patrick karnezis,Brisbane Lions,31
@@ -7112,11 +7112,11 @@ year,round,displayName,team,score
 2012,19,luke hodge,Hawthorn,23
 2012,19,taylor hine,Gold Coast,22
 2012,19,aaron mullett,North Melbourne,19
-2012,19,thomas young,Collingwood,17
+2012,19,tom young,Collingwood,17
 2012,19,will hoskin-elliott,Greater Western Sydney,17
 2012,19,steven motlop,Geelong,17
 2012,19,tom swift,West Coast,17
-2012,19,bradley helbig,Richmond,16
+2012,19,brad helbig,Richmond,16
 2012,19,marcus davies,Carlton,16
 2012,19,dylan roberton,Fremantle,15
 2012,19,jason porplyzia,Adelaide,15
@@ -7125,16 +7125,16 @@ year,round,displayName,team,score
 2012,19,cale morton,Melbourne,12
 2012,19,trent dennis-lane,Sydney,11
 2012,19,nathan djerrkura,Western Bulldogs,6
-2012,19,bradley sheppard,West Coast,4
+2012,19,brad sheppard,West Coast,4
 2012,19,aaron young,Port Adelaide,2
 2012,20,dean cox,West Coast,190
 2012,20,patrick dangerfield,Adelaide,187
 2012,20,trent cotchin,Richmond,175
 2012,20,matthew wright,Adelaide,170
 2012,20,dayne beams,Collingwood,170
-2012,20,josh kennedy injured,Sydney,168
+2012,20,josh kennedy,Sydney,168
 2012,20,jobe watson,Essendon,154
-2012,20,nicholas naitanui,West Coast,153
+2012,20,nic naitanui,West Coast,153
 2012,20,jack riewoldt,Richmond,140
 2012,20,steve johnson,Geelong,140
 2012,20,paul puopolo,Hawthorn,136
@@ -7147,14 +7147,14 @@ year,round,displayName,team,score
 2012,20,tom bellchambers,Essendon,130
 2012,20,travis boak,Port Adelaide,128
 2012,20,gary ablett,Gold Coast,126
-2012,20,samuel wright,North Melbourne,126
+2012,20,sam wright,North Melbourne,126
 2012,20,dustin martin,Richmond,125
 2012,20,jimmy bartel,Geelong,123
 2012,20,will hoskin-elliott,Greater Western Sydney,122
-2012,20,ryan o'keefe,Sydney,121
+2012,20,ryan okeefe,Sydney,121
 2012,20,daniel kerr,West Coast,121
 2012,20,beau maister,St Kilda,121
-2012,20,matthew de boer,Fremantle,121
+2012,20,matt de boer,Fremantle,121
 2012,20,heath scotland,Carlton,119
 2012,20,liam anthony,North Melbourne,119
 2012,20,brent harvey,North Melbourne,118
@@ -7177,7 +7177,7 @@ year,round,displayName,team,score
 2012,20,leigh montagna,St Kilda,113
 2012,20,andrew walker,Carlton,113
 2012,20,brandon matera,Gold Coast,112
-2012,20,matthew priddis,West Coast,111
+2012,20,matt priddis,West Coast,111
 2012,20,scott mcmahon,North Melbourne,111
 2012,20,matthew kreuzer,Carlton,110
 2012,20,kieren jack,Sydney,108
@@ -7193,7 +7193,7 @@ year,round,displayName,team,score
 2012,20,phil davis,Greater Western Sydney,104
 2012,20,nick maxwell,Collingwood,104
 2012,20,rohan bewick,Brisbane Lions,103
-2012,20,mitchell wallis,Western Bulldogs,102
+2012,20,mitch wallis,Western Bulldogs,102
 2012,20,ben mcevoy,St Kilda,101
 2012,20,jack grimes,Melbourne,101
 2012,20,clinton young,Hawthorn,101
@@ -7244,7 +7244,7 @@ year,round,displayName,team,score
 2012,20,ivan maric,Richmond,92
 2012,20,jarryd blair,Collingwood,92
 2012,20,heath shaw,Collingwood,91
-2012,20,joshua green,Brisbane Lions,91
+2012,20,josh green,Brisbane Lions,91
 2012,20,levi casboult,Carlton,91
 2012,20,lynden dunn,Melbourne,91
 2012,20,bachar houli,Richmond,90
@@ -7355,7 +7355,7 @@ year,round,displayName,team,score
 2012,20,cameron guthrie,Geelong,68
 2012,20,campbell brown,Gold Coast,68
 2012,20,luke power,Greater Western Sydney,68
-2012,20,edward curnow,Carlton,68
+2012,20,ed curnow,Carlton,68
 2012,20,jarrod harbrow,Gold Coast,68
 2012,20,brendan whitecross,Hawthorn,67
 2012,20,taylor hine,Gold Coast,67
@@ -7370,7 +7370,7 @@ year,round,displayName,team,score
 2012,20,matt shaw,Gold Coast,65
 2012,20,jarrad mcveigh,Sydney,65
 2012,20,heath grundy,Sydney,64
-2012,20,christopher yarran,Carlton,64
+2012,20,chris yarran,Carlton,64
 2012,20,luke parker,Sydney,64
 2012,20,jake spencer,Melbourne,64
 2012,20,andrew mcinnes,Carlton,63
@@ -7378,7 +7378,7 @@ year,round,displayName,team,score
 2012,20,tom lonergan,Geelong,63
 2012,20,jeremy cameron,Greater Western Sydney,63
 2012,20,harley bennell,Gold Coast,63
-2012,20,mitchell duncan,Geelong,63
+2012,20,mitch duncan,Geelong,63
 2012,20,brendan lee,Essendon,63
 2012,20,shaun atley,North Melbourne,63
 2012,20,ted richards,Sydney,63
@@ -7402,7 +7402,7 @@ year,round,displayName,team,score
 2012,20,josh hill,West Coast,60
 2012,20,domenic cassisi,Port Adelaide,60
 2012,20,alex johnson,Sydney,60
-2012,20,matthew buntine,Greater Western Sydney,60
+2012,20,matt buntine,Greater Western Sydney,60
 2012,20,adam kennedy,Greater Western Sydney,59
 2012,20,harry taylor,Geelong,59
 2012,20,elliot yeo,Brisbane Lions,58
@@ -7416,14 +7416,14 @@ year,round,displayName,team,score
 2012,20,sam dunell,St Kilda,57
 2012,20,jordie mckenzie,Melbourne,56
 2012,20,lin jong,Western Bulldogs,56
-2012,20,matthew white,Richmond,55
+2012,20,matt white,Richmond,55
 2012,20,alan didak,Collingwood,55
 2012,20,matthew lobbe,Port Adelaide,55
 2012,20,ryan harwood,Brisbane Lions,55
 2012,20,stewart crameri,Essendon,55
 2012,20,nathan van berlo,Adelaide,55
 2012,20,jordan roughead,Western Bulldogs,55
-2012,20,nicholas suban,Fremantle,55
+2012,20,nick suban,Fremantle,55
 2012,20,andrew phillips,Greater Western Sydney,55
 2012,20,matthew scarlett,Geelong,54
 2012,20,jake melksham,Essendon,54
@@ -7439,14 +7439,14 @@ year,round,displayName,team,score
 2012,20,jordan murdoch,Geelong,52
 2012,20,tom ledger,St Kilda,52
 2012,20,luke tapscott,Melbourne,52
-2012,20,benjamin stratton,Hawthorn,51
+2012,20,ben stratton,Hawthorn,51
 2012,20,heath hocking,Essendon,51
 2012,20,brent moloney,Melbourne,51
 2012,20,beau waters,West Coast,50
 2012,20,ben sinclair,Collingwood,50
 2012,20,reece conca,Richmond,50
 2012,20,zephaniah skinner,Western Bulldogs,50
-2012,20,matthew suckling,Hawthorn,49
+2012,20,matt suckling,Hawthorn,49
 2012,20,adam goodes,Sydney,49
 2012,20,jared brennan,Gold Coast,49
 2012,20,robin nahas,Richmond,49
@@ -7462,7 +7462,7 @@ year,round,displayName,team,score
 2012,20,dylan roberton,Fremantle,46
 2012,20,lewis johnston,Adelaide,44
 2012,20,brad green,Melbourne,44
-2012,20,christopher mayne,Fremantle,44
+2012,20,chris mayne,Fremantle,44
 2012,20,daniel rich,Brisbane Lions,44
 2012,20,jamie macmillan,North Melbourne,43
 2012,20,dylan addison,Western Bulldogs,43
@@ -7478,7 +7478,7 @@ year,round,displayName,team,score
 2012,20,simon white,Carlton,39
 2012,20,trent dennis-lane,Sydney,39
 2012,20,tendai mzungu,Fremantle,39
-2012,20,daniel hannebery,Sydney,38
+2012,20,dan hannebery,Sydney,38
 2012,20,andrew embley,West Coast,37
 2012,20,adam mcphee,Fremantle,37
 2012,20,andrew raines,Brisbane Lions,36
@@ -7499,11 +7499,11 @@ year,round,displayName,team,score
 2012,20,nathan brown,Collingwood,30
 2012,20,andrew moore,Port Adelaide,29
 2012,20,nathan blee,Port Adelaide,27
-2012,20,benjamin griffiths,Richmond,27
+2012,20,ben griffiths,Richmond,27
 2012,20,jackson sheringham,Geelong,26
 2012,20,jeremy taylor,Gold Coast,26
 2012,20,tom campbell,Western Bulldogs,25
-2012,20,joshua walker,Geelong,24
+2012,20,josh walker,Geelong,24
 2012,20,israel folau,Greater Western Sydney,24
 2012,20,dale thomas,Collingwood,23
 2012,20,todd banfield,Brisbane Lions,22
@@ -7512,9 +7512,9 @@ year,round,displayName,team,score
 2012,20,jayden post,Richmond,21
 2012,20,scott gumbleton,Essendon,21
 2012,20,tom swift,West Coast,21
-2012,20,rhys o'keeffe,Carlton,18
+2012,20,rhys okeeffe,Carlton,18
 2012,20,tony armstrong,Sydney,16
-2012,20,bradley helbig,Richmond,15
+2012,20,brad helbig,Richmond,15
 2012,20,tom hawkins,Geelong,15
 2012,20,aidan riley,Adelaide,14
 2012,20,james magner,Melbourne,13
@@ -7539,7 +7539,7 @@ year,round,displayName,team,score
 2012,21,jack redden,Brisbane Lions,140
 2012,21,paul duffield,Fremantle,139
 2012,21,shane tuck,Richmond,139
-2012,21,ryan o'keefe,Sydney,137
+2012,21,ryan okeefe,Sydney,137
 2012,21,james kelly,Geelong,135
 2012,21,brent harvey,North Melbourne,135
 2012,21,patrick dangerfield,Adelaide,134
@@ -7562,7 +7562,7 @@ year,round,displayName,team,score
 2012,21,aaron sandilands,Fremantle,117
 2012,21,matthew boyd,Western Bulldogs,117
 2012,21,david mundy,Fremantle,117
-2012,21,josh kennedy injured,Sydney,117
+2012,21,josh kennedy,Sydney,117
 2012,21,brendon goddard,St Kilda,116
 2012,21,josh hunt,Geelong,116
 2012,21,jack grimes,Melbourne,115
@@ -7580,7 +7580,7 @@ year,round,displayName,team,score
 2012,21,ben cunnington,North Melbourne,108
 2012,21,chad cornes,Greater Western Sydney,108
 2012,21,daniel merrett,Brisbane Lions,107
-2012,21,matthew priddis,West Coast,107
+2012,21,matt priddis,West Coast,107
 2012,21,brad sewell,Hawthorn,107
 2012,21,corey enright,Geelong,106
 2012,21,will minson,Western Bulldogs,106
@@ -7592,9 +7592,9 @@ year,round,displayName,team,score
 2012,21,matthew pavlich,Fremantle,103
 2012,21,steve johnson,Geelong,102
 2012,21,luke parker,Sydney,101
-2012,21,christopher yarran,Carlton,101
+2012,21,chris yarran,Carlton,101
 2012,21,levi casboult,Carlton,101
-2012,21,matthew de boer,Fremantle,101
+2012,21,matt de boer,Fremantle,101
 2012,21,adam mcphee,Fremantle,101
 2012,21,taylor hunt,Geelong,100
 2012,21,heath shaw,Collingwood,100
@@ -7616,7 +7616,7 @@ year,round,displayName,team,score
 2012,21,leigh montagna,St Kilda,96
 2012,21,jack trengove,Melbourne,96
 2012,21,matthew broadbent,Port Adelaide,96
-2012,21,matthew white,Richmond,95
+2012,21,matt white,Richmond,95
 2012,21,jordan lewis,Hawthorn,95
 2012,21,chris judd,Carlton,95
 2012,21,eddie betts,Carlton,95
@@ -7625,7 +7625,7 @@ year,round,displayName,team,score
 2012,21,matthew kreuzer,Carlton,94
 2012,21,jeff garlett,Carlton,94
 2012,21,lenny hayes,St Kilda,94
-2012,21,nicholas naitanui,West Coast,94
+2012,21,nic naitanui,West Coast,94
 2012,21,isaac smith,Hawthorn,94
 2012,21,james strauss,Melbourne,94
 2012,21,joel macdonald,Melbourne,93
@@ -7654,7 +7654,7 @@ year,round,displayName,team,score
 2012,21,liam shiels,Hawthorn,89
 2012,21,jarryn geary,St Kilda,89
 2012,21,craig bird,Sydney,88
-2012,21,daniel hannebery,Sydney,88
+2012,21,dan hannebery,Sydney,88
 2012,21,jobe watson,Essendon,87
 2012,21,shaun grigg,Richmond,87
 2012,21,luke mcpharlin,Fremantle,87
@@ -7673,7 +7673,7 @@ year,round,displayName,team,score
 2012,21,ben reid,Collingwood,85
 2012,21,xavier ellis,Hawthorn,85
 2012,21,harry taylor,Geelong,85
-2012,21,mitchell duncan,Geelong,84
+2012,21,mitch duncan,Geelong,84
 2012,21,michael doughty,Adelaide,83
 2012,21,sam fisher,St Kilda,83
 2012,21,ben rutten,Adelaide,83
@@ -7682,8 +7682,8 @@ year,round,displayName,team,score
 2012,21,ryan schoenmakers,Hawthorn,82
 2012,21,stephen milne,St Kilda,82
 2012,21,jay schulz,Port Adelaide,82
-2012,21,matthew suckling,Hawthorn,81
-2012,21,nicholas duigan,Carlton,81
+2012,21,matt suckling,Hawthorn,81
+2012,21,nick duigan,Carlton,81
 2012,21,rohan bail,Melbourne,81
 2012,21,jordan murdoch,Geelong,81
 2012,21,clancee pearce,Fremantle,81
@@ -7706,11 +7706,11 @@ year,round,displayName,team,score
 2012,21,chris tarrant,Collingwood,78
 2012,21,dyson heppell,Essendon,78
 2012,21,danny stanley,Gold Coast,78
-2012,21,samuel wright,North Melbourne,77
+2012,21,sam wright,North Melbourne,77
 2012,21,cale hooker,Essendon,77
 2012,21,martin mattner,Sydney,77
 2012,21,garrick ibbotson,Fremantle,77
-2012,21,nathan fyfe,Fremantle,77
+2012,21,nat fyfe,Fremantle,77
 2012,21,jake spencer,Melbourne,76
 2012,21,rory sloane,Adelaide,76
 2012,21,ryan bastinac,North Melbourne,76
@@ -7720,7 +7720,7 @@ year,round,displayName,team,score
 2012,21,sean dempster,St Kilda,76
 2012,21,nick dal santo,St Kilda,75
 2012,21,paul seedsman,Collingwood,75
-2012,21,edward curnow,Carlton,75
+2012,21,ed curnow,Carlton,75
 2012,21,cruize garlett,North Melbourne,75
 2012,21,bernie vince,Adelaide,75
 2012,21,paul puopolo,Hawthorn,75
@@ -7730,7 +7730,7 @@ year,round,displayName,team,score
 2012,21,phil davis,Greater Western Sydney,74
 2012,21,heath grundy,Sydney,74
 2012,21,sam gilbert,St Kilda,73
-2012,21,mitchell wallis,Western Bulldogs,73
+2012,21,mitch wallis,Western Bulldogs,73
 2012,21,david rodan,Port Adelaide,73
 2012,21,alex browne,Essendon,73
 2012,21,brent stanton,Essendon,72
@@ -7746,7 +7746,7 @@ year,round,displayName,team,score
 2012,21,campbell brown,Gold Coast,70
 2012,21,simon white,Carlton,70
 2012,21,adam schneider,St Kilda,70
-2012,21,patrick ryder,Essendon,70
+2012,21,paddy ryder,Essendon,70
 2012,21,farren ray,St Kilda,69
 2012,21,sam lonergan,Essendon,69
 2012,21,tendai mzungu,Fremantle,69
@@ -7795,16 +7795,16 @@ year,round,displayName,team,score
 2012,21,rohan bewick,Brisbane Lions,58
 2012,21,joel patfull,Brisbane Lions,58
 2012,21,jack riewoldt,Richmond,58
-2012,21,christopher mayne,Fremantle,57
+2012,21,chris mayne,Fremantle,57
 2012,21,ben mcglynn,Sydney,57
 2012,21,andrew mcqualter,Gold Coast,57
-2012,21,benjamin stratton,Hawthorn,57
+2012,21,ben stratton,Hawthorn,57
 2012,21,michael hurley,Essendon,56
 2012,21,leroy jetta,Essendon,56
 2012,21,andrew gaff,West Coast,56
 2012,21,nathan brown,Collingwood,55
 2012,21,kyle hardingham,Essendon,55
-2012,21,thomas jonas,Port Adelaide,55
+2012,21,tom jonas,Port Adelaide,55
 2012,21,alipate carlile,Port Adelaide,55
 2012,21,daniel jackson,Richmond,54
 2012,21,brian lake,Western Bulldogs,54
@@ -7812,7 +7812,7 @@ year,round,displayName,team,score
 2012,21,robert murphy,Western Bulldogs,54
 2012,21,rhyce shaw,Sydney,54
 2012,21,lukas markovic,Western Bulldogs,53
-2012,21,joshua green,Brisbane Lions,53
+2012,21,josh green,Brisbane Lions,53
 2012,21,kieran harper,North Melbourne,53
 2012,21,elliot yeo,Brisbane Lions,53
 2012,21,easton wood,Western Bulldogs,53
@@ -7836,10 +7836,10 @@ year,round,displayName,team,score
 2012,21,nathan blee,Port Adelaide,49
 2012,21,jack watts,Melbourne,49
 2012,21,brandon matera,Gold Coast,48
-2012,21,bradley helbig,Richmond,48
+2012,21,brad helbig,Richmond,48
 2012,21,jacob brennan,West Coast,48
 2012,21,taylor hine,Gold Coast,47
-2012,21,matthew buntine,Greater Western Sydney,47
+2012,21,matt buntine,Greater Western Sydney,47
 2012,21,stephen gilham,Hawthorn,47
 2012,21,will hoskin-elliott,Greater Western Sydney,47
 2012,21,travis cloke,Collingwood,47
@@ -7850,7 +7850,7 @@ year,round,displayName,team,score
 2012,21,quinten lynch,West Coast,46
 2012,21,shaun burgoyne,Hawthorn,45
 2012,21,jack steven,St Kilda,45
-2012,21,sam reid injured,Sydney,45
+2012,21,sam reid,Sydney,45
 2012,21,david zaharakis,Essendon,45
 2012,21,tom bellchambers,Essendon,44
 2012,21,ashton hams,West Coast,44
@@ -7882,9 +7882,9 @@ year,round,displayName,team,score
 2012,21,angus monfries,Essendon,34
 2012,21,jamie cripps,St Kilda,33
 2012,21,jake melksham,Essendon,33
-2012,21,joshua walker,Geelong,32
+2012,21,josh walker,Geelong,32
 2012,21,luke brown,Adelaide,32
-2012,21,brett o'hanlon,Richmond,31
+2012,21,brett ohanlon,Richmond,31
 2012,21,matthew lobbe,Port Adelaide,30
 2012,21,sam blease,Melbourne,30
 2012,21,rhys stanley,St Kilda,29
@@ -7895,21 +7895,21 @@ year,round,displayName,team,score
 2012,21,ayce cordy,Western Bulldogs,28
 2012,21,zephaniah skinner,Western Bulldogs,28
 2012,21,jack crisp,Brisbane Lions,27
-2012,21,thomas couch,Melbourne,27
+2012,21,tom couch,Melbourne,27
 2012,21,tim golds,Greater Western Sydney,25
 2012,21,zach tuohy,Carlton,23
 2012,21,jake carlisle,Essendon,23
 2012,21,daniel talia,Adelaide,22
 2012,21,mitch morton,Sydney,21
 2012,21,nathan djerrkura,Western Bulldogs,21
-2012,21,benjamin griffiths,Richmond,20
+2012,21,ben griffiths,Richmond,20
 2012,21,piers flanagan,Gold Coast,20
 2012,21,steve clifton,Greater Western Sydney,20
 2012,21,israel folau,Greater Western Sydney,19
 2012,21,tom bell,Carlton,18
 2012,21,tom lonergan,Geelong,18
-2012,21,nicholas suban,Fremantle,18
-2012,21,matthew maguire,Brisbane Lions,17
+2012,21,nick suban,Fremantle,18
+2012,21,matt maguire,Brisbane Lions,17
 2012,21,nick haynes,Greater Western Sydney,16
 2012,21,dustin fletcher,Essendon,16
 2012,21,chance bateman,Hawthorn,14
@@ -7920,8 +7920,8 @@ year,round,displayName,team,score
 2012,21,josh toy,Gold Coast,5
 2012,21,caolan mooney,Collingwood,3
 2012,22,dayne zorko,Brisbane Lions,163
-2012,22,nicholas naitanui,West Coast,163
-2012,22,ryan o'keefe,Sydney,159
+2012,22,nic naitanui,West Coast,163
+2012,22,ryan okeefe,Sydney,159
 2012,22,shane tuck,Richmond,155
 2012,22,scott pendlebury,Collingwood,155
 2012,22,aaron sandilands,Fremantle,154
@@ -7933,7 +7933,7 @@ year,round,displayName,team,score
 2012,22,nick dal santo,St Kilda,135
 2012,22,matthew boyd,Western Bulldogs,134
 2012,22,travis boak,Port Adelaide,134
-2012,22,matthew priddis,West Coast,134
+2012,22,matt priddis,West Coast,134
 2012,22,leigh montagna,St Kilda,132
 2012,22,harley bennell,Gold Coast,132
 2012,22,sean dempster,St Kilda,131
@@ -7944,7 +7944,7 @@ year,round,displayName,team,score
 2012,22,shaun burgoyne,Hawthorn,128
 2012,22,brock mclean,Carlton,127
 2012,22,ivan maric,Richmond,127
-2012,22,josh kennedy injured,Sydney,126
+2012,22,josh kennedy,Sydney,126
 2012,22,clancee pearce,Fremantle,126
 2012,22,matthew kreuzer,Carlton,125
 2012,22,gary ablett,Gold Coast,124
@@ -7980,12 +7980,12 @@ year,round,displayName,team,score
 2012,22,shaun higgins,Western Bulldogs,106
 2012,22,alex fasolo,Collingwood,106
 2012,22,kane cornes,Port Adelaide,105
-2012,22,mitchell duncan,Geelong,105
+2012,22,mitch duncan,Geelong,105
 2012,22,chris judd,Carlton,105
 2012,22,brad sewell,Hawthorn,105
 2012,22,ryan schoenmakers,Hawthorn,104
-2012,22,daniel hannebery,Sydney,103
-2012,22,matthew de boer,Fremantle,103
+2012,22,dan hannebery,Sydney,103
+2012,22,matt de boer,Fremantle,103
 2012,22,jack grimes,Melbourne,103
 2012,22,steve johnson,Geelong,103
 2012,22,andrew walker,Carlton,103
@@ -8009,7 +8009,7 @@ year,round,displayName,team,score
 2012,22,dyson heppell,Essendon,98
 2012,22,danny stanley,Gold Coast,98
 2012,22,james gwilt,St Kilda,98
-2012,22,joshua green,Brisbane Lions,98
+2012,22,josh green,Brisbane Lions,98
 2012,22,jarrad mcveigh,Sydney,97
 2012,22,tom hawkins,Geelong,97
 2012,22,rhyce shaw,Sydney,97
@@ -8023,7 +8023,7 @@ year,round,displayName,team,score
 2012,22,kieren jack,Sydney,94
 2012,22,anthony miles,Greater Western Sydney,94
 2012,22,jimmy bartel,Geelong,94
-2012,22,nathan fyfe,Fremantle,94
+2012,22,nat fyfe,Fremantle,94
 2012,22,shaun grigg,Richmond,94
 2012,22,callan ward,Greater Western Sydney,94
 2012,22,shane mumford,Sydney,94
@@ -8038,7 +8038,7 @@ year,round,displayName,team,score
 2012,22,adam cooney,Western Bulldogs,91
 2012,22,luke power,Greater Western Sydney,91
 2012,22,alex rance,Richmond,90
-2012,22,mitchell wallis,Western Bulldogs,90
+2012,22,mitch wallis,Western Bulldogs,90
 2012,22,steele sidebottom,Collingwood,90
 2012,22,david hale,Hawthorn,90
 2012,22,matthew warnock,Gold Coast,89
@@ -8051,7 +8051,7 @@ year,round,displayName,team,score
 2012,22,charlie dixon,Gold Coast,87
 2012,22,ben cunnington,North Melbourne,87
 2012,22,chad wingard,Port Adelaide,87
-2012,22,christopher mayne,Fremantle,87
+2012,22,chris mayne,Fremantle,87
 2012,22,heath shaw,Collingwood,87
 2012,22,andrew mackie,Geelong,86
 2012,22,ian callinan,Adelaide,86
@@ -8070,7 +8070,7 @@ year,round,displayName,team,score
 2012,22,kyal horsley,Gold Coast,83
 2012,22,ryan bastinac,North Melbourne,83
 2012,22,tom bell,Carlton,82
-2012,22,christopher yarran,Carlton,82
+2012,22,chris yarran,Carlton,82
 2012,22,chris newman,Richmond,82
 2012,22,richard douglas,Adelaide,82
 2012,22,scott thompson,North Melbourne,82
@@ -8115,7 +8115,7 @@ year,round,displayName,team,score
 2012,22,brent harvey,North Melbourne,74
 2012,22,james hawksley,Brisbane Lions,74
 2012,22,cale hooker,Essendon,74
-2012,22,sam reid injured,Sydney,74
+2012,22,sam reid,Sydney,74
 2012,22,lin jong,Western Bulldogs,74
 2012,22,scott mcmahon,North Melbourne,74
 2012,22,jayden post,Richmond,74
@@ -8123,7 +8123,7 @@ year,round,displayName,team,score
 2012,22,james podsiadly,Geelong,73
 2012,22,jack ziebell,North Melbourne,73
 2012,22,daniel nicholson,Melbourne,73
-2012,22,thomas jonas,Port Adelaide,73
+2012,22,tom jonas,Port Adelaide,73
 2012,22,jobe watson,Essendon,73
 2012,22,harry taylor,Geelong,73
 2012,22,aidan riley,Adelaide,72
@@ -8134,14 +8134,14 @@ year,round,displayName,team,score
 2012,22,jack watts,Melbourne,72
 2012,22,shaun atley,North Melbourne,72
 2012,22,robin nahas,Richmond,71
-2012,22,nicholas duigan,Carlton,71
+2012,22,nick duigan,Carlton,71
 2012,22,sam mitchell,Hawthorn,71
 2012,22,matt shaw,Gold Coast,71
 2012,22,mark baguley,Essendon,71
 2012,22,jamie cripps,St Kilda,70
 2012,22,sam blease,Melbourne,70
-2012,22,matthew suckling,Hawthorn,70
-2012,22,matthew rosa,West Coast,70
+2012,22,matt suckling,Hawthorn,70
+2012,22,matt rosa,West Coast,70
 2012,22,kade simpson,Carlton,70
 2012,22,adam selwood,West Coast,69
 2012,22,tom logan,Port Adelaide,69
@@ -8161,8 +8161,8 @@ year,round,displayName,team,score
 2012,22,isaac smith,Hawthorn,66
 2012,22,trent west,Geelong,66
 2012,22,eric mackenzie,West Coast,65
-2012,22,samuel wright,North Melbourne,65
-2012,22,zachary clarke,Fremantle,65
+2012,22,sam wright,North Melbourne,65
+2012,22,zac clarke,Fremantle,65
 2012,22,jarryd roughead,Hawthorn,64
 2012,22,ben reid,Collingwood,64
 2012,22,sam shaw,Adelaide,64
@@ -8178,7 +8178,7 @@ year,round,displayName,team,score
 2012,22,luke mcpharlin,Fremantle,63
 2012,22,jarrod harbrow,Gold Coast,63
 2012,22,lukas markovic,Western Bulldogs,62
-2012,22,edward curnow,Carlton,62
+2012,22,ed curnow,Carlton,62
 2012,22,michael hibberd,Essendon,62
 2012,22,joel patfull,Brisbane Lions,62
 2012,22,bryce gibbs,Carlton,62
@@ -8204,11 +8204,11 @@ year,round,displayName,team,score
 2012,22,cameron wood,Collingwood,57
 2012,22,aaron young,Port Adelaide,57
 2012,22,daniel talia,Adelaide,57
-2012,22,joshua walker,Geelong,56
+2012,22,josh walker,Geelong,56
 2012,22,sam gilbert,St Kilda,56
-2012,22,matthew dea,Richmond,56
+2012,22,matt dea,Richmond,56
 2012,22,michael johnson,Fremantle,56
-2012,22,joshua kennedy,West Coast,56
+2012,22,josh kennedy,West Coast,56
 2012,22,jack trengove,Melbourne,55
 2012,22,michael firrito,North Melbourne,55
 2012,22,grant birchall,Hawthorn,55
@@ -8220,7 +8220,7 @@ year,round,displayName,team,score
 2012,22,nathan lovett-murray,Essendon,53
 2012,22,james polkinghorne,Brisbane Lions,53
 2012,22,liam shiels,Hawthorn,53
-2012,22,bradley helbig,Richmond,53
+2012,22,brad helbig,Richmond,53
 2012,22,james sellar,Melbourne,52
 2012,22,darren glass,West Coast,52
 2012,22,bernie vince,Adelaide,52
@@ -8256,7 +8256,7 @@ year,round,displayName,team,score
 2012,22,tom campbell,Western Bulldogs,45
 2012,22,james strauss,Melbourne,44
 2012,22,jack gunston,Hawthorn,44
-2012,22,brett o'hanlon,Richmond,44
+2012,22,brett ohanlon,Richmond,44
 2012,22,clay smith,Western Bulldogs,44
 2012,22,jordan roughead,Western Bulldogs,43
 2012,22,ryan lester,Brisbane Lions,42
@@ -8264,20 +8264,20 @@ year,round,displayName,team,score
 2012,22,darren pfeiffer,Port Adelaide,42
 2012,22,sebastian ross,St Kilda,41
 2012,22,rhys cooyou,Greater Western Sydney,41
-2012,22,nicholas o'brien,Essendon,41
+2012,22,nick obrien,Essendon,41
 2012,22,alex johnson,Sydney,40
 2012,22,danyle pearce,Port Adelaide,40
 2012,22,alik magin,Gold Coast,40
 2012,22,jake melksham,Essendon,39
-2012,22,benjamin stratton,Hawthorn,38
+2012,22,ben stratton,Hawthorn,38
 2012,22,brendan whitecross,Hawthorn,38
 2012,22,david ellard,Carlton,38
-2012,22,nicholas suban,Fremantle,38
+2012,22,nick suban,Fremantle,38
 2012,22,josh hill,West Coast,37
 2012,22,alan toovey,Collingwood,37
 2012,22,simon white,Carlton,37
 2012,22,will hoskin-elliott,Greater Western Sydney,37
-2012,22,matthew buntine,Greater Western Sydney,37
+2012,22,matt buntine,Greater Western Sydney,37
 2012,22,nathan brown,Collingwood,36
 2012,22,jarrad grant,Western Bulldogs,36
 2012,22,david astbury,Richmond,35
@@ -8303,7 +8303,7 @@ year,round,displayName,team,score
 2012,22,xavier ellis,Hawthorn,17
 2012,22,josh drummond,Brisbane Lions,16
 2012,22,neville jetta,Melbourne,16
-2012,22,matthew white,Richmond,15
+2012,22,matt white,Richmond,15
 2012,22,kepler bradley,Fremantle,15
 2012,22,paul seedsman,Collingwood,13
 2012,22,billie smedts,Geelong,13
@@ -8321,7 +8321,7 @@ year,round,displayName,team,score
 2012,23,aaron sandilands,Fremantle,163
 2012,23,travis cloke,Collingwood,159
 2012,23,brock mclean,Carlton,154
-2012,23,nathan fyfe,Fremantle,151
+2012,23,nat fyfe,Fremantle,151
 2012,23,dayne beams,Collingwood,146
 2012,23,daniel rich,Brisbane Lions,145
 2012,23,alex fasolo,Collingwood,142
@@ -8371,21 +8371,21 @@ year,round,displayName,team,score
 2012,23,bachar houli,Richmond,110
 2012,23,ben mcevoy,St Kilda,109
 2012,23,ryan bastinac,North Melbourne,109
-2012,23,nicholas naitanui,West Coast,109
+2012,23,nic naitanui,West Coast,109
 2012,23,beau waters,West Coast,108
 2012,23,brent stanton,Essendon,108
-2012,23,christopher mayne,Fremantle,108
+2012,23,chris mayne,Fremantle,108
 2012,23,paul chapman,Geelong,107
 2012,23,jarryd roughead,Hawthorn,106
 2012,23,shane tuck,Richmond,106
-2012,23,josh kennedy injured,Sydney,105
+2012,23,josh kennedy,Sydney,105
 2012,23,jack steven,St Kilda,104
 2012,23,david armitage,St Kilda,103
 2012,23,tom hawkins,Geelong,103
 2012,23,luke delaney,North Melbourne,103
-2012,23,mitchell duncan,Geelong,103
+2012,23,mitch duncan,Geelong,103
 2012,23,ryan griffen,Western Bulldogs,102
-2012,23,matthew suckling,Hawthorn,101
+2012,23,matt suckling,Hawthorn,101
 2012,23,jack darling,West Coast,101
 2012,23,brent reilly,Adelaide,101
 2012,23,joel corey,Geelong,101
@@ -8438,7 +8438,7 @@ year,round,displayName,team,score
 2012,23,danny stanley,Gold Coast,88
 2012,23,heritier lumumba,Collingwood,88
 2012,23,luke hodge,Hawthorn,88
-2012,23,nicholas duigan,Carlton,88
+2012,23,nick duigan,Carlton,88
 2012,23,cale hooker,Essendon,88
 2012,23,tom mcdonald,Melbourne,88
 2012,23,rhys stanley,St Kilda,87
@@ -8448,7 +8448,7 @@ year,round,displayName,team,score
 2012,23,jed adcock,Brisbane Lions,87
 2012,23,rory sloane,Adelaide,87
 2012,23,shaun higgins,Western Bulldogs,86
-2012,23,matthew priddis,West Coast,86
+2012,23,matt priddis,West Coast,86
 2012,23,kade simpson,Carlton,86
 2012,23,jordan roughead,Western Bulldogs,86
 2012,23,brendon goddard,St Kilda,85
@@ -8458,7 +8458,7 @@ year,round,displayName,team,score
 2012,23,luke shuey,West Coast,85
 2012,23,brett ebert,Port Adelaide,85
 2012,23,david zaharakis,Essendon,85
-2012,23,mitchell wallis,Western Bulldogs,84
+2012,23,mitch wallis,Western Bulldogs,84
 2012,23,terry milera,St Kilda,84
 2012,23,craig bird,Sydney,84
 2012,23,kieren jack,Sydney,83
@@ -8502,7 +8502,7 @@ year,round,displayName,team,score
 2012,23,clancee pearce,Fremantle,78
 2012,23,heath scotland,Carlton,78
 2012,23,lukas markovic,Western Bulldogs,77
-2012,23,nicholas suban,Fremantle,77
+2012,23,nick suban,Fremantle,77
 2012,23,leigh montagna,St Kilda,77
 2012,23,tom lynch,Gold Coast,77
 2012,23,jack watts,Melbourne,76
@@ -8532,7 +8532,7 @@ year,round,displayName,team,score
 2012,23,david hale,Hawthorn,71
 2012,23,andrew embley,West Coast,71
 2012,23,andrew mackie,Geelong,71
-2012,23,joshua green,Brisbane Lions,71
+2012,23,josh green,Brisbane Lions,71
 2012,23,alipate carlile,Port Adelaide,70
 2012,23,brandon matera,Gold Coast,70
 2012,23,nick maxwell,Collingwood,70
@@ -8545,8 +8545,8 @@ year,round,displayName,team,score
 2012,23,sam butler,West Coast,69
 2012,23,dennis armfield,Carlton,68
 2012,23,andrew krakouer,Collingwood,68
-2012,23,nicholas o'brien,Essendon,68
-2012,23,ryan o'keefe,Sydney,67
+2012,23,nick obrien,Essendon,68
+2012,23,ryan okeefe,Sydney,67
 2012,23,andrew walker,Carlton,67
 2012,23,christian howard,Western Bulldogs,67
 2012,23,justin westhoff,Port Adelaide,67
@@ -8555,7 +8555,7 @@ year,round,displayName,team,score
 2012,23,patrick mcginnity,West Coast,67
 2012,23,nathan van berlo,Adelaide,66
 2012,23,james sellar,Melbourne,66
-2012,23,matthew buntine,Greater Western Sydney,66
+2012,23,matt buntine,Greater Western Sydney,66
 2012,23,arryn siposs,St Kilda,66
 2012,23,jamie cripps,St Kilda,66
 2012,23,shaun atley,North Melbourne,66
@@ -8599,7 +8599,7 @@ year,round,displayName,team,score
 2012,23,jarrad grant,Western Bulldogs,57
 2012,23,curtly hampton,Greater Western Sydney,57
 2012,23,lewis jetta,Sydney,57
-2012,23,benjamin stratton,Hawthorn,57
+2012,23,ben stratton,Hawthorn,57
 2012,23,jordan lewis,Hawthorn,56
 2012,23,nathan vardy,Geelong,56
 2012,23,jordie mckenzie,Melbourne,56
@@ -8621,8 +8621,8 @@ year,round,displayName,team,score
 2012,23,neville jetta,Melbourne,52
 2012,23,james frawley,Melbourne,52
 2012,23,jack fitzpatrick,Melbourne,52
-2012,23,rhys o'keeffe,Carlton,52
-2012,23,edward curnow,Carlton,52
+2012,23,rhys okeeffe,Carlton,52
+2012,23,ed curnow,Carlton,52
 2012,23,tom lonergan,Geelong,51
 2012,23,alan didak,Collingwood,51
 2012,23,mark jamar,Melbourne,51
@@ -8636,7 +8636,7 @@ year,round,displayName,team,score
 2012,23,jack hombsch,Greater Western Sydney,48
 2012,23,nathan brown,Collingwood,47
 2012,23,kieran harper,North Melbourne,47
-2012,23,mitchell brown,West Coast,47
+2012,23,mitch brown,West Coast,47
 2012,23,tom simpkin,St Kilda,47
 2012,23,brian lake,Western Bulldogs,47
 2012,23,easton wood,Western Bulldogs,46
@@ -8656,14 +8656,14 @@ year,round,displayName,team,score
 2012,23,stephen milne,St Kilda,42
 2012,23,tom lynch,Adelaide,42
 2012,23,david myers,Essendon,42
-2012,23,daniel hannebery,Sydney,42
+2012,23,dan hannebery,Sydney,42
 2012,23,cruize garlett,North Melbourne,41
 2012,23,tory dickson,Western Bulldogs,41
 2012,23,cyril rioli,Hawthorn,41
-2012,23,thomas jonas,Port Adelaide,41
-2012,23,matthew dea,Richmond,41
+2012,23,tom jonas,Port Adelaide,41
+2012,23,matt dea,Richmond,41
 2012,23,alik magin,Gold Coast,40
-2012,23,brett o'hanlon,Richmond,40
+2012,23,brett ohanlon,Richmond,40
 2012,23,luke mitchell,Carlton,39
 2012,23,lewis roberts-thomson,Sydney,39
 2012,23,tyson goldsack,Collingwood,39
@@ -8672,7 +8672,7 @@ year,round,displayName,team,score
 2012,23,alan toovey,Collingwood,38
 2012,23,jared rivers,Melbourne,37
 2012,23,lin jong,Western Bulldogs,36
-2012,23,patrick mccarthy,Carlton,36
+2012,23,pat mccarthy,Carlton,36
 2012,23,tom ledger,St Kilda,36
 2012,23,taylor hunt,Geelong,36
 2012,23,sam blease,Melbourne,35
@@ -8682,7 +8682,7 @@ year,round,displayName,team,score
 2012,23,will hoskin-elliott,Greater Western Sydney,33
 2012,23,jackson merrett,Essendon,32
 2012,23,nathan blee,Port Adelaide,31
-2012,23,joshua kennedy,West Coast,30
+2012,23,josh kennedy,West Coast,30
 2012,23,leroy jetta,Essendon,30
 2012,23,jordan murdoch,Geelong,30
 2012,23,jake melksham,Essendon,28
@@ -8691,13 +8691,13 @@ year,round,displayName,team,score
 2012,23,andrew strijk,West Coast,25
 2012,23,mike pyke,Sydney,25
 2012,23,john mccarthy,Port Adelaide,25
-2012,23,corey dell'olio,Essendon,24
+2012,23,cory dellolio,Essendon,24
 2012,23,jacob brennan,West Coast,24
 2012,23,luke parker,Sydney,21
 2012,23,tayte pears,Essendon,21
 2012,23,devon smith,Greater Western Sydney,21
 2012,23,ryan harwood,Brisbane Lions,21
-2012,23,christopher yarran,Carlton,20
+2012,23,chris yarran,Carlton,20
 2012,23,dustin martin,Richmond,19
 2012,23,josh caddy,Gold Coast,17
 2012,23,liam shiels,Hawthorn,15
@@ -8705,9 +8705,9 @@ year,round,displayName,team,score
 2012,23,piers flanagan,Gold Coast,11
 2012,23,matthew jaensch,Adelaide,10
 2012,23,tom hickey,Gold Coast,8
-2012,23,bradley helbig,Richmond,7
+2012,23,brad helbig,Richmond,7
 2012,23,steven motlop,Geelong,6
 2012,23,zephaniah skinner,Western Bulldogs,6
 2012,23,alex browne,Essendon,6
-2012,23,thomas sheridan,Fremantle,5
+2012,23,tom sheridan,Fremantle,5
 2012,23,lachlan hansen,North Melbourne,4

@@ -4,7 +4,37 @@ import pandas as pd
 from scipy.__config__ import show
 from soupsieve import select
 
+def find_different_names():
+    all_names = []
+    all_sc_names = []
+    for year in range(2012, 2022):
+        file_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/{year}.csv"
+        supercoach_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/Supercoach/supercoach_{year}.csv"
+        sc = pd.read_csv(supercoach_path, index_col=False)
+        n = pd.read_csv(file_path, index_col=False)
+        sc_names = sc.displayName.unique()
+        sc_names = [x.lower() for x in sc_names]
+        names = n.displayName.unique()
+        names = [x.lower() for x in names]
 
+        missing = [item for item in names if item not in sc_names]
+        missing_sc = [item for item in sc_names if item not in names]
+
+        all_names += [item for item in missing if item not in all_names]
+        all_sc_names += [x for x in missing_sc if x not in all_sc_names]
+      
+    return all_names, all_sc_names
+    
+different_names = find_different_names()[0]
+different_sc_names = find_different_names()[1]
+def fix_name(name):
+    for n in different_names:
+        l = n.split()
+        last = name.split()
+        if last[1] == l[1]:
+            if last[0][0] == l[0][0]:
+                return n
+                
 # Lower Player names
 def update_names(year):
     file_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/Supercoach/supercoach_{year}.csv"
@@ -13,19 +43,39 @@ def update_names(year):
     supercoach_player_update.to_csv(file_path, index=False)
 
 def lower_player_names(row):
+    name = row[2].lower()
+    if name.find('injured') != -1:
+        n = name.split()
+        n.remove('injured')
+        n = ' '.join(n)
+        row[2] = n
+        name = n
+    if name.find("'") != -1:
+        name = name.replace("'","")
+        row[2]=name
     row[2] = row[2].lower()
+    if name == "angus dewar":
+        row[2] = "angus litherland"
+    if name == "mitchell white":
+        row[2] = "mitch white"
+    if name == "matthew white":
+        row[2] = "matthew white"
+    if name == "jay kennedy-harris":
+        row[2] = "jay kennedy harris"
+    if name == "josh deluca-cardillo":
+        row[2] = "josh deluca"
+    if name == "joshua kennedy":
+        row[2] = "josh kennedy"
+    if name in different_sc_names:
+        f = fix_name(name)
+        row[2] = f
     return row
 # for year in range (2012, 2022):
 #     update_names(year)
 
 all_stats_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_Sorted/Year/Players"
 supercoach_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_Sorted/Year/Players"
-
-def find_different_names(year):
-    file_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/Supercoach/supercoach_{year}.csv"
-    supercoach_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/Supercoach/supercoach_{year}.csv"
-
-
+   
 def change_team_names(row):
     team = row[3]
     if team == "Crows":
@@ -106,12 +156,11 @@ def find_score_for_player(row):
     row['Supercoach'] = score[0]
     return row
 
-
-# add_supercoach_scores(2012)
-# add_supercoach_scores(2013)
-# add_supercoach_scores(2014)
-# add_supercoach_scores(2015)
-# add_supercoach_scores(2016)
+add_supercoach_scores(2012)
+add_supercoach_scores(2013)
+add_supercoach_scores(2014)
+add_supercoach_scores(2015)
+add_supercoach_scores(2016)
 add_supercoach_scores(2017)
 add_supercoach_scores(2018)
 add_supercoach_scores(2019)

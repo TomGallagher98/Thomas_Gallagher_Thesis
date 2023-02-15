@@ -52,5 +52,5 @@ def scrape_data(year):
             file_output.writelines(out+'\n')
     file_output.close()
     
-scrape_data(2020)   
+scrape_data(2021)  
         
