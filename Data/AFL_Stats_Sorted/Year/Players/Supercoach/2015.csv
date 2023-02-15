@@ -1,3 +1,4 @@
+gameId,team,year,round,playerId,displayName,gameNumber,Disposals,Kicks,Marks,Handballs,Goals,Behinds,HitOuts,Tackles,Rebounds,Inside50s,Clearances,Clangers,Frees,FreesAgainst,BrownlowVotes,ContestedPossessions,UncontestedPossessions,ContestedMarks,MarksInside50,OnePercenters,Bounces,GoalAssists,PercentPlayed,Subs,Supercoach
 2015R107,Adelaide,2015,1,2005667052,Eddie Betts,207,21,15,8,6,4,0,0,7,1,4,2,2,0,1,1,7,15,0,3,1,6,2,92,-,154
 2015R107,Adelaide,2015,1,2012662083,Luke Brown,47,8,5,3,3,0,0,0,2,1,0,0,0,2,0,0,4,4,0,0,2,1,0,46,Off,62
 2015R107,Adelaide,2015,1,2014678070,Charlie Cameron,8,11,11,5,0,1,3,0,1,0,5,0,2,0,0,0,2,9,0,1,0,0,1,85,-,43

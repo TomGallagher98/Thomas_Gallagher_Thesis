@@ -1,3 +1,4 @@
+gameId,team,year,round,playerId,displayName,gameNumber,Disposals,Kicks,Marks,Handballs,Goals,Behinds,HitOuts,Tackles,Rebounds,Inside50s,Clearances,Clangers,Frees,FreesAgainst,BrownlowVotes,ContestedPossessions,UncontestedPossessions,ContestedMarks,MarksInside50,OnePercenters,Bounces,GoalAssists,PercentPlayed,Subs,Supercoach
 2021R104,Adelaide,2021,1,2021661124,Sam Berry,1,8,6,1,2,0,1,0,7,0,2,3,2,2,2,0,4,5,0,0,0,0,1,80,-,59
 2021R104,Adelaide,2021,1,2012662083,Luke Brown,168,5,2,0,3,0,0,0,2,0,0,0,0,1,0,0,2,3,0,0,0,0,0,23,Off,25
 2021R104,Adelaide,2021,1,2020665315,Jordon Butts,3,10,5,3,5,0,0,0,0,5,0,0,3,1,0,0,5,5,1,0,8,0,0,93,-,56

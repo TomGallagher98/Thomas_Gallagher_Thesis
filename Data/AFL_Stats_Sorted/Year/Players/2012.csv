@@ -1,4 +1,4 @@
-gameId,team,year,round,playerId,displayName,gameNumber,Disposals,Kicks,Marks,Handballs,Goals,Behinds,HitOuts,Tackles,Rebounds,Inside50s,Clearances,Clangers,Frees,FreesAgainst,BrownlowVotes,ContestedPossessions,UncontestedPossessions,ContestedMarks,MarksInside50,OnePercenters,Bounces,GoalAssists,PercentPlayed,Subs,Supercoach
+gameId,team,year,round,playerId,displayName,gameNumber,Disposals,Kicks,Marks,Handballs,Goals,Behinds,HitOuts,Tackles,Rebounds,Inside50s,Clearances,Clangers,Frees,FreesAgainst,BrownlowVotes,ContestedPossessions,UncontestedPossessions,ContestedMarks,MarksInside50,OnePercenters,Bounces,GoalAssists,PercentPlayed,Subs,Supercoach,Fantasy
 2012R105,Adelaide,2012,1,2011675768,Ian Callinan,4,18,14,5,4,2,5,0,5,0,2,1,4,0,1,0,9,9,0,3,0,0,0,84,-,89
 2012R105,Adelaide,2012,1,2008681760,Patrick Dangerfield,65,25,13,3,12,2,0,0,2,0,6,9,4,0,1,0,14,11,0,1,1,1,0,92,-,93
 2012R105,Adelaide,2012,1,2000686938,Michael Doughty,208,17,5,4,12,0,0,0,3,1,2,0,0,2,0,0,8,8,0,0,2,0,0,81,-,68

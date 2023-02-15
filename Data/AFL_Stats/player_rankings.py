@@ -4,12 +4,16 @@ from unicodedata import name
 import pandas as pd
 from scipy.__config__ import show
 from soupsieve import select
-from team_changes import get_selected_team
+# from team_changes import get_selected_team
 
 all_stats_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/stats_sorted.csv"
 all_stats_raw = pd.read_csv(all_stats_path)
 games_filename_2012 = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/2012.csv"
+supercoach_2012 = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/Supercoach/supercoach_2012.csv"
 stats_2012 = pd.read_csv(games_filename_2012)
+supercoach_2012 = pd.read_csv(supercoach_2012)
+print(stats_2012.Supercoach.value_counts(sort=True))
+
 # Kick 4
 # Handball 2
 # Mark 3
@@ -145,5 +149,5 @@ def calculate_player_season_average(player):
     return sum(stat_list)/len(stat_list)
 
 # calculate_team_previous_game("2012R2205", "Collingwood")
-calculate_team_previous_five("2012R2205", "West Coast")
-calculate_team_player_average("2012R2205", "West Coast")
+# calculate_team_previous_five("2012R2205", "West Coast")
+# calculate_team_player_average("2012R2205", "West Coast")

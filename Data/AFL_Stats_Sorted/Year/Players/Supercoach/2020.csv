@@ -1,3 +1,4 @@
+gameId,team,year,round,playerId,displayName,gameNumber,Disposals,Kicks,Marks,Handballs,Goals,Behinds,HitOuts,Tackles,Rebounds,Inside50s,Clearances,Clangers,Frees,FreesAgainst,BrownlowVotes,ContestedPossessions,UncontestedPossessions,ContestedMarks,MarksInside50,OnePercenters,Bounces,GoalAssists,PercentPlayed,Subs,Supercoach
 2020R104,Adelaide,2020,1,2015652891,Rory Atkins,98,14,6,1,8,1,0,0,5,2,1,0,2,0,0,0,8,7,1,1,0,0,1,79,nan,87
 2020R104,Adelaide,2020,1,2012662083,Luke Brown,151,11,9,2,2,0,0,0,1,5,1,1,3,0,0,0,4,4,0,0,3,0,0,87,nan,60
 2020R104,Adelaide,2020,1,2013674392,Brad Crouch,84,20,10,0,10,0,0,0,4,1,6,5,4,1,3,0,12,8,0,0,0,0,0,77,nan,92

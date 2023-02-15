@@ -1,4 +1,4 @@
-gameId,team,year,round,playerId,displayName,gameNumber,Disposals,Kicks,Marks,Handballs,Goals,Behinds,HitOuts,Tackles,Rebounds,Inside50s,Clearances,Clangers,Frees,FreesAgainst,BrownlowVotes,ContestedPossessions,UncontestedPossessions,ContestedMarks,MarksInside50,OnePercenters,Bounces,GoalAssists,PercentPlayed,Subs,Supercoach
+gameId,team,year,round,playerId,displayName,gameNumber,Disposals,Kicks,Marks,Handballs,Goals,Behinds,HitOuts,Tackles,Rebounds,Inside50s,Clearances,Clangers,Frees,FreesAgainst,BrownlowVotes,ContestedPossessions,UncontestedPossessions,ContestedMarks,MarksInside50,OnePercenters,Bounces,GoalAssists,PercentPlayed,Subs,Supercoach,Fantasy
 2013R101,Adelaide,2013,1,2012662083,Luke Brown,4,7,3,2,4,0,0,0,3,2,1,0,0,0,0,0,3,4,0,0,0,0,1,45,Off,44
 2013R101,Adelaide,2013,1,2008681760,Patrick Dangerfield,90,17,10,1,7,0,1,0,2,1,4,4,4,1,2,0,12,5,0,0,1,0,0,87,-,63
 2013R101,Adelaide,2013,1,2006687579,Richard Douglas,115,19,13,5,6,2,1,0,2,3,5,3,3,0,1,0,6,13,2,2,0,1,1,82,-,91
