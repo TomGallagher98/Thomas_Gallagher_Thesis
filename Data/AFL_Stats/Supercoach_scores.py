@@ -17,9 +17,9 @@ from soupsieve import select
 #         out = ','.join(str(round[1][x]) for x in range(5))
 #         file_output.writelines(out+'\n')
 # file_output.close()
+all_stats_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats/Year/Players"
+supercoach_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats/Year/Players"
 
-all_stats_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players"
-supercoach_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/supercoach_2013.csv"
 
 def change_team_names(row):
     team = row[3]
@@ -36,7 +36,7 @@ def change_team_names(row):
     elif team == "Dockers":
         row[3] = "Fremantle"
     elif team == "Cats":
-        row[3] == "Geelong"
+        row[3] = "Geelong"
     elif team == "Suns":
         row[3] = "Gold Coast"
     elif team == "Giants":
@@ -62,61 +62,14 @@ def change_team_names(row):
     return row
 
 def rename_teams(year):
-    supercoach_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/supercoach_{year}.csv"
+    supercoach_path = f"/content/drive/MyDrive/Supercoach/supercoach_{year}.csv"
     supercoach_scores = pd.read_csv(supercoach_path)
     supercoach_team_update = supercoach_scores.apply(change_team_names, axis=1)
     file_output = open(supercoach_path, "w")
     file_output.writelines("year,round,displayName,team,score\n")
-
+    # supercoach_team_update.to_csv(supercoach_path)
     for round in supercoach_team_update.iterrows():
             out = ','.join(str(round[1][x]) for x in range(5))
             file_output.writelines(out+'\n')
     file_output.close()
-
-
-# file = f"/{year}.csv" 
-# round_scores = pd.read_csv(all_stats_path + file)
-
-# for round in round_scores.iterrows():
-#     out = ','.join(str(round[1][x]) for x in range(4))
-def add_supercoach_scores(year):
-    file = f"/{year}.csv" 
-    round_scores = pd.read_csv(all_stats_path + file)
-    supercoach_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/supercoach_{year}.csv"
-    supercoach_scores = pd.read_csv(supercoach_path)
-    round_scores = round_scores.head(10)
-    round_scores = round_scores.apply(find_score_for_player, axis=1)
-    
-    file_out = open(all_stats_path+'/test2012.csv', "w")
-    round_scores.to_csv(all_stats_path+ '/test.csv')
-    for player in round_scores.iterrows():
-            out = ','.join(str(player[1][x]) for x in range(32))
-            file_out.writelines(out+'\n')
-    file_out.close()
-
-def find_score_for_player(row):
-    row['supercoach'] = 0
-    year = 2012
-    player = row.displayName
-    team = row.team
-    round = row['round']
-  
-    if round == "EF" or round == "QF" or round == "SF" or round == "PF" or round == "GF":
-        print(round)
-        return row
-
-    round = int(round)
-    supercoach_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/supercoach_{year}.csv"
-    supercoach_scores = pd.read_csv(supercoach_path)
-
-    round_score = supercoach_scores.query('displayName == @player & team == @team & round == @round')
-    
-    score = round_score.score.values
-    if score.size <= 0:
-        score = [0]
-    print(score)
-    row['supercoach'] = score[0]
-    return row
-
-add_supercoach_scores(2012)
-
+rename_teams(2021)
