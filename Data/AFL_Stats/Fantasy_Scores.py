@@ -25,8 +25,8 @@ def find_different_names():
       
     return all_names, all_sc_names
     
-# different_names = find_different_names()[0]
-# different_sc_names = find_different_names()[1]
+different_names = find_different_names()[0]
+different_sc_names = find_different_names()[1]
 def fix_name(name):
     for n in different_names:
         l = n.split()
