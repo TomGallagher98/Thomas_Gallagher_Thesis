@@ -10,7 +10,7 @@ stats = pd.read_csv(PATH + 'stats_sorted.csv')
 games = pd.read_csv(PATH + 'games_sorted.csv')
 players = pd.read_csv(PATH + 'players.csv')
 
-all_stats_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/stats_sorted.csv"
+all_stats_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Players/stats_sorted.csv"
 all_stats_raw = pd.read_csv(all_stats_path)
 
 def get_selected_team(gameId, team):
@@ -30,15 +30,19 @@ def team_similarity(s_team, prev_team, team):
     games_in = []
     importance_out = []
     importance_in = []
+    if len(out_players) == 0:
+        return 0,0,0
 
     for player in out_players:
-        p = selected.query('playerId == @player')
-        i = pr.calculate_player_season_average(player)
+        # p = selected.query('playerId == @player')
+        p = selected.loc[selected['playerId'] == player]
+        i = p.apply(pr.calculate_player_season_average, axis = 1).values[0]
         importance_out.append(i)
         games_out.append(p.gameNumber.values[0])
     for player in in_players:
-        p = previous_team.query('playerId == @player')
-        i = pr.calculate_player_season_average(player)
+        p = previous_team.loc[previous_team['playerId'] == player]
+        i = p.apply(pr.calculate_player_season_average, axis = 1).values[0]
+        
         importance_in.append(i)
         games_in.append(p.gameNumber.values[0])
 
@@ -46,6 +50,7 @@ def team_similarity(s_team, prev_team, team):
     importance = (sum(importance_in)/len(importance_in)) - (sum(importance_out)/len(importance_out))
     dist = (len(out_players))
     # find changed players
+    print(importance)
     return dist, diff, importance
     # Selected team can theoretically be inputted by the user
     # For testing purposes it will be derived from the game data
@@ -66,3 +71,8 @@ def select_player(name, team = None):
         print(player)
         id =  player['playerId'].item()
         return id
+
+
+    
+
+team_similarity('2012R708', '2012R604', 'Fremantle')
