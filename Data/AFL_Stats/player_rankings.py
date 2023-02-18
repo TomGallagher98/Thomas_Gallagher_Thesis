@@ -25,6 +25,7 @@ def get_selected_team(gameId, team):
 def get_previous_games(playerId, round, gameList):
     round = str(round)
     l = gameList.query('round < @round and playerId == @playerId')
+    # print(l)
     if len(l) > 0:
         return l
     return pd.Series(dtype='float64')
@@ -34,16 +35,17 @@ def calculate_team_previous_game(gameId, team):
     team_list = get_selected_team(gameId, team)
     player_scores = []
     player_scores.append(team_list.apply(calculate_player_score, axis =1).values)
-    # for player in team_list:
-    #     pre = get_previous_game(player.playerId, player.round)
-    #     player_scores.append(calculate_player_score(pre))
-    return sum(player_scores)/len(player_scores)
+    if len(player_scores) == 0:
+        return 0
+    return sum(player_scores[0])/len(player_scores[0])
 
 def calculate_team_previous_five(gameId, team):
     # Looks at each selected players previous 5 games, returns average
     team_list = get_selected_team(gameId, team)
     player_scores = []
     player_scores = team_list.apply(calculate_player_previous_five, axis =1).values
+    if len(player_scores) == 0:
+        return 0, 0
     return sum(player_scores), sum(player_scores)/len(player_scores)
 
 def calculate_team_player_average(gameId, team):
@@ -51,12 +53,14 @@ def calculate_team_player_average(gameId, team):
     team_list = get_selected_team(gameId, team)
     player_scores = []
     player_scores = team_list.apply(calculate_player_season_average, axis =1).values
+    if len(player_scores) == 0:
+        return 0, 0
     return sum(player_scores), sum(player_scores)/len(player_scores)
 
 def calculate_player_score(player):
     year = player.year
     game = pd.read_csv(base_path + f'Players/{year}.csv')
-    season_games = get_previous_games(player.playerId, player.round,game)
+    season_games = get_previous_games(player.playerId, player['round'],game)
     if season_games.empty:
         return 0
     last_game = season_games.iloc[-1]
@@ -67,7 +71,7 @@ def calculate_player_score(player):
 def calculate_player_previous_five(player):
     year = player.year
     game = pd.read_csv(base_path + f'Players/{year}.csv')
-    season_games = get_previous_games(player.playerId, player.round, game)
+    season_games = get_previous_games(player.playerId, player['round'], game)
     if season_games.empty:
         return 0
 
@@ -89,7 +93,7 @@ def calculate_player_previous_five(player):
 def calculate_player_season_average(player):
     year = player.year
     game = pd.read_csv(base_path + f'Players/{year}.csv')
-    season_games = get_previous_games(player.playerId, player.round, game)
+    season_games = get_previous_games(player.playerId, player['round'], game)
     if season_games.empty:
         return 0
 
@@ -107,6 +111,6 @@ def calculate_player_season_average(player):
     fantasy_avg = sum(fantasy_scores)/len(fantasy_scores)
     return (supercoach_avg + fantasy_avg)/2
 
-# calculate_team_previous_game("2012R2205", "Collingwood")
-# calculate_team_previous_five("2012R2205", "West Coast")
-calculate_team_player_average("2012R2205", "West Coast")
+calculate_team_previous_game("2012R105", "Gold Coast")
+calculate_team_previous_five("2012R105", "Gold Coast")
+calculate_team_player_average("2012R105", "Gold Coast")
