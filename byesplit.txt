@@ -1,0 +1,7 @@
+22 Rounds
+9 games
+x features
+
+bye rounds = 2/3
+Find all games in bye rounds
+Join and split into 2 = 18 games over "2" rounds
