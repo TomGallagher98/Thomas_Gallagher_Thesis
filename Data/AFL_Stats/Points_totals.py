@@ -61,8 +61,8 @@ games_raw = pd.read_csv(games_path)
 games = calc_season(games_raw)
 games.to_csv(games_path, index=False)
 
-# for year in range(2012,2022):
-#     games_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Games/{year}.csv"
-#     games_raw = pd.read_csv(games_path)
-#     games = calc_season(games_2012_raw)
-#     games.to_csv(games_path, index=False)
+for year in range(2013,2022):
+    games_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/Year/Games/{year}.csv"
+    games_raw = pd.read_csv(games_path)
+    games = calc_season(games_raw)
+    games.to_csv(games_path, index=False)
