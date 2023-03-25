@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis_Draft.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Database file #1: refs_thesis.bib
+Repeated entry---line 108 of file refs_thesis.bib
+ : @article{ResearchGate
+ :                      ,
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Herbert F. Jelinek, Andrei Kelarev, Dean J. Robinson,Andrew Stranieri, David J. Cornforth" for entry AFL_2
+while executing---line 969 of file ieeetr.bst
+Too many commas in name 1 of "Herbert F. Jelinek, Andrei Kelarev, Dean J. Robinson,Andrew Stranieri, David J. Cornforth" for entry AFL_2
+while executing---line 969 of file ieeetr.bst
+Too many commas in name 1 of "Mitchell F. Aarons, Christopher M. Young, Lyndell Bruce, Dan B. Dwyer" for entry AFL_3
+while executing---line 969 of file ieeetr.bst
+You've used 18 entries,
+            1876 wiz_defined-function locations,
+            603 strings with 6418 characters,
+and the built_in function-call counts, 4009 in all, are:
+= -- 440
+> -- 76
+< -- 0
++ -- 37
+- -- 19
+* -- 237
+:= -- 556
+add.period$ -- 25
+call.type$ -- 18
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 205
+empty$ -- 431
+format.name$ -- 19
+if$ -- 1003
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 14
+newline$ -- 65
+num.names$ -- 18
+pop$ -- 63
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 135
+stack$ -- 0
+substring$ -- 265
+swap$ -- 77
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 48
+width$ -- 20
+write$ -- 184
+(There were 4 error messages)
