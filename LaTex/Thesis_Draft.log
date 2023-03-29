@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  25 MAR 2023 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  29 MAR 2023 18:07
 entering extended mode
 **./Thesis_Draft.tex
 (Thesis_Draft.tex
@@ -628,39 +628,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--67
 
  []
 
-[2] [3] [4
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+[]\T1/phv/m/n/12 Why will this be use-ful
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+[]\T1/phv/m/n/12 Deeper anal-y-sis of trends and fea-tures
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+[]\T1/phv/m/n/12 Uncover new fea-tures
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+[]\T1/phv/m/n/12 Improved pre-dic-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+[3] [4
 
 ]
 Chapter 2.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 77.
+(hyperref)                than one, level fixed on input line 81.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
-[5] [6]
-Overfull \hbox (49.89943pt too wide) in paragraph at lines 111--112
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Overfull \hbox (49.89943pt too wide) in paragraph at lines 118--119
 []\T1/phv/m/n/12 The dataset was taken from Kag-gle (https://www.kaggle.com/dat
 asets/stoney71/aflstats),
  []
 
-[7] [8
-
-]
+[7] [8]
 Chapter 3.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9] [10] [11] [12
+[9
+
+] [10] [11] [12
 
 ]
 Chapter 4.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 183.
+(hyperref)                than one, level fixed on input line 190.
 
 
 Underfull \vbox (badness 8056) has occurred while \output is active []
@@ -688,7 +736,7 @@ Package rerunfilecheck Info: File `Thesis_Draft.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  13091 strings out of 478927
- 199855 string characters out of 2852535
+ 200095 string characters out of 2852535
  519711 words of memory out of 3000000
  30682 multiletter control sequences out of 15000+600000
  445322 words of font info for 56 fonts, out of 8000000 for 9000
@@ -701,7 +749,7 @@ sers/Craig/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C
 :/Users/Craig/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb
 ><C:/Users/Craig/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a
 .pfb>
-Output written on Thesis_Draft.pdf (30 pages, 143608 bytes).
+Output written on Thesis_Draft.pdf (30 pages, 144330 bytes).
 PDF statistics:
  326 PDF objects out of 1000 (max. 8388607)
  79 named destinations out of 1000 (max. 500000)

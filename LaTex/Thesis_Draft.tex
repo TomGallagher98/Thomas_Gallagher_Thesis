@@ -6,7 +6,7 @@
 \author{Thomas Gallagher}
 \supervisor{Dr. Deepak Dhungana }
 \copyrightyear{2023}
-\submissiondate{02.02.2023}
+\submissiondate{02.04.2023}
 \keywords {Data Analytics, Machine Learning, Sports Prediction, Neural Network}
 
 
@@ -48,7 +48,7 @@
 	
 	The field of Data Mining has seen a rapid increase as we enter the digital age dominated digital information also commonly known as data. While many believe data mining to simply be the extraction of data it is actually a much broader topic. Data extraction is only the first step in data mining, the goal of data mining is to extract ‘previously unknown’ and unseen patterns from this data \cite{website:TechGuy}, much of which would be impossible to uncover without the help of computer systems. Data Mining is most commonly applied in commercial business. There it can be used to ‘help identify and predict individual and aggregate behaviour’ \cite{ACM}, or more commonly to predict how customers will consume/buy products and their buying habits so that they can more efficiently market their products in specific situations. Data Mining in sports however is much less advanced, despite massive amounts of data being produced by the sporting industry, it is mainly kept behind closed doors, with much of it focusing on player and team performance.
 	\linebreak
-	
+		
 	That’s not to say that there have been no recent attempts at data mining in sports but much of this has been in, classification \cite{Displays}, action recognition \cite{AEJ} and image recognition \cite{Heliyon}. While more have aimed to create prediction models \cite{CollegeFootball}\cite{Basketball}\cite{LSTMPrediction}, none of these models aim to identify trends within the sports apply these as part of their prediction model. In Australian Football, one of the most data rich sports \cite{website:Vice}, data is used in many ways from real time analysis of players to modelling games based on Geographical Positioning System (GPS) data and also in prediction models. An issue with many prediction models is the lack of transparency in their decision making, a feature of this is the idea of black box and white box models. Black box models are more accurate than white box model but much more difficult to interpret to see how they came to certain decisions. In this paper a combination of models will be used to attempt to overcome this lack of interpretability. These models will be used to extract meaningful interpretable data on trends in Australian Football and then feed this information into a stronger prediction model. Teams and fans alike will be able to see what has the greatest effects on their performances and how to overcome these factors.\linebreak
 	
 	As this paper is discussing Australian Football a basic background should be given to understand some of the terms and structure of the game, as well as to understand the structure of the data set. 
@@ -66,21 +66,25 @@
 	\linebreak
 	
 	Why will this be useful 
+	\linebreak
 	
 	Deeper analysis of trends and features
+	\linebreak
 	
 	Uncover new features
+	\linebreak
 	
 	Improved prediction
+	\linebreak
 	
 	\chapter{Objectives and Research Questions}\label{chap:objectives}
 	\subsection{Research Questions}
 	
-	The area of focus of the paper is the Implementation and analysis of machine learning models to find potential influential factors in results of matches in the Australian Football League (AFL).
+	The area of focus of the paper is the implementation and analysis of machine learning models to find potential influential factors in results of matches in the Australian Football League (AFL).
 	From here I have defined the following research questions which will be explored:
 	\begin{enumerate}
 		
-		\item[] Can data mining be used to find, key features and patterns and explain results in professional sports?
+		\item[] Can data mining be used to find key features and patterns and explain results in professional sports?
 		
 		\item[]Can these extracted trends and features be used to create an explainable prediction model?
 		
@@ -93,9 +97,12 @@
 	\subsection{Objectives}
 	The first section of this paper will be the exploration of the data set with the aim of identifying trends and important features within the data. Important features are features that have a greater impact on the final result of a prediction model. Trends will be defined as features or feature patterns that occur in multiple seasons. Both known and unknown features and trends will be extracted and from the data set. Known features will be defined as factors that are currently used in analysis of sports games, which stem from less scientific analysis of data. These known features are generally used in predictions of games by both domain experts and casual observers and are widely accepted to be true, but there has been little research to provide evidence to the claims. The unknown features and trends will be discovered during the data exploration and will be represented by the important features, the factors which have the greatest effect on the outcome of the model, extracted during the feature engineering process.\linebreak
 		
-	In sports analysis there are many factors that are said to have an impact on results by domain experts and casual viewers alike, however there has been little effort to back up these claims using data science techniques. The idea behind exploring known trends or features is to analyse whether there is any truth to these claims in, it is also useful to take domain knowledge from experts, even if it second hand as in this case. The main points that will be explored from this side will be the effects of weather conditions, length between games and travel on future results. Both are suggested to negatively impact a team’s future performance. The impact of weather will be analysed in two features, the first being the impact of a previous games rainfall conditions as it is believed that it can negatively affect a team’s performance in future weeks, as the game becomes more contested thus requiring a greater physical output. The second will be the impact of rainfall on a current game, rainfall during games generally reduces disposal efficiency making results closer, and also different game plans are impacted more by rainfall thus it can be assumed that rainfall will have some correlation to specific teams(rainfall for the model will be taken as predicted rainfall, connected to teams). While with travel it is suggested that spending long times in planes both before and after games can affect a teams’ recovery and preparations.\linebreak
+	In the analysis of AFL games there are many factors that are said to have an impact on results by domain experts and casual viewers alike, these factors will be analysed as known features in the data set. There are two main ideas behind exploring these features. Firstly, it is useful to take domain knowledge from experts, even if it second hand as in this case. Having access to expert domain knowledge can provide a solid foundation in data analysis workflows, it allows for the analysis to be applied in a specific area of the data set without the need for pre-analysis and feature extraction. The second reason is to statistically analyse whether there is any truth to these claims. 
 	
-	While trends can be extremely useful for prediction they can also be difficult to interpret and extract from data, which another reason why the expert analysis is being explored. It gives a starting point from which the data can be analysed. The further extraction of trends will be entirely theoretical and based solely on interpretation of the data set. This will be very important for the project as it will hopefully enable unseeable trends to be found, rather than just proving or disproving already voiced opinions. These trends would be much more valuable in the industry as they would give professionals a completely new insight into their analytics.
+	The main points that will be explored from this side will be the effects of weather conditions both during and in subsequent games, length between games and travel on future results. The impact of weather will be analysed in two features, the first being the impact of a previous games rainfall conditions as it is believed that it can negatively affect a team’s performance in future weeks, as the game becomes more contested thus requiring a greater physical output. The second will be the impact of rainfall on a current game, rainfall during games generally reduces disposal efficiency making results closer, and also different game plans are impacted more by rainfall thus it can be assumed that rainfall will have some correlation to specific teams (rainfall for the model will be taken as predicted rainfall, connected to teams). While with travel it is suggested that spending long times in planes both before and after games can affect a teams’ recovery and preparations.
+	\linebreak
+	
+	While trends can be extremely useful for prediction they can also be difficult to interpret and extract from data. This is another reason why the expert analysis is being explored. It gives a starting point from which the data can be analysed. Basic visualisation of the data set will be used to asses the expert analysis. The further extraction of trends will be entirely theoretical and based solely on interpretation of the data set. This will be very important for the project as it will hopefully enable hidden trends to be found, rather than just proving or disproving already voiced opinions. These trends would be much more valuable in the industry as they would give professionals a completely new insight into their analytics.
 	
 	The second key part will be the implementation of a prediction model. Prediction models are used regularly in sports. However as there are so many unknown factors in these prediction models it is very difficult to explain their predictions and how they came to these decisions. The aim is to create a prediction model based on the extracted trends and important features, that is more explainable than other models. 
 	Assuming that the prediction model does reliably work, one more key piece of information will be extracted, the final research question, what number of rounds/games does the model need before it can reliably predict the outcomes of games? This can be useful not only for this model but for other prediction models for the AFL, as it can give a greater understanding of when they will become reliable during a season.
@@ -177,7 +184,7 @@
 	The dataset will then be separated by year and ordered by the round.
 	Because the model will be predicting future events the training and test data split will not be static. The initial tuning phase will hold out only the final round, making the model theoretically as powerful as possible. But in different iterations more or less rounds will be held out, this is crucial to see if there is a certain point where the models begin to see an increase in their predictive powers.
 	Evaluation on the models 
-	The main metric I will use to evaluate my model is the Mean Average Percentage Error (MAPE), which is “the proportion of the average absolute difference between projected and true values divided by the true value” \cite{website:AIM}, and the Weighted Mean Average Percentage Error (WMAPE) will be used if the dataset is too small to calculate the MAPE properly. Previous prediction models utilising machine learning have been able to reach a best accuracy of 68.1 percent and average accuracy of 65.1 percent \cite{AFL_1}. Knowing that models are capable of reaching these accuracies, the target accuracy of the prediction model will be greater than those values, ideally above 70%.
+	The main metric I will use to evaluate my model is the Mean Average Percentage Error (MAPE), which is “the proportion of the average absolute difference between projected and true values divided by the true value” \cite{website:AIM}, and the Weighted Mean Average Percentage Error (WMAPE) will be used if the dataset is too small to calculate the MAPE properly. Previous prediction models utilising machine learning have been able to reach a best accuracy of 68.1 percent and average accuracy of 65.1 percent \cite{AFL_1}. Knowing that models are capable of reaching these accuracies, the target accuracy of the prediction model will be greater than those values, ideally above 70 percent.
 	
 	\chapter{Theoretical Background}\label{chap:background}
 	\subsection{Data Mining}

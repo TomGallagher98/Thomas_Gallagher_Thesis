@@ -50,7 +50,7 @@ def team_similarity(s_team, prev_team, team):
     importance = (sum(importance_in)/len(importance_in)) - (sum(importance_out)/len(importance_out))
     dist = (len(out_players))
     # find changed players
-    print(importance)
+  
     return dist, diff, importance
     # Selected team can theoretically be inputted by the user
     # For testing purposes it will be derived from the game data
@@ -64,11 +64,10 @@ def select_player(name, team = None):
                 pass
             else:
                 player = (players[(players['playerId'] == id)])
-                print(player)
+             
                 id =  player['playerId'].item()
                 return id
     else:
-        print(player)
         id =  player['playerId'].item()
         return id
 
