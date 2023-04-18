@@ -5,55 +5,61 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Database file #1: refs_thesis.bib
-Repeated entry---line 108 of file refs_thesis.bib
+Repeated entry---line 119 of file refs_thesis.bib
  : @article{ResearchGate
  :                      ,
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 352 of file refs_thesis.bib
+ :  
+ :  url = {https://www.statsinsider.com.au/news/how-different-weather-conditions-affect-afl-performance},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in 10.1145/3474880.3474898
 Too many commas in name 1 of "Herbert F. Jelinek, Andrei Kelarev, Dean J. Robinson,Andrew Stranieri, David J. Cornforth" for entry AFL_2
 while executing---line 969 of file ieeetr.bst
 Too many commas in name 1 of "Herbert F. Jelinek, Andrei Kelarev, Dean J. Robinson,Andrew Stranieri, David J. Cornforth" for entry AFL_2
 while executing---line 969 of file ieeetr.bst
 Too many commas in name 1 of "Mitchell F. Aarons, Christopher M. Young, Lyndell Bruce, Dan B. Dwyer" for entry AFL_3
 while executing---line 969 of file ieeetr.bst
-You've used 18 entries,
+You've used 35 entries,
             1876 wiz_defined-function locations,
-            603 strings with 6418 characters,
-and the built_in function-call counts, 4009 in all, are:
-= -- 440
-> -- 76
+            703 strings with 9458 characters,
+and the built_in function-call counts, 8226 in all, are:
+= -- 873
+> -- 216
 < -- 0
-+ -- 37
-- -- 19
-* -- 237
-:= -- 556
-add.period$ -- 25
-call.type$ -- 18
-change.case$ -- 17
++ -- 92
+- -- 57
+* -- 457
+:= -- 1088
+add.period$ -- 47
+call.type$ -- 35
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 205
-empty$ -- 431
-format.name$ -- 19
-if$ -- 1003
+cite$ -- 36
+duplicate$ -- 467
+empty$ -- 842
+format.name$ -- 57
+if$ -- 2102
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 14
-newline$ -- 65
-num.names$ -- 18
-pop$ -- 63
+int.to.str$ -- 35
+missing$ -- 24
+newline$ -- 122
+num.names$ -- 35
+pop$ -- 145
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 135
+skip$ -- 372
 stack$ -- 0
-substring$ -- 265
-swap$ -- 77
+substring$ -- 411
+swap$ -- 210
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 48
-width$ -- 20
-write$ -- 184
-(There were 4 error messages)
+warning$ -- 1
+while$ -- 76
+width$ -- 37
+write$ -- 354
+(There were 5 error messages)

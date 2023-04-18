@@ -40,14 +40,51 @@ C.~T. Vangelis~Sarlis, ``Sports analytics— evaluation of basketball players
   2020.
 \newblock https://doi.org/10.1016/j.dcan.2021.08.008.
 
+\bibitem{website:IBM}
+{IBM}, ``What are neural networks?.''
+\newblock [Accessed March 17. 2023].
+
+\bibitem{website:Medium_Soccer}
+R.~Shum, ``Neural networks football result prediction,'' 2020.
+\newblock [Accessed March 22. 2023].
+
+\bibitem{NN_NFL}
+J.~Kahn, ``Neural network prediction of nfl football games,'' {\em World Wide
+  Web Electronic Publication}, 01 2003.
+
+\bibitem{Basketball_2}
+B.~Loeffelholz, E.~Bednar, and K.~Bauer, ``Predicting nba games using neural
+  networks,'' {\em Journal of Quantitative Analysis in Sports}, vol.~5,
+  pp.~7--7, 02 2009.
+
 \bibitem{website:Vice}
 {VICE Sports}, ``Analytics in the afl - the most data rich sport on earth,''
   2016.
 \newblock [Accessed June 13. 2022].
 
-\bibitem{website:IBM}
-{IBM}, ``What are neural networks?.''
-\newblock [Accessed March 17. 2023.
+\bibitem{website:JavaTPoint}
+{JavaTPoint}, ``Feature engineering for machine learning,'' 2021.
+\newblock [Accessed March 20. 2023].
+
+\bibitem{website:SciKitTrees}
+{scikit-learn}, ``1.10. decision trees,'' 2017.
+\newblock [Accessed March 20. 2023].
+
+\bibitem{website:IBM_Trees}
+{IBM}, ``What is a decision tree?.''
+\newblock [Accessed March 20. 2023].
+
+\bibitem{website:BH_AI}
+A.~Obuchowski, ``Understanding neural networks 2: The math of neural networks
+  in 3 equations,'' 2020.
+\newblock [Accessed March 21. 2023].
+
+\bibitem{website:AV_LSTM}
+S.~Saxena, ``Learn about long short-term memory (lstm) algorithms,'' 2021.
+\newblock [Accessed March 21. 2023].
+
+\bibitem{website:AFL_Weather}
+J.~Elliot, ``How different weather conditions affect afl performance,'' 2020.
 
 \bibitem{website:AIM}
 V.~Lendave, ``A guide to different evaluation metrics for time series
@@ -70,6 +107,44 @@ J.~T. Alan~McCabe, ``Artificial intelligence in sports prediction,'' in {\em
 E.~Gregerson, ``Bayesian analysis,'' 2011.
 \newblock [Accessed June 14. 2022].
 
+\bibitem{10.1145/3453800.3453812}
+D.~Quoc~Nguyen, M.~Nguyet~Phan, and I.~Zelinka, ``Periodic time series
+  forecasting with bidirectional long short-term memory: Periodic time series
+  forecasting with bidirectional lstm,'' in {\em 2021 The 5th International
+  Conference on Machine Learning and Soft Computing}, ICMLSC'21, (New York, NY,
+  USA), p.~60–64, Association for Computing Machinery, 2021.
+
+\bibitem{10.1145/3568231.3568249}
+I.~G.~A. Dinata, N.~Yudistira, and L.~Muflikhah, ``Indonesian stock prices
+  prediction using bidirectional long short-term memory,'' in {\em Proceedings
+  of the 7th International Conference on Sustainable Information Engineering
+  and Technology}, SIET '22, (New York, NY, USA), p.~188–198, Association for
+  Computing Machinery, 2023.
+
+\bibitem{10.1145/3546157.3546162}
+J.~Jones and D.~Demirel, ``Long short-term memory for bitcoin price
+  prediction,'' in {\em Proceedings of the 6th International Conference on
+  Information System and Data Mining}, ICISDM '22, (New York, NY, USA),
+  p.~25–30, Association for Computing Machinery, 2022.
+
+\bibitem{10.1145/3474880.3474898}
+C.~H. Lee and C.~L. Hsu, ``Using long short-term memory to predict cash
+  dividend,'' ICEBT '21, (New York, NY, USA), p.~133–139, Association for
+  Computing Machinery, 2021.
+
+\bibitem{10.1109/TASLP.2016.2520371}
+H.~Palangi, L.~Deng, Y.~Shen, J.~Gao, X.~He, J.~Chen, X.~Song, and R.~Ward,
+  ``Deep sentence embedding using long short-term memory networks: Analysis and
+  application to information retrieval,'' {\em IEEE/ACM Trans. Audio, Speech
+  and Lang. Proc.}, vol.~24, p.~694–707, apr 2016.
+
+\bibitem{10.1145/3234781.3234794}
+C.-C. Wang, M.-Y. Day, C.-C. Chen, and J.-W. Liou, ``Detecting spamming reviews
+  using long short-term memory recurrent neural network framework,'' in {\em
+  Proceedings of the 2nd International Conference on E-Commerce, E-Business and
+  E-Government}, ICEEG '18, (New York, NY, USA), p.~16–20, Association for
+  Computing Machinery, 2018.
+
 \bibitem{SportDM}
 H.~C. Robert P.~Schumaker, Osama K.~Solieman, {\em SPORTS DATA MINING}.
 \newblock Springer Link, 2010.
@@ -89,5 +164,17 @@ D.~J. R. A. S. D. J.~C. Herbert F.~Jelinek, Andrei~Kelarev, ``Using
 L.~B. D. B.~D. Mitchell F.~Aarons, Christopher M.~Young, ``The effect of team
   formation on defensive performance in australian football,'' {\em Journal of
   Science and Medicine in Sport}, vol.~25, pp.~178--182, 2022.
+
+\bibitem{BUNKER201927}
+R.~P. Bunker and F.~Thabtah, ``A machine learning framework for sport result
+  prediction,'' {\em Applied Computing and Informatics}, vol.~15, no.~1,
+  pp.~27--33, 2019.
+
+\bibitem{10.1145/3316782.3322781}
+G.~Mohmed, A.~Lotfi, and A.~Pourabdollah, ``Long short-term memory fuzzy finite
+  state machine for human activity modelling,'' in {\em Proceedings of the 12th
+  ACM International Conference on PErvasive Technologies Related to Assistive
+  Environments}, PETRA '19, (New York, NY, USA), p.~561–567, Association for
+  Computing Machinery, 2019.
 
 \end{thebibliography}
