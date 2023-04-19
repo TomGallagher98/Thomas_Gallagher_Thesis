@@ -191,64 +191,57 @@
 	
 	\subsection{Technical Environment}
 	0.5 pages
-	The project will be completed using python as the main programming language. There will be numerous libraries used during the project, but they will be identified during implementation, at this stage it is impossible to know every library that will be used.
+	The project was completed using python as the main programming language, a combination of Jupyter Notebooks and Python files were created to handle different tasks. Jupyter Notebooks were used to sequentially implement workflows of the project and define minor functions. Major functions an more complex code was written in Python files which were accessed in the necessary code blocks within the Jupyter notebooks. There was no traditional database structures used, the data was stored in csv files. 
+	There were many libraries used over the different stages of the implementation, in depth explanations of their uses will be given in the individual phases. The pandas library was used throughout the entire project as the main data handling tool. All data was accessed using pandas read csv functions to store the data in Data Frames within the project and the to csv function was used to store the manipulated data sets.
+	Numpy was used for additional data manipulation in combination with pandas.  
+	The Selenium library was used in the data acquisition phase to scrape additional data which was not available in the original data set.
+	Scikitlearn, a machine learning library for python, was used in the implementation of the feature engineering and prediction models
+	Treeinterpreter library was used in feature engineering to analyse the Decision Tree and Random Forest models.
+	Tensorflow and Keras were used in the prediction phase to build the prediction models.
 	
 	\subsection{Phase 1: Data Acquisition}
-	0.5 pages
-	The dataset was taken from Kaggle (https://www.kaggle.com/datasets/stoney71/aflstats), it is a comprehensive dataset, containing statistics from every AFL game between 2012 and 2021. It is comprised of 3 tables, Games (containing game data) has 12 columns, Players (containing player information) has 7 columns, and Stats (containing individual player statistics for every game) has 31 columns. Overall there are over 90000 data points across the datasets.
+	The main dataset was taken from Kaggle \cite{stone}. It is a comprehensive dataset, containing statistics from every AFL game between 2012 and 2021 and is comprised of 3 tables. Games, containing data about the games and environment of the games, it contains 12 columns. Players which contains player basic information in 7 columns. Stats containing individual player statistics for every game has 31 columns. Overall there are over 90000 data points across the three tables.
 	
-	However there are some values that will be sourced from other websites to enhance the dataset, Fantasy Score and Supercoach Scores (player ratings after a game) will be taken from footywire.com. Travel time data will be manually updated. Days between games will be calculated via a python script in pre-processing.
+	However there were some values that were not present in the original data set, which were required to enhance the data. The data set did not contain any values that rated player performance, which is a useful data point in sports prediction models. There are two prominent player scoring systems in the AFL, "Supercoach" and "Fantasy", which comprehensively rank every player after each game. To acquire this data I utilised scraping software selenium to scrape and store both sets of player scores from footywire.com. 
+	
+	Additionally some values needed to be manually calculated from the raw data set, these were all handled in the feature engineering phase to construct the final data set.
 	
 	\subsection{Phase 2: Data Engineering}
-	2 pages
+	Data Engineering is a key process in any data science project. Without good clean data it is nearly impossible to generate clean useful results from a model. 
+	At the end of the data acquisition phase I was left with a data set that required considerable cleaning. The acquired data was stored in 4 sets, 'Games', 'Stats', 'Fantasy' and 'Supercoach'. The Players data set identified in the acquisition, only contained basic meta information about the players to it was left out from project. I also decided that the data should be split into individual seasons, firstly to reduce the computation needed to analyse the data final data sets, and also to allow for the analysis of each individual season. The main data engineering was thus divided into three stages, split each data set by year, for each year merge required features into central data set, from here the data could be analysed with basic exploratory data analysis (EDA). The merging of the data set overlaps slightly with the feature engineering as I was only choosing a selected set of data to merge into the final data set. But this was necessary to be able to perform any sort of initial analysis on the data, having the data spread out in different data sets would not yield as insightful results during EDA. Every feature was calculated for the home and away team separately, to avoid repetition when I will discuss the features as a group and not distinguish between the home and away feature.
+	
+	Splitting the data set by year was the simplest of the phases. Each csv was read into python as a pandas data frame. From there a script was created to separate each data set by year and create individual data frames for each year, these were then saved into individual csv files.
+	
+	The largest section of the data engineering was the merging of the data sets into one central group of data. The idea was to build the data around the 'Games' data set, because this already contained the results information from which the final model would be building the prediction. No columns were removed from the data set until the data was being fed into the final model. This was to keep the data set as complete as possible, in case extra features needed to be computed from the existing data then there would be no missing data which would need to be re-acquired. 
+	
+	To identify the team changes and previous results I created a python script entitled team changes. This which counted the number of changes between the selected team and the team the previous week.
+
+	The distance travelled by each team was also calculated. Travel can be hard to define so it was calculated based on the teams home location. Each group had up to 6 travel categories based off the distance between their home location and the location of the game. 
+	
+	Ladder positions were taken based off two factors. The first was the historic ladder, so that the model could view where the team had finished in the previous season. For the historic ladder I decided to hard code the final positions and then create a data frame to match each team to the ladder position. This was then used to create the LadderPosition columns. The CurrentLadderPositions required a ladder model to be created. I generated this by creating a set of data frames for each round in the season, they tracked the teams, the points score by the team, the points scored against the team, the teams percentage (points for / points against * 100), and the total points (win = 4, draw = 2, loss = 0). To fill in the data each round was iterated over and each corresponding field was updated, the ladders were then ordered by points and percentage. Once the set was created the fields were added to the main data structure, along with each teams total points for, points against and percentage.
+		
+	The Fantasy and Supercoach data is used to give an overview of the strength of each team based on the players in the selected sides. I had the option to either include each individual player in the final data set, or to combine the scores from every player and only include this value. I decided on the latter option, as it allowed for the result to stay consistent in its position in the final data set. If I were to include individual player scores as features, it would have required either a column for each individual player, or 22 columns for all selected players but the order of the players would not be consistent. I believed it would be better to have one consistent overall value to describe the teams as opposed to the more inconsistent and changing values.
+	
+	As the main data set and the supercoach and fantasy data sets were acquired from different sources they required the greatest level of preparation to be able to merge the data sets. The naming conventions between the data sets were slightly different, both player names and team names varied between the data sets. This became an issue when attempting to extract values from the supercoach and fantasy data sets, as I was using these names to search for the corresponding data. The first step taken was to find the inconsistencies in the player names as this was a more difficult process. First I created a script to identify which names were present in either of the data sets that were not present in the other. From here I could view which names were different and which naming conventions were different. After multiple iterations I had discovered and removed the major inconsistencies and was left with only a handful of differing names, in this case I hard coded the name in which I wanted to keep as there were so few names left that it was the quickest option. The same process needed to be repeated for the team names. This was a much quicker process as there were only 18 names to analyse in each data set, meaning I could easily hard code the changes I needed and update the supercoach and fantasy data sets.
+	
+	The fantasy and supercoach points combined for each player to give an average value between the two as they performed the same function of rating the players, the entire teams average was then used in the final data in 4 features. TeamImportanceDifference, marked the average scores of players who played in the previous match but were not selected in the forthcoming game. TeamImportanceLastGame, calculated the average score of the team in the previous game. TeamImportanceLastFiveGames, calculated the teams average scores over the previous five games to asses a teams recent form line, if 5 games had not been played then the average was taken from the games that had been played. TeamImportanceSeasonAverage, calculated the average over the whole season for the team.
+	
+	The final data points added were the break between games for each team. This was done with a simple python script to find the number of days between the previous game that the team played and the upcoming game. To simplify the script it initially only looked at games from the previous round, this needed to be updated to consider games from the previous two rounds because bye rounds resulted in no games being identified in many cases. The break was initialised to 7 days as this was the median value identified. 
+	
+	The final stage of the data preparation was one hot encoding of team and venue data. One Hot Encoding (OHE) is a way to add categorical data into computer models that require a numerical input. Each venue and team are assigned a numerical value which is then added to the data set in place of the text value. In some cases the model will incorrectly assume that the size of the numerical numbers is an important factor, to combat this each category is assigned as its own feature in the data set that is either active (1) or inactive (0). This was only implemented in the final stages of the model and not added to the main data set, because some functions in the EDA and feature engineering sections perform better without OHE as it also creates a large number of empty variables in the data set.
+	
+	Once the main data set was built EDA was then used to explore relationships within the data. This was mainly implemented on features that had been proposed by domain experts. For the EDA scatter plots and histograms were created to identify any trends and relationships between the data.  
 	
 	\subsection{Phase 3: Feature Engineering}
 	3 pages
-	The first phase of the paper is the Data Mining on the entire dataset using Regression and Random Forest models to extract important features and trends from the dataset. This is central to answering the first research question, can data mining be used to find, key features and patterns and explain results in professional sports?
-	These models will be built on the entire featured dataset in multiple independent tests utilising different sections on the data. The main focus will be on the games table as it will be used in the second model, the experimentation on the other tables will be done to extract importance values for individual player data and team selection.
-	Each player will have a performance score calculated for each game based on table 1.
-	The importance values will be a standardised value between 1 and 10. It will be calculated using a players previous 5 games with most recent games having higher weights (1, 0.8, 0.6, 0.4, 0.2) and diving it by 3 (the sum of the weights) and added to the games table as “Home Team Player Importance” and “Away Team Player Importance”
-	\begin{table}[h!]
-		\centering	
-		\begin{tabular}{| c | c |}
-			\hline
-			Stat & Value +/- \\
-			\hline
-			Kick & 4 \\
-			\hline
-			Handball & 2 \\
-			\hline
-			Mark & 3 \\
-			\hline
-			Goal & 6 \\
-			\hline
-			Behind & 1 \\
-			\hline
-			Hitout & 2 \\
-			\hline
-			Tackles & 3 \\
-			\hline
-			Rebounds & 1 \\
-			\hline
-			Inside 50s & 2\\
-			\hline
-			Clearances & 3 \\
-			\hline
-			Clangers & -3 \\
-			\hline
-			Free Against & -3 \\
-			\hline
-			Contested Marks & 3 \\
-			\hline
-			One Percenters & 3 \\
-			\hline
-			Goal Assist & 2 \\
-			\hline
-		\end{tabular}
-		\caption{\label {tab:PlayerImportance}Players count for each stat is multiplied by the value.}
-		
-	\end{table}
+	Once the final data set had been defined in the data engineering phase, the data was then analysed in the feature engineering phase. The models used for feature engineering were decision trees and random forests. Although the models are traditionally used for prediction and classification, they can also be used in feature engineering as they are able to track which features were most important when creating a decision node, which can then be analysed for the final model. Also as they do provide a prediction model it allowed me to have extra prediction models to compare with the final results of the project. 
 	
+	Before the data could be inputted into the model it needed to go through a final phase of pre processing. The y value, which was taken as the home team winning, was first separated from the data set. Two sets of y values were analysed. The first set analysed wins, losses and draws, the second set simplified this to only win and loss. Draws only made up 1 percent of total game outcomes, resulting in a significantly underpopulated feature, which could dramatically affect the result of the model. I didn't want to use any upsampling, creation of extra data rows, as I wanted the data to be as close to real life as possible. So to overcome this problem I decided to perform the feature engineering with both sets of y values.
+	Label encoding was used to remove the text values from the data set and replace them with numeric variables. One Hot Encoding was not utilised during feature engineering, due to the smaller number of variables and the number of features that required OHE being quite large this would have created too many empty data points relative to the size of the data set. After the encoding all unused variables were dropped from the data set, these points comprised of metadata about the games (date, gameID, year, round, startTime), values that had been encoded (teams, venue) and features that described the outcome of the games (homeWin, homeTeamScore, awayTeamScore). Normalisation was then applied to the data set. This was done using a MinMaxScaler which reduces the size of the data points but keeps the original scale of each point. A min max scaler computes the points distance from the minimum value in the feature and divides it by the total range of the data in the feature, this reduced the range of the data points between 0 and 1.
+	\begin{equation}
+		Min Max Scaling: X_{std} = (X - X_{min}) / (X_{max} - X_{min}))
+	\end{equation}
+
 	Once the values have been defined the model can be built and trained. 
 	For testing a new table will be created building on the games table. It will contain a combination of the features: Disposals, Kicks, Handballs, Tackles, Free Kicks, Hit Outs, Contested Possessions, Player Importance, Marks, Contested Marks, Inside 50s, Rebounds, Clangers, Team Name, Travel Distance and Break Between Games for both teams as well as Rainfall. This will try to predict which team won. 20 percent of the data will be held out for testing purposes.
 	

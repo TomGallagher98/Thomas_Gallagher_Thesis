@@ -1,7 +1,4 @@
-from unicodedata import name
 import pandas as pd
-from scipy.__config__ import show
-from soupsieve import select
 import player_rankings as pr
 
 PATH = 'C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats/'
