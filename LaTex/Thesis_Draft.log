@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  19 APR 2023 13:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  28 APR 2023 16:35
 entering extended mode
 **./Thesis_Draft.tex
 (Thesis_Draft.tex
@@ -667,10 +667,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--112
 
  []
 
-[6] [7]
+[6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
+ [7]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
@@ -686,42 +687,44 @@ File: media/nn_formula.png Graphic file (type png)
 <use media/nn_formula.png>
 Package pdftex.def Info: media/nn_formula.png  used on input line 149.
 (pdftex.def)             Requested size: 284.52756pt x 162.57768pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--153
-
- []
-
-<media/LSTM.png, id=262, 602.25pt x 268.00125pt>
+<media/LSTM.png, id=263, 602.25pt x 268.00125pt>
 File: media/LSTM.png Graphic file (type png)
 <use media/LSTM.png>
-Package pdftex.def Info: media/LSTM.png  used on input line 157.
+Package pdftex.def Info: media/LSTM.png  used on input line 166.
 (pdftex.def)             Requested size: 426.79134pt x 189.93051pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--164
-
- []
-
-[10 <./media/nn_formula.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 163--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
+Underfull \vbox (badness 5622) has occurred while \output is active []
+
+ [10 <./media/nn_formula.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
 [11 <./media/LSTM.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
-[12] [13] [14
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+[13] [14
 
 ]
 Chapter 3.
@@ -736,44 +739,85 @@ Underfull \vbox (badness 4886) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-[19] [20] [21] [22
+[19]
+Underfull \vbox (badness 3965) has occurred while \output is active []
+
+ [20]
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
+
+ []
+
+[22]
+Overfull \hbox (66.92343pt too wide) detected at line 293
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--296
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+[25] [26
 
 ]
 Chapter 4.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 262.
+(hyperref)                than one, level fixed on input line 309.
 
-[23] [24
+[27] [28
 
 ]
 Chapter 5.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 269.
+(hyperref)                than one, level fixed on input line 316.
 
 
 Underfull \vbox (badness 8056) has occurred while \output is active []
 
- [25]
-[26] [27] [28]
+ [29]
+[30] [31] [32]
 Chapter 6.
-[29
+[33
 
-] (Thesis_Draft.bbl [30
-
-]
+] [34] (Thesis_Draft.bbl
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 10.
- [31] [32] [33]) [34] (Thesis_Draft.aux)
+ [35
+
+] [36] [37]) [38] (Thesis_Draft.aux)
 Package rerunfilecheck Info: File `Thesis_Draft.out' has not changed.
 (rerunfilecheck)             Checksum: 1004FE16F93C22183CB037AE7978908B;3776.
  ) 
 Here is how much of TeX's memory you used:
- 13173 strings out of 478927
- 201556 string characters out of 2852535
- 517328 words of memory out of 3000000
- 30719 multiletter control sequences out of 15000+600000
+ 13184 strings out of 478927
+ 201700 string characters out of 2852535
+ 518404 words of memory out of 3000000
+ 30721 multiletter control sequences out of 15000+600000
  445322 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,80p,1751b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -794,9 +838,9 @@ ig/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Crai
 g/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/C
 raig/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/User
 s/Craig/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Thesis_Draft.pdf (42 pages, 356054 bytes).
+Output written on Thesis_Draft.pdf (46 pages, 371815 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
+ 526 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
  216 words of extra memory for PDF output out of 10000 (max. 10000000)
 

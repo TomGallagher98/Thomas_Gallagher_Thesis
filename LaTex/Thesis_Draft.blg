@@ -9,12 +9,12 @@ Repeated entry---line 119 of file refs_thesis.bib
  : @article{ResearchGate
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 352 of file refs_thesis.bib
+I was expecting a `,' or a `}'---line 363 of file refs_thesis.bib
  :  
  :  url = {https://www.statsinsider.com.au/news/how-different-weather-conditions-affect-afl-performance},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-"," immediately follows a field name---line 412 of file refs_thesis.bib
+"," immediately follows a field name---line 438 of file refs_thesis.bib
  :  m._2021
  :         ,
 I'm skipping whatever remains of this entry
@@ -26,45 +26,45 @@ Too many commas in name 1 of "Herbert F. Jelinek, Andrei Kelarev, Dean J. Robins
 while executing---line 969 of file ieeetr.bst
 Too many commas in name 1 of "Mitchell F. Aarons, Christopher M. Young, Lyndell Bruce, Dan B. Dwyer" for entry AFL_3
 while executing---line 969 of file ieeetr.bst
-You've used 36 entries,
+You've used 38 entries,
             1876 wiz_defined-function locations,
-            704 strings with 9463 characters,
-and the built_in function-call counts, 8297 in all, are:
-= -- 875
-> -- 217
+            717 strings with 9702 characters,
+and the built_in function-call counts, 8685 in all, are:
+= -- 914
+> -- 225
 < -- 0
-+ -- 93
-- -- 57
-* -- 458
-:= -- 1091
-add.period$ -- 48
-call.type$ -- 36
-change.case$ -- 34
++ -- 97
+- -- 59
+* -- 481
+:= -- 1144
+add.period$ -- 50
+call.type$ -- 38
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 471
-empty$ -- 857
-format.name$ -- 57
-if$ -- 2120
+cite$ -- 40
+duplicate$ -- 489
+empty$ -- 901
+format.name$ -- 59
+if$ -- 2219
 int.to.chr$ -- 0
-int.to.str$ -- 36
-missing$ -- 24
-newline$ -- 125
-num.names$ -- 35
-pop$ -- 149
+int.to.str$ -- 38
+missing$ -- 25
+newline$ -- 131
+num.names$ -- 37
+pop$ -- 157
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 380
+skip$ -- 396
 stack$ -- 0
-substring$ -- 411
-swap$ -- 210
+substring$ -- 434
+swap$ -- 217
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 76
-width$ -- 38
-write$ -- 358
+while$ -- 80
+width$ -- 40
+write$ -- 375
 (There were 6 error messages)

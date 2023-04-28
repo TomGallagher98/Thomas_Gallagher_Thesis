@@ -83,7 +83,7 @@
 		
 		\item[] Can data mining be used to find key features and patterns and explain results in professional sports?
 		
-		\item[]Can these extracted trends and features be used to create an explainable prediction model?
+		\item[]Can these extracted trends and features be used to create an reliable prediction model?
 		
 		\item[] How can the results be utilised in the sporting industry?
 		
@@ -103,7 +103,7 @@
 	The data acquisition process can vary between projects. In the simplest cases, a data set can be readily and publicly available, needing only to be downloaded before the cleaning and exploration phases can take place. With more complex or industry specific data sets, the data may already exist but be owned by an institution which measured, converted and stored the data set. In these cases the data is normally available via payments or contracts. In the most complex cases the digital data set does not exist at all and must be gathered from physical real-world data and converted into a digital data set by the members working on the project. 
 	\newline
 	
-	Once the data has been acquired Exploratory Data Analysis (EDA) can be performed. EDA is the initial analysis of the data set, it allows for a basic overview of the characteristics of the data to be investigated and identified. Additionally EDA can allow for the easier detection of anomalies and errors within the data set which can be handled in the data cleaning phase. The main method of EDA is data visualisation, which allows for the entire data set or individual features to be viewed in plots. Scatter Plots and Histograms are the most common to implement and will be utilised in the paper, in the initial analysis. Scatter plots are useful in trend identification as they show the relationship between two variables, which would be impossible to see by just viewing the raw data. Histograms are used to separate quantitative values into an interval scale, these interval groups can be used to identify where distributions lie within the data set.
+	Once the data has been acquired Exploratory Data Analysis (EDA) can be performed. EDA is the initial analysis of the data set, it allows for a basic overview of the characteristics of the data to be investigated and identified. Additionally EDA can allow for the easier detection of anomalies and errors within the data set which can be handled in the data cleaning phase. The main method of EDA is data visualisation, which allows for the entire data set or individual features to be viewed in plots. Scatter Plots and Histograms are the most common to implement and will be utilised in the paper, in the initial analysis. Scatter plots are useful in trend identification as they show the relationship between two variables, which would be impossible to see by just viewing the raw data. Histograms are used to separate quantitative values into an interval scale, these interval groups can be used to identify where distributions lie within the data set. In addition a basic description of the data set will be analysed, pandas dataframes offer functions to describe the contained data in each column, which will be used to view the averages, standard deviation and percentile distributions of each column in the data set.
 	\newline
 	
 	Data cleaning ensures that the incoming data is able to be read and interpreted properly by the computer model. The important steps are ensuring that missing values are handled gracefully, either by removing affected rows and columns, or using imputation to replace null values.
@@ -150,6 +150,15 @@
 		\cite{website:BH_AI}
 	\end{figure}
 	\newline
+	There are two commonly used activation functions in neural networks, sigmoid and tanh. Both functions are quite similar in that they limit the input to within a certain range, the sigmoid function returns a value in range of 0 and 1 whereas tanh returns a value in range of -1 and 1. \cite{website:Activation}.
+	
+	\begin{equation}
+		Sigmoid: s(x) = \frac{1}{1 + e^{-x}}
+	\end{equation}
+	\begin{equation}
+		Tanh: tanh(x) = \frac{e^{x}-e^{-x}}{e^{x}+e^{-x}} = 2s(2x) - 1
+	\end{equation}
+	
 	
 	Traditional Neural Networks also face an issue of handling sequential data, which is partly solved with Recurrent Neural Networks (RNN). RNN add a memory element to traditional Neural Networks, meaning that the output of the previous layers are remembered sequentially. The most common applications of RNN are within time series forecasting and natural language processing. The issue with RNN is that "they cannot learn long term dependencies due to vanishing gradients" \cite{website:AV_LSTM}, this occurs because the weights of the previous layers that are passed through each stage are multiplied which will always result in a smaller number, meaning the loss will decrease towards 0. Long Short Term Memory networks (LSTM) overcome this issue by introducing memory gates (Figure 2.2).
 	\begin{figure}
@@ -237,26 +246,63 @@
 	Once the final data set had been defined in the data engineering phase, the data was then analysed in the feature engineering phase. The models used for feature engineering were decision trees and random forests. Although the models are traditionally used for prediction and classification, they can also be used in feature engineering as they are able to track which features were most important when creating a decision node, which can then be analysed for the final model. Also as they do provide a prediction model it allowed me to have extra prediction models to compare with the final results of the project. 
 	
 	Before the data could be inputted into the model it needed to go through a final phase of pre processing. The y value, which was taken as the home team winning, was first separated from the data set. Two sets of y values were analysed. The first set analysed wins, losses and draws, the second set simplified this to only win and loss. Draws only made up 1 percent of total game outcomes, resulting in a significantly underpopulated feature, which could dramatically affect the result of the model. I didn't want to use any upsampling, creation of extra data rows, as I wanted the data to be as close to real life as possible. So to overcome this problem I decided to perform the feature engineering with both sets of y values.
+	
 	Label encoding was used to remove the text values from the data set and replace them with numeric variables. One Hot Encoding was not utilised during feature engineering, due to the smaller number of variables and the number of features that required OHE being quite large this would have created too many empty data points relative to the size of the data set. After the encoding all unused variables were dropped from the data set, these points comprised of metadata about the games (date, gameID, year, round, startTime), values that had been encoded (teams, venue) and features that described the outcome of the games (homeWin, homeTeamScore, awayTeamScore). Normalisation was then applied to the data set. This was done using a MinMaxScaler which reduces the size of the data points but keeps the original scale of each point. A min max scaler computes the points distance from the minimum value in the feature and divides it by the total range of the data in the feature, this reduced the range of the data points between 0 and 1.
+	
 	\begin{equation}
 		Min Max Scaling: X_{std} = (X - X_{min}) / (X_{max} - X_{min}))
 	\end{equation}
-
-	Once the values have been defined the model can be built and trained. 
-	For testing a new table will be created building on the games table. It will contain a combination of the features: Disposals, Kicks, Handballs, Tackles, Free Kicks, Hit Outs, Contested Possessions, Player Importance, Marks, Contested Marks, Inside 50s, Rebounds, Clangers, Team Name, Travel Distance and Break Between Games for both teams as well as Rainfall. This will try to predict which team won. 20 percent of the data will be held out for testing purposes.
 	
-	Evaluation in this phase is the feature importance metrics. Random Forests will be used for finding feature importance as they are naturally capable of discerning important features. 
-	Ideally 5 features would be identified that consistently are found to have the greatest impact on predicting the result of a model and the 5 features that consistently have the least impact on the result. To realise this outcome a random forest model containing 100 trees and the 5 metrics that were found most and least important on average will be taken as the fitting metrics.
+	Once the data had been normalised it was returned as a numpy array however I needed to transform it back into a pandas DataFrame to be able to view the columns in the final stages of the feature engineering. The normalisation steps were repeated however an extra step was added to extract the columns from the initial DataFrame, then once the normalisation was applied the data was transformed back into a DataFrame keeping the stored columns of the original data set.
+	The data set was both split by year so that each season could be analysed individually, and joined into one single data set so that the model could analyse the entire volume of data. This resulted in 11 separate data sets which would be analysed. The train test split was set to .8 : .2, for the year by year data the model was trained on the first 19 rounds and tested on the final 4 round. The only exception being the 2020 season which was shortened due to COVID, the final 4 rounds were still held out for testing leaving only 14 rounds to train the model on. The merged data set was trained on the first nine seasons with the final 2021 season held out for testing. A baseline score was also identified for each data set to determine the percentage of homeWins per season so that any future predictions could be analysed in relation to the baseline.
 	
+	Before the features could be extracted the models needed to be trained and have the hyper parameters tuned to ensure the features were extracted from the best performing models. The first model created was a simple decision tree classifier (DT). The DT was also to be used as a baseline prediction parameter. Instead of being used to describe the ground truth the DT would be used to describe the prediction capabilities of a basic model on the data set. As such no hyper parameter tuning was performed on the DT. The model was first trained by fitting the training X and y values on the DT. Then a score was generated to display the average accuracy of the model on the validation data. Finally a prediction was made using the 'predict' function, a function print score was also defined to display the confusion matrix of this predicted outcome against the true  outcome of each game. 
 	
+	Once the DT models had been established a Random Forest Model (RF) was created for each data set. The RF models are the main models used in the feature engineering so there were 3 phases of tuning on each model to extract the most important features.
+	The first RF models were also quite basic, they consisted of 200 trees, and all of the default parameters of the scikitlearn RandomForestClassifier model. 
+	The second RF models a grid search was used to establish the best hyper parameters for the model. The grid search was implemented on each data set and was populated with the following criterion: 
+	\begin{center}
+	\begin{tabular}{c c}
+		'criterion': &['entropy','gini'] \\
+		'min samples split': & [3, 5, 7, 9, 10] \\
+		'min samples leaf': & [8, 9, 10, 11, 12] \\
+		'max features': & [0.5, "sqrt", "log2", 0.8] \\
+ 		'n estimators': & [50, 100, 200]
+	\end{tabular}
+	\end{center}
+	
+	The best estimators were then extracted from the second RF model to create the third RF model. The third models were trained and fitted on the data sets as in the previous steps. To extract the feature importance the treeinterpreter python module was used. A script from fast ai was used to extract the important features from a RF model given an inputted data set in this case the x values of the problem set, returning a pandas DataFrame of each feature and its importance score. The data frames were then plotted to visually analyse the distribution and scale of the important features over each year. The top 20 features were then extracted from each model, a weight of 20 was given to the most important feature extracted and 1 was given to the least important feature, these were then tallied to identify which features were the most important over all years. As the majority of features were paired between home and away teams, if only one of the features were present the corresponding feature was also included in the final feature set, replacing the lowest ranked features. After this process the top 20 features selected for the final feature set were: 
+	
+	The final stage of the feature engineering was to run a final RF model on the data set containing the selected features to identify one last base prediction to have in comparison to the final prediction model. The final RF model used the same hyper parameters utilised in the third model and the data set was reduced from the original data set to only include the important feature set.
+	The final confusion matrices were then plotted to view the performance of each model.
+		
 	\subsection{Phase 4: Predictive Model}
-	3 pages
-	The second phase has to do with the building of a prediction model, using the knowledge of important features gained from the previous phase.
-	The prediction model will be created using a LTSM Neural Network. The data acquisition and pre-processing will be much shorter as the majority had been done previously in the first phase of the project. Again a table will be built that is similar to the table used in the random forest model. However, the 5 least important features will be removed (and the corresponding feature for the opposite team). The scores of the home and away team will be included in the dataset as well as the round number and year.
-	The dataset will then be separated by year and ordered by the round.
-	Because the model will be predicting future events the training and test data split will not be static. The initial tuning phase will hold out only the final round, making the model theoretically as powerful as possible. But in different iterations more or less rounds will be held out, this is crucial to see if there is a certain point where the models begin to see an increase in their predictive powers.
-	Evaluation on the models 
-	The main metric I will use to evaluate my model is the Mean Average Percentage Error (MAPE), which is “the proportion of the average absolute difference between projected and true values divided by the true value” \cite{website:AIM}, and the Weighted Mean Average Percentage Error (WMAPE) will be used if the dataset is too small to calculate the MAPE properly. Previous prediction models utilising machine learning have been able to reach a best accuracy of 68.1 percent and average accuracy of 65.1 percent \cite{AFL_1}. Knowing that models are capable of reaching these accuracies, the target accuracy of the prediction model will be greater than those values, ideally above 70 percent.
+	The final phase was the constructing of the prediction model. The prediction model used was a Long Short Term Memory Neural Network (LSTM). Again only the final pre processing steps needed to be taken. The original data set was again imported from the csv files separated by year. The string values of the data set then were both label encoded and one hot encoded. This differed slightly to the feature engineering steps, in which the data was only label encoded. This was due to decision tree based models such as random forests performing worse on the sparse data distributions created by one hot coding, while Neural Network models are generally not negatively impacted by OHE. I also did not want the model to infer any immediate relationship between the team and venue data sets, which is a common issue when only applying label encoding. 
+	\newline
+	
+	After encoding the labels the unused features were dropped from the data set. Two different data sets were created in this step. For the main data set only the features identified in the feature engineering were kept in the final data set, along with the OHE team and venue features. Although the two feature sets were analysed in the feature engineering phase as label encoded values and as such were subject to the same ranking principles applied in the the feature engineering phase, I decided that as they were two key features in general sport predictions they should not be removed, also OHE these features meant that different weights and importance could be determined for the features compared to the label encoded features which were in the feature engineering data set. The second data set comprised of the entire data set used in the feature engineering. This was done to asses the impact of the feature engineering and selected features on the final model, it would provide an insight on whether the RF model and final model extracted similar implications from the data set or whether the LSTM was able to understand the full data set better than the reduced data. As LSTM models are generally used for time series data, the order of the data sequence is an important factor, so the data set was not shuffled for when inputted in the final model.  	
+	\newline
+	
+	The LSTM models were implemented using the keras python library. 
+	Each model required an input shape for each data set. The input shape of the data set after feature engineering was (88,1), it contained 88 features, whereas the full data set had a shape of (111,1) or 111 features. LSTM networks also have the option to identify time steps where data points are grouped by points in time and analysed together. In the case of this data set I had the option to create a window with information from the previous round or rounds which could be fed into the model together with the information for the game in question. I considered 3 options for this data input method, adding games from the previous 1, 2 and 3 rounds. Adding the 9 games of the previous round would alter the input shape to (10,88)/(19,88)/(28,88) and (10,111)/(19,111)/(28,111) respectively for each data set. To implement this I first needed to create a larger data model which would then be broken down into the 3d windows. The first step was to initialise a data array of the required expanded size. In the case of adding games for the previous round and using the reduced data set was the shape was (1980,88).
+	\begin{equation}
+		\begin{array}{l}
+			((Total games) - (Games per round )) * (games per round) + ((Total games) - (games per round)) \\
+			(207 - 9) * 9 + (207 - 9) = 198 * 10 = 1980
+		\end{array}
+	\end{equation}
+	This however led to multiple complications, the greatest being a reduction in the data set size. Although the number of data points remained the same, the model only had 22 groups of data to be trained and tested on which was too small of a data set to extract any meaningful information. The second reason was due to the structure of the season some rounds did not feature every team, although the final total of games could still be divided into groups of 9 the structure of the groups became too compromised, as matches from different rounds ended up in the same time group. Because I wanted the data structure to be as close as possible to the actual season structure I decided that not using the time groups was the best option, instead inputting games as individual data points. Therefore the input layer for each model remained as (88,1) and (111,1) for each of the 2 data sets.
+	\newline 
+	
+	The first model that was implemented contained the most basic structure, it consisted of only 3 layers 2 LSTM layers and one Dense layer. The input layer was a LSTM layer containing 128 neurons. The activation function and dropout levels of the first layer were both tuned in the testing phase, it was found that tanh was the optimal activation function. Dropout is a function in Neural Networks were a random selection of nodes are temporarily disable in the network, creating a new temporary architecture. Dropout rates of .4, .3, .25 and .2  were analysed with .3 found to be the optimal rate in both the standard and recurrent dropout. The middle layer was also a LSTM layer, this time with only 64 neurons. The only tuning done to the layer was the activation function, the default tanh function was found to be the optimal function. The final output layer was a Dense layer with 2 neurons, again only the activation function was tuned, tanh was also found to be the optimal activation function.
+	\newline
+	
+	The second model added to the complexity of the network by adding in a third LSTM layer and a second Dense layer to the first model. The parameters from the first model remained the same in the second model. In the added LSTM the number of neurons in the added were tuned along with the dropout rate of the layer. Two values were tested for the number of neurons, the first being 128 to match the number of neurons in the input layer, and the second being 64 to match the neurons in the second LSTM layer from the first model, both number of neurons performed similarly well, with 64 chosen as it performed marginally better. Once the ideal number of neurons were identified the dropout level was then tuned, only 0.2 and 0.3 were tested as they were the two best performing levels from the first model, again 0.3 was found to be the ideal dropout level. In the added dense layer the number of neurons were also tuned. First 64 neurons were tested to match the number of neurons in the final LSTM layer, and then 32 neurons were tested to reduce the dimensions between the final LSTM layer and the Dense output layer. 
+	\newline
+	
+	The third and final model that was created added one more layer of complexity to the model. A U-shaped model was created to reduce and then expand the dimensions in the LSTM layers. 2 additional LSTM layers were added the first with 32 neurons and the second with 16 neruons, the number of neurons in the final LSTM layer was then reduced to 32. The dropout level of the first 32 neuron Layer was tuned, with rates of .3, .2, and .1 being analysed. No tuning was performed on the 16 neuron layer or on the 32 neuron layer. An extra dense layer containing 16 neurons was also added to the model between the existing 32 neuron layer and output layer. 
+	
+	After the training of the models I analysed the final research question. How many rounds would it take per season for the models to start producing consistent predictions. For this phase the final prediction model was taken, along with the reduced data set from the feature engineering. The data was then split by rounds, beginning from round 3 as it was identified by many experts as the round where the data pool begins to be significant enough to describe a season. The final round used was round 12, this is 1 round past the midway point of the regular season. Although the models were trained with 19 rounds of data, this step aimed to identify if there was a point in the season when the accuracy of the model would plateau and not learn any more from the data. Because a prediction model would theoretically be used over the course on an entire season, I only looked if the model would be reliable in the early stages of the season. From here the was fed the data for each year at the specified round split, the average accuracy for each split over each model was then identified to analyse at which round a plateau occurred.
 	
 	\chapter{Results and Discussion}\label{chap:Results}
 	
@@ -321,7 +367,9 @@
 	
 	An overall review of the current techniques used in sports prediction (as of 2013) is given in the paper “A review of Data Mining Techniques for Result Prediction in Sports”, M. Haghighat et al., \cite{ResearchGate}. 6 Methods are analysed in the resource of which two, Artificial Neural Networks and Decision Trees are used in this paper. Bayesian Method, Logistic Regression, Support Vector Machines and Fuzzy Methods are the other methods that are analysed. Since nearly 10 years have passed since this resource was published, there has been many improvements to the models that are used in this paper, specifically in the field of Neural Networks. 
 	
-	Very little comprehensive work has been completed regarding Data Science and Australian Football. In 2008 McCabe and Travathan briefly explored the usability of neural networks in predicting the outcomes of sports in their conference paper “Artificial Intelligence in Sports Prediction” \cite{AFL_1}. Here they reached an average accuracy of 65 percent using 11 performance metrics. Other studies conducted on AFL data include “Using meta-regression data mining to improve predictions of performance based on heart rate dynamics for Australian football” \cite{AFL_2}, which focuses on individual player performance as opposed to team performance prediction, but does follow a similar scientific method, utilising Random Forest algorithms to extract key features from the dataset, which is more complex featuring GPS data on top of more traditional performance measures. Also utilising GPS data is “The effect of team formation on defensive performance in Australian \cite{AFL_3}, which analysed a team’s defensive positioning and the effect it had on defensive performance. These both used similar techniques but the dataset differed from what will be used in this paper.
+	A more limited set of comprehensive work has been completed regarding Data Science and Australian Football. In 2008 McCabe and Travathan briefly explored the usability of neural networks in predicting the outcomes of sports in their conference paper “Artificial Intelligence in Sports Prediction” \cite{AFL_1}. Here they reached an average accuracy of around 65 percent using 11 performance metrics. This model did not only focus on AFL, it also aimed at predicting Rugby League, Rugby Union and Soccer, as such the features used were not specific to any of the predicted sports. The model in this paper aims to be more specific to features occurring in AFL. 
+	
+	H. Jelenik et al in their article “Using meta-regression data mining to improve predictions of performance based on heart rate dynamics for Australian football” \cite{AFL_2}, follows a similar scientific method to that which is used in this paper, utilising Random Forest algorithms to extract key features from the dataset. However the type of data differs greatly, this article features gps data and medical data with the predictions being more focused on individual player performance as opposed to team performance prediction. M. Aarons et al also utilised GPS data in their article on “The effect of team formation on defensive performance in Australian \cite{AFL_3}, which analysed a team’s defensive positioning and the effect it had on defensive performance, similarly to this paper decision tree analysis was also utilised in the article, however the majority of the methods and data differed. These both used minimal similar decision tree and random forest techniques in their analysis but the data set and overall prediction scopes differed from what was used in this paper. 
 	
 	Sports ML \cite{BUNKER201927}
 	
@@ -330,20 +378,24 @@
 	\newpage
 	\chapter{Summary}\label{chap:summary}
 	\section{Summary}
-	Overall this paper intends to expand the understanding and use of Data Mining in Professional Sports, specifically the Australian Football League. It aims to combine and build upon methods already being used in sports data mining to explore the following research questions:
+	Overall this paper aimed to explore and understanding the use of Data Mining in Professional Sports, specifically the Australian Football League. It aimed to build upon methods already being used in sports data mining and to combine them with existing methods being utilised in other fields of data mining and to explore the following research questions:
 	\begin{enumerate}
 		\item[] Can data mining be used to find key features and patterns and explain results in professional sports?
-		\item[] Can these extracted trends and features be used to create an explainable prediction model?
+		
+		\item[]Can these extracted trends and features be used to create a reliable prediction model?
+		
 		\item[] How can the results be utilised in the sporting industry?
+		
 		\item[] If the model can reliably predict outcomes, how many rounds will the model need before it becomes reliable?
 	\end{enumerate}
-	In the paper Decision Trees, Random Forests, Linear Regression Models and LSTM Neural Networks will be utilised to extract important features and trends in the Australian Football League and use them to implement an explainable prediction model.
 	
-	A two phase approach will be taken to create the final model. The first being feature engineering and trend analysis, using the Decision Tree and Random Forest techniques and Linear Regression. This will be done iteratively until the 5 most important and least important features are identified. The second phase will be the building of the prediction model, utilising the results from the first phase, with the aim of achieving an average accuracy greater than 65.1 percent.
+	The results of the paper were varied, many improvements could have been made to the processes used in the project. With more time and resources the quality of the data could have been greatly improved as well as utilising different techniques and methods when defining the data set. 
+	Continuous vs discrete data. A greater use of discrete data could have been used to increase the expressiveness of the data. The majority of the final data set was continuous.
+	Data complexity \cite{ML_Soccer} warn that adding complexity to data does not always lead to better results in sports predictions. There are many factors that can influence the outcome of a game which are not always indicative of a teams strength these can be affected by random chance or human factors and therefore are had to quantify and analyse in a model. Although I believe adding additional complexity to the data in this case could have been useful, specifically in the case of team travel and home ground advantages. In the model I only looked at basic factors in this regard of, where the game was being played and categorised how far each team needed to travel to reach the destination venue. TheAFLLAb \cite{website:AFL_HG} investigates this topic in much greater depth analysing an additional 5 features. 
 	
-	
+	A major change I would make in subsequent work on this topic would be to change the neural network used to create the prediction model. Long Short Term Memory Networks are designed to handle time series and sequential data. As sport seasons are in general also sequential by nature I believed that the data set could be adapted in a manner that would be able to be fit to the LSTM model. However there were some problems with the data mapping which I did not initially take into consideration when I began the project. Although the data was sequential, LSTM models are also built to handle data in time steps which lead into each other. The issue with sports data is that every game is independent and thus the weights from the game
 	\newpage
-	\bibliography{refs_thesis} %name of the .bib file
+	\bibliography{refs_thesis}
 	\bibliographystyle{ieeetr}
 	
 \end{document}
@@ -361,62 +413,3 @@ Adding a simple image is easy. Adding complex images is also easy. What is a com
 
 
 
-
-\begin{figure}[ht]
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		% include first image
-		\includegraphics[width=.8\linewidth]{imclogo.png}  
-		\caption{Put your sub-caption here}
-		\label{fig:sub-first}
-	\end{subfigure}
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		% include second image
-		\includegraphics[width=.8\linewidth]{imclogo.png}  
-		\caption{Put your sub-caption here}
-		\label{fig:sub-second}
-	\end{subfigure}
-	\caption{Including sub images! }
-	\label{fig:fig}
-\end{figure}
-
-\section{Tables}
-
-\begin{table}[ht]
-	\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
-		\hline
-		\multicolumn{4}{|c|}{Country List} \\
-		\hline
-		Country Name     or Area Name& ISO ALPHA 2 Code &ISO ALPHA 3 Code&ISO numeric Code\\
-		\hline
-		Afghanistan   & AF    &AFG&   004\\
-		Aland Islands&   AX  & ALA   &248\\
-		Albania &AL & ALB&  008\\
-		Algeria    &DZ & DZA&  012\\
-		American Samoa&   AS  & ASM&016\\
-		Andorra& AD  & AND   &020\\
-		Angola& AO  & AGO&024\\
-		\hline
-	\end{tabular}
-	\caption{\label{tab:table-name}Example table}
-\end{table}
-
-
-\backmatter%
-\addtoToC{Bibliography}
-\bibliographystyle{IEEEtran}
-\bibliography{refs_thesis}
-
-
-\begin{appendices} % optional
-	\chapter{Example Appendix 1}
-	
-	Appendices should be used for supplemental information that does not form part of the main research. Remember that figures and tables in appendices should not be listed in the List of Figures or List of Tables. 
-	
-	\chapter{Example Appendix 2}
-	
-	Appendices should be used for supplemental information that does not form part of the main research. Remember that figures and tables in appendices should not be listed in the List of Figures or List of Tables. 
-	
-\end{appendices}
-\end{document}
