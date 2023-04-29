@@ -1,0 +1,16 @@
+homeTeamPercentage
+awayTeamPercentage
+homeLadderPosition
+awayLadderPosition
+homeTeamImportanceSeasonAverage
+awayTeamImportanceSeasonAverage
+awayCurrentLadderPosition
+homeCurrentLadderPosition
+homeTeamImportanceLastGame
+awayTeamImportanceLastGame
+homeTeamPointsFor
+awayTeamPointsFor
+awayTeamImportanceLastFiveGames
+homeTeamImportanceLastFiveGames
+awayTeamPointsAgainst
+homeTeamPointsAgainst
