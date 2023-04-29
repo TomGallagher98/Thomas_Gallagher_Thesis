@@ -1,8 +1,5 @@
 # Rearrange Player Names
-from unicodedata import name
 import pandas as pd
-from scipy.__config__ import show
-from soupsieve import select
 
 def find_different_names():
     all_names = []
@@ -71,12 +68,11 @@ def lower_player_names(row):
         row[2] = f
     return row
 
-# for year in range (2012, 2022):
-#     update_names(year)
+for year in range (2012, 2022):
+    update_names(year)
 
 all_stats_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_Sorted/Year/Players"
 fantasy_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_Sorted/Year/Players"
-
 
 def change_team_names(row):
     team = row[3]
@@ -122,16 +118,10 @@ def rename_teams(year):
     fantasy_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_Sorted/Year/Players/Fantasy/fantasy_{year}.csv"
     fantasy_scores = pd.read_csv(fantasy_path)
     fantasy_team_update = fantasy_scores.apply(change_team_names, axis=1)
-    # file_output = open(fantasy_path, "w")
-    # file_output.writelines("year,round,displayName,team,score\n")
     fantasy_team_update.to_csv(fantasy_path, index=False)
-    # for round in fantasy_team_update.iterrows():
-    #         out = ','.join(str(round[1][x]) for x in range(5))
-    #         file_output.writelines(out+'\n')
-    # file_output.close()
 
-# for year in range (2012, 2022):
-#     rename_teams(year)
+for year in range (2012, 2022):
+    rename_teams(year)
 
 def add_fantasy_scores(year):
     file = f"/{year}.csv" 
@@ -139,13 +129,7 @@ def add_fantasy_scores(year):
     fantasy_path = f"C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_Sorted/Year/Players/Fantasy/fantasy_{year}.csv"
     fantasy_scores = pd.read_csv(fantasy_path)
     round_scores = round_scores.apply(find_score_for_player, axis=1)
-    
-    # file_out = open(all_stats_path+f'/{year}.csv', "w")
     round_scores.to_csv(all_stats_path+f'/{year}.csv', index=False)
-    # for player in round_scores.iterrows():
-    #         out = ','.join(str(player[1][x]) for x in range(32))
-    #         file_out.writelines(out+'\n')
-    # file_out.close()
 
 def find_score_for_player(row):
     row['Fantasy'] = 0

@@ -3,7 +3,7 @@ def team_travel(team, next_venue):
     # Assumed all teams will leave from home state
     if team == 'Geelong' and next_venue == 'Kardinia Park':
         return 0
-    team_location = find_team_loaction(team)
+    team_location = find_team_location(team)
     if team == 'Brisbane' and next_venue == 'Gabba':
         return 0
     if team == 'Gold Coast' and next_venue == 'Carrara':
@@ -19,12 +19,13 @@ def team_travel(team, next_venue):
     # Geelong, Brisbane and Gold Coast are all unique with home grounds
 
 
-def find_team_loaction(team):
+def find_team_location(team):
     melbourneTeams = ['Carlton', 'Collingwood','Essendon','Hawthorn','Melbourne',
     'North Melbourne','Richmond','St Kilda','Western Bulldogs']
     sydneyTeams = ['Greater Western Sydney','Sydney']
     adelaideTeams = ['Adelaide','Port Adelaide']
     perthTeams = ['Fremantle','West Coast']
+    qldTeams = ['Brisbane', 'Gold Coast']
     if team in melbourneTeams:
         return "MEL"
     if team in sydneyTeams:
@@ -33,6 +34,8 @@ def find_team_loaction(team):
         return "ADE"
     if team in perthTeams:
         return "PER"
+    if team in qldTeams:
+        return 'QLD'
     if team == 'Geelong':
         return 'GEE'
     else:

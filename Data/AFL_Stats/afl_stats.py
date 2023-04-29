@@ -1,28 +1,14 @@
-import csv
-from unicodedata import name
 import pandas as pd
-from scipy.__config__ import show
-from soupsieve import select
 
 PATH = 'C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats/'
 
 stats = pd.read_csv(PATH + 'stats_sorted.csv')
 games = pd.read_csv(PATH + 'games_sorted.csv')
 players = pd.read_csv(PATH + 'players.csv')
-# print(stats.describe())
 
 def show_dtypes(df):
     for index in range(len(df.dtypes)):
         print(f'{df.columns[index]} -> {df.dtypes[index]}' )
-
-# print(stats.head(10))
-
-# print('Stats \n')
-# show_dtypes(stats)
-# print('\nPlayers')
-# show_dtypes(players)
-# print('\nGames')
-# show_dtypes(games)
 
 def select_player(name, team = None):
     player = (players[(players['displayName'] == name)])
@@ -40,14 +26,6 @@ def select_player(name, team = None):
         print(player)
         id =  player['playerId'].item()
         return id
-
-
-
-
-# print(players.iloc[[1]])
-# print (select_player('Kennedy, Josh', 'Sydney'))
-# print_team('2019R1505', 'Collingwood')
-
 
 
 def team_similarity(s_team, prev_team, team):
@@ -69,7 +47,7 @@ def team_similarity(s_team, prev_team, team):
         games_in.append(p.gameNumber.values[0])
 
     diff = sum(games_in) - sum(games_out)
-    
+
     dist = (len(out_players))
 
     evaluate_team_changes(in_players, out_players)
@@ -349,5 +327,5 @@ def team_prev_five(team):
 # get_selected_team("2012R105", "Gold Coast")
 # print(select_prev_five('Sidebottom, Steele'))
 # team_prev_five('Collingwood')
-team_similarity('2021R2308', '2021R2205', 'Collingwood')
+# team_similarity('2021R2308', '2021R2205', 'Collingwood')
 # print(Venues)

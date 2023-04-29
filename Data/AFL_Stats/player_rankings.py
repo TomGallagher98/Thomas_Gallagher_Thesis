@@ -1,9 +1,6 @@
 ## Eventually use average of players SC and DT but I need to scrape the data from a different site 
 # and append it to the current dataset
-from unicodedata import name
 import pandas as pd
-from scipy.__config__ import show
-from soupsieve import select
 # from team_changes import get_selected_team
 
 # all_stats_path = "C:/Users/Craig/Documents/Thesis/Thomas_Gallagher_Thesis/Data/AFL_Stats_sorted/stats_sorted.csv"
