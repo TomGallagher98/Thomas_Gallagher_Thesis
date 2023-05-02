@@ -13,13 +13,13 @@
 \contentsline {subsection}{\numberline {3.1.3}Phase 2: Data Engineering}{16}{subsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.1.4}Phase 3: Feature Engineering}{19}{subsection.3.1.4}%
 \contentsline {subsection}{\numberline {3.1.5}Phase 4: Predictive Model}{22}{subsection.3.1.5}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{27}{chapter.4}%
-\contentsline {subsection}{\numberline {4.0.1}EDA Results}{27}{subsection.4.0.1}%
-\contentsline {subsection}{\numberline {4.0.2}Feature Engineering Results}{27}{subsection.4.0.2}%
-\contentsline {subsection}{\numberline {4.0.3}Final Model Results}{27}{subsection.4.0.3}%
-\contentsline {chapter}{\numberline {5}Related Works}{29}{chapter.5}%
-\contentsline {subsection}{\numberline {5.0.1}Data Mining}{29}{subsection.5.0.1}%
-\contentsline {subsection}{\numberline {5.0.2}Long Short Term Memory Networks}{30}{subsection.5.0.2}%
-\contentsline {subsection}{\numberline {5.0.3}Data Mining in Sports}{30}{subsection.5.0.3}%
-\contentsline {chapter}{\numberline {6}Summary}{33}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Summary}{33}{section.6.1}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{29}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}EDA Results}{29}{subsection.4.0.1}%
+\contentsline {subsection}{\numberline {4.0.2}Feature Engineering Results}{30}{subsection.4.0.2}%
+\contentsline {subsection}{\numberline {4.0.3}Final Model Results}{33}{subsection.4.0.3}%
+\contentsline {chapter}{\numberline {5}Related Works}{35}{chapter.5}%
+\contentsline {subsection}{\numberline {5.0.1}Data Mining}{35}{subsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.0.2}Long Short Term Memory Networks}{36}{subsection.5.0.2}%
+\contentsline {subsection}{\numberline {5.0.3}Data Mining in Sports}{36}{subsection.5.0.3}%
+\contentsline {chapter}{\numberline {6}Summary}{39}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary}{39}{section.6.1}%

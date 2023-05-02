@@ -12,6 +12,31 @@
 
 \usepackage{listings}
 \usepackage{subcaption}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
 
 
 \begin{document}
@@ -103,7 +128,7 @@
 	The data acquisition process can vary between projects. In the simplest cases, a data set can be readily and publicly available, needing only to be downloaded before the cleaning and exploration phases can take place. With more complex or industry specific data sets, the data may already exist but be owned by an institution which measured, converted and stored the data set. In these cases the data is normally available via payments or contracts. In the most complex cases the digital data set does not exist at all and must be gathered from physical real-world data and converted into a digital data set by the members working on the project. 
 	\newline
 	
-	Once the data has been acquired Exploratory Data Analysis (EDA) can be performed. EDA is the initial analysis of the data set, it allows for a basic overview of the characteristics of the data to be investigated and identified. Additionally EDA can allow for the easier detection of anomalies and errors within the data set which can be handled in the data cleaning phase. The main method of EDA is data visualisation, which allows for the entire data set or individual features to be viewed in plots. Scatter Plots and Histograms are the most common to implement and will be utilised in the paper, in the initial analysis. Scatter plots are useful in trend identification as they show the relationship between two variables, which would be impossible to see by just viewing the raw data. Histograms are used to separate quantitative values into an interval scale, these interval groups can be used to identify where distributions lie within the data set. In addition a basic description of the data set will be analysed, pandas dataframes offer functions to describe the contained data in each column, which will be used to view the averages, standard deviation and percentile distributions of each column in the data set.
+	Once the data has been acquired Exploratory Data Analysis (EDA) can be performed. EDA is the initial analysis of the data set, it allows for a basic overview of the characteristics of the data to be investigated and identified. Additionally EDA can allow for the easier detection of anomalies and errors within the data set which can be handled in the data cleaning phase. The main method of EDA is data visualisation, which allows for the entire data set or individual features to be viewed in plots. Correlation analysis and histograms will be utilised in the paper in the initial analysis of the data.  Correlation measures the relationship between variables, and generally a value between 1 and -1 is given to describe this relationship. A correlation of 1 means the values share a positive relationship, an increase in one of the values leads to an increase in the other, while -1 is the opposite an increase in one leads to a decrease in the other. Additionally a correlation of 0 means that the two values are independent and have no relationship with each other. Histograms are used to separate quantitative values into an interval scale, these interval groups can be used to identify where distributions lie within the data set. In addition a basic description of the data set will be analysed, pandas dataframes offer functions to describe the contained data in each column, which will be used to view the averages, standard deviation and percentile distributions of each column in the data set.
 	\newline
 	
 	Data cleaning ensures that the incoming data is able to be read and interpreted properly by the computer model. The important steps are ensuring that missing values are handled gracefully, either by removing affected rows and columns, or using imputation to replace null values.
@@ -199,8 +224,7 @@
 	\section{Description of the Scientific Method }
 	
 	\subsection{Technical Environment}
-	0.5 pages
-	The project was completed using python as the main programming language, a combination of Jupyter Notebooks and Python files were created to handle different tasks. Jupyter Notebooks were used to sequentially implement workflows of the project and define minor functions. Major functions an more complex code was written in Python files which were accessed in the necessary code blocks within the Jupyter notebooks. There was no traditional database structures used, the data was stored in csv files. 
+	The project was completed using python as the main programming language, a combination of Jupyter Notebooks and Python files were created to handle different tasks. Jupyter Notebooks were used to sequentially implement workflows of the project and define minor functions. Major functions and more complex code were written in Python files which were accessed in the necessary code blocks within the Jupyter notebooks. There was no traditional database structures used, the data was stored in csv files. 
 	There were many libraries used over the different stages of the implementation, in depth explanations of their uses will be given in the individual phases. The pandas library was used throughout the entire project as the main data handling tool. All data was accessed using pandas read csv functions to store the data in Data Frames within the project and the to csv function was used to store the manipulated data sets.
 	Numpy was used for additional data manipulation in combination with pandas.  
 	The Selenium library was used in the data acquisition phase to scrape additional data which was not available in the original data set.
@@ -239,10 +263,9 @@
 	
 	The final stage of the data preparation was one hot encoding of team and venue data. One Hot Encoding (OHE) is a way to add categorical data into computer models that require a numerical input. Each venue and team are assigned a numerical value which is then added to the data set in place of the text value. In some cases the model will incorrectly assume that the size of the numerical numbers is an important factor, to combat this each category is assigned as its own feature in the data set that is either active (1) or inactive (0). This was only implemented in the final stages of the model and not added to the main data set, because some functions in the EDA and feature engineering sections perform better without OHE as it also creates a large number of empty variables in the data set.
 	
-	Once the main data set was built EDA was then used to explore relationships within the data. This was mainly implemented on features that had been proposed by domain experts. For the EDA scatter plots and histograms were created to identify any trends and relationships between the data.  
+	Once the main data set was built EDA was then used to explore relationships within the data. This was mainly implemented on features that had been proposed by domain experts. The main method used in the EDA was correlation analysis. Pandas Dataframe objects have a built in correlation function to generate a correlation matrix for every feature in the data set. This was then reduced to extract only the correlation of each value to the output variable 'homeWin'. Additionally a simple histogram was created to show the distribution of the homeWin feature. 
 	
 	\subsection{Phase 3: Feature Engineering}
-	3 pages
 	Once the final data set had been defined in the data engineering phase, the data was then analysed in the feature engineering phase. The models used for feature engineering were decision trees and random forests. Although the models are traditionally used for prediction and classification, they can also be used in feature engineering as they are able to track which features were most important when creating a decision node, which can then be analysed for the final model. Also as they do provide a prediction model it allowed me to have extra prediction models to compare with the final results of the project. 
 	
 	Before the data could be inputted into the model it needed to go through a final phase of pre processing. The y value, which was taken as the home team winning, was first separated from the data set. Two sets of y values were analysed. The first set analysed wins, losses and draws, the second set simplified this to only win and loss. Draws only made up 1 percent of total game outcomes, resulting in a significantly underpopulated feature, which could dramatically affect the result of the model. I didn't want to use any upsampling, creation of extra data rows, as I wanted the data to be as close to real life as possible. So to overcome this problem I decided to perform the feature engineering with both sets of y values.
@@ -277,38 +300,149 @@
 	The final confusion matrices were then plotted to view the performance of each model.
 		
 	\subsection{Phase 4: Predictive Model}
-	The final phase was the constructing of the prediction model. The prediction model used was a Long Short Term Memory Neural Network (LSTM). Again only the final pre processing steps needed to be taken. The original data set was again imported from the csv files separated by year. The string values of the data set then were both label encoded and one hot encoded. This differed slightly to the feature engineering steps, in which the data was only label encoded. This was due to decision tree based models such as random forests performing worse on the sparse data distributions created by one hot coding, while Neural Network models are generally not negatively impacted by OHE. I also did not want the model to infer any immediate relationship between the team and venue data sets, which is a common issue when only applying label encoding. 
+	The final phase was the constructing of the prediction model. The prediction model used was a Long Short Term Memory Neural Network (LSTM), the LSTM models were implemented using the keras python library. Again only the final pre processing steps needed to be taken. The original data set was again imported from the csv files separated by year. The string values of the data set then were both label encoded and one hot encoded. This differed slightly to the feature engineering steps, in which the data was only label encoded. This was due to decision tree based models such as random forests performing worse on the sparse data distributions created by one hot coding, while Neural Network models are generally not negatively impacted by OHE. I also did not want the model to infer any immediate relationship between the team and venue data sets, which is a common issue when only applying label encoding. 
 	\newline
 	
 	After encoding the labels the unused features were dropped from the data set. Two different data sets were created in this step. For the main data set only the features identified in the feature engineering were kept in the final data set, along with the OHE team and venue features. Although the two feature sets were analysed in the feature engineering phase as label encoded values and as such were subject to the same ranking principles applied in the the feature engineering phase, I decided that as they were two key features in general sport predictions they should not be removed, also OHE these features meant that different weights and importance could be determined for the features compared to the label encoded features which were in the feature engineering data set. The second data set comprised of the entire data set used in the feature engineering. This was done to asses the impact of the feature engineering and selected features on the final model, it would provide an insight on whether the RF model and final model extracted similar implications from the data set or whether the LSTM was able to understand the full data set better than the reduced data. As LSTM models are generally used for time series data, the order of the data sequence is an important factor, so the data set was not shuffled for when inputted in the final model.  	
 	\newline
 	
-	The LSTM models were implemented using the keras python library. 
-	Each model required an input shape for each data set. The input shape of the data set after feature engineering was (88,1), it contained 88 features, whereas the full data set had a shape of (111,1) or 111 features. LSTM networks also have the option to identify time steps where data points are grouped by points in time and analysed together. In the case of this data set I had the option to create a window with information from the previous round or rounds which could be fed into the model together with the information for the game in question. I considered 3 options for this data input method, adding games from the previous 1, 2 and 3 rounds. Adding the 9 games of the previous round would alter the input shape to (10,88)/(19,88)/(28,88) and (10,111)/(19,111)/(28,111) respectively for each data set. To implement this I first needed to create a larger data model which would then be broken down into the 3d windows. The first step was to initialise a data array of the required expanded size. In the case of adding games for the previous round and using the reduced data set was the shape was (1980,88).
-	\begin{equation}
-		\begin{array}{l}
-			((Total games) - (Games per round )) * (games per round * rounds) + ((Total games) - (games per round)) \\
-			(207 - 9) * (9*1) + (207 - 9) = 198 * 10 = 1980
-		\end{array}
-	\end{equation}
-	This however led to multiple complications, the greatest being an increase redundancy and in the data set size. The data now being fed into the model  The second reason was due to the structure of the season some rounds did not feature every team, although the final total of games could still be divided into groups of 9 the structure of the groups became too compromised, as matches from different rounds ended up in the same time group. Because I wanted the data structure to be as close as possible to the actual season structure I decided that not using the time groups was the best option, instead inputting games as individual data points. Therefore the input layer for each model remained as (88,1) and (111,1) for each of the 2 data sets.
-	\newline 
+	The splitting of the data set followed a similar pattern to that which was used in the data engineering phase, with some minor alterations. Firstly the entire 2020 season was not analysed by the final model, because the structure of the season was majorly compromised due to the COVID 19 pandemic, the number of games played in the season was reduced from 207 to 162 (23 rounds to 18), the length of games was reduced by 20 percent, teams were temporarily relocated to hubs impacting the implemented travel algorithms and the more games were played within a shorter time span resulting in a different distribution of the break between games feature. Because of these disruptions I decided not to include the 2020 season in the training phase and final data set.  
 	
-	The first model that was implemented contained the most basic structure, it consisted of only 3 layers 2 LSTM layers and one Dense layer. The input layer was a LSTM layer containing 128 neurons. The activation function and dropout levels of the first layer were both tuned in the testing phase, it was found that tanh was the optimal activation function. Dropout is a function in Neural Networks were a random selection of nodes are temporarily disable in the network, creating a new temporary architecture. Dropout rates of .4, .3, .25 and .2  were analysed with .3 found to be the optimal rate in both the standard and recurrent dropout. The middle layer was also a LSTM layer, this time with only 64 neurons. The only tuning done to the layer was the activation function, the default tanh function was found to be the optimal function. The final output layer was a Dense layer with 2 neurons, again only the activation function was tuned, tanh was also found to be the optimal activation function.
+	Secondly each model required an input shape for each data set. The input shape of the data set after feature engineering was (75,1), it contained 75 features, whereas the full data set had a shape of (92,1) or 92 features. LSTM networks also have the option to identify time steps where data points are grouped into points in time and analysed together. In the case of this data set I had the option to create a window with information from the previous round or rounds which could be fed into the model together with the information for the game in question. The windowing method would allow for the model to be given a data region to focus on more heavily in the training phase, to allow for it to fit the data better. I considered 3 options for this data input method, adding games from the previous 1, 2 and 3 rounds, this meant that each window would contain the results of every team in their previous game/s. Adding the 9 games of the previous n rounds altered the input shape to (10,75)/(19,75)/(28,75) and (10,92)/(19,92)/(28,92) respectively for each data set. To implement this I first needed to create a larger data model which would then be broken down into the 3d windows. The first step was to initialise a data array of the required expanded size. In the case of adding games for the previous round and using the reduced data set was the shape was (1980,75).
+
+	The algorithm that was created to build the window is displayed below
+
+\begin{lstlisting}
+def set_window(games, pr, gpr):
+  y = 0
+  p = 0
+  n = (games.shape[0]-(pr*gpr))*(pr*gpr)+(games.shape[0]-(pr*gpr))
+  step = (gpr * pr) + 1
+  d_full = np.zeros(shape=(n,games.shape[1]))
+  # iterate through each round group
+  for x in range(0,d_full.shape[0],step):
+    y = gpr * pr
+    if x % step == 0:\\
+      # move to next round when pr*gpr + 1 index is reached
+	  p += 1 
+    # fills out the first posistions in the window
+    for i in range(gpr * pr): 
+	  # at pos x add corresponding previous game
+	  d_full[x+i] = games[p+i] 
+	# add game in question to final position in window
+    d_full[x+y] = games[x//step + y] 
+
+  # separate train and test data
+  d_Train = d_full[:n-(36*step)]
+  d_valid = d_full[(n-36*step):]
+  # reshape the data into 3 dimensions
+  d_Train = np.reshape(d_Train, (n/step, step, games.shape[1]))
+  d_valid = np.reshape(d_valid, (36, step, games.shape[1]))
+  return d_Train, d_valid
+\end{lstlisting}
+	Reshaping the data did lead to some minor issues, the main issue being an increase redundancy within the data set. Each window was repeated for each game in a round, so the same data was repeated 10 times in the 1 week window and 19 and 28 times in the two larger windows. Another issue was the structure of the seasons became slightly compromised due to the windowing method. The majority of rounds contain 9 games so those rounds were unaffected, but each season contains 3 rounds where byes are present so that each team will miss 1 game over those three rounds. This resulted in those rounds not containing 9 games meaning that the windows would then contain results from multiple rounds. Further it also meant the not every team would be present in the windows and other teams being present multiple times leading to a slightly uneven distribution of data within the windows. Despite these two factors I decided to use the window method as it utilised the LSTM ability to deal with time steps. Whereas inputting every feature as an individual point in time can be handled by other Neural Network models, so if I were to do this then I would not be testing the full functionality of the LSTM compared to the other models. Therefore the input shape for each model that I tested was (10,75)/(19,75)/(28,75) for the reduced data models and (10,92)/(19,92)/(28,92) for the full data models.
+	\newline
+	
+	The first model that was implemented contained the most basic structure, it consisted of only 2 layers one LSTM layer and one Dense layer. The number of neurons, activation function and dropout levels of the first layer were all tuned in the testing phase. For the number of neurons 32, 64 and 128 neurons were considered, 32 neurons was found to be the optimal size for the model. Additionally tanh was found to be the optimal activation function. Dropout is a function in Neural Networks were a random selection of nodes are temporarily disable in the network, creating a new temporary architecture. Dropout rates of .4, .3, .25 and .2  were analysed with .3 found to be the optimal rate in both the standard and recurrent dropout.  The final output layer was a Dense layer with 2 neurons, the only tuning done to the layer was the activation function, again tanh function was found to be the optimal function.
 	\newline
 	
 	The second model added to the complexity of the network by adding in a third LSTM layer and a second Dense layer to the first model. The parameters from the first model remained the same in the second model. In the added LSTM the number of neurons in the added were tuned along with the dropout rate of the layer. Two values were tested for the number of neurons, the first being 128 to match the number of neurons in the input layer, and the second being 64 to match the neurons in the second LSTM layer from the first model, both number of neurons performed similarly well, with 64 chosen as it performed marginally better. Once the ideal number of neurons were identified the dropout level was then tuned, only 0.2 and 0.3 were tested as they were the two best performing levels from the first model, again 0.3 was found to be the ideal dropout level. In the added dense layer the number of neurons were also tuned. First 64 neurons were tested to match the number of neurons in the final LSTM layer, and then 32 neurons were tested to reduce the dimensions between the final LSTM layer and the Dense output layer. 
 	\newline
 	
-	The third and final model that was created added one more layer of complexity to the model. A U-shaped model was created to reduce and then expand the dimensions in the LSTM layers. 2 additional LSTM layers were added the first with 32 neurons and the second with 16 neruons, the number of neurons in the final LSTM layer was then reduced to 32. The dropout level of the first 32 neuron Layer was tuned, with rates of .3, .2, and .1 being analysed. No tuning was performed on the 16 neuron layer or on the 32 neuron layer. An extra dense layer containing 16 neurons was also added to the model between the existing 32 neuron layer and output layer. 
+	The third and final model that was created added one more layer of complexity to the model. A U-shaped model was created to reduce and then expand the dimensions in the LSTM layers. 2 additional LSTM layers were added the first with 32 neurons and the second with 16 neruons, the number of neurons in the final LSTM layer was then reduced to 32. The dropout level of the first 32 neuron Layer was tuned, with rates of .3, .2, and .1 being analysed. No tuning was performed on the 16 neuron layer or on the 32 neuron layer. An extra dense layer containing 16 neurons was also added to the model between the existing 32 neuron layer and output layer.
+	\newline
 	
-	After the training of the models I analysed the final research question. How many rounds would it take per season for the models to start producing consistent predictions. For this phase the final prediction model was taken, along with the reduced data set from the feature engineering. The data was then split by rounds, beginning from round 3 as it was identified by many experts as the round where the data pool begins to be significant enough to describe a season. The final round used was round 12, this is 1 round past the midway point of the regular season. Although the models were trained with 19 rounds of data, this step aimed to identify if there was a point in the season when the accuracy of the model would plateau and not learn any more from the data. Because a prediction model would theoretically be used over the course on an entire season, I only looked if the model would be reliable in the early stages of the season. From here the was fed the data for each year at the specified round split, the average accuracy for each split over each model was then identified to analyse at which round a plateau occurred.
+	Each of the three models were analysed in relation to the 6 data sets described earlier. Because the data manipulation required the most code and created the most variables, one notebook was created for each of the data sets. Within the notebooks each model was analysed on the training and validation data from each data set (the individual season data from 2012 to 2019), again the data was not shuffled, this was to ensure that the input data matched the sequence of each season and so that results could be inferred sequentially. Each models accuracy from each year was then collected and averaged to give the average accuracy of each model. 
+	To further aid in the analysis of each model a confusion matrix of the predicted outcomes vs the actual outcomes was created. For this confusion\_matrix and ConfusionMatrixDisplay from scikitlearn was used to first build the matrix from the predictions and then create a plot with the results. The confusion matrix was very useful in the model analysis as it showed the distribution of predictions without the need of any further calculations such as precision and recall. Often a model would have a high accuracy but on further inspection of the confusion matrix it was labelling every result in the same category, in these cases the model would be re-run to see if it had the ability to fit the data better or if it would continue to only predict one label in which case the model could be discarded.
+	With the aid of the confusion matrices only the average accuracy was considered in the model selection phase no additional parameters were analysed. After the tuning the best model was found to be the simplest model (displayed below), which had an average accuracy of 69.09\%. The simplest data set, containing only one additional round in the history window, was also found to be the best fit for the model. A greater analyses of the results can be found in the results section of the paper. 
+\begin{lstlisting}
+def train_model_1( xTrain, yTrain, xValid , yValid):
+ random.seed(26)
+ model = Sequential()
+ model.add(LSTM(32,input_shape=(10,75),activation='tanh',
+           dropout=0.3,recurrent_dropout=0.3))
+ model.add(Dense(2,activation="tanh"))
+ model.build()   
+ model.summary()
+ model.compile(optimizer="adam",loss='mean_squared_error',
+               metrics=['accuracy','mse'])
+
+ reduce_lr = ReduceLROnPlateau(monitor='accuracy',factor=0.01,
+             patience=10,cooldown=0)
+
+ callbacks=[reduce_lr]
+ train_history=model.fit(xTrain, yTrain , epochs=50, 
+                         shuffle=False, callbacks=callbacks,
+                         verbose=2, validation_split=0.1)
+
+ score = model.evaluate( xValid , yValid )
+ pred = model.predict(xValid)
+ model.save("LSTM_1")
+
+ print( "Accuracy: {:0.4}".format( score[1] ))
+ print( "Loss:", score[0] )
+ return score, pred, train_history
 	
+\end{lstlisting}
+	
+	I then trained the final model with the above parameters on the entire data set to how well the model would be able to predict the outcomes of the 2021 season. For this step I had two options to build the data set and train the final model. The first was to train the model on the entire training data set and then use the model to predict the results of the entire 2021 season. The second option was to use transfer learning. Transfer learning is a method where a pre-trained model is used to fit to new data, with the hypothesis that the knowledge that the pre-trained model has already gained can be applied to the new data. For the transfer learning approach I still would have started with a new model, which would then be trained on the first season (2012), this model would then be saved and then loaded and fit to the next season (2013), this process would continue until the model had been trained on each set of training data and finally would be tested on the 2021 season.
+	The first method was chosen to be used in the final implementation, firstly due to the more straightforward implementation and secondly to keep the methods used in the model selection phase as close as possible to the final approach. As transfer learning was not applied in any other sections of the project I decided not to apply it in the final phase of the project.
+	
+	The training and final accuracy and loss of the final model as well as the average accuracy and loss of the best model in the selection phase to were then plotted for each epoch using the matplotlib.pyplot.plot function. Only basic line plots were created to view the differences in performance between the two models. To further analyse the performance of the model a confusion matrix of the predicted outcomes vs the actual outcomes was created. 
+		
+	After the analysis of the final model I analysed the final research question. How many rounds would it take per season for the models to start producing consistent predictions. This section extended the methods used in the model selection phase. Because the accuracy of the final model was much poorer compared to the model selection phase, I decided to follow the data model used in the selection phase and only analyse data from one individual season. To limit the analyses needed I did not analyse each round, instead I chose to increase the number of rounds by three in each iteration and analyse if there was any stage where a major increase in performance occurred or where the models stopped improving. The initial round taken for this section was round 4, as previously mentioned that is when many expert analysts believe the data set for a season becomes large enough to analyse. Incrementing the number of rounds by three in each iteration then allowed the data set to expand uniformly until round 19 which is where the training and validation split was set in the model selection phases.
+		
 	\chapter{Results and Discussion}\label{chap:Results}
 	
 	\subsection{EDA Results}
+	\begin{figure}
+		\caption{Correlation Matrix: All Features vs. HomeWin}
+		\includegraphics[width=15cm]{media/eda_correlation.png}
+	\end{figure}
+	The results of the correlation matrix [figure 4.1] can be analysed in two different ways. Analysing the size of the correlation coefficients demonstrates why sports, in this case AFL, can be so difficult to predict, especially in relation to the data set used in the project. As mentioned a correlation of 1 means a perfect positive correlation and -1 the opposite, with 0 meaning no correlation. Only 7 features out of 32 have a coefficient above 0.1 or below -0.1, with a minimum and maximum correlation of -0.26 and 0.23 respectively. As such it is evident that there is a very low correlation between the features and the end results. However ignoring the scale of the coefficient and only looking at the order of the features does produce somewhat expected results. The ladder positions and percentages of each team are the top 3 features for both positive and negative correlation. The reason the ladder positions seem to be in the wrong column is because 1 is the top of the ladder and 18 is the bottom, as such if the teams position is increasing in value they are performing worse.
+	
+	As for the bold values, which were the features that are generally quoted by experts and casual viewers as having impacts on results, the correlation matrix indicates that these features do have little to no impact on results. Although from their positions an argument can be made that there is a slight home ground advantage as the 'awayTravel' feature ranks relatively high within these features. 
+	
+	Rainfall having such little impact is also slightly surprising, however this is supported by John Elliot \cite{website:AFL_Weather} in his analysis of the impact of weather conditions in the AFL. What his analysis correctly asserts, that this data set does not take into account and that I did not explore, is that weather is more likely to have a greater impact on individual teams and the favourites leading into the game, as opposed to just the home Team. There is a possibility that a Neural Network would be able to find this connection and possibly the connection with the other highlighted features in question. However I failed to take this into account further into the project, when fitting the data to the Neural Network. To properly assess these features I could have isolated them and used them as input into the Neural Network to assess if the network could find any relationship. But even after isolating the features, it would be very difficult to see the true nature of this relationship due to the black box nature of neural networks.
+	
+	Another idea explored in the research by Elliot which I did not consider was to classify the weather conditions instead of using the raw numerical rainfall values from the data set. This was also a limitation of the data set, as the data used in Elliot's analysis already provided these categorical values. I did choose to convert the travel features into categorical values however, and this led to similarly poor correlation. This suggests that to better analyse these features in future projects a deeper analysis on each feature should be performed, which would then need to be be translated into data points that can be fit into a prediction model.
 	
 	\subsection{Feature Engineering Results}
+	\begin{figure}
+		\caption{Feature Importance Results}
+		\includegraphics[width=15cm]{media/FeatureImportance.png}
+	\end{figure}
+	Although some individual features were not as deeply explored, a deeper analysis into the data set as a whole was undertaken in the feature engineering phase. During feature engineering the data from each year was analysed via Random Forest models to discover which features overall had the most impact in the prediction of the outcome of each season. The top 15 features were then extracted into a weighted list, with 15 given to the most important feature and the totals for each feature were tallied, the results can be seen in figure 4.2. Four random forest models were used in this phase, with the first three models being used to extract the features, the final model was then built using only the extracted features. From these features the top 8 pairs were taken for the final data set, these were:
+	\begin{table}[h!]
+	\caption{Important Features}
+	\centering	
+	\begin{tabular}{| c | c |}
+		\hline
+		homeTeamPercentage & awayTeamPercentage\\
+		\hline
+		homeLadderPosition & awayLadderPosition\\
+		\hline
+		homeTeamImportanceSeasonAverage & awayTeamImportanceSeasonAverage \\
+		\hline
+		homeCurrentLadderPosition & awayCurrentLadderPosition \\
+		\hline
+		homeTeamImportanceLastGame & awayTeamImportanceLastGame \\
+		\hline
+		homeTeamPointsFor & awayTeamPointsFor \\
+		\hline			
+		homeTeamImportanceLastFiveGames & awayTeamImportanceLastFiveGames \\
+		\hline
+		homeTeamPointsAgainst & awayTeamPointsAgainst \\
+		\hline		
+	\end{tabular}	
+	\end{table}
+
+	The top features largely mirrored the top features identified in the correlation matrix, with 5 out of the top six values being present in both sets. Home Team Percentage was the most important feature identified by the feature engineering, it was also the feature with the highest positive correlation in the matrix. 
+	
+	The biggest change between the two sets were the team importance features. Team importance values were calculated based off of ranking points awarded to each player after a game, and four combinations were calculated for each game. The difference between the previous game and the upcoming game, the average score in each team over the last five games, the average score in each team over the entire season and the average score in the previous game. These values all had very low correlation coefficients, having no apparent correlation to the outcome. However 3 of the 8 features were within the top 10 of the important features and 7 out of 8 in the top 15. 6 of which featured in the final data set.
+	
+	The main improvement I would make to the feature engineering process is in the generation of the weighted list. When the feature importance is calculated it is also assigned an importance value, which denotes how much impact the feature had on the model. When I build the list I decided to add the weights based on the position of each feature in the importance list rather than its importance weight. At the time I did not consider the impact this might have had on the features chosen for the final data set. Because the difference between the importance values was non linear the sum of the weights most likely have been different to the sum of the positions which I used for this model. It would have been valuable to also calculate the sum of the weights, or even a combination of the position and weights to see if it would have a major impact on the outcome of the feature importance list. However in saying this, a decision would still need to be made as to which features to take, which would have to be a human decision as without further deeper analysis it would be difficult to tell which feature list matched the data model the best.
+	
 	
 	\subsection{Final Model Results}
 	
