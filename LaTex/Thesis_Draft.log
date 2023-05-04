@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  2 MAY 2023 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  4 MAY 2023 21:41
 entering extended mode
 **./Thesis_Draft.tex
 (Thesis_Draft.tex
@@ -532,7 +532,7 @@ LaTeX Info: Redefining \nameref on input line 42.
 \c@lstlisting=\count296
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<imclogo.png, id=103, 301.125pt x 69.25874pt>
+<imclogo.png, id=107, 301.125pt x 69.25874pt>
 File: imclogo.png Graphic file (type png)
 <use imclogo.png>
 Package pdftex.def Info: imclogo.png  used on input line 43.
@@ -678,12 +678,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--161
  []
 
 [9]
-<media/nn_formula.png, id=261, 1180.41pt x 674.52pt>
+<media/nn_formula.png, id=271, 1180.41pt x 674.52pt>
 File: media/nn_formula.png Graphic file (type png)
 <use media/nn_formula.png>
 Package pdftex.def Info: media/nn_formula.png  used on input line 174.
 (pdftex.def)             Requested size: 284.52756pt x 162.57768pt.
-<media/LSTM.png, id=265, 602.25pt x 268.00125pt>
+<media/LSTM.png, id=275, 602.25pt x 268.00125pt>
 File: media/LSTM.png Graphic file (type png)
 <use media/LSTM.png>
 Package pdftex.def Info: media/LSTM.png  used on input line 191.
@@ -721,11 +721,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 3.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+35.
+(C:\Users\Craig\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (31.44942pt too wide) in paragraph at lines 235--236
+[]\T1/phv/m/n/12 The code used for this the-sis can be found at: [][]$\T1/lmtt/
+m/n/12 https : / / github . com / TomGallagher98 /
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-[16]
+[15] [16]
 Underfull \vbox (badness 4886) has occurred while \output is active []
 
  [17]
@@ -735,97 +741,135 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
  [19]
+Underfull \hbox (badness 10000) in paragraph at lines 281--284
+
+ []
+
+
 Underfull \vbox (badness 1668) has occurred while \output is active []
 
  [20]
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 303--305
+Underfull \hbox (badness 10000) in paragraph at lines 285--287
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--308
+Underfull \hbox (badness 10000) in paragraph at lines 301--303
 
  []
 
-[22] [23]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-15.
- (C:\Users\Craig\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 343--345
+
+Underfull \vbox (badness 4569) has occurred while \output is active []
+
+ [21]
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 311--313
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 348--350
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 346--348
+Underfull \hbox (badness 10000) in paragraph at lines 351--353
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--351
+Underfull \hbox (badness 10000) in paragraph at lines 354--356
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
+Underfull \hbox (badness 10000) in paragraph at lines 357--359
 
  []
 
-[26] [27] [28]
+
+Overfull \hbox (55.21922pt too wide) in paragraph at lines 364--375
+ [][] 
+ []
+
+
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+[28] [29] [30
+
+]
 Chapter 4.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 397.
+(hyperref)                than one, level fixed on input line 424.
 
-<media/eda_correlation.png, id=418, 3532.19624pt x 1758.57pt>
+<media/eda_correlation.png, id=440, 3532.19624pt x 1758.57pt>
 File: media/eda_correlation.png Graphic file (type png)
 <use media/eda_correlation.png>
-Package pdftex.def Info: media/eda_correlation.png  used on input line 400.
+Package pdftex.def Info: media/eda_correlation.png  used on input line 461.
 (pdftex.def)             Requested size: 426.79134pt x 212.4683pt.
-[29
+[31]
+Underfull \vbox (badness 3635) has occurred while \output is active []
 
-]
-<media/FeatureImportance.png, id=425, 641.39626pt x 627.84563pt>
+ [32 <./media/eda_correlation.png>]
+<media/FeatureImportance.png, id=452, 641.39626pt x 627.84563pt>
 File: media/FeatureImportance.png Graphic file (type png)
 <use media/FeatureImportance.png>
-Package pdftex.def Info: media/FeatureImportance.png  used on input line 413.
+Package pdftex.def Info: media/FeatureImportance.png  used on input line 474.
 (pdftex.def)             Requested size: 426.79134pt x 417.78033pt.
- [30 <./media/eda_correlation.png>] [31 <./media/FeatureImportance.png>]
-[32] [33] [34
+ [33] [34 <./media/FeatureImportance.png>]
+<media/final_results.png, id=462, 650.43pt x 804.00375pt>
+File: media/final_results.png Graphic file (type png)
+<use media/final_results.png>
+Package pdftex.def Info: media/final_results.png  used on input line 510.
+(pdftex.def)             Requested size: 426.79134pt x 527.5771pt.
+ [35] [36 <./media/final_results.png>]
+<media/r4-11-19-acc.png, id=474, 939.51pt x 1091.9997pt>
+File: media/r4-11-19-acc.png Graphic file (type png)
+<use media/r4-11-19-acc.png>
+Package pdftex.def Info: media/r4-11-19-acc.png  used on input line 518.
+(pdftex.def)             Requested size: 426.79134pt x 496.06084pt.
+ [37] [38 <./media/r4-11-19-acc.png>] [39] [40
 
 ]
 Chapter 5.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 450.
+(hyperref)                than one, level fixed on input line 527.
 
 
 Underfull \vbox (badness 8056) has occurred while \output is active []
 
- [35]
-[36] [37] [38]
+ [41]
+[42] [43] [44]
 Chapter 6.
-[39
+[45
 
-] [40] (Thesis_Draft.bbl
+] [46] (Thesis_Draft.bbl
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 10.
- [41
+ [47
 
-] [42] [43]) [44] (Thesis_Draft.aux)
+] [48] [49]) [50] (Thesis_Draft.aux)
 Package rerunfilecheck Info: File `Thesis_Draft.out' has not changed.
-(rerunfilecheck)             Checksum: 1004FE16F93C22183CB037AE7978908B;3776.
+(rerunfilecheck)             Checksum: 2813DA7B6F54CCC82336A7DB4E0B89A7;3883.
  ) 
 Here is how much of TeX's memory you used:
- 13574 strings out of 478927
- 205815 string characters out of 2852535
- 719092 words of memory out of 3000000
- 31040 multiletter control sequences out of 15000+600000
+ 13602 strings out of 478927
+ 206365 string characters out of 2852535
+ 721293 words of memory out of 3000000
+ 31055 multiletter control sequences out of 15000+600000
  450585 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,80p,1751b,1105s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,9n,80p,1751b,1807s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Craig/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:
 /Users/Craig/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Use
 rs/Craig/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/C
@@ -841,12 +885,13 @@ ig/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Craig
 ig/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Cra
 ig/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Crai
 g/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Crai
+g/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Crai
 g/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/C
 raig/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/User
 s/Craig/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Thesis_Draft.pdf (52 pages, 834968 bytes).
+Output written on Thesis_Draft.pdf (58 pages, 1183492 bytes).
 PDF statistics:
- 631 PDF objects out of 1000 (max. 8388607)
- 193 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 680 PDF objects out of 1000 (max. 8388607)
+ 204 named destinations out of 1000 (max. 500000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
 

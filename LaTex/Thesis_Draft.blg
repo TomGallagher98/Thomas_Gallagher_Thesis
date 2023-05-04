@@ -5,16 +5,16 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Database file #1: refs_thesis.bib
-Repeated entry---line 119 of file refs_thesis.bib
+Repeated entry---line 120 of file refs_thesis.bib
  : @article{ResearchGate
  :                      ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 363 of file refs_thesis.bib
+I was expecting a `,' or a `}'---line 364 of file refs_thesis.bib
  :  
  :  url = {https://www.statsinsider.com.au/news/how-different-weather-conditions-affect-afl-performance},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-"," immediately follows a field name---line 438 of file refs_thesis.bib
+"," immediately follows a field name---line 439 of file refs_thesis.bib
  :  m._2021
  :         ,
 I'm skipping whatever remains of this entry
@@ -28,43 +28,43 @@ Too many commas in name 1 of "Mitchell F. Aarons, Christopher M. Young, Lyndell 
 while executing---line 969 of file ieeetr.bst
 You've used 38 entries,
             1876 wiz_defined-function locations,
-            717 strings with 9702 characters,
-and the built_in function-call counts, 8685 in all, are:
+            718 strings with 9845 characters,
+and the built_in function-call counts, 8699 in all, are:
 = -- 914
-> -- 225
+> -- 229
 < -- 0
-+ -- 97
-- -- 59
-* -- 481
-:= -- 1144
-add.period$ -- 50
++ -- 98
+- -- 60
+* -- 480
+:= -- 1147
+add.period$ -- 51
 call.type$ -- 38
 change.case$ -- 36
 chr.to.int$ -- 0
 cite$ -- 40
 duplicate$ -- 489
 empty$ -- 901
-format.name$ -- 59
-if$ -- 2219
+format.name$ -- 60
+if$ -- 2225
 int.to.chr$ -- 0
 int.to.str$ -- 38
 missing$ -- 25
-newline$ -- 131
+newline$ -- 132
 num.names$ -- 37
 pop$ -- 157
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 396
+skip$ -- 397
 stack$ -- 0
-substring$ -- 434
+substring$ -- 430
 swap$ -- 217
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 80
+while$ -- 79
 width$ -- 40
-write$ -- 375
+write$ -- 376
 (There were 6 error messages)
