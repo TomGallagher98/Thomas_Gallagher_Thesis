@@ -1,0 +1,18 @@
+Positive Correlation,,Negative Correlation,
+,,,
+homeTeamPercentage,0.231362617,homeCurrentLadderPosition,-0.261858148
+awayLadderPosition,0.223041977,homeLadderPosition,-0.252886918
+awayCurrentLadderPosition,0.219064793,awayTeamPercentage,-0.201187809
+homeTeamLastWin,0.102908768,awayTeamLastWin,-0.078527626
+awayTeamChanges,0.079972994,homeTeamChanges,-0.069424016
+homeTeamPointsFor,0.079840235,awayTeamImportanceSeasonAverage,-0.059707638
+awayTeamPointsAgainst,0.077770423,homeTeamPointsAgainst,-0.054331243
+awayGameDifference,0.069453306,awayTeamPointsFor,-0.052198988
+awayTravel,0.051742163,awayTeamImportanceLastFiveGames,-0.052010224
+awayTeamImportanceDifference,0.048285387,awayTeamImportanceLastGame,-0.049139182
+homeTeamImportanceSeasonAverage,0.044423257,homePreviousRainfall,-0.037317218
+attendance,0.039791287,homeGameDifference,-0.032488709
+homeTeamImportanceLastFiveGames,0.027293081,rainfall,-0.017096627
+homeTravel,0.015849127,homeTeamImportanceLastGame,-0.009568504
+homeBreak,0.008254833,awayPreviousRainfall,-0.009362913
+awayBreak,0.006933462,homeTeamImportanceDifference,-0.004750745
